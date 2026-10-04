@@ -1,0 +1,10 @@
+# local tools and test output (not part of the site)
+node_modules/
+package.json
+package-lock.json
+build/
+dist/
+monthliv.html
+__pycache__/
+*.pyc
+.DS_Store
