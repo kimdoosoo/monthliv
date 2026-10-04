@@ -1,0 +1,21 @@
+// Cloudflare Workers settings for the website.
+// Build: npx opennextjs-cloudflare build
+// Deploy (main): npx opennextjs-cloudflare deploy
+// Preview (other branches and pull requests): npm run deploy:preview
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "monthliv",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  },
+  // Workers Builds runs `wrangler preview` for branches other than main, which needs this block.
+  // Previews don't inherit vars or bindings from production; add them here when the site gets any.
+  "previews": {}
+}

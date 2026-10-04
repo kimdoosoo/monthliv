@@ -1,0 +1,1277 @@
+{
+  "meta": {
+    "brand": "MONTHLIV",
+    "title": "MONTHLIV · Eine Nacht oder ein Monat – wie im eigenen Zimmer",
+    "description": "Finde einen MONTHLIV-Standort auf der Karte und bleib von einer Nacht bis zu einer ganzen Saison. Keine Sorge um die Kaution, und je länger du bleibst, desto günstiger wird jede Nacht."
+  },
+  "nav": {
+    "home": "MONTHLIV-Startseite",
+    "main": "Hauptmenü",
+    "sections": {
+      "together": "Zusammen wohnen",
+      "month": "Monatsweise",
+      "hostel": "Hostels",
+      "stay": "Stays",
+      "residence": "Residences"
+    },
+    "host": "Partner werden",
+    "login": "Anmelden",
+    "saved": "Gespeichert",
+    "trips": "Buchungen",
+    "messages": "Nachrichten",
+    "account": "Dein Konto",
+    "backToResults": "Zurück zu den Suchergebnissen",
+    "changeSearch": "Suche ändern",
+    "languageLabel": "Sprache und Währung: {language}, Won",
+    "currency": "₩ KRW"
+  },
+  "search": {
+    "label": "Unterkünfte suchen",
+    "change": "Suche ändern",
+    "where": "Wo",
+    "wherePlaceholder": "Viertel, Station oder Uni",
+    "dates": "Zeitraum",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "pickDate": "Datum wählen",
+    "pickDates": "Wähle Daten, dann steht der Preis pro Nacht fest.",
+    "guestsLabel": "Gäste",
+    "guests": "{count, plural, one {# Gast} other {# Gäste}}",
+    "submit": "Suchen",
+    "done": "Fertig",
+    "howLong": "Aufenthaltsdauer",
+    "howLongQuestion": "Wie lange bleibst du?",
+    "minus": "−{percent} %",
+    "staySummary": "{nights, plural, one {# Nacht} other {# Nächte}} · {length}",
+    "nightOff": "{percent} % günstiger pro Nacht",
+    "barSummary": "{nights, plural, one {# Nacht} other {# Nächte}} · {length} · {percent} % Rabatt",
+    "tierHint": "Rabatte sind von Unterkunft zu Unterkunft verschieden. Alle angezeigten Preise enthalten den Rabatt bereits."
+  },
+  "length": {
+    "night": "Eine Nacht",
+    "week": "Eine Woche",
+    "month": "Ein Monat",
+    "season": "Eine Saison",
+    "nightRange": "1–6 Nächte",
+    "weekRange": "7–27 Nächte",
+    "monthRange": "28–89 Nächte",
+    "seasonRange": "Ab 90 Nächten"
+  },
+  "lengthName": {
+    "night": "Normalpreis",
+    "week": "Wochenpreis",
+    "month": "Monatspreis",
+    "season": "Saisonpreis"
+  },
+  "price": {
+    "nights": "{nights, plural, one {# Nacht} other {# Nächte}}",
+    "perNight": "{price} pro Nacht",
+    "discountBadge": "{percent} % Rabatt bei {nights} Nächten",
+    "nightsLine": "{price} × {nights, plural, one {# Nacht} other {# Nächte}}",
+    "discountLine": "{length} ({percent} %)",
+    "lengthDiscount": {
+      "night": "Rabatt",
+      "week": "Wochenrabatt",
+      "month": "Monatsrabatt",
+      "season": "Saisonrabatt"
+    },
+    "cleaning": "Reinigungsgebühr",
+    "total": "Gesamtpreis",
+    "totalRich": "<b>{amount}</b> gesamt",
+    "perNightOff": "{price} pro Nacht · {percent} % Rabatt",
+    "nightWas": "<s>{was}</s> <b>{price}</b> pro Nacht · {nights, plural, one {# Nacht} other {# Nächte}} {stay}",
+    "night": "<b>{price}</b> pro Nacht · {nights, plural, one {# Nacht} other {# Nächte}} {stay}",
+    "nightOnlyWas": "<s>{was}</s> <b>{price}</b> pro Nacht",
+    "nightOnly": "<b>{price}</b> pro Nacht",
+    "stay": "{nights, plural, one {# Nacht} other {# Nächte}} {amount}",
+    "was": "vor dem Rabatt",
+    "serviceIncluded": "davon Servicegebühr"
+  },
+  "tiers": {
+    "length": "Dauer",
+    "nights": "Nächte",
+    "perNight": "Preis pro Nacht",
+    "base": "Normalpreis",
+    "off": "{percent} % Rabatt",
+    "example": "Beispiel",
+    "exampleStay": "{nights, plural, one {# Nacht} other {# Nächte}} · {amount}",
+    "picked": "Deine Daten · {nights, plural, one {# Nacht} other {# Nächte}} · {amount}"
+  },
+  "types": {
+    "label": "Art der Unterkunft",
+    "quick": "Schnellfilter",
+    "all": "Alle",
+    "studio": "Studios",
+    "share": "WG-Zimmer",
+    "coliving": "Co-Living",
+    "stay": "Boutique-Unterkünfte",
+    "hostel": "Hostels",
+    "residence": "Serviced Apartments",
+    "guesthouse": "Gästehäuser",
+    "freeCancel": "Kostenlose Stornierung",
+    "selfCheckIn": "Self-Check-in",
+    "women": "Nur für Frauen",
+    "filter": "Filter"
+  },
+  "home": {
+    "heroLabel": "MONTHLY [ <b>ZUHAUSE</b> ] BY MONTHLIV",
+    "heroTitle": "Eine Nacht oder ein Monat – wie im eigenen Zimmer.",
+    "heroLead": "Ohne Sorge um die Kaution, so lange du brauchst. Bleib von einer Nacht bis zu einer ganzen Saison – je länger, desto günstiger jede Nacht.",
+    "searchWhere": "Seongsu-dong, Seoul",
+    "tiersLabel": "Preis pro Nacht",
+    "tiersTitle": "Je länger du bleibst, desto günstiger jede Nacht",
+    "tiersLead": "Buchbar ab einer Nacht. Ab 7, 28 und 90 Nächten gilt der Rabatt automatisch, ganz ohne Gutschein. Du musst auch nicht extra nach Monatsunterkünften suchen.",
+    "tierPrice": "<b>{price}</b> pro Nacht",
+    "tiersNote": "Beispiel: {title} ({area}). Jeder Standort legt seine Rabatte selbst fest, und alle angezeigten Preise enthalten den Rabatt bereits.",
+    "monthTitle": "Gut für einen Monat",
+    "monthSub": "Preise für {dates} ({nights} Nächte), mit Monatsrabatt.",
+    "shortTitle": "Nur ein paar Nächte",
+    "shortSub": "Preise für {dates} ({nights} Nächte). Unterkünfte für Dienstreisen und kurze Trips.",
+    "seeAll": "Alle Unterkünfte",
+    "hoodsTitle": "Viertel zum Wohnen",
+    "hoodsSub": "Such dir nicht nur ein Zimmer aus, sondern auch das Viertel.",
+    "hoodsGuide": "Guide für Seongsu-dong",
+    "hoods": {
+      "seongsu": "Alte Fabriken und Werkstätten sind zu Cafés geworden, am Ende der Straße liegt der Seoul Forest.",
+      "sinchon": "Drei Unis, Restaurants, die lange offen haben, und die Linie 2 direkt vor der Tür.",
+      "konkuk": "Direkt an der Station, an der sich die Linien 2 und 7 kreuzen – mit Studentenlokalen ringsum und dem Ttukseom-Park am Han-Fluss gleich nebenan.",
+      "cheonho": "Nahe der Station Cheonho, wo sich die Linien 5 und 8 kreuzen – mit großem Markt und Kaufhaus gleich nebenan und dem Gwangnaru-Park am Han-Fluss nicht weit."
+    },
+    "livingTitle": "Nicht nur zum Schlafen – alles, was du zum Leben brauchst",
+    "living": {
+      "furnished": {
+        "title": "Einfach einziehen",
+        "text": "Bett, Bettwäsche, Schreibtisch, Heizung und Klimaanlage sind da. Ein Koffer genügt, kein Umzugswagen."
+      },
+      "price": {
+        "title": "Keine versteckten Kosten",
+        "text": "Der angezeigte Preis pro Nacht ist der Preis, den du zahlst. Es gibt keine Gästegebühr, und der Gesamtpreis enthält die Reinigung."
+      },
+      "managed": {
+        "title": "Von MONTHLIV betrieben",
+        "text": "MONTHLIV kümmert sich um Empfang, Reinigung und Instandhaltung und kommt persönlich vorbei, wenn etwas nicht stimmt."
+      },
+      "station": {
+        "title": "Nah an der Station",
+        "text": "Jeder Standort in Seoul liegt höchstens zehn Gehminuten von einer U-Bahn-Station entfernt – weniger Zeit auf dem Arbeitsweg."
+      },
+      "deposit": {
+        "title": "Keine Sorge um die Kaution",
+        "text": "Keine hohe Kaution vorab: Du zahlst für die Nächte, die du bleibst. Ab 28 Nächten kannst du in zwei Raten zahlen."
+      },
+      "translate": {
+        "title": "In deiner Sprache",
+        "text": "Nachrichten werden in beide Richtungen übersetzt – frag MONTHLIV einfach, auch ohne Koreanisch."
+      }
+    },
+    "howTitle": "So funktioniert's",
+    "how": {
+      "dates": {
+        "title": "Daten wählen",
+        "text": "Beliebig viele Nächte. Ab 7, 28 und 90 Nächten sinkt der Preis pro Nacht."
+      },
+      "pay": {
+        "title": "Buchen und bezahlen",
+        "text": "Kurze Aufenthalte zahlst du auf einmal. Ab 28 Nächten auch in Raten."
+      },
+      "move": {
+        "title": "Einziehen mit dem Handy",
+        "text": "Einzugsinfos, WLAN und Hausinfos findest du direkt in deiner Buchung."
+      }
+    },
+    "hostTitle": "Du hast Räume frei? Eröffne mit uns einen MONTHLIV-Standort",
+    "hostText": "Vom Umbau über den Empfang bis zu Reinigung und Instandhaltung übernimmt MONTHLIV alles. Partner bekommen täglich Baustellenfotos und zu jeder Buchung eine Nachricht.",
+    "hostStart": "Partner werden",
+    "hostPricing": "Partnerbereich ansehen",
+    "appIcon": "MONTHLIV-App-Symbol",
+    "appTitle": "Buchungen und Einzugsinfos in der App",
+    "appText": "Buchungen, Zahlungen, Verlängerungen und Einzugsinfos in einer App. Bewertungen und Nachrichten in anderen Sprachen werden ins Deutsche übersetzt.",
+    "appStores": "App-Stores",
+    "appSoon": "Demnächst"
+  },
+  "card": {
+    "save": "{title} merken",
+    "walk": "{minutes} Min. zu Fuß bis {station}",
+    "drive": "{minutes} Min. mit dem Auto bis {station}",
+    "new": "Neu",
+    "newLabel": "Neue Unterkunft, noch keine Bewertungen",
+    "ratingLabel": "Bewertet mit {rating} von 5",
+    "opens": "Eröffnung im {month}",
+    "soon": "Eröffnet bald"
+  },
+  "results": {
+    "title": "{count, plural, one {# Unterkunft} other {# Unterkünfte}} in {area}",
+    "categoryTitle": "{category}: {count, plural, one {# Unterkunft} other {# Unterkünfte}}",
+    "sections": {
+      "together": "Zimmer für zwei oder mehr Personen.",
+      "month": "Stays und Residences. Ab 28 Nächten gilt der Monatsrabatt.",
+      "hostel": "Nur Hostels.",
+      "stay": "Nur Stays. Ab 28 Nächten gilt der Monatsrabatt.",
+      "residence": "Nur Residences."
+    },
+    "note": "Die Gesamtpreise für {nights} Nächte sind mit dem {length} berechnet und enthalten die Reinigung.",
+    "sort": "Sortieren",
+    "filters": "Schnellfilter",
+    "noteNight": "Die Gesamtpreise für {nights, plural, one {# Nacht} other {# Nächte}} enthalten die Reinigung.",
+    "unknownArea": "In „{where}“ haben wir noch keine Unterkünfte. Hier sind stattdessen Unterkünfte in {area}.",
+    "sorts": {
+      "recommended": "Empfohlen",
+      "price": "Niedrigster Gesamtpreis",
+      "station": "Nah an der Station"
+    },
+    "filter": {
+      "free": "Kostenlose Stornierung",
+      "self": "Self-Check-in",
+      "near": "Nah an einer Station"
+    },
+    "filterOn": "aktiv",
+    "showTotal": "Gesamtpreis für {nights} Nächte zeigen",
+    "emptyTitle": "Keine passenden Unterkünfte",
+    "emptyText": "Schalte ein, zwei Filter aus.",
+    "clearFilters": "Alle Filter entfernen"
+  },
+  "map": {
+    "label": "Karte",
+    "show": "Karte",
+    "searchAsMove": "Beim Verschieben der Karte suchen",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "twoFingers": "Bewege die Karte mit zwei Fingern",
+    "ctrlScroll": "Halte Strg gedrückt und scrolle, um die Karte zu zoomen",
+    "cmdScroll": "Halte ⌘ gedrückt und scrolle, um die Karte zu zoomen",
+    "unavailable": "Die Karte konnte nicht geladen werden. Versuch es gleich noch einmal.",
+    "attribution": "Kartenquellen",
+    "results": "Suchergebnisse"
+  },
+  "listing": {
+    "share": "Teilen",
+    "shareCopied": "Link kopiert",
+    "save": "Merken",
+    "reviews": "{count} Bewertungen",
+    "noReviews": "Noch keine Bewertungen",
+    "reviewsSub": "Nur Gäste, die hier übernachtet haben, können eine Bewertung schreiben.",
+    "place": "{area}, {city}",
+    "allPhotos": "Alle {count} Fotos ansehen",
+    "photosTitle": "{title}: {count} Fotos",
+    "photoRoom": "Das ganze Zimmer",
+    "photoDesk": "Schreibtisch",
+    "photoBath": "Bad",
+    "photoLounge": "Lounge",
+    "photoEntrance": "Eingang",
+    "hostedBy": "{type} von Gastgeber·in {name}",
+    "facts": "Bis zu {guests, plural, one {# Gast} other {# Gäste}} · 1 Bett · 1 Bad · {size}",
+    "factsReal": "Bis zu {guests, plural, one {# Gast} other {# Gäste}}",
+    "pointLong": "Gemacht für längere Aufenthalte",
+    "pointLongText": "Ab 28 Nächten kostet jede Nacht {percent} % weniger, und du kannst monatsweise zahlen.",
+    "pointSelf": "Self-Check-in",
+    "pointSelfText": "Ein digitales Türschloss. Dein Türcode erscheint am Anreisetag um {time} in der App.",
+    "pointWifi": "{speed} Mbit/s WLAN, gemessen",
+    "pointWifiText": "Der Geschwindigkeitstest, den der Gastgeber am {date} hochgeladen hat.",
+    "pointTranslate": "Jede Sprache ist willkommen",
+    "pointTranslateText": "Nachrichten mit deinem Gastgeber werden in beide Richtungen übersetzt.",
+    "tiersTitle": "Je länger du bleibst, desto günstiger jede Nacht",
+    "tiersSub": "Buchbar ab einer Nacht. Der Rabatt für deine Aufenthaltsdauer gilt für jede Nacht.",
+    "tiersNote": "Auf den Preis pro Nacht kommen keine Gebühren. Die Reinigung ({cleaning} pro Aufenthalt) kommt beim Bezahlen einmal dazu. Diese Unterkunft verlangt keine Kaution.",
+    "amenitiesTitle": "Ausstattung",
+    "amenity": {
+      "bath": "Eigenes Bad",
+      "window": "Fenster nach außen",
+      "aircon": "Klimaanlage und Heizung",
+      "desk": "Schreibtisch und Stuhl",
+      "fridge": "Kühlschrank",
+      "bedding": "Bettwäsche inklusive",
+      "wifi": "WLAN",
+      "laundry": "Waschmaschine und Trockner (gemeinsam genutzt)",
+      "kitchen": "Gemeinschaftsküche",
+      "parcel": "Paketfächer",
+      "parking": "Parkplatz",
+      "garden": "Garten mit Rasen",
+      "balcony": "Balkon",
+      "dogPlayground": "Hundespielplatz",
+      "petCafe": "Haustierfreundliches Café (am Wochenende)"
+    },
+    "calendarTitle": "{nights} Nächte in {area}",
+    "calendarLabel": "Deine Daten",
+    "reviewsTitle": "{rating} · {count} Bewertungen",
+    "ratings": {
+      "clean": "Sauberkeit",
+      "accuracy": "Genauigkeit",
+      "checkin": "Check-in",
+      "value": "Preis-Leistung"
+    },
+    "stayedNights": "{nights, plural, one {# Nacht} other {# Nächte}} · {date}",
+    "translatedFrom": "Übersetzt aus: {language}",
+    "showOriginal": "Original anzeigen",
+    "showTranslation": "Übersetzung anzeigen",
+    "locationTitle": "Lage",
+    "approx": "Die genaue Adresse bekommst du nach der Buchung",
+    "walkMinutes": "{minutes} Min. zu Fuß",
+    "driveMinutes": "{minutes} Min. mit dem Auto",
+    "hoodGuide": "Viertel-Guide zu {area} lesen",
+    "hostTitle": "Dein Gastgeber",
+    "hostYears": "{years, plural, one {# Jahr} other {# Jahre}} Gastgeber",
+    "hostLangs": "Spricht Koreanisch und Englisch",
+    "hostReplies": "Antwortet meist innerhalb einer Stunde",
+    "messageHost": "{name} schreiben",
+    "hostTranslate": "Nachrichten mit Gästen, die andere Sprachen schreiben, werden automatisch übersetzt.",
+    "rulesTitle": "Gut zu wissen",
+    "rulesHouse": "Hausregeln",
+    "checkInAfter": "Check-in ab {time}",
+    "checkOutBy": "Check-out bis {time}",
+    "maxGuests": "Bis zu {count, plural, one {# Gast} other {# Gäste}}",
+    "selfCheckIn": "Self-Check-in",
+    "noParty": "Rauchen und Partys verboten",
+    "rulesSafety": "Sicherheit und Gebäude",
+    "safetyAlarm": "Rauchmelder und Feuerlöscher",
+    "quietHours": "Ruhezeit {from}–{to}",
+    "rulesCancel": "Stornierung und Zahlung",
+    "freeBefore": "Volle Erstattung bei Stornierung vor 15 Uhr am {date}",
+    "noFree": "Diese Unterkunft bietet keine kostenlose Stornierung",
+    "splitPay": "Ab 28 Nächten auch in Raten zahlbar",
+    "refundLink": "Erstattungsregeln lesen",
+    "bookLabel": "Diese Unterkunft buchen",
+    "perNightUnit": "pro Nacht",
+    "staySummaryOff": "{nights, plural, one {# Nacht} other {# Nächte}} · {length} · {percent} % günstiger pro Nacht",
+    "book": "Buchen",
+    "notCharged": "Du zahlst noch nichts",
+    "nextTier": "Ab {nights} Nächten kostet jede Nacht nur noch <b>{price}</b>.",
+    "siblingsTitle": "Weitere Zimmer im {branch}",
+    "opensNote": "Eröffnung voraussichtlich im {month}. Den genauen Tag geben wir hier bekannt, sobald er feststeht.",
+    "factsSize": "Bis zu {guests, plural, one {# Gast} other {# Gäste}} · {size}"
+  },
+  "stays": {
+    "title": "Buchungen",
+    "now": "Wo du gerade wohnst",
+    "dayOf": "Tag {day} von {nights}",
+    "nowMeta": "{area} · Gastgeber·in {host} · Check-out {date}, {time}",
+    "progress": "Wie weit dein Aufenthalt ist",
+    "open": "Türcode, WLAN und Hausinfos",
+    "extend": "Verlängern",
+    "messageHost": "Nachricht an {name}",
+    "upcoming": "Demnächst",
+    "requestMeta": "{area} · {from} – {to} · {nights} Nächte",
+    "lengthOff": "{length} · {percent} % Rabatt",
+    "pending": "Wartet auf den Gastgeber · bis zu 24 Stunden",
+    "viewRequest": "Anfrage ansehen",
+    "past": "Vergangene Aufenthalte",
+    "pastMeta": "{area} · {nights, plural, one {# Nacht} other {# Nächte}} · {date}",
+    "writeReview": "Bewertung schreiben",
+    "rebook": "Wieder buchen",
+    "payments": "Zahlungen",
+    "firstPayment": "Erste Zahlung (1 von 2)",
+    "secondPayment": "Zweite Zahlung (2 von 2)",
+    "sameCard": "Automatisch mit derselben Karte",
+    "paid": "Bezahlt",
+    "scheduled": "Geplant"
+  },
+  "language": {
+    "title": "Sprache und Währung",
+    "lead": "Sieh alle Seiten, Unterkünfte und Nachrichten in deiner Sprache. Bezahlt wird immer in Won; andere Währungen zeigen wir nur als Schätzung.",
+    "languageTitle": "Sprache",
+    "languageNote": "Die Seite wechselt sofort, wenn du eine Sprache auswählst.",
+    "languagePick": "Sprache auswählen",
+    "current": "Aktuelle Sprache",
+    "translateTitle": "Übersetzung",
+    "translateLead": "Bewertungen und Nachrichten in anderen Sprachen zeigen wir dir auf Deutsch übersetzt. Das Original kannst du jederzeit sehen.",
+    "translateListings": "Unterkünfte und Bewertungen übersetzen",
+    "translateListingsText": "Beschreibungen, Hausregeln und Bewertungen auf Deutsch anzeigen und als „Übersetzt“ markieren.",
+    "translateMessages": "Nachrichten übersetzen",
+    "translateMessagesText": "Deine Nachrichten werden in die Sprache des Gastgebers übersetzt, seine ins Deutsche.",
+    "showOriginal": "Original unter der Übersetzung zeigen",
+    "showOriginalText": "Praktisch, wenn du die Sprache lernst.",
+    "previewLabel": "Vorschau · Bewertung von {name}",
+    "currencyTitle": "Währung",
+    "currencyLead": "Schätzungen beruhen auf dem heutigen Wechselkurs. Deine Kartenbank kann eine Umrechnungsgebühr berechnen.",
+    "currencyPick": "Währung auswählen",
+    "formatTitle": "Zeitzone und Formate",
+    "timezone": "Zeitzone",
+    "zones": {
+      "seoul": "Seoul (GMT+9)",
+      "london": "London (GMT+0)",
+      "newYork": "New York (GMT−5)"
+    },
+    "dateFormat": "Datumsformat",
+    "weekStart": "Woche beginnt am",
+    "area": "Flächeneinheit",
+    "areas": {
+      "sqm": "Quadratmeter (m²)",
+      "pyeong": "Pyeong (koreanische Einheit)",
+      "sqft": "Quadratfuß (ft²)"
+    },
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "saved": "Gespeichert"
+  },
+  "tabs": {
+    "label": "App-Menü",
+    "explore": "Entdecken",
+    "saved": "Gespeichert",
+    "trips": "Buchungen",
+    "messages": "Nachrichten",
+    "profile": "Profil",
+    "unread": "Du hast ungelesene Nachrichten"
+  },
+  "footer": {
+    "line": "Damit jeder Ort, an dem du wohnst, ein gutes Zuhause wird.",
+    "stay": "Wohnen",
+    "find": "Unterkunft finden",
+    "guide": "Viertel-Guides",
+    "discounts": "Langzeitrabatte",
+    "help": "Hilfe-Center",
+    "hosting": "Für Partner",
+    "becomeHost": "Partner werden",
+    "pricing": "Preise und Langzeitrabatte",
+    "hostHelp": "Hilfe für Partner",
+    "company": "MONTHLIV",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "safety": "Sicherheit",
+    "privacy": "Datenschutzerklärung",
+    "terms": "AGB",
+    "refunds": "Erstattungsrichtlinie",
+    "business": "Unternehmensangaben",
+    "legal1": "GosuPlus Co., Ltd. · CEO Park Young-eun · Unternehmensregistrierung 270-81-01999 · Versandhandelsregistrierung [Nummer]",
+    "legal2": "609, Gebäude D, 25 Misagangbyeonjungang-ro 7beon-an-gil, Hanam-si, Gyeonggi-do, Südkorea · Kundenservice [Telefonnummer]",
+    "intermediary": "MONTHLIV ist eine Unterkunftsmarke der GosuPlus Co., Ltd. Angaben zum Betreiber jedes Standorts und zum Vertragspartner jeder Buchung stehen hier vor dem Start. [Hinweis noch offen]",
+    "copyright": "© 2026 GosuPlus Co., Ltd.",
+    "currency": "₩ KRW"
+  },
+  "preview": {
+    "notice": "Das ist eine Vorschau. Namen und Lage der Standorte stimmen, Preise, Zimmerangaben und Buchungen sind Beispiele."
+  },
+  "notFound": {
+    "title": "Wir finden diese Seite nicht",
+    "text": "Vielleicht hat sich die Adresse geändert, oder die Seite gibt es nicht.",
+    "back": "Zur Startseite",
+    "help": "Hilfe"
+  },
+  "book": {
+    "title": "Prüfen und bezahlen",
+    "back": "Zurück zur Unterkunft",
+    "trip": "Deine Reise",
+    "dates": "Reisedaten",
+    "datesValue": "{from} – {to} · {nights} Nächte",
+    "change": "Ändern",
+    "whenPay": "Wann möchtest du bezahlen?",
+    "payNow": "Jetzt {amount} zahlen",
+    "payNowText": "Du zahlst heute den ganzen Aufenthalt.",
+    "paySplit": "In zwei Teilen zahlen",
+    "paySplitText": "{first} heute und {second} am {date}. Keine zusätzlichen Gebühren.",
+    "method": "Zahlungsmethode",
+    "methods": {
+      "card": "Kredit- oder Debitkarte",
+      "kakaopay": "KakaoPay",
+      "naverpay": "Naver Pay",
+      "tosspay": "Toss Pay"
+    },
+    "savedCard": "Karte •••• {last4}",
+    "issuer": "Kartenanbieter",
+    "issuers": {
+      "shinhan": "Shinhan Card",
+      "hyundai": "Hyundai Card",
+      "samsung": "Samsung Card",
+      "kb": "KB Kookmin Card",
+      "lotte": "Lotte Card",
+      "hana": "Hana Card",
+      "bc": "BC Card",
+      "woori": "Woori Card"
+    },
+    "installments": "Ratenzahlung",
+    "plans": {
+      "full": "Einmalzahlung",
+      "two": "2 Monatsraten",
+      "three": "3 Monatsraten",
+      "six": "6 Monatsraten"
+    },
+    "hello": "Sag {name} Hallo",
+    "helloHint": "Erzähl deinem Gastgeber kurz, warum du kommst und wann du ungefähr ankommst.",
+    "helloPlaceholder": "Hallo {name}, ich bin Seojin und arbeite einen Monat lang remote von hier. Ich komme gegen 16 Uhr an.",
+    "phone": "Handynummer",
+    "phonePlaceholder": "+82 10 0000 0000",
+    "phoneHint": "Die Check-in-Infos und den Türcode schicken wir dir auch per SMS.",
+    "phoneHintGuide": "Die Check-in-Infos schicken wir dir auch per SMS.",
+    "cancelTitle": "Stornierung",
+    "cancelText": "Danach bekommst du bei Stornierung vor dem Check-in alles zurück, außer den ersten 7 Nächten.",
+    "cancelTextNone": "Diese Unterkunft bietet keine kostenlose Stornierung. Bei Stornierung vor dem Check-in bekommst du alles zurück, außer den ersten 7 Nächten.",
+    "agree": "Mit dem Button unten stimmst du den Hausregeln, den Stornobedingungen und den AGB von MONTHLIV zu.",
+    "confirm": "Bestätigen und bezahlen · {amount}",
+    "confirmSplit": "Bestätigen und bezahlen · heute {amount}",
+    "priceDetails": "Preisdetails",
+    "saving": "{length} · du sparst {amount}",
+    "krw": "Du bezahlst in koreanischen Won (KRW).",
+    "splitFrom": "Ab 28 Nächten kannst du in zwei Teilen zahlen.",
+    "freeUntil": "Kostenlose Stornierung bis 15 Uhr am {date}."
+  },
+  "confirmed": {
+    "metaTitle": "Buchung bestätigt",
+    "label": "Buchung bestätigt",
+    "title": "Deine Buchung steht, {name}",
+    "lead": "Dein Aufenthalt in {area} beginnt am {date}. Alles Wichtige findest du auf deiner Buchungsseite und in der App.",
+    "code": "Buchungscode",
+    "view": "Buchung öffnen",
+    "message": "Nachricht an {name}",
+    "hostArea": "Gastgeber·in {name} · {area}",
+    "length": "Aufenthaltsdauer",
+    "from": "{date}, ab {time}",
+    "until": "{date}, bis {time}",
+    "address": "Adresse",
+    "addressValue": "{area}, {city} [vollständige Adresse]",
+    "calendar": "Zum Kalender hinzufügen",
+    "receipt": "Beleg",
+    "nextTitle": "Wie es weitergeht",
+    "today": "Heute",
+    "at": "{date}, {time}",
+    "stepHello": "<b>{when}</b> Wir haben {name} von deiner Buchung erzählt.",
+    "stepFree": "Bis <b>{when}</b> kannst du mit voller Erstattung stornieren.",
+    "stepCode": "Am <b>{when}</b> erscheinen Türcode und WLAN-Daten in der App.",
+    "stepInfo": "Am <b>{when}</b> erscheinen die Check-in-Infos in der App.",
+    "stepCheckIn": "Check-in ab <b>{when}</b>. Fühl dich wie zu Hause.",
+    "extend": "Du willst länger bleiben? Verlängere auf deiner Buchungsseite. Der Langzeitrabatt gilt weiter, und ab 90 Nächten bekommt der ganze Aufenthalt den Saisonpreis.",
+    "paidTitle": "Zahlung",
+    "paidToday": "Heute bezahlt",
+    "nextPayment": "Fällig am {date}",
+    "saved": "Gespart mit dem {length}",
+    "couponSaved": "Gutschein ({title})",
+    "noDeposit": "Keine Kaution",
+    "addressAfter": "{area}, {city} · Die genaue Adresse erscheint hier, sobald eine echte Buchung bestätigt ist",
+    "stepInfoReal": "{name} schreibt dir, wie und wann du einchecken kannst.",
+    "stepCheckInReal": "Dein Aufenthalt beginnt am <b>{when}</b>. Die Check-in-Zeit sprichst du mit {name} ab."
+  },
+  "login": {
+    "metaTitle": "Anmelden",
+    "title": "Anmelden oder registrieren",
+    "lead": "Deine Buchungen, Türcodes und Nachrichten mit Gastgebern – alles in einem Konto.",
+    "email": "E-Mail",
+    "emailPlaceholder": "Gib deine E-Mail-Adresse ein",
+    "continue": "Weiter",
+    "or": "oder",
+    "kakao": "Weiter mit Kakao",
+    "naver": "Weiter mit Naver",
+    "apple": "Weiter mit Apple",
+    "google": "Weiter mit Google",
+    "phone": "Weiter mit Handynummer",
+    "terms": "Wenn du fortfährst, stimmst du den <terms>AGB</terms> von MONTHLIV zu und bestätigst, dass du die <privacy>Datenschutzerklärung</privacy> gelesen hast. Wir schreiben dir nur E-Mails zu deinem Konto und deinen Buchungen.",
+    "whyTitle": "Darum lohnt sich ein Konto",
+    "why": {
+      "save": {
+        "title": "Unterkünfte in Listen sammeln",
+        "text": "Wir sagen dir Bescheid, wenn der Preis für deine Reisedaten sinkt."
+      },
+      "translate": {
+        "title": "Mit Gastgebern in jeder Sprache schreiben",
+        "text": "Nachrichten werden in beide Richtungen übersetzt."
+      },
+      "stay": {
+        "title": "Alles für deinen Aufenthalt an einem Ort",
+        "text": "Türcode, WLAN, Hausinfos und Belege."
+      }
+    },
+    "hostQ": "Hast du Platz für Gäste?",
+    "hostLink": "Im Partnerbereich anmelden"
+  },
+  "inbox": {
+    "title": "Nachrichten",
+    "hostReplies": "Gastgeber · Antwortet meist innerhalb einer Stunde",
+    "autoTranslate": "Übersetzen",
+    "today": "Heute",
+    "stayDay": "{dates} · Tag {day} von {nights}",
+    "translated": "Übersetzt aus: {language}",
+    "read": "Gelesen",
+    "write": "Nachricht schreiben",
+    "send": "Senden",
+    "translateNote": "Nachrichten in anderen Sprachen werden ins Deutsche übersetzt",
+    "booking": "Buchungsdetails",
+    "viewBooking": "Buchung öffnen",
+    "report": "Unterhaltung melden",
+    "search": "Nachrichten durchsuchen"
+  },
+  "saved": {
+    "title": "Gespeichert",
+    "lists": "Deine Listen",
+    "count": "{count, plural, one {# Unterkunft} other {# Unterkünfte}}",
+    "newList": "Neue Liste",
+    "priceFor": "Preise für {dates} · {guests}",
+    "share": "Liste teilen",
+    "map": "Auf der Karte zeigen",
+    "note": "Notiz: {note}",
+    "drop": "{amount} günstiger seit dem Speichern",
+    "tip": "Die Preise sind Gesamtpreise für deine Reisedaten. Wir sagen dir Bescheid, wenn eine gespeicherte Unterkunft günstiger wird.",
+    "itemMeta": "{area} · {amount} gesamt"
+  },
+  "guide": {
+    "metaTitle": "Viertel-Guide Seongsu-dong",
+    "crumbs": "Brotkrümelnavigation",
+    "city": "Seoul",
+    "district": "Seongdong-gu",
+    "intro": "Im Osten von Seoul sind aus alten Schuhwerkstätten Cafés und Studios geworden. Unter der Woche sind die Straßen voller Leute, die etwas herstellen, und abends werden die Gassen still. Am Ende der Straße liegt der Seoul Forest.",
+    "tags": {
+      "remote": "Gut für Remote-Arbeit",
+      "park": "Park in der Nähe",
+      "line2": "Linie 2"
+    },
+    "seeStays": "{count} Unterkünfte in Seongsu",
+    "commuteTitle": "Unterwegs",
+    "commuteNote": "Fahrzeiten werktags ab der Station Seongsu.",
+    "about": "Etwa {minutes} Min.",
+    "commute": {
+      "gangnam": {
+        "place": "Gangnam",
+        "how": "Linie 2, ohne Umsteigen"
+      },
+      "cityHall": {
+        "place": "Rathaus",
+        "how": "Linie 2, ohne Umsteigen"
+      },
+      "hongdae": {
+        "place": "Hongik Univ.",
+        "how": "Linie 2, ohne Umsteigen"
+      },
+      "airport": {
+        "place": "Flughafen Incheon",
+        "how": "U-Bahn und Flughafenbahn"
+      }
+    },
+    "livingTitle": "Für den Alltag",
+    "livingSub": "Nicht nur für einen Besuch: die Orte, die du brauchst, wenn du hier wohnst.",
+    "categories": {
+      "all": "Alle",
+      "groceries": "Einkaufen",
+      "laundry": "Wäsche",
+      "health": "Apotheke und Arzt",
+      "work": "Cafés zum Arbeiten",
+      "outdoors": "Parks und Sport"
+    },
+    "mapLabel": "Karte mit Orten für den Alltag in Seongsu",
+    "places": {
+      "market": {
+        "name": "Seongsu-Markt",
+        "short": "Markt",
+        "text": "Stände mit Obst, Beilagen und Fisch. Ab 18 Uhr wird es günstiger."
+      },
+      "laundry": {
+        "name": "24-Stunden-Waschsalon",
+        "short": "Waschsalon",
+        "text": "Waschmaschinen und Trockner, immer geöffnet. Du kannst mit Karte zahlen."
+      },
+      "clinic": {
+        "name": "Arztpraxis und Apotheke",
+        "short": "Arzt",
+        "text": "Eine Arztpraxis an der Hauptstraße, auch ohne Termin. Die Apotheke ist gleich nebenan."
+      },
+      "cafe": {
+        "name": "Café zum Arbeiten",
+        "short": "Café",
+        "text": "Große Tische und viele Steckdosen. Bis mittags ist es ruhig."
+      },
+      "forest": {
+        "name": "Seoul Forest",
+        "short": "Park",
+        "text": "Laufwege und weite Wiesen. Hier kannst du gut durchatmen."
+      }
+    },
+    "staysTitle": "Unterkünfte in {area}",
+    "allOnMap": "Alle auf der Karte ansehen",
+    "kinds": "Arten von Orten",
+    "fromSeason": "Ab {price} pro Nacht für eine Saison"
+  },
+  "host": {
+    "metaTitle": "Partner werden",
+    "label": "MONTHLIV-Partner",
+    "title": "Du bringst die Räume, wir den Betrieb",
+    "lead": "MONTHLIV übernimmt alles: den Umbau, die Betreuung der Gäste, Reinigung, Instandhaltung und den Einsatz vor Ort, wenn etwas nicht stimmt. Wie dein Standort läuft, siehst du über Benachrichtigungen und den Partnerbereich.",
+    "start": "Partnerbereich ansehen",
+    "how": "So funktioniert's",
+    "whyTitle": "Warum Partner den Betrieb MONTHLIV überlassen",
+    "reasons": {
+      "cleaning": {
+        "title": "Betrieb von A bis Z",
+        "text": "Gästebetreuung, Reinigung, Instandhaltung und Einsätze vor Ort übernimmt MONTHLIV. Den Namen MONTHLIV tragen nur Standorte, die wir so vollständig betreiben."
+      },
+      "income": {
+        "title": "Der Umbau, jeden Tag in Fotos",
+        "text": "Sobald die Arbeiten beginnen, gibt es für jeden Standort einen Gruppenchat mit dem Tagesfortschritt und Fotos von der Baustelle. Du musst nicht vor Ort aufpassen."
+      },
+      "guests": {
+        "title": "Jeder Schritt als Nachricht",
+        "text": "Nach der Eröffnung bekommst du Zimmerbesichtigungen, Zahlungen und Verlängerungen automatisch als KakaoTalk-Benachrichtigung."
+      }
+    },
+    "rateTitle": "Ein Preis pro Nacht bestimmt die Preise für jede Aufenthaltsdauer",
+    "rateText": "Gäste können ab einer Nacht buchen. Die Rabatte für Woche, Monat und Saison bestimmen die Preise für jede Dauer, also musst du keine eigenen Monatszimmer verwalten. Die Preise und Rabatte deines Standorts siehst du im Partnerbereich.",
+    "rateLink": "Preisseite ansehen",
+    "stepsTitle": "So entsteht ein Standort",
+    "steps": {
+      "list": {
+        "title": "Gespräch und Besichtigung",
+        "text": "Wir sehen uns die Räume an und gehen mit dir Zimmerplan und Zahlen durch."
+      },
+      "price": {
+        "title": "Umbau",
+        "text": "Wir bauen selbst und schicken jeden Tag Fortschritt und Fotos in den Gruppenchat."
+      },
+      "welcome": {
+        "title": "Eröffnung und Betrieb",
+        "text": "Der Standort öffnet unter dem Namen MONTHLIV. Gäste, Reinigung und Instandhaltung übernehmen wir."
+      },
+      "paid": {
+        "title": "Auszahlung",
+        "text": "Du bekommst den Preis der Nächte abzüglich der Betriebsgebühr. Aufenthalte ab 28 Nächten werden danach monatlich ausgezahlt."
+      }
+    },
+    "faqTitle": "Häufige Fragen von Partnern",
+    "faq": {
+      "oneRoom": {
+        "q": "Kann ein Haus, das eine andere Firma gebaut hat, ein MONTHLIV werden?",
+        "a": "Ja, wenn MONTHLIV es während des Umbaus besichtigt und abgestimmt hat. Übernehmen wir nur den Betrieb eines bestehenden Hauses, trägt es in der Regel nicht unseren Namen."
+      },
+      "leaveEarly": {
+        "q": "Was passiert, wenn ein Gast früher abreisen möchte?",
+        "a": "Gäste mit Aufenthalten ab 28 Nächten können nach Ankündigung früher abreisen. Die Nächte, die sie geblieben sind, werden zum Preis für diese Aufenthaltsdauer berechnet. [Regelung noch zu bestätigen]"
+      },
+      "english": {
+        "q": "Nehmt ihr auch Gäste aus dem Ausland auf?",
+        "a": "Ja. Nachrichten werden in beide Richtungen übersetzt, und um die Gäste kümmert sich MONTHLIV – du brauchst keine Fremdsprache."
+      },
+      "allowed": {
+        "q": "Kann ich selbst betreiben und nur den Namen MONTHLIV nutzen?",
+        "a": "Ein solches Partnermodell, bei dem du unter unserem Namen selbst betreibst, ist noch in Vorbereitung. Bis dahin tragen nur Standorte, die wir vollständig betreiben, den Namen MONTHLIV."
+      },
+      "fees": {
+        "q": "Wie hoch ist die Betriebsgebühr?",
+        "a": "{direct, number} % vom Preis der Nächte an Standorten, die MONTHLIV gebaut hat, anderswo ab {other, number} % nach Vereinbarung. Gäste sehen den Preis des Standorts ohne Aufschlag. Bei {price} pro Nacht bekommst du {payout} pro Nacht (an einem von uns gebauten Standort)."
+      }
+    },
+    "ctaTitle": "Du hast Räume? Lass uns reden",
+    "noticeLabel": "Beispiel-Benachrichtigung",
+    "noticeNew": "Neue Buchung",
+    "noticeMeta": "Monatliche Zahlung · Identität geprüft",
+    "rateHead": "Preis pro Nacht",
+    "rateRow": "{length} · ab {from} Nächten",
+    "rateOff": "<b>{percent} % Rabatt</b> · {price}",
+    "contact": "Über einen Standort sprechen"
+  },
+  "pricing": {
+    "title": "Preise und Langzeitrabatte",
+    "lead": "Gäste können ab einer Nacht buchen. Lege einen Preis pro Nacht und deine Rabatte für längere Aufenthalte fest, dann ist jede Aufenthaltsdauer automatisch berechnet.",
+    "sections": "Inserat bearbeiten",
+    "section": {
+      "photos": "Fotos",
+      "about": "Über die Unterkunft",
+      "amenities": "Ausstattung und WLAN",
+      "pricing": "Preise und Rabatte",
+      "calendar": "Verfügbarkeit",
+      "rules": "Hausordnung und Infos",
+      "payouts": "Auszahlungen"
+    },
+    "nightly": "Preis für eine Nacht",
+    "won": "Won",
+    "nightlyHint": "Ähnliche Studios in der Nähe: [lokale Preisdaten] pro Nacht",
+    "discountTitle": "Rabatte nach Aufenthaltsdauer",
+    "discountSub": "Ein Rabatt gilt für jede Nacht des Aufenthalts. Rabatte werden nicht kombiniert.",
+    "orderWarning": "Ein längerer Aufenthalt hat einen kleineren Rabatt als ein kürzerer. Stell die Rabatte so ein, dass längere Aufenthalte pro Nacht weniger kosten.",
+    "base": "Normalpreis",
+    "discountFor": "{length}: Rabatt",
+    "guestSees": "Was Gäste zahlen und was du bekommst",
+    "guestSeesNote": "Gäste sehen diese Preise ohne Aufschlag. Ausgezahlt wird der Preis der Nächte abzüglich {hostFee, number} % Betriebsgebühr; die Reinigung wird voll ausgezahlt.",
+    "termsTitle": "Aufenthaltsbedingungen und Optionen für lange Aufenthalte",
+    "minNights": "Mindestaufenthalt",
+    "minOne": "1 Nacht (Standard)",
+    "maxNights": "Maximaler Aufenthalt",
+    "noLimit": "Unbegrenzt",
+    "cleaning": "Reinigungsgebühr (pro Aufenthalt)",
+    "midClean": "Zwischenreinigung (ab 28 Nächten)",
+    "midIncluded": "Alle 2 Wochen, inklusive",
+    "midRequest": "Auf Anfrage, {amount}",
+    "midNone": "Keine",
+    "monthly": "Monatliche Zahlung ab 28 Nächten",
+    "monthlyText": "Gäste zahlen jeden Monat am selben Tag, und auch Partner werden monatlich ausgezahlt.",
+    "instant": "Sofortbuchung",
+    "instantText": "Gäste mit geprüfter Identität und guten Bewertungen können sofort buchen, ohne auf deine Bestätigung zu warten.",
+    "save": "Preise speichern",
+    "preview": "Vorschau ansehen",
+    "off": "Rabatt",
+    "saved": "Gespeichert",
+    "guestNightly": "Gäste sehen ebenfalls {price} pro Nacht.",
+    "payoutLine": "Du bekommst {amount}"
+  },
+  "help": {
+    "metaTitle": "Hilfe",
+    "hello": "Hallo {name}",
+    "title": "Wie können wir helfen?",
+    "searchLabel": "Hilfe durchsuchen",
+    "searchHint": "Probier mal „Aufenthalt verlängern“ oder „monatliche Zahlung“",
+    "search": "Suchen",
+    "currentLabel": "Hier wohnst du gerade",
+    "currentStay": "{title} · Tag {day} von {nights}",
+    "currentHint": "Bei Türcode, WLAN, Reinigung oder Reparaturen hilft dir dein Gastgeber am schnellsten.",
+    "askHost": "Gastgeber fragen",
+    "topicsTitle": "Themen durchstöbern",
+    "topics": {
+      "booking": {
+        "title": "Buchung und Zahlung",
+        "text": "Reisedaten, Gesamtpreise, Teilzahlung, Belege"
+      },
+      "discounts": {
+        "title": "Langzeitrabatte",
+        "text": "Eine Nacht, eine Woche, ein Monat, eine Saison"
+      },
+      "changes": {
+        "title": "Änderungen und Stornierungen",
+        "text": "Verlängern, früher abreisen, Erstattungen"
+      },
+      "staying": {
+        "title": "Während des Aufenthalts",
+        "text": "Türcode, WLAN, Reinigung, Reparaturen, Müll"
+      },
+      "account": {
+        "title": "Konto und Sicherheit",
+        "text": "Identitätsprüfung, Anmelden, Datenschutz, Melden"
+      },
+      "hosting": {
+        "title": "Für Partner",
+        "text": "Betriebsgebühr, Auszahlungen, Standortbetrieb"
+      }
+    },
+    "faqTitle": "Häufige Fragen",
+    "discountQ": "Wie funktionieren Langzeitrabatte?",
+    "discountA": "Jede Unterkunft kannst du ab einer Nacht buchen. Je länger du bleibst, desto niedriger ist der Preis pro Nacht – und der Rabatt gilt für deinen ganzen Aufenthalt, nicht nur für die zusätzlichen Nächte. Die Rabatte legt jeder Standort selbst fest.",
+    "discountExample": "Beispiel: ein Studio für {price} pro Nacht",
+    "discountMove": "Verlängerst du in eine längere Stufe, gilt der neue Preis für den ganzen Aufenthalt. Den Unterschied zeigen wir dir, bevor du bezahlst.",
+    "faq": {
+      "oneNight": {
+        "q": "Kann ich auch nur eine Nacht buchen?",
+        "a": "Ja. Wenn der Gastgeber keinen längeren Mindestaufenthalt festgelegt hat, kannst du jede Unterkunft ab einer Nacht buchen. Den Mindestaufenthalt siehst du auf der Seite der Unterkunft."
+      },
+      "extend": {
+        "q": "Wie verlängere ich meinen Aufenthalt?",
+        "a": "Wähle in deiner Buchung „Aufenthalt verlängern“. Bevor wir beim Gastgeber anfragen, zeigen wir dir den neuen Gesamtpreis mit deinem Rabatt."
+      },
+      "leaveEarly": {
+        "q": "Was ist, wenn ich früher abreisen muss?",
+        "a": "Das hängt von den Stornobedingungen deiner Buchung ab. Ab 28 Nächten kannst du nach Ankündigung früher abreisen. Die Nächte, die du geblieben bist, werden dann zum Preis für diese Aufenthaltsdauer berechnet. [Regelung noch zu bestätigen]"
+      },
+      "monthly": {
+        "q": "Wie funktioniert die monatliche Zahlung?",
+        "a": "Ab 28 Nächten zahlst du einen Teil sofort und den Rest an festen Tagen. Jeder Teil wird über die Zahlungsmethode abgebucht, die du gewählt hast."
+      },
+      "translate": {
+        "q": "Wie funktioniert die Übersetzung?",
+        "a": "Die Website erscheint in deiner Sprache. Beschreibungen, Bewertungen und Nachrichten in anderen Sprachen werden übersetzt und mit „Übersetzt“ markiert. Das Original ist nur einen Tipp entfernt."
+      },
+      "refunds": {
+        "q": "Wie funktionieren Erstattungen?",
+        "a": "Jede Unterkunft hat die Stornobedingungen, die bei der Buchung angezeigt wurden. Stornierst du vor Ablauf der kostenlosen Stornofrist, bekommst du alles zurück; danach erstatten wir, was die Bedingungen vorsehen. Das Geld geht auf dem Zahlungsweg zurück. [Erstattungsregeln noch zu bestätigen]"
+      },
+      "safety": {
+        "q": "Wie kann ich Gästen und Gastgebern vertrauen?",
+        "a": "Alle Gäste und Gastgeber bestätigen ihre Identität. Die genaue Adresse teilen wir erst nach der Buchungsbestätigung, und bezahlt wird immer über MONTHLIV. Wenn etwas nicht stimmt, nutze „Unterhaltung melden“ in deinen Nachrichten."
+      },
+      "hosting": {
+        "q": "Ich möchte einen MONTHLIV-Standort eröffnen",
+        "a": "Auf der Partnerseite erfährst du, wie es abläuft und wie hoch die Betriebsgebühr ist. Umbau, Empfang, Reinigung und Instandhaltung übernimmt MONTHLIV."
+      }
+    },
+    "contactLabel": "Kontakt",
+    "emergencyTitle": "Im Notfall",
+    "emergencyText": "Wende dich zuerst an die örtlichen Stellen und sag uns dann Bescheid.",
+    "police": "Polizei",
+    "fire": "Feuerwehr und Rettungsdienst",
+    "tourist": "Touristeninformation (24 Std., mehrsprachig)",
+    "stillTitle": "Brauchst du noch Hilfe?",
+    "stillText": "Schreib uns in jeder Sprache. Wir übersetzen und antworten.",
+    "message": "Schreib uns eine Nachricht",
+    "call": "[Support-Nummer] anrufen",
+    "hours": "Durchschnittliche Antwortzeit: [Servicezeiten und Antwortzeit]",
+    "results": "{count, plural, =0 {Keine Ergebnisse} one {# Ergebnis} other {# Ergebnisse}} für „{query}“",
+    "noResults": "Wir haben keine Antwort gefunden. Schreib uns eine Nachricht, wir helfen dir.",
+    "off": "Rabatt"
+  },
+  "photos": {
+    "back": "Zurück zur Unterkunft",
+    "title": "Fotorundgang",
+    "spaces": "Fotos nach Bereich"
+  },
+  "coupon": {
+    "title": "Gutscheine",
+    "lead": "Gutscheine gelten zusätzlich zu Langzeitrabatten. Ein Gutschein pro Buchung.",
+    "none": "Kein Gutschein",
+    "until": "Bis {date}",
+    "codeLabel": "Gutscheincode",
+    "codePlaceholder": "Gutscheincode eingeben",
+    "apply": "Einlösen",
+    "applied": "{title}: Du sparst {amount}.",
+    "line": "Gutschein ({title})",
+    "errors": {
+      "notFound": "Diesen Code finden wir nicht. Prüf ihn bitte noch einmal.",
+      "expired": "Dieser Gutschein ist abgelaufen.",
+      "used": "Diesen Gutschein hast du schon eingelöst.",
+      "minNights": "Nur für Aufenthalte ab {nights} Nächten.",
+      "minTotal": "Nur für Buchungen ab {amount}.",
+      "otherHost": "Dieser Gutschein gilt nicht für diese Unterkunft.",
+      "notYours": "Dieser Gutschein wurde an ein anderes Mitglied geschickt.",
+      "soldOut": "Alle Gutscheine dieser Aktion sind vergeben."
+    },
+    "off": "Rabatt",
+    "cond": {
+      "max": "bis zu {amount}",
+      "minNights": "ab {nights} Nächten",
+      "minTotal": "Buchungen ab {amount}",
+      "allPlaces": "alle Unterkünfte",
+      "hostOnly": "nur Unterkünfte von {host}"
+    },
+    "issuer": {
+      "admin": "MONTHLIV-Gutschein",
+      "host": "Gutschein vom Standort"
+    },
+    "status": {
+      "available": "Verfügbar",
+      "used": "Eingelöst",
+      "expired": "Abgelaufen"
+    },
+    "daysLeft": "{days, plural, one {noch # Tag} other {noch # Tage}}",
+    "lastDay": "Heute letzter Tag"
+  },
+  "stay": {
+    "title": "Wo du gerade wohnst",
+    "crumbs": "Du bist hier",
+    "meta": "{area} · Tag {day} von {nights} · Check-out {date}, {time}",
+    "door": "Türcode",
+    "doorNote": "Öffnet Haustür und Wohnungstür bis {time} am {date}.",
+    "copyCode": "Code kopieren",
+    "copied": "Kopiert",
+    "wifi": "WLAN · {mbps} Mbit/s",
+    "network": "Netzwerkname",
+    "password": "Passwort",
+    "copyPassword": "Passwort kopieren",
+    "checkout": "Check-out",
+    "checkoutWhen": "{date}, bis {time}",
+    "checkoutNote": "Noch {left, plural, one {# Nacht} other {# Nächte}}. Am Abreisetag einfach die Tür hinter dir zuziehen. Der Code gilt nur bis {time}.",
+    "guideTitle": "Hausinfos",
+    "guide": {
+      "trash": {
+        "title": "Müll trennen",
+        "text": "In Seoul wird Müll dreifach getrennt. Restmüll kommt in die offiziellen Säcke des Bezirks (eine Rolle liegt in der Schublade unter der Spüle), Essensreste in die gelbe Tonne am Eingang, und Wertstoffe getrennt nach Papier, Plastik, Dosen und Glas. Rausstellen bitte nach 18 Uhr an den Tagen, die am schwarzen Brett im Eingang stehen."
+      },
+      "laundry": {
+        "title": "Wäsche",
+        "text": "Die Waschmaschine steht neben der Spüle, die Anleitung liegt in der Schublade darunter. Das Standardprogramm dauert etwa 50 Minuten. Einen Trockner gibt es im Waschsalon im Erdgeschoss."
+      },
+      "heating": {
+        "title": "Fußbodenheizung und Warmwasser",
+        "text": "Die Heizungssteuerung hängt neben der Wohnungstür. Wenn du länger weg bist, stell sie auf „Abwesend“, damit die Leitungen nicht einfrieren. Warmes Wasser kommt nach etwa 30 Sekunden."
+      },
+      "building": {
+        "title": "Zugang und Haus",
+        "text": "Haustür und Wohnungstür öffnen sich mit demselben Code. Pakete kommen in die Paketfächer im Erdgeschoss. Du wohnst im dritten Stock, ohne Aufzug."
+      },
+      "quiet": {
+        "title": "Ruhezeit 22–7 Uhr",
+        "text": "Bitte sei zwischen 22 und 7 Uhr leise, den Nachbarn zuliebe. Waschmaschine und Staubsauger haben dann auch Pause."
+      },
+      "emergency": {
+        "title": "Notrufnummern",
+        "text": "Polizei 112 · Feuerwehr und Rettung 119 · Touristeninfo 1330 (rund um die Uhr, viele Sprachen)"
+      }
+    },
+    "guideBy": "Geschrieben von {name}, deiner Gastgeberin.",
+    "nearTitle": "In der Nähe",
+    "nearNote": {
+      "market": "",
+      "laundry": "mit Trocknern",
+      "clinic": "neben einer Apotheke",
+      "forest": "",
+      "station": "Linie 2"
+    },
+    "minutes": "{minutes} Min.",
+    "nearGuide": "Den ganzen Guide zu {area} lesen",
+    "mapLabel": "Karte mit Orten in der Nähe",
+    "extendTitle": "Noch ein bisschen bleiben?",
+    "extendText": "Dieses Zimmer ist nach dem {date} noch frei. Dein Langzeitrabatt läuft weiter, und ab 90 Nächten bekommt der ganze Aufenthalt den Saisonpreis.",
+    "options": {
+      "week": "+1 Woche",
+      "month": "+1 Monat",
+      "season": "Eine ganze Saison"
+    },
+    "until": "Bis {date} · {nights} Nächte",
+    "extra": "{amount} mehr",
+    "sameRate": "Weiter {percent} % Rabatt",
+    "newRate": "{percent} % Rabatt auf alle {nights} Nächte · {amount} gespart",
+    "request": "Verlängerung anfragen",
+    "requestNote": "{name} hat 24 Stunden Zeit zuzusagen. Bis dahin wird nichts abgebucht.",
+    "requested": "Anfrage gesendet. Wenn {name} zusagt, kannst du bis {date} bleiben, und {amount} werden zusätzlich abgebucht.",
+    "troubleTitle": "Stimmt etwas nicht?",
+    "troubleText": "Schreib {name} eine Nachricht. MONTHLIV betreibt den Standort selbst und kommt bei Bedarf sofort vorbei.",
+    "contactHelp": "Support kontaktieren"
+  },
+  "account": {
+    "nav": "Kontomenü",
+    "since": "Dabei seit {year}",
+    "items": {
+      "home": "Mein Bereich",
+      "coupons": "Gutscheine",
+      "reviews": "Bewertungen",
+      "profile": "Persönliche Daten",
+      "security": "Anmeldung und Sicherheit",
+      "payments": "Zahlungen und Belege",
+      "language": "Sprache und Währung",
+      "notifications": "Benachrichtigungen",
+      "hosting": "Partnerbereich"
+    },
+    "logout": "Abmelden",
+    "home": {
+      "title": "Mein Bereich",
+      "hello": "Hallo {name}, hoffentlich fühlst du dich schon wie zu Hause.",
+      "profile": "Mein Profil",
+      "facts": "Identität geprüft · {stays, plural, one {# Aufenthalt} other {# Aufenthalte}} · dabei seit {year}",
+      "memberId": "Mitglieds-ID",
+      "copy": "Kopieren",
+      "copied": "Kopiert",
+      "editProfile": "Persönliche Daten bearbeiten",
+      "idNote": "MONTHLIV und seine Standorte schicken Gutscheine an diese ID.",
+      "glance": "Auf einen Blick",
+      "glanceLabels": {
+        "now": "Hier wohnst du gerade",
+        "coupons": "Gutscheine",
+        "trips": "Buchungen",
+        "reviews": "Bewertungen",
+        "saved": "Gespeichert"
+      },
+      "couponsAvailable": "{count, plural, one {# einlösbar} other {# einlösbar}}",
+      "couponsSoon": "{count, plural, =0 {Keiner läuft bald ab} one {# läuft bald ab} other {# laufen bald ab}}",
+      "tripsUpcoming": "{count, plural, one {# kommende Buchung} other {# kommende Buchungen}}",
+      "tripsPast": "{count, plural, one {# früherer Aufenthalt} other {# frühere Aufenthalte}}",
+      "reviewsToWrite": "{count, plural, =0 {Keine offenen Bewertungen} one {# Bewertung offen} other {# Bewertungen offen}}",
+      "reviewsWritten": "{count, plural, one {# Bewertung geschrieben} other {# Bewertungen geschrieben}}",
+      "savedLists": "{count, plural, one {# Liste} other {# Listen}}",
+      "savedDrops": "{count, plural, =0 {Keine Preissenkungen} one {# Preissenkung} other {# Preissenkungen}}",
+      "soonTitle": "Läuft bald ab",
+      "allCoupons": "Alle Gutscheine ansehen",
+      "hostTitle": "Partner werden",
+      "hostText": "Du hast Räume? Eröffne mit uns einen MONTHLIV-Standort – den Betrieb übernehmen wir."
+    },
+    "coupons": {
+      "title": "Gutscheine",
+      "lead": "Erhaltene Gutscheine wählst du einfach beim Bezahlen aus. Hast du einen Gutscheincode? Prüf ihn zuerst hier.",
+      "codeTitle": "Gutscheincode prüfen",
+      "check": "Prüfen",
+      "inWallet": "Dieser Gutschein ist schon in deiner Liste. Du kannst ihn beim Bezahlen auswählen.",
+      "codeOk": "„{code}“ ist gültig. Gib den Code beim Bezahlen ein, um „{title}“ zu erhalten.",
+      "tabsLabel": "Status der Gutscheine",
+      "tabs": {
+        "available": "Einlösbar",
+        "used": "Eingelöst",
+        "expired": "Abgelaufen"
+      },
+      "empty": {
+        "available": "Gerade keine einlösbaren Gutscheine.",
+        "used": "Du hast noch keinen Gutschein eingelöst.",
+        "expired": "Keine abgelaufenen Gutscheine."
+      },
+      "find": "Unterkünfte für diesen Gutschein finden",
+      "usedOn": "Für Buchung {code} eingelöst.",
+      "note": "Gutscheine gehen vom Gesamtpreis nach dem Langzeitrabatt ab. Pro Buchung gilt ein Gutschein."
+    },
+    "reviews": {
+      "title": "Bewertungen",
+      "lead": "Eine Bewertung deiner Unterkunft hilft dem nächsten Gast sehr.",
+      "tabsLabel": "Bewertungslisten",
+      "toWrite": "Offen",
+      "written": "Geschrieben",
+      "stayMeta": "{area} · {nights, plural, one {# Nacht} other {# Nächte}} · {date} · Gastgeber: {host}",
+      "overall": "Wie war es insgesamt?",
+      "stars": "{count, plural, one {# Stern} other {# Sterne}}",
+      "words": {
+        "1": "Schlecht",
+        "2": "Geht besser",
+        "3": "In Ordnung",
+        "4": "Gut",
+        "5": "Ausgezeichnet"
+      },
+      "details": "Etwas genauer",
+      "categories": {
+        "clean": "Sauberkeit",
+        "checkin": "Check-in",
+        "quiet": "Ruhe in der Nacht",
+        "value": "Preis-Leistung"
+      },
+      "points": "{count} von 5",
+      "textLabel": "Wie hat es sich dort gewohnt?",
+      "textPlaceholder": "Das Bett, die Küche, die Gasse am Abend …",
+      "textNote": "Schreib in jeder Sprache. Andere Gäste lesen es in ihrer.",
+      "privateLabel": "Notiz nur für {host}",
+      "privateNote": "Freiwillig. Nur {host} sieht sie.",
+      "submit": "Bewertung veröffentlichen",
+      "submitted": "Veröffentlicht",
+      "publicNote": "Bewertungen sind öffentlich und zeigen nur deinen Vornamen.",
+      "writtenOn": "Geschrieben am {date}",
+      "replyFrom": "Antwort von {host}"
+    },
+    "profile": {
+      "title": "Persönliche Daten",
+      "lead": "Was Gastgeber sehen und was nur MONTHLIV speichert – getrennt dargestellt.",
+      "shownTitle": "Das sehen Gastgeber",
+      "shownLead": "Nur Gastgeber deiner gebuchten Unterkünfte sehen das.",
+      "displayName": "Anzeigename",
+      "displayNameNote": "So heißt du in Buchungen und Nachrichten.",
+      "languages": "Sprachen, die du sprichst",
+      "bio": "Über dich",
+      "bioPlaceholder": "Ein Satz dazu, warum du kommst und wie dein Alltag aussieht, freut Gastgeber.",
+      "privateTitle": "Das speichert nur MONTHLIV",
+      "privateLead": "Gastgeber sehen das nicht. Nach der Buchungsbestätigung geben wir nur die nötigen Kontaktdaten weiter.",
+      "legalName": "Vollständiger Name",
+      "legalNameNote": "Durch deine Identitätsprüfung bestätigt – für eine Änderung ist eine neue Prüfung nötig.",
+      "memberId": "Mitglieds-ID",
+      "memberIdNote": "An diese ID gehen Gutscheine. Sie lässt sich nicht ändern.",
+      "email": "E-Mail",
+      "phone": "Handynummer",
+      "change": "Ändern",
+      "newEmail": "Neue E-Mail-Adresse",
+      "newPhone": "Neue Handynummer",
+      "sendCheck": "Bestätigungs-E-Mail senden",
+      "sendCode": "Code senden",
+      "sent": "Gesendet",
+      "verify": "Identitätsprüfung",
+      "verifiedOn": "Am {date} per Handy geprüft",
+      "verifyNote": "Wir erhalten nur das Ergebnis vom Prüfdienst, nie eine koreanische Personenkennziffer. Gäste aus dem Ausland prüfen sich mit dem Pass; die Passnummer speichern wir nicht."
+    },
+    "security": {
+      "title": "Anmeldung und Sicherheit",
+      "lead": "Verwalte, wie du dich anmeldest, deine angemeldeten Geräte und deine Daten.",
+      "loginsTitle": "Anmeldewege",
+      "lastOne": "Den letzten Anmeldeweg kannst du nicht entfernen.",
+      "providers": {
+        "kakao": "Kakao",
+        "naver": "Naver",
+        "apple": "Apple",
+        "google": "Google",
+        "email": "E-Mail"
+      },
+      "connected": "Verbunden",
+      "notConnected": "Nicht verbunden",
+      "connect": "Verbinden",
+      "disconnect": "Trennen",
+      "requested": "Angefragt",
+      "passwordTitle": "Passwort und Zwei-Schritt-Anmeldung",
+      "password": "Passwort",
+      "passwordChanged": "Zuletzt geändert am {date}",
+      "changePassword": "Passwort ändern",
+      "linkSent": "E-Mail gesendet",
+      "twoStep": "Zwei-Schritt-Anmeldung",
+      "twoStepText": "Bei der Anmeldung auf einem neuen Gerät gibst du zusätzlich einen Code von deinem Handy ein.",
+      "devicesTitle": "Angemeldete Geräte",
+      "thisDevice": "Dieses Gerät",
+      "lastSeen": "Zuletzt aktiv am {date}",
+      "logoutDevice": "Abmelden",
+      "loggedOut": "Abgemeldet",
+      "dataTitle": "Datenschutz und Daten",
+      "download": "Deine Daten herunterladen",
+      "downloadText": "Erhalte deine Buchungen, Nachrichten und Bewertungen als Datei. Wir schreiben dir, sobald sie bereit ist.",
+      "requestDownload": "Download anfordern",
+      "deleteTitle": "Konto löschen",
+      "deleteText": "Läuft noch eine Buchung oder steht eine Zahlung aus, kannst du dein Konto löschen, sobald alles abgeschlossen ist. Gesetzlich vorgeschriebene Transaktionsdaten bewahren wir für die vorgeschriebene Zeit getrennt auf.",
+      "deleteAction": "Kontolöschung anfordern"
+    },
+    "payments": {
+      "title": "Zahlungen und Belege",
+      "lead": "Bezahlt wird immer in Won. MONTHLIV speichert deine Kartennummer nie.",
+      "methodsTitle": "Zahlungsarten",
+      "defaultCard": "Standard · auch für monatliche Zahlungen",
+      "remove": "Entfernen",
+      "removed": "Entfernen angefragt",
+      "easyPay": "Mobile Zahlung",
+      "easyPayText": "Beim Bezahlen kannst du {names} wählen.",
+      "tokenNote": "Deine Kartendaten liegen beim Zahlungsdienstleister. MONTHLIV speichert nur das Zahlungs-Token und die letzten vier Ziffern.",
+      "addCard": "Karte hinzufügen",
+      "addCardDone": "Der Zahlungsdienstleister öffnet sich",
+      "dueTitle": "Anstehend",
+      "historyTitle": "Zahlungsverlauf",
+      "receiptNote": "Kartenbelege und Barquittungen schicken wir per E-Mail, sobald eine Zahlung durch ist. Erstattungen gehen auf dem Zahlungsweg zurück."
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "lead": "Wähle, welche Mitteilungen du bekommst und wo.",
+      "kindsTitle": "Arten von Mitteilungen",
+      "kind": "Mitteilung",
+      "channels": {
+        "app": "App",
+        "email": "E-Mail",
+        "sms": "SMS"
+      },
+      "kinds": {
+        "booking": {
+          "title": "Buchungen und Aufenthalte",
+          "text": "Bestätigungen, Check-in-Infos, anstehende Zahlungen"
+        },
+        "messages": {
+          "title": "Nachrichten",
+          "text": "Antworten von Gastgebern und vom Support"
+        },
+        "prices": {
+          "title": "Preisalarme",
+          "text": "Wenn eine gespeicherte Unterkunft günstiger wird"
+        },
+        "reviews": {
+          "title": "Bitte um Bewertung",
+          "text": "Nach dem Check-out"
+        }
+      },
+      "required": "Diese sind nötig, App und E-Mail bleiben daher an.",
+      "adsTitle": "Angebote und Gutscheine",
+      "adsLead": "Gutscheine, Aktionen und Neues aus den Vierteln sind Werbung. Wir schicken sie nur mit deiner Zustimmung.",
+      "adsConsent": "Werbung erhalten (freiwillig)",
+      "adsConsentText": "Angebote per App, E-Mail und SMS erhalten.",
+      "adsNight": "Auch zwischen 21 und 8 Uhr (freiwillig)",
+      "adsNightText": "Werbung in der Nacht braucht eine eigene Zustimmung.",
+      "adsNote": "Wenn du zustimmst oder widerrufst, bestätigen wir dir Datum und Inhalt.",
+      "save": "Speichern",
+      "saved": "Gespeichert"
+    }
+  },
+  "about": {
+    "metaTitle": "Über MONTHLIV",
+    "label": "Über MONTHLIV",
+    "lead": "MONTHLIV ist ein Zuhause auf Monatsbasis. Ob eine Nacht oder ein Monat – wir eröffnen Viertel für Viertel Zimmer, in denen man sich wohlfühlt. Alle Standorte betreibt die GosuPlus Co., Ltd.",
+    "companyTitle": "Unternehmen",
+    "termsText": "Die vollständigen Nutzungsbedingungen veröffentlichen wir hier, bevor der Dienst startet. Dies ist eine Vorschau, es finden also keine echten Buchungen oder Zahlungen statt. [Nutzungsbedingungen noch zu bestätigen]",
+    "privacyLead": "Bevor die vollständige Datenschutzerklärung erscheint, hier die Grundsätze, nach denen MONTHLIV mit personenbezogenen Daten umgeht.",
+    "privacy": {
+      "ids": "Wir speichern keine koreanischen Personenkennziffern und keine Passnummern. Bei der Identitätsprüfung erhalten wir nur das Ergebnis vom Prüfdienst.",
+      "cards": "Wir speichern keine Kartennummern. Zahlungen laufen über Tokens, die der Zahlungsdienstleister ausstellt.",
+      "address": "Die genaue Adresse einer Unterkunft erfährt nur der Gast, und erst nach der Buchungsbestätigung. Bis dahin zeigen wir eine ungefähre Lage.",
+      "security": "Mitgliederdaten sind schon in der Datenbank abgesichert, sodass nur du und die Mitarbeitenden, die sie brauchen, sie sehen können.",
+      "rights": "Du kannst deine Daten jederzeit unter „Mein Bereich“ einsehen und ihre Berichtigung oder Löschung verlangen."
+    },
+    "privacyFull": "Die vollständige Erklärung – welche Daten wir erheben, wozu, wie lange wir sie speichern, wer sie in unserem Auftrag verarbeitet und wer unser Datenschutzbeauftragter ist – veröffentlichen wir vor dem Start des Dienstes. [Datenschutzerklärung noch zu bestätigen]",
+    "questions": "Hast du eine Frage?",
+    "company": {
+      "name": {
+        "label": "Firma",
+        "value": "주식회사 고수플러스"
+      },
+      "ceo": {
+        "label": "Geschäftsführung",
+        "value": "박영은"
+      },
+      "bizNo": {
+        "label": "Unternehmensnummer",
+        "value": "270-81-01999"
+      },
+      "mailOrder": {
+        "label": "Versandhandelsregister",
+        "value": "[Registernummer Versandhandel]"
+      },
+      "address": {
+        "label": "Anschrift",
+        "value": "경기도 하남시 미사강변중앙로7번안길 25, D동 609호"
+      },
+      "phone": {
+        "label": "Kundenservice",
+        "value": "[Kundenservice-Nummer]"
+      },
+      "email": {
+        "label": "E-Mail",
+        "value": "[E-Mail-Adresse]"
+      }
+    }
+  }
+}
