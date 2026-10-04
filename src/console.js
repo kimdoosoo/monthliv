@@ -1,7 +1,7 @@
 /* ================= console shared (PMS + Admin), Korean UI ================= */
 const TYPE_KO = { stay: '스테이', hostel: '호스텔', residence: '레지던스', hotel: '호텔스테이' };
 const STATUS_KO = { open: '운영 중', soon: '오픈 예정', prep: '준비 중', closed: '운영 종료' };
-const STATUS_BADGE = { open: 'good', soon: 'oak', prep: '', closed: 'bad' };
+const STATUS_BADGE = { open: 'good', soon: 'hl', prep: '', closed: 'bad' };
 const BK_KO = { confirmed: '입실 예정', staying: '투숙 중', done: '이용 완료', cancelled: '취소' };
 const PAY_KO = { card: '카드', easy: '간편결제', intl: '해외 카드', transfer: '계좌이체' };
 const KIND_KO = { code: '번호 공개형', unique: '1회용 번호', direct: '아이디 발송' };

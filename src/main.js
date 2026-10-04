@@ -39,7 +39,7 @@ function GuideModal() {
 }
 function App() {
   useVer();
-  if (S.mode === 'boot') return html`${SHOW_BAR && html`<${ProtoBar}/>`}<div class="boot"><div class="stack" style="justify-items:center;gap:12px"><${Wordmark} size=${34}/><span class="row tight"><span class="spinner"></span>데이터를 불러오는 중</span></div></div>`;
+  if (S.mode === 'boot') return html`${SHOW_BAR && html`<${ProtoBar}/>`}<div class="boot"><div class="stack" style="justify-items:center;gap:12px"><${Wordmark} size=${28}/><span class="row tight"><span class="spinner"></span>데이터를 불러오는 중</span></div></div>`;
   const view = S.role === 'pms' ? html`<${PmsApp}/>` : S.role === 'admin' ? html`<${AdminApp}/>` : html`<${UserApp}/>`;
   return html`<${Fragment}>
     ${SHOW_BAR && html`<${ProtoBar}/>`}

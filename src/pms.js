@@ -2,7 +2,7 @@
 function PmsLogin() {
   const owners = all('owners').sort((a, b) => (a.name < b.name ? -1 : 1));
   return html`<div class="wrap" style="padding-block:40px 64px;max-width:1000px">
-    <div class="stack" style="gap:8px;margin-bottom:22px"><${Wordmark} size=${30}/><span class="mono" style="font-size:12px;letter-spacing:.12em;color:var(--oak)">PARTNER PMS</span>
+    <div class="stack" style="gap:8px;margin-bottom:22px"><${Wordmark} size=${26}/><span class="mono" style="font-size:12px;letter-spacing:.16em;color:var(--hl)">PARTNER PMS</span>
       <h1 style="font-size:26px;letter-spacing:-.02em;margin-top:6px">점주 계정으로 로그인</h1>
       <p class="sub">프로토타입이라 비밀번호 없이 계정을 고르면 들어갑니다. 실서비스에서는 점주별 아이디·비밀번호와 휴대폰 인증을 씁니다.</p></div>
     ${owners.length === 0 ? html`<div class="empty"><strong>점주 계정이 없습니다</strong><span>운영 Admin › 점주 계정에서 만드세요.</span></div>` : html`<div class="login-pick">${owners.map(o => {
@@ -58,7 +58,7 @@ function PmsDash({ b }) {
   const items = d => {
     const out = [];
     for (const x of bks) {
-      if (x.status === 'confirmed' && x.checkIn === d) out.push(html`<span class="it"><span class="badge oak">입실</span><button class="btn quiet sm" style="padding:0" onClick=${() => openBk(x.id)}>${x.guest.name} · ${x.roomNo || '미배정'}호</button></span>`);
+      if (x.status === 'confirmed' && x.checkIn === d) out.push(html`<span class="it"><span class="badge hl">입실</span><button class="btn quiet sm" style="padding:0" onClick=${() => openBk(x.id)}>${x.guest.name} · ${x.roomNo || '미배정'}호</button></span>`);
       if ((x.status === 'staying' || x.status === 'confirmed') && x.checkOut === d) out.push(html`<span class="it"><span class="badge">퇴실</span><button class="btn quiet sm" style="padding:0" onClick=${() => openBk(x.id)}>${x.guest.name} · ${x.roomNo}호</button></span>`);
     }
     for (const r of rooms) if (r.occ && r.occ.until === d) out.push(html`<span class="it"><span class="badge">계약 만료</span>${r.no}호 기존 입실자</span>`);
@@ -140,7 +140,7 @@ function BookingTable({ rows, showBranch }) {
     { h: '일정', v: r => html`<span class="two"><span class="num">${kd(r.checkIn)} → ${kd(r.checkOut)}</span><small>${r.qty}${UNIT_KO[r.unit]}</small></span>` },
     { h: '결제', r: true, v: r => won(r.price.total) },
     { h: '쿠폰', v: r => (r.coupon ? html`<span class=${cx('badge', r.coupon.funder === 'HQ' ? 'info' : 'warn')}>-${won(r.coupon.discount)}</span>` : html`<span class="muted">—</span>`) },
-    { h: '상태', v: r => html`<span class=${cx('badge', { confirmed: 'oak', staying: 'good', done: '', cancelled: 'bad' }[r.status])}>${BK_KO[r.status]}</span>` },
+    { h: '상태', v: r => html`<span class=${cx('badge', { confirmed: 'hl', staying: 'good', done: '', cancelled: 'bad' }[r.status])}>${BK_KO[r.status]}</span>` },
   ]}/>`;
 }
 function openBkAny(id) { if (S.role === 'admin') { S.a.drawer = { kind: 'booking', id }; emit(); } else openBk(id); }

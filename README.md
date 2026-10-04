@@ -109,7 +109,8 @@ Firebase를 연결하지 않으면 예약·쿠폰·지점 수정이 방문자 �
 ```
 index.html        페이지 뼈대 (스크립트 순서)
 config.js         키·옵션  ← 보통 이 파일만 고칩니다
-assets/           styles.css, 아이콘, 링크 공유 이미지(og.png)
+assets/           styles.css, 파비콘, 링크 공유 이미지(og.png)
+  brand/            공식 로고 파일 (워드마크·타이포형 SVG, 혼합형·엠블럼 PNG)
 src/              앱 코드 (빌드 없이 그대로 실행)
   core.js           저장소 연결, 번역, 쿠폰·예약·정산 규칙, 공통 UI
   map.js            지도 (Google 지도 / 기본 서울 지도)
@@ -155,6 +156,7 @@ firestore.rules   Firebase 데모 규칙
 
 - 서울 구 경계: 통계청(KOSTAT) 2013 경계, [southkorea/seoul-maps](https://github.com/southkorea/seoul-maps)
 - [Preact](https://preactjs.com/) (MIT), [htm](https://github.com/developit/htm) (Apache-2.0)
-- 글꼴: Familjen Grotesk, IBM Plex Sans KR, IBM Plex Mono (Google Fonts, SIL Open Font License)
+- 글꼴(모두 무료, SIL Open Font License): Noto Serif KR·Libre Caslon Text·Jost(Google Fonts), [Pretendard](https://github.com/orioncactus/pretendard)
+- 로고·컬러: MONTHLIV 디자인 시스템 ver.02 (메인 먼슬리브 브라운 #4B362C, 서브 레드 #881C21·코랄핑크 #B99A9D·베이지 #F3E5DB). 로고는 `assets/brand`의 원본 파일만 씁니다.
 
 운영: 주식회사 고수플러스

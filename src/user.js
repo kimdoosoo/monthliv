@@ -162,7 +162,7 @@ function Home() {
         <div><div class="fig">${pubs.length}<small>${t('why.ops.unit')}</small></div><h4>${t('why.ops.h')}</h4><p>${t('why.ops.p')}</p></div>
       </div>
       <ol class="steps-list" style="list-style:none;padding:0;margin:28px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:18px">
-        ${[1, 2, 3, 4].map(i => html`<li style="display:grid;gap:6px;align-content:start"><span class="mono" style="font-size:12px;color:var(--oak);letter-spacing:.1em">STEP ${i}</span><b style="font-size:16px">${t('how.' + i + '.h')}</b><span class="sub" style="font-size:14px">${t('how.' + i + '.p')}</span></li>`)}
+        ${[1, 2, 3, 4].map(i => html`<li style="display:grid;gap:6px;align-content:start"><span class="mono" style="font-size:12px;color:var(--hl);letter-spacing:.14em">STEP ${i}</span><b style="font-size:16px">${t('how.' + i + '.h')}</b><span class="sub" style="font-size:14px">${t('how.' + i + '.p')}</span></li>`)}
       </ol>
     </div></section>
   </${Fragment}>`;
@@ -223,7 +223,7 @@ function SearchPage() {
         ${shown.map(({ b, n, p }) => html`<button class=${cx('rcard', sel === b.id && 'on')} onMouseEnter=${() => setSel(b.id)} onFocus=${() => setSel(b.id)} onClick=${() => go('branch', { id: b.id })}>
           <div class="ph">${artFor(b, b.types[0])}</div>
           <div class="info">
-            <h3>${bTitle(b)}${b.status === 'soon' && html`<span class="badge oak">${t('status.soonOn', { date: fmtDate(b.openDate, { month: 'short', day: 'numeric' }) })}</span>`}</h3>
+            <h3>${bTitle(b)}${b.status === 'soon' && html`<span class="badge hl">${t('status.soonOn', { date: fmtDate(b.openDate, { month: 'short', day: 'numeric' }) })}</span>`}</h3>
             <div class="muted" style="font-size:13.5px">${bArea(b)}</div>
             <div class="row tight" style="font-size:13.5px;color:var(--ink-2)"><${Lines} lines=${b.lines}/>${bStation(b)} · ${t('walk.min', { n: b.walk })}</div>
             <div class="tags">${(b.highlights || []).slice(0, 3).map(hk => html`<span class="badge line">${t('hl.' + hk)}</span>`)}</div>
@@ -271,7 +271,7 @@ function BranchPage({ id }) {
       <button onClick=${() => { S.u.q = { ...q(), q: g ? GU_NAME(g) : b.gu }; go('search'); }}>${g ? GU_NAME(g) : b.gu}</button><${Icon} n="chevR" cls="sm"/><span>${bName(b)}</span></nav>
     <div class="b-title"><div>
       <h1>${bTitle(b)}</h1>
-      <div class="meta">${b.status === 'soon' ? html`<span class="badge oak">${t('status.soonOn', { date: fmtDateLong(b.openDate) })}</span>` : html`<span class="badge good">${t('status.open')}</span>`}
+      <div class="meta">${b.status === 'soon' ? html`<span class="badge hl">${t('status.soonOn', { date: fmtDateLong(b.openDate) })}</span>` : html`<span class="badge good">${t('status.open')}</span>`}
         <span>${bArea(b)}</span><span class="row tight"><${Lines} lines=${b.lines}/>${bStation(b)} · ${t('walk.min', { n: b.walk })}</span></div></div>
       <div class="row"><a class="btn line sm" href=${gmapsUrl(b.lat, b.lng)} target="_blank" rel="noopener"><${Icon} n="map" cls="sm"/>${t('map.google')}</a>
         <button class="btn line sm" onClick=${() => openModal('tour', { branchId: b.id })}><${Icon} n="calendar" cls="sm"/>${t('tour.cta')}</button></div>
@@ -284,7 +284,7 @@ function BranchPage({ id }) {
     </div>
     <div class="b-body">
       <div class="b-main">
-        <section><p class="desc">${bDesc(b)}</p><div class="hl-row">${(b.highlights || []).map(hk => html`<span class="badge oak">${t('hl.' + hk)}</span>`)}</div></section>
+        <section><p class="desc">${bDesc(b)}</p><div class="hl-row">${(b.highlights || []).map(hk => html`<span class="badge hl">${t('hl.' + hk)}</span>`)}</div></section>
         <section><h2>${t('branch.rooms')}</h2><div class="rt-list">${b.types.map(r => {
           const n = availFor(b, r.id, ci, stayEnd(ci, r.price[curUnit] != null ? curUnit : UNITS.find(u => r.price[u] != null), qty));
           return html`<div class=${cx('rt', r.id === rt.id && 'on')}>
@@ -399,7 +399,7 @@ function CheckoutPage(r) {
           ${opts.length === 0 ? html`<p class="muted" style="font-size:13.5px">${t('cp.mineNone')}</p>` : html`<div class="tickets">
             <button type="button" class=${cx('ticket pick plain', !selOpt && 'sel')} style="grid-template-columns:1fr auto" onClick=${() => setWallet(null)}><div class="det"><h4>${t('cp.noneUse')}</h4></div><div class="tk-side"><span class="radio">${!selOpt && html`<${Icon} n="check" cls="sm"/>`}</span></div></button>
             ${opts.map(o => html`<${Ticket} c=${o.c} w=${o.w} pick=${o.fit.ok} sel=${selOpt && selOpt.w.id === o.w.id} off=${!o.fit.ok} onClick=${() => o.fit.ok && setWallet(o.w.id)}
-              note=${o.fit.ok ? html`<span class="badge good">-${fmtMoney(o.d)}</span>${best && best.w.id === o.w.id && html`<span class="badge oak">${t('cp.best')}</span>`}` : html`<span class="muted" style="font-size:12px;text-align:end">${o.fit.why}</span>`}/>`)}
+              note=${o.fit.ok ? html`<span class="badge good">-${fmtMoney(o.d)}</span>${best && best.w.id === o.w.id && html`<span class="badge hl">${t('cp.best')}</span>`}` : html`<span class="muted" style="font-size:12px;text-align:end">${o.fit.why}</span>`}/>`)}
           </div>`}</div></section>
       <section class="co-step"><h2><span class="n">4</span>${t('book.s4')}</h2>
         <div class="pay-opts" role="radiogroup">${['card', 'easy', 'intl', 'transfer'].map(m => html`<label><input type="radio" name="pay" value=${m} checked=${pay === m} onChange=${() => setPay(m)}/>${t('pay.' + m)}</label>`)}</div>
@@ -524,7 +524,7 @@ function MyPage({ tab }) {
     </div>
   </div>`;
 }
-const BK_BADGE = { confirmed: 'oak', staying: 'good', done: '', cancelled: 'bad' };
+const BK_BADGE = { confirmed: 'hl', staying: 'good', done: '', cancelled: 'bad' };
 const TOUR_BADGE = { requested: 'warn', confirmed: 'good', done: '', cancelled: 'bad' };
 const COUNTRIES = ['KR', 'JP', 'CN', 'TW', 'VN', 'US', 'GB', 'FR', 'DE', 'ES', 'IT', 'NL', 'TH', 'ID', 'PH', 'MN', 'UZ', 'IN', 'NP', 'RU', 'AU', 'CA', 'SG', 'MY', 'OTHER'];
 function countryName(c) {
@@ -535,10 +535,11 @@ function countryName(c) {
 function SiteFooter() {
   return html`<footer class="site-foot"><div class="wrap">
     <${Wordmark} onClick=${() => go('home')}/>
+    <p class="slogan" translate="no">A NEW WAY OF LIFE, MONTHLY [ \u00a0\u00a0\u00a0 ] BY MONTHLIV</p>
     <div class="cols">
       <div><h5>${t('foot.company')}</h5><p>주식회사 고수플러스 · GOSUPLUS Inc.<br/>${t('foot.ceo')} 박영은 · ${t('foot.reg')} 270-81-01999<br/>경기도 하남시 미사강변중앙로7번안길 25, D동 609호${!SHOW_BAR && html`<br/><a class="foot-link" href="#pms">점주 PMS</a> · <a class="foot-link" href="#admin">운영 Admin</a>`}</p></div>
       <div><h5>${t('foot.brands')}</h5><p>monthliv · ${t('foot.monthliv')}<br/>독립생활 · ${t('foot.indep')}<br/>방소녀 · ${t('foot.bang')}</p></div>
-      <div><h5>${t('foot.lang')}</h5><p>${BUILTIN.map(c => html`<button class="btn quiet sm" style="color:#CFC6B8;padding:2px 6px" onClick=${() => setLang(c)}>${langName(c)}</button>`)}<button class="btn quiet sm" style="color:#D4A771;padding:2px 6px" onClick=${() => openModal('lang')}>${t('lang.more')}</button></p></div>
+      <div><h5>${t('foot.lang')}</h5><p>${BUILTIN.map(c => html`<button class="btn quiet sm" style="color:var(--on-foot);padding:2px 6px" onClick=${() => setLang(c)}>${langName(c)}</button>`)}<button class="btn quiet sm" style="color:#EEA3A6;padding:2px 6px" onClick=${() => openModal('lang')}>${t('lang.more')}</button></p></div>
     </div>
   </div></footer>`;
 }

@@ -19,11 +19,13 @@ def main():
     code = '\n'.join(read(s) for s in scripts)
     assert '</script' not in code.lower(), 'a script contains </script'
     css = read('assets/styles.css')
-    fonts = re.search(r'<link rel="stylesheet" href="(https://fonts\.googleapis\.com[^"]+)"', index).group(1)
+    # every external stylesheet in index.html (Google Fonts, Pretendard): the free web fonts
+    fonts = re.findall(r'<link rel="stylesheet" href="(https://[^"]+)"', index)
+    assert any('fonts.googleapis.com' in f for f in fonts), 'Google Fonts link missing'
     page = f'''<title>monthliv 플랫폼</title>
 <meta name="description" content="monthliv 이용자 사이트 · 점주 PMS · 운영 Admin">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="{fonts}">
+{''.join(f'<link rel="stylesheet" href="{f}">' for f in fonts)}
 <style>
 {css}
 </style>

@@ -217,37 +217,37 @@ function loadGoogleMaps() {
 const isDarkUi = () => { const th = document.documentElement.getAttribute('data-theme'); return th === 'dark' || (th !== 'light' && !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches)); };
 /* map styling in the brand palette (used when no cloud Map ID is configured) */
 const GM_LIGHT = [
-  { elementType: 'geometry', stylers: [{ color: '#F4EEE4' }] },
-  { elementType: 'labels.text.fill', stylers: [{ color: '#6F675C' }] },
-  { elementType: 'labels.text.stroke', stylers: [{ color: '#FAF6EE' }] },
-  { featureType: 'administrative', elementType: 'geometry.stroke', stylers: [{ color: '#CFC3AF' }] },
+  { elementType: 'geometry', stylers: [{ color: '#F6EEE7' }] },
+  { elementType: 'labels.text.fill', stylers: [{ color: '#75615A' }] },
+  { elementType: 'labels.text.stroke', stylers: [{ color: '#FBF6F1' }] },
+  { featureType: 'administrative', elementType: 'geometry.stroke', stylers: [{ color: '#D3BFB3' }] },
   { featureType: 'poi.business', stylers: [{ visibility: 'off' }] },
   { featureType: 'poi', elementType: 'labels.icon', stylers: [{ saturation: -100 }, { lightness: 25 }] },
-  { featureType: 'poi.park', elementType: 'geometry', stylers: [{ color: '#E3E4D2' }] },
-  { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#FFFDF9' }] },
+  { featureType: 'poi.park', elementType: 'geometry', stylers: [{ color: '#E8E6D7' }] },
+  { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#FFFFFF' }] },
   { featureType: 'road', elementType: 'labels.icon', stylers: [{ visibility: 'off' }] },
-  { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#EBDDC8' }] },
-  { featureType: 'road.highway', elementType: 'geometry.stroke', stylers: [{ color: '#DCCAAF' }] },
-  { featureType: 'transit.line', elementType: 'geometry', stylers: [{ color: '#D6C8B3' }] },
-  { featureType: 'transit.station', elementType: 'labels.text.fill', stylers: [{ color: '#94663A' }] },
-  { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#C9D6D8' }] },
-  { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#7A8D92' }] },
+  { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#F0DFD4' }] },
+  { featureType: 'road.highway', elementType: 'geometry.stroke', stylers: [{ color: '#E2CCBF' }] },
+  { featureType: 'transit.line', elementType: 'geometry', stylers: [{ color: '#D9C6BB' }] },
+  { featureType: 'transit.station', elementType: 'labels.text.fill', stylers: [{ color: '#881C21' }] },
+  { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#DDCCCB' }] },
+  { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#8C7375' }] },
 ];
 const GM_DARK = [
-  { elementType: 'geometry', stylers: [{ color: '#22201C' }] },
-  { elementType: 'labels.text.fill', stylers: [{ color: '#9C9386' }] },
-  { elementType: 'labels.text.stroke', stylers: [{ color: '#1C1A17' }] },
-  { featureType: 'administrative', elementType: 'geometry.stroke', stylers: [{ color: '#4A443B' }] },
+  { elementType: 'geometry', stylers: [{ color: '#241A16' }] },
+  { elementType: 'labels.text.fill', stylers: [{ color: '#A8938A' }] },
+  { elementType: 'labels.text.stroke', stylers: [{ color: '#1D1512' }] },
+  { featureType: 'administrative', elementType: 'geometry.stroke', stylers: [{ color: '#4D3D35' }] },
   { featureType: 'poi.business', stylers: [{ visibility: 'off' }] },
   { featureType: 'poi', elementType: 'labels.icon', stylers: [{ saturation: -100 }, { lightness: -35 }] },
-  { featureType: 'poi.park', elementType: 'geometry', stylers: [{ color: '#262921' }] },
-  { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#34312B' }] },
+  { featureType: 'poi.park', elementType: 'geometry', stylers: [{ color: '#272620' }] },
+  { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#372A24' }] },
   { featureType: 'road', elementType: 'labels.icon', stylers: [{ visibility: 'off' }] },
-  { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#453E33' }] },
-  { featureType: 'transit.line', elementType: 'geometry', stylers: [{ color: '#3B362E' }] },
-  { featureType: 'transit.station', elementType: 'labels.text.fill', stylers: [{ color: '#D4A771' }] },
-  { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#2C3B41' }] },
-  { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#6F858C' }] },
+  { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#48382F' }] },
+  { featureType: 'transit.line', elementType: 'geometry', stylers: [{ color: '#3F312A' }] },
+  { featureType: 'transit.station', elementType: 'labels.text.fill', stylers: [{ color: '#EEA3A6' }] },
+  { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#2E2225' }] },
+  { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#8E7376' }] },
 ];
 /* district outline for Google (hlGu): the drawn map's SVG path, projected back to lat/lng */
 function svgRings(d) {
@@ -326,7 +326,7 @@ function GoogleMap(p) {
     loadGoogleMaps().then(g => {
       if (dead || !canvas.current) return;
       const dark = isDarkUi();
-      const opts = { center: { lat: 37.55, lng: 126.99 }, zoom: 11, disableDefaultUI: true, clickableIcons: false, gestureHandling: 'cooperative', backgroundColor: dark ? '#22201C' : '#F4EEE4' };
+      const opts = { center: { lat: 37.55, lng: 126.99 }, zoom: 11, disableDefaultUI: true, clickableIcons: false, gestureHandling: 'cooperative', backgroundColor: dark ? '#241A16' : '#F6EEE7' };
       if (CFG.googleMapId) { opts.mapId = CFG.googleMapId; if (g.ColorScheme) opts.colorScheme = g.ColorScheme.FOLLOW_SYSTEM; }
       else opts.styles = dark ? GM_DARK : GM_LIGHT;
       const map = new g.Map(canvas.current, opts);
@@ -371,7 +371,7 @@ function GoogleMap(p) {
     const r = R.current; if (!ready) return;
     if (r.poly) { r.poly.setMap(null); r.poly = null; }
     const g = hlGu && GEO.gu.find(x => x.ko === hlGu);
-    if (g) r.poly = new google.maps.Polygon({ paths: guLatLng(g), map: r.map, clickable: false, strokeColor: '#94663A', strokeOpacity: 0.85, strokeWeight: 1.5, fillColor: '#94663A', fillOpacity: 0.07 });
+    if (g) r.poly = new google.maps.Polygon({ paths: guLatLng(g), map: r.map, clickable: false, strokeColor: '#881C21', strokeOpacity: 0.85, strokeWeight: 1.5, fillColor: '#B99A9D', fillOpacity: 0.18 });
   }, [ready, hlGu]);
   /* the map may start hidden (mobile results view): fit once it gets a size */
   useLayoutEffect(() => {
@@ -418,8 +418,8 @@ async function geocodeKR(address) {
 }
 
 /* ================= illustrations (stand-ins for real photos) ================= */
-const ART_WALL = ['#F1EBE1', '#EEE8DF', '#F3EEE6', '#ECE6DC', '#F2ECE3'];
-const ART_THROW = ['#B9B2A6', '#8D7A64', '#3A3632', '#A8A9A1', '#C2A27C', '#5F6B66'];
+const ART_WALL = ['#F5EDE6', '#F2E8E0', '#F7F0EA', '#EFE4DB', '#F4EBE4'];
+const ART_THROW = ['#B99A9D', '#8D7A64', '#4B362C', '#A8A9A1', '#C2A27C', '#5E4447'];
 const ART_OAK = ['#D2AE83', '#C9A275', '#D8B88F', '#C59D70'];
 function Art({ kind = 'room', seed = 0, win = 'outer', bunk, label }) {
   const s = Math.abs(seed) || 0;
@@ -446,14 +446,14 @@ function Art({ kind = 'room', seed = 0, win = 'outer', bunk, label }) {
     <rect x="250" y="150" width="130" height="9" fill=${oak}/><rect x="256" y="159" width="5" height="79" fill=${steel}/><rect x="369" y="159" width="5" height="79" fill=${steel}/>
     <rect x="262" y="134" width="44" height="8" rx="3" fill="#F5F1EA"/><rect x="264" y="126" width="40" height="8" rx="3" fill=${throwC}/><rect x="262" y="118" width="44" height="8" rx="3" fill="#F5F1EA"/>
     <path d="M320 112 h48 l-6 38 h-36z" fill="#CDBA9C"/><path d="M322 120 h44 M324 130 h40 M326 140 h36" stroke="#B9A381" stroke-width="2"/>
-    <rect x="255" y="40" width="120" height="70" fill="#FFFDF8" stroke=${steel} stroke-width="4"/><text x="315" y="82" text-anchor="middle" font-size="15" font-family="IBM Plex Mono, monospace" fill=${steel} letter-spacing="2">LAUNDRY</text>
+    <rect x="255" y="40" width="120" height="70" fill="#FFFDF8" stroke=${steel} stroke-width="4"/><text x="315" y="82" text-anchor="middle" font-size="15" font-weight="500" font-family="Jost, sans-serif" fill=${steel} letter-spacing="3">LAUNDRY</text>
   </svg>`;
   if (kind === 'facade') return html`<svg class="art" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label=${label || ''}>
     <rect width="400" height="300" fill="#E4ECEE"/><rect x="0" y="262" width="400" height="38" fill="#CFC9BF"/><rect x="0" y="258" width="400" height="5" fill="#BDB6AA"/>
     <rect x="96" y="34" width="232" height="228" fill="#EEE9E1"/><rect x="96" y="34" width="232" height="10" fill="#D9D2C6"/>
     ${[0, 1, 2, 3, 4].map(r => [0, 1, 2, 3].map(c => html`<rect x=${112 + c * 54} y=${56 + r * 34} width="40" height="24" fill="#CFDDE1" stroke=${steel} stroke-width="2.5"/>`))}
     <rect x="150" y="222" width="124" height="40" fill="#BFCFD3" stroke=${steel} stroke-width="3"/><line x1="212" x2="212" y1="222" y2="262" stroke=${steel} stroke-width="3"/>
-    <rect x="160" y="203" width="104" height="15" fill=${steel}/><text x="212" y="214.5" text-anchor="middle" font-size="10" font-weight="700" font-family="Familjen Grotesk, sans-serif" fill="#FAF6EE">monthliv</text>
+    <rect x="160" y="202" width="104" height="17" fill="#4B362C"/><text x="212" y="214.6" text-anchor="middle" font-size="10.5" font-family="Libre Caslon Text, Georgia, serif" fill="#F3E5DB" letter-spacing="1">MONTHLIV</text>
     <rect x="54" y="206" width="6" height="56" fill="#7A6450"/><circle cx="57" cy="194" r="28" fill="#8FA67E"/><circle cx="40" cy="206" r="18" fill="#7F9A6E"/>
     <rect x="344" y="226" width="5" height="36" fill="#7A6450"/><circle cx="347" cy="218" r="18" fill="#8FA67E"/>
   </svg>`;
