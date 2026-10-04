@@ -19,15 +19,24 @@ def main():
     code = '\n'.join(read(s) for s in scripts)
     assert '</script' not in code.lower(), 'a script contains </script'
     css = read('assets/styles.css')
-    # every external stylesheet in index.html (Google Fonts, Pretendard): the free web fonts
-    fonts = re.findall(r'<link rel="stylesheet" href="(https://[^"]+)"', index)
-    assert any('fonts.googleapis.com' in f for f in fonts), 'Google Fonts link missing'
+    # Claude artifacts load stylesheets only from Google Fonts, so the Pretendard CDN link is
+    # left out; if build/fonts/pretendard-subset.woff2 exists (a subset of the free Pretendard
+    # font, made with fonttools pyftsubset) it is inlined instead, otherwise system fonts are used.
+    fonts = [f for f in re.findall(r'<link rel="stylesheet" href="(https://[^"]+)"', index) if 'fonts.googleapis.com' in f]
+    assert fonts, 'Google Fonts link missing'
+    sub = os.path.join(ROOT, 'build', 'fonts', 'pretendard-subset.woff2')
+    face = ''
+    if os.path.isfile(sub):
+        import base64
+        b64 = base64.b64encode(open(sub, 'rb').read()).decode()
+        face = ("@font-face{font-family:'Pretendard Variable';font-weight:45 920;font-style:normal;font-display:swap;"
+                f"src:url(data:font/woff2;base64,{b64}) format('woff2')}}\n")
     page = f'''<title>monthliv 플랫폼</title>
 <meta name="description" content="monthliv 이용자 사이트 · 점주 PMS · 운영 Admin">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 {''.join(f'<link rel="stylesheet" href="{f}">' for f in fonts)}
 <style>
-{css}
+{face}{css}
 </style>
 <div id="app"></div>
 <script>
