@@ -1,0 +1,1785 @@
+{
+  "meta": {
+    "brand": "MONTHLIV",
+    "title": "MONTHLIV · A night or a month, a room of your own",
+    "description": "Find a MONTHLIV branch on the map and stay from one night to a whole season. No deposit to worry about, and the longer you stay, the less each night costs."
+  },
+  "nav": {
+    "home": "MONTHLIV home",
+    "main": "Main menu",
+    "sections": {
+      "together": "Living together",
+      "month": "Month stays",
+      "hostel": "Hostels",
+      "stay": "Stays",
+      "residence": "Residences"
+    },
+    "host": "Partner with us",
+    "login": "Log in",
+    "saved": "Saved",
+    "trips": "Bookings",
+    "messages": "Messages",
+    "account": "Your account",
+    "backToResults": "Back to search results",
+    "changeSearch": "Change your search",
+    "languageLabel": "Language and currency: {language}, won",
+    "currency": "₩ KRW"
+  },
+  "search": {
+    "label": "Search places",
+    "change": "Change your search",
+    "where": "Where",
+    "wherePlaceholder": "Neighbourhood, station or school",
+    "dates": "Dates",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "pickDate": "Add a date",
+    "pickDates": "Pick dates to see the nightly price.",
+    "guestsLabel": "Guests",
+    "guests": "{count, plural, one {# guest} other {# guests}}",
+    "submit": "Search",
+    "done": "Done",
+    "howLong": "Length of stay",
+    "howLongQuestion": "How long are you staying?",
+    "minus": "−{percent}%",
+    "staySummary": "{nights, plural, one {# night} other {# nights}} · {length}",
+    "nightOff": "{percent}% off each night",
+    "barSummary": "{nights, plural, one {# night} other {# nights}} · {length} · {percent}% off",
+    "tierHint": "Discounts differ from place to place. Every price you see already has the discount in it."
+  },
+  "length": {
+    "night": "A night",
+    "week": "A week",
+    "month": "A month",
+    "season": "A season",
+    "nightRange": "1–6 nights",
+    "weekRange": "7–27 nights",
+    "monthRange": "28–89 nights",
+    "seasonRange": "90+ nights"
+  },
+  "lengthName": {
+    "night": "one-night",
+    "week": "weekly",
+    "month": "monthly",
+    "season": "season"
+  },
+  "price": {
+    "nights": "{nights, plural, one {# night} other {# nights}}",
+    "perNight": "{price} a night",
+    "discountBadge": "{percent}% off for {nights} nights",
+    "nightsLine": "{price} × {nights, plural, one {# night} other {# nights}}",
+    "discountLine": "{length} ({percent}%)",
+    "lengthDiscount": {
+      "night": "Discount",
+      "week": "Weekly discount",
+      "month": "Monthly discount",
+      "season": "Season discount"
+    },
+    "cleaning": "Cleaning",
+    "total": "Total",
+    "totalRich": "<b>{amount}</b> total",
+    "perNightOff": "{price} a night · {percent}% off",
+    "nightWas": "<s>{was}</s> <b>{price}</b> a night · {nights, plural, one {# night} other {# nights}} {stay}",
+    "night": "<b>{price}</b> a night · {nights, plural, one {# night} other {# nights}} {stay}",
+    "nightOnlyWas": "<s>{was}</s> <b>{price}</b> a night",
+    "nightOnly": "<b>{price}</b> a night",
+    "stay": "{nights, plural, one {# night} other {# nights}} {amount}",
+    "was": "before the discount",
+    "serviceIncluded": "Service fee included"
+  },
+  "tiers": {
+    "length": "Stay",
+    "nights": "Nights",
+    "perNight": "Price a night",
+    "base": "Base price",
+    "off": "{percent}% off",
+    "example": "Example",
+    "exampleStay": "{nights, plural, one {# night} other {# nights}} · {amount}",
+    "picked": "Your dates · {nights, plural, one {# night} other {# nights}} · {amount}"
+  },
+  "types": {
+    "label": "Type of place",
+    "quick": "Quick filters",
+    "all": "All",
+    "studio": "Studios",
+    "share": "Shared houses",
+    "coliving": "Co-living",
+    "stay": "Boutique stays",
+    "hostel": "Hostels",
+    "residence": "Residences",
+    "guesthouse": "Guesthouses",
+    "freeCancel": "Free cancellation",
+    "selfCheckIn": "Self check-in",
+    "women": "Women only",
+    "filter": "Filters"
+  },
+  "home": {
+    "heroLabel": "MONTHLY [ <b>HOME</b> ] BY MONTHLIV",
+    "heroTitle": "A night or a month, a room of your own.",
+    "heroLead": "No deposit to worry about, only as long as you need. Stay from one night to a whole season — the longer you stay, the less each night costs.",
+    "searchWhere": "Seongsu-dong, Seoul",
+    "tiersLabel": "Priced by the night",
+    "tiersTitle": "The longer you stay, the less each night costs",
+    "tiersLead": "Book from one night. Discounts start at 7, 28 and 90 nights and apply on their own, no coupon needed. No need to hunt for special month-long listings either.",
+    "tierPrice": "<b>{price}</b> a night",
+    "tiersNote": "Example: {title} ({area}). Each branch sets its own discounts, and every price you see already has the discount in it.",
+    "monthTitle": "Places for a month",
+    "monthSub": "Prices for {dates} ({nights} nights), with the month discount.",
+    "shortTitle": "Just a few nights",
+    "shortSub": "Prices for {dates} ({nights} nights). Places for work trips and short breaks.",
+    "seeAll": "See all places",
+    "hoodsTitle": "Neighbourhoods to live in",
+    "hoodsSub": "Don't just pick a room — pick the neighbourhood too.",
+    "hoodsGuide": "Seongsu-dong guide",
+    "hoods": {
+      "seongsu": "Old factories and workshops turned into cafés, with Seoul Forest at the end of the street.",
+      "sinchon": "Three universities, restaurants open late and Line 2 right outside.",
+      "konkuk": "Right by the station where Lines 2 and 7 meet, with student restaurants all around and the Ttukseom riverside park close by.",
+      "cheonho": "Near Cheonho Station, where Lines 5 and 8 meet, with a big market and a department store close by and the Gwangnaru riverside park not far away."
+    },
+    "livingTitle": "Not just somewhere to sleep — everything you need to live",
+    "living": {
+      "furnished": {
+        "title": "Just bring yourself",
+        "text": "Bed, bedding, a desk, heating and air conditioning are all there. Bring a suitcase, not a removal van."
+      },
+      "price": {
+        "title": "No hidden costs",
+        "text": "The nightly price you see is the price you pay. There's no guest fee, and totals include cleaning."
+      },
+      "managed": {
+        "title": "Run by MONTHLIV",
+        "text": "MONTHLIV handles the front desk, cleaning and upkeep, and comes round in person if something goes wrong."
+      },
+      "station": {
+        "title": "Close to the station",
+        "text": "Every Seoul branch is within a ten-minute walk of a subway station, so you spend less time commuting."
+      },
+      "deposit": {
+        "title": "No deposit to worry about",
+        "text": "No big deposit up front: you pay for the nights you stay. Stays of 28 nights or more can be paid in two parts."
+      },
+      "translate": {
+        "title": "In your own language",
+        "text": "Messages are translated both ways, so you can ask MONTHLIV anything without speaking Korean."
+      }
+    },
+    "howTitle": "How it works",
+    "how": {
+      "dates": {
+        "title": "Pick your dates",
+        "text": "Any number of nights. At 7, 28 and 90 nights the nightly price drops."
+      },
+      "pay": {
+        "title": "Book and pay",
+        "text": "Short stays are paid in one go. Stays of 28 nights or more can be paid in parts."
+      },
+      "move": {
+        "title": "Move in with your phone",
+        "text": "Your move-in details, Wi-Fi and house guide are right there on your booking."
+      }
+    },
+    "hostTitle": "Have a space? Open a MONTHLIV branch with us",
+    "hostText": "MONTHLIV takes care of everything from the build to the front desk, cleaning and upkeep. Partners get daily site photos and a notification for every booking.",
+    "hostStart": "Partner with us",
+    "hostPricing": "Preview the partner centre",
+    "appIcon": "MONTHLIV app icon",
+    "appTitle": "Bookings and move-in details in the app",
+    "appText": "Bookings, payments, extensions and move-in details in one app. Reviews and messages in other languages are translated into English.",
+    "appStores": "App stores",
+    "appSoon": "Coming soon"
+  },
+  "card": {
+    "save": "Save {title}",
+    "walk": "{minutes} min walk to {station}",
+    "drive": "{minutes} min drive to {station}",
+    "new": "New",
+    "newLabel": "New place, no reviews yet",
+    "ratingLabel": "Rated {rating} out of 5",
+    "opens": "Opens in {month}",
+    "soon": "Opening soon"
+  },
+  "results": {
+    "title": "{count, plural, one {# place} other {# places}} in {area}",
+    "categoryTitle": "{category}: {count, plural, one {# place} other {# places}}",
+    "sections": {
+      "together": "Rooms for two or more people.",
+      "month": "Stays and residences. Month discounts start at 28 nights.",
+      "hostel": "Hostels only.",
+      "stay": "Stays only. Month discounts start at 28 nights.",
+      "residence": "Residences only."
+    },
+    "note": "Totals for {nights} nights include the {length} discount and cleaning.",
+    "sort": "Sort",
+    "filters": "Quick filters",
+    "noteNight": "Totals for {nights, plural, one {# night} other {# nights}} include cleaning.",
+    "unknownArea": "We don't have places in ‘{where}’ yet. Here are places in {area} instead.",
+    "sorts": {
+      "recommended": "Recommended",
+      "price": "Lowest total",
+      "station": "Nearest the station"
+    },
+    "filter": {
+      "free": "Free cancellation",
+      "self": "Self check-in",
+      "near": "Near a station"
+    },
+    "filterOn": "on",
+    "showTotal": "Show totals for {nights} nights",
+    "emptyTitle": "No places match",
+    "emptyText": "Try turning off a filter or two.",
+    "clearFilters": "Clear all filters"
+  },
+  "map": {
+    "label": "Map",
+    "show": "Map",
+    "searchAsMove": "Search as I move the map",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "twoFingers": "Use two fingers to move the map",
+    "ctrlScroll": "Hold Ctrl and scroll to zoom the map",
+    "cmdScroll": "Hold ⌘ and scroll to zoom the map",
+    "unavailable": "We couldn't load the map. Try again in a moment.",
+    "attribution": "Map credits",
+    "results": "Search results"
+  },
+  "listing": {
+    "share": "Share",
+    "shareCopied": "Link copied",
+    "save": "Save",
+    "reviews": "{count} reviews",
+    "noReviews": "No reviews yet",
+    "reviewsSub": "Only guests who stayed can leave a review.",
+    "place": "{area}, {city}",
+    "allPhotos": "See all {count} photos",
+    "photosTitle": "{title}: {count} photos",
+    "photoRoom": "Whole room",
+    "photoDesk": "Desk",
+    "photoBath": "Bathroom",
+    "photoLounge": "Lounge",
+    "photoEntrance": "Entrance",
+    "hostedBy": "{type} hosted by {name}",
+    "facts": "Up to {guests, plural, one {# guest} other {# guests}} · 1 bed · 1 bathroom · {size}",
+    "factsReal": "Up to {guests, plural, one {# guest} other {# guests}}",
+    "pointLong": "Made for longer stays",
+    "pointLongText": "Stay 28 nights or more and each night costs {percent}% less, and you can pay month by month.",
+    "pointSelf": "Self check-in",
+    "pointSelfText": "A digital door lock. Your door code appears in the app at {time} on the day you arrive.",
+    "pointWifi": "{speed} Mbps Wi-Fi, measured",
+    "pointWifiText": "The speed test the host posted on {date}.",
+    "pointTranslate": "Any language is fine",
+    "pointTranslateText": "Messages with your host are translated both ways.",
+    "tiersTitle": "The longer you stay, the less each night costs",
+    "tiersSub": "Book from one night. The discount for your length of stay applies to every night.",
+    "tiersNote": "No fees are added to the nightly price. Cleaning ({cleaning} per stay) is added once at checkout. This place has no deposit.",
+    "amenitiesTitle": "Amenities",
+    "amenity": {
+      "bath": "Private bathroom",
+      "window": "Window to the outside",
+      "aircon": "Air conditioning and heating",
+      "desk": "Desk and chair",
+      "fridge": "Fridge",
+      "bedding": "Bedding provided",
+      "wifi": "Wi-Fi",
+      "laundry": "Washer and dryer (shared)",
+      "kitchen": "Shared kitchen",
+      "parcel": "Parcel lockers",
+      "parking": "Parking",
+      "garden": "Lawn garden",
+      "balcony": "Balcony",
+      "dogPlayground": "Dog playground",
+      "petCafe": "Pet-friendly café (weekends)"
+    },
+    "calendarTitle": "{nights} nights in {area}",
+    "calendarLabel": "Your dates",
+    "reviewsTitle": "{rating} · {count} reviews",
+    "ratings": {
+      "clean": "Cleanliness",
+      "accuracy": "Accuracy",
+      "checkin": "Check-in",
+      "value": "Value"
+    },
+    "stayedNights": "Stayed {nights, plural, one {# night} other {# nights}} · {date}",
+    "translatedFrom": "Translated from {language}",
+    "showOriginal": "Show original",
+    "showTranslation": "Show translation",
+    "locationTitle": "Where you'll be",
+    "approx": "We'll share the exact address once you've booked",
+    "walkMinutes": "{minutes} min walk",
+    "driveMinutes": "{minutes} min by car",
+    "hoodGuide": "Read the {area} guide",
+    "hostTitle": "Meet your host",
+    "hostYears": "{years, plural, one {# year} other {# years}} hosting",
+    "hostLangs": "Speaks Korean and English",
+    "hostReplies": "Usually replies within an hour",
+    "messageHost": "Message {name}",
+    "hostTranslate": "Messages with guests who write in other languages are translated automatically.",
+    "rulesTitle": "Good to know",
+    "rulesHouse": "House rules",
+    "checkInAfter": "Check-in after {time}",
+    "checkOutBy": "Check-out by {time}",
+    "maxGuests": "Up to {count, plural, one {# guest} other {# guests}}",
+    "selfCheckIn": "Self check-in",
+    "noParty": "No smoking or parties",
+    "rulesSafety": "Safety and building",
+    "safetyAlarm": "Smoke alarm and fire extinguisher",
+    "quietHours": "Quiet hours {from}–{to}",
+    "rulesCancel": "Cancellation and payment",
+    "freeBefore": "Full refund if you cancel before 3 pm on {date}",
+    "noFree": "This place doesn't offer free cancellation",
+    "splitPay": "Stays of 28 nights or more can be paid in parts",
+    "refundLink": "Read the refund rules",
+    "bookLabel": "Book this place",
+    "perNightUnit": "a night",
+    "staySummaryOff": "{nights, plural, one {# night} other {# nights}} · {length} · {percent}% off each night",
+    "book": "Book",
+    "notCharged": "You won't be charged yet",
+    "nextTier": "Stay {nights} nights or more and each night drops to <b>{price}</b>.",
+    "siblingsTitle": "Other rooms at {branch}",
+    "opensNote": "Opening in {month}. We'll post the exact day here once it's set.",
+    "factsSize": "Up to {guests, plural, one {# guest} other {# guests}} · {size}"
+  },
+  "stays": {
+    "title": "Bookings",
+    "now": "Where you live now",
+    "dayOf": "Day {day} of {nights}",
+    "nowMeta": "{area} · hosted by {host} · check out {date}, {time}",
+    "progress": "How far into your stay you are",
+    "open": "Door code, Wi-Fi and house guide",
+    "extend": "Extend",
+    "messageHost": "Message {name}",
+    "upcoming": "Coming up",
+    "requestMeta": "{area} · {from} – {to} · {nights} nights",
+    "lengthOff": "{length} · {percent}% off",
+    "pending": "Waiting for the host · up to 24 hours",
+    "viewRequest": "View request",
+    "past": "Past stays",
+    "pastMeta": "{area} · {nights, plural, one {# night} other {# nights}} · {date}",
+    "writeReview": "Write a review",
+    "rebook": "Book again",
+    "payments": "Payments",
+    "firstPayment": "First payment (1 of 2)",
+    "secondPayment": "Second payment (2 of 2)",
+    "sameCard": "Paid automatically with the same card",
+    "paid": "Paid",
+    "scheduled": "Scheduled"
+  },
+  "language": {
+    "title": "Language and currency",
+    "lead": "See every page, place and message in the language you choose. You always pay in Korean won; other currencies are shown as estimates only.",
+    "languageTitle": "Language",
+    "languageNote": "The page switches as soon as you pick one.",
+    "languagePick": "Choose a language",
+    "current": "Current language",
+    "translateTitle": "Translation",
+    "translateLead": "Reviews and messages written in other languages are shown translated into English. You can see the original any time.",
+    "translateListings": "Translate listings and reviews",
+    "translateListingsText": "Show place descriptions, house rules and reviews in English, marked “Translated”.",
+    "translateMessages": "Translate messages",
+    "translateMessagesText": "Your messages are translated into the host's language, and theirs into English.",
+    "showOriginal": "Show the original under translations",
+    "showOriginalText": "Handy if you're learning the language.",
+    "previewLabel": "Preview · review by {name}",
+    "currencyTitle": "Currency",
+    "currencyLead": "Estimates use today's exchange rate. Your card issuer may charge a conversion fee.",
+    "currencyPick": "Choose a currency",
+    "formatTitle": "Time zone and formats",
+    "timezone": "Time zone",
+    "zones": {
+      "seoul": "Seoul (GMT+9)",
+      "london": "London (GMT+0)",
+      "newYork": "New York (GMT−5)"
+    },
+    "dateFormat": "Date format",
+    "weekStart": "Week starts on",
+    "area": "Area unit",
+    "areas": {
+      "sqm": "Square metres (m²)",
+      "pyeong": "Pyeong (Korean unit)",
+      "sqft": "Square feet (ft²)"
+    },
+    "cancel": "Cancel",
+    "save": "Save",
+    "saved": "Saved"
+  },
+  "tabs": {
+    "label": "App menu",
+    "explore": "Explore",
+    "saved": "Saved",
+    "trips": "Bookings",
+    "messages": "Messages",
+    "profile": "Profile",
+    "unread": "You have unread messages"
+  },
+  "footer": {
+    "line": "Wherever you stay, a good home.",
+    "stay": "Staying",
+    "find": "Find a place",
+    "guide": "Neighbourhood guides",
+    "discounts": "Long-stay discounts",
+    "help": "Help centre",
+    "hosting": "Partners",
+    "becomeHost": "Partner with us",
+    "pricing": "Prices and long-stay discounts",
+    "hostHelp": "Help for partners",
+    "company": "MONTHLIV",
+    "about": "About us",
+    "contact": "Contact us",
+    "safety": "Safety",
+    "privacy": "Privacy policy",
+    "terms": "Terms",
+    "refunds": "Refunds",
+    "business": "Business details",
+    "legal1": "GosuPlus Co., Ltd. · CEO Park Young-eun · Business registration 270-81-01999 · Mail-order sales registration [number]",
+    "legal2": "609, Building D, 25 Misagangbyeonjungang-ro 7beon-an-gil, Hanam-si, Gyeonggi-do, Korea · Customer service [phone number]",
+    "intermediary": "MONTHLIV is a hospitality brand of GosuPlus Co., Ltd. Details of each branch's operator and the party to each booking will be posted here before launch. [Notice to be confirmed]",
+    "copyright": "© 2026 GosuPlus Co., Ltd.",
+    "currency": "₩ KRW"
+  },
+  "preview": {
+    "notice": "This is a preview. Branch names and locations are real; prices, room details and bookings are examples."
+  },
+  "notFound": {
+    "title": "We can't find that page",
+    "text": "The address may have changed, or the page doesn't exist.",
+    "back": "Go home",
+    "help": "Help centre"
+  },
+  "book": {
+    "title": "Check and pay",
+    "back": "Back to the place",
+    "trip": "Your trip",
+    "dates": "Dates",
+    "datesValue": "{from} – {to} · {nights} nights",
+    "change": "Change",
+    "whenPay": "When do you want to pay?",
+    "payNow": "Pay {amount} now",
+    "payNowText": "Pay for the whole stay today.",
+    "paySplit": "Pay in two parts",
+    "paySplitText": "{first} today and {second} on {date}. No extra fees.",
+    "method": "How to pay",
+    "methods": {
+      "card": "Credit or debit card",
+      "kakaopay": "KakaoPay",
+      "naverpay": "Naver Pay",
+      "tosspay": "Toss Pay"
+    },
+    "savedCard": "Card •••• {last4}",
+    "issuer": "Card issuer",
+    "issuers": {
+      "shinhan": "Shinhan Card",
+      "hyundai": "Hyundai Card",
+      "samsung": "Samsung Card",
+      "kb": "KB Kookmin Card",
+      "lotte": "Lotte Card",
+      "hana": "Hana Card",
+      "bc": "BC Card",
+      "woori": "Woori Card"
+    },
+    "installments": "Instalments",
+    "plans": {
+      "full": "Pay at once",
+      "two": "2 monthly instalments",
+      "three": "3 monthly instalments",
+      "six": "6 monthly instalments"
+    },
+    "hello": "Say hello to {name}",
+    "helloHint": "Tell your host why you're coming and roughly when you'll arrive.",
+    "helloPlaceholder": "Hi {name}, I'm Seojin and I'll be working remotely here for a month. I should arrive around 4 pm.",
+    "phone": "Mobile number",
+    "phonePlaceholder": "+82 10 0000 0000",
+    "phoneHint": "We also text you the check-in guide and the door code.",
+    "phoneHintGuide": "We also text you the check-in guide.",
+    "cancelTitle": "Cancellation",
+    "cancelText": "After that, cancel before check-in and get back everything except the first 7 nights.",
+    "cancelTextNone": "This place doesn't offer free cancellation. Cancel before check-in and get back everything except the first 7 nights.",
+    "agree": "By selecting the button below, you agree to the house rules, the cancellation policy and the MONTHLIV terms.",
+    "confirm": "Confirm and pay · {amount}",
+    "confirmSplit": "Confirm and pay · {amount} today",
+    "priceDetails": "Price details",
+    "saving": "{length} · you save {amount}",
+    "krw": "You pay in Korean won (KRW).",
+    "splitFrom": "Stays of 28 nights or more can be paid in two parts.",
+    "freeUntil": "Free cancellation until 3 pm on {date}."
+  },
+  "confirmed": {
+    "metaTitle": "Booking confirmed",
+    "label": "Booking confirmed",
+    "title": "You're booked, {name}",
+    "lead": "Your stay in {area} starts on {date}. Everything you need is on your booking page and in the app.",
+    "code": "Booking code",
+    "view": "Open your booking",
+    "message": "Message {name}",
+    "hostArea": "Hosted by {name} · {area}",
+    "length": "Length of stay",
+    "from": "{date}, after {time}",
+    "until": "{date}, by {time}",
+    "address": "Address",
+    "addressValue": "{area}, {city} [full address]",
+    "calendar": "Add to calendar",
+    "receipt": "Receipt",
+    "nextTitle": "What happens next",
+    "today": "Today",
+    "at": "{date}, {time}",
+    "stepHello": "<b>{when}</b> We've told {name} about your booking.",
+    "stepFree": "Cancel before <b>{when}</b> for a full refund.",
+    "stepCode": "At <b>{when}</b>, your door code and Wi-Fi details appear in the app.",
+    "stepInfo": "At <b>{when}</b>, the check-in guide appears in the app.",
+    "stepCheckIn": "Check in from <b>{when}</b>. Make yourself at home.",
+    "extend": "Want to stay longer? Extend from your booking page. Your long-stay discount carries on, and from 90 nights the whole stay moves to the season price.",
+    "paidTitle": "Payment",
+    "paidToday": "Paid today",
+    "nextPayment": "Due on {date}",
+    "saved": "Saved with the {length} price",
+    "couponSaved": "Coupon ({title})",
+    "noDeposit": "No deposit",
+    "addressAfter": "{area}, {city} · The exact address appears here once a real booking is confirmed",
+    "stepInfoReal": "{name} will message you how and when to check in.",
+    "stepCheckInReal": "Your stay starts on <b>{when}</b>. Arrange the check-in time with {name}."
+  },
+  "login": {
+    "metaTitle": "Log in",
+    "title": "Log in or sign up",
+    "lead": "Your bookings, door codes and messages with hosts, all in one account.",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "continue": "Continue",
+    "or": "or",
+    "kakao": "Continue with Kakao",
+    "naver": "Continue with Naver",
+    "apple": "Continue with Apple",
+    "google": "Continue with Google",
+    "phone": "Continue with your phone number",
+    "terms": "By continuing, you agree to the MONTHLIV <terms>terms</terms> and have read the <privacy>privacy policy</privacy>. We only email you about your account and bookings.",
+    "whyTitle": "Why have an account",
+    "why": {
+      "save": {
+        "title": "Save places to lists",
+        "text": "We'll tell you when the price drops for your dates."
+      },
+      "translate": {
+        "title": "Talk to hosts in any language",
+        "text": "Messages are translated both ways."
+      },
+      "stay": {
+        "title": "Everything for your stay in one place",
+        "text": "Door code, Wi-Fi, house guide and receipts."
+      }
+    },
+    "hostQ": "Do you have a place to host?",
+    "hostLink": "Log in to the partner centre"
+  },
+  "inbox": {
+    "title": "Messages",
+    "hostReplies": "Host · Usually replies within an hour",
+    "autoTranslate": "Translate",
+    "today": "Today",
+    "stayDay": "{dates} · day {day} of {nights}",
+    "translated": "Translated from {language}",
+    "read": "Read",
+    "write": "Write a message",
+    "send": "Send",
+    "translateNote": "Messages in other languages are translated into English",
+    "booking": "Booking details",
+    "viewBooking": "Open your booking",
+    "report": "Report this conversation",
+    "search": "Search messages"
+  },
+  "saved": {
+    "title": "Saved",
+    "lists": "Your lists",
+    "count": "{count, plural, one {# place} other {# places}}",
+    "newList": "New list",
+    "priceFor": "Prices for {dates} · {guests}",
+    "share": "Share list",
+    "map": "Show on map",
+    "note": "Note: {note}",
+    "drop": "{amount} cheaper since you saved it",
+    "tip": "Prices are totals for your dates. We'll tell you when a saved place gets cheaper.",
+    "itemMeta": "{area} · {amount} total"
+  },
+  "guide": {
+    "metaTitle": "Seongsu-dong neighbourhood guide",
+    "crumbs": "Breadcrumbs",
+    "city": "Seoul",
+    "district": "Seongdong-gu",
+    "intro": "In the east of Seoul, old shoe workshops have become cafés and studios. On weekdays the streets are busy with people making things, and in the evening the lanes go quiet. Seoul Forest is at the end of the road.",
+    "tags": {
+      "remote": "Good for remote work",
+      "park": "Near a park",
+      "line2": "Line 2"
+    },
+    "seeStays": "See {count} places in Seongsu",
+    "commuteTitle": "Getting around",
+    "commuteNote": "Weekday times from Seongsu Station.",
+    "about": "About {minutes} min",
+    "commute": {
+      "gangnam": {
+        "place": "Gangnam",
+        "how": "Line 2, no changes"
+      },
+      "cityHall": {
+        "place": "City Hall",
+        "how": "Line 2, no changes"
+      },
+      "hongdae": {
+        "place": "Hongik Univ.",
+        "how": "Line 2, no changes"
+      },
+      "airport": {
+        "place": "Incheon Airport",
+        "how": "Subway and airport railway"
+      }
+    },
+    "livingTitle": "Everyday places",
+    "livingSub": "Not just for a visit: the places you need when you live here.",
+    "categories": {
+      "all": "All",
+      "groceries": "Groceries",
+      "laundry": "Laundry",
+      "health": "Pharmacy and clinic",
+      "work": "Cafés to work in",
+      "outdoors": "Parks and exercise"
+    },
+    "mapLabel": "Map of everyday places in Seongsu",
+    "places": {
+      "market": {
+        "name": "Seongsu market",
+        "short": "Market",
+        "text": "Fruit, side dishes and fish stalls. Prices drop after 6 pm."
+      },
+      "laundry": {
+        "name": "24-hour laundrette",
+        "short": "Laundry",
+        "text": "Washers and dryers, always open. You can pay by card."
+      },
+      "clinic": {
+        "name": "Local clinic and pharmacy",
+        "short": "Clinic",
+        "text": "A walk-in clinic on the main road, with a pharmacy next door."
+      },
+      "cafe": {
+        "name": "Café for working",
+        "short": "Café",
+        "text": "Big tables and plenty of sockets. Quiet until lunchtime."
+      },
+      "forest": {
+        "name": "Seoul Forest",
+        "short": "Park",
+        "text": "Running paths and wide lawns. A good place to breathe."
+      }
+    },
+    "staysTitle": "Places in {area}",
+    "allOnMap": "See all on the map",
+    "kinds": "Kinds of place",
+    "fromSeason": "From {price} a night for a season"
+  },
+  "host": {
+    "metaTitle": "Partner with MONTHLIV",
+    "label": "MONTHLIV partners",
+    "title": "You bring the space, we run it",
+    "lead": "MONTHLIV handles it all: the build, looking after guests, cleaning, upkeep and going round in person when something goes wrong. You follow how your branch is doing through notifications and the partner centre.",
+    "start": "Look round the partner centre",
+    "how": "How it works",
+    "whyTitle": "Why partners leave the running to MONTHLIV",
+    "reasons": {
+      "cleaning": {
+        "title": "Running it, start to finish",
+        "text": "Guest care, cleaning, upkeep and call-outs are all on MONTHLIV. The MONTHLIV name only goes on branches we run in full like this."
+      },
+      "income": {
+        "title": "The build, in photos every day",
+        "text": "Once work starts, each branch gets a group chat where we post the day's progress and site photos. No need to stand guard on site."
+      },
+      "guests": {
+        "title": "Every step, in a notification",
+        "text": "Once the branch opens, room-tour bookings, payments and extensions reach you automatically as KakaoTalk notifications."
+      }
+    },
+    "rateTitle": "One nightly price sets the price for every length of stay",
+    "rateText": "Guests can book from one night. The week, month and season discounts set the price for every length of stay, so there are no separate month-long rooms to manage. You can see your branch's prices and discounts in the partner centre.",
+    "rateLink": "See the pricing screen",
+    "stepsTitle": "How a branch opens",
+    "steps": {
+      "list": {
+        "title": "Talk and site visit",
+        "text": "We see the space for ourselves and work through the room plan and the numbers with you."
+      },
+      "price": {
+        "title": "The build",
+        "text": "We build it ourselves and post progress and site photos to the group chat every day."
+      },
+      "welcome": {
+        "title": "Opening and running",
+        "text": "The branch opens under the MONTHLIV name. We handle guests, cleaning and upkeep."
+      },
+      "paid": {
+        "title": "Getting paid",
+        "text": "You're paid the price of the nights less the operating fee. Stays of 28 nights or more are paid out monthly after that."
+      }
+    },
+    "faqTitle": "Questions partners ask",
+    "faq": {
+      "oneRoom": {
+        "q": "Can a place another firm built become a MONTHLIV?",
+        "a": "Yes, if MONTHLIV inspected it and agreed the plans while it was being built. As a rule, places that are already running and where we only take over the management don't carry our name."
+      },
+      "leaveEarly": {
+        "q": "What if a guest wants to leave early?",
+        "a": "Guests staying 28 nights or more can leave early with notice. The nights they stayed are priced for that length of stay. [policy to be confirmed]"
+      },
+      "english": {
+        "q": "Do you take guests from abroad?",
+        "a": "Yes. Messages are translated both ways and MONTHLIV looks after the guests, so you don't need another language."
+      },
+      "allowed": {
+        "q": "Can I run it myself and just use the MONTHLIV name?",
+        "a": "A partner model like that, where you run the branch under our name, is still being prepared. For now the MONTHLIV name goes only on branches we run in full."
+      },
+      "fees": {
+        "q": "What's the operating fee?",
+        "a": "{direct, number}% of the price of the nights at branches MONTHLIV built, and from {other, number}% elsewhere, agreed case by case. Guests see the branch's price as it is, with no fee on top. At {price} a night, you're paid {payout} a night (at a branch we built)."
+      }
+    },
+    "ctaTitle": "Have a space? Let's talk",
+    "noticeLabel": "Notification example",
+    "noticeNew": "New booking",
+    "noticeMeta": "Monthly payments · ID verified",
+    "rateHead": "One-night price",
+    "rateRow": "{length} · {from}+ nights",
+    "rateOff": "<b>{percent}% off</b> · {price}",
+    "contact": "Talk to us about a branch"
+  },
+  "pricing": {
+    "title": "Prices and long-stay discounts",
+    "lead": "Guests can book from one night. Set one nightly price and how much to take off for longer stays, and every length of stay is priced for you.",
+    "sections": "Listing editor",
+    "section": {
+      "photos": "Photos",
+      "about": "About the place",
+      "amenities": "Amenities and Wi-Fi",
+      "pricing": "Prices and discounts",
+      "calendar": "Availability",
+      "rules": "House rules and guide",
+      "payouts": "Payouts"
+    },
+    "nightly": "Price for one night",
+    "won": "won",
+    "nightlyHint": "Similar studios nearby: [local price data] a night",
+    "discountTitle": "Discounts by length of stay",
+    "discountSub": "A discount applies to every night of the stay. Discounts don't stack.",
+    "orderWarning": "A longer stay has a smaller discount than a shorter one. Set them so longer stays cost less a night.",
+    "base": "Base price",
+    "discountFor": "{length} discount",
+    "guestSees": "What guests pay and what you get",
+    "guestSeesNote": "Guests see these prices as they are, with no fee added. Payouts are the price for the nights less the {hostFee, number}% operating fee; cleaning is paid out in full.",
+    "termsTitle": "Stay rules and long-stay options",
+    "minNights": "Minimum stay",
+    "minOne": "1 night (default)",
+    "maxNights": "Maximum stay",
+    "noLimit": "No limit",
+    "cleaning": "Cleaning fee (per stay)",
+    "midClean": "Mid-stay cleaning (28+ nights)",
+    "midIncluded": "Every 2 weeks, included",
+    "midRequest": "On request, {amount}",
+    "midNone": "None",
+    "monthly": "Monthly payments for 28+ nights",
+    "monthlyText": "Guests pay on the same date each month, and partners are paid monthly too.",
+    "instant": "Instant booking",
+    "instantText": "Guests who have verified their ID and have good reviews can book straight away, without waiting for approval.",
+    "save": "Save prices",
+    "preview": "Preview your listing",
+    "off": "Off",
+    "saved": "Saved",
+    "guestNightly": "Guests see {price} a night too.",
+    "payoutLine": "You get {amount}"
+  },
+  "help": {
+    "metaTitle": "Help",
+    "hello": "Hi {name}",
+    "title": "How can we help?",
+    "searchLabel": "Search help",
+    "searchHint": "Try “extend my stay” or “monthly payments”",
+    "search": "Search",
+    "currentLabel": "Where you're staying",
+    "currentStay": "{title} · Day {day} of {nights}",
+    "currentHint": "For the door code, Wi-Fi, cleaning or repairs, your host is the fastest.",
+    "askHost": "Ask your host",
+    "topicsTitle": "Browse by topic",
+    "topics": {
+      "booking": {
+        "title": "Booking and payment",
+        "text": "Dates, totals, paying in parts, receipts"
+      },
+      "discounts": {
+        "title": "Long-stay discounts",
+        "text": "A night, a week, a month, a season"
+      },
+      "changes": {
+        "title": "Changes and cancellations",
+        "text": "Extending, leaving early, refunds"
+      },
+      "staying": {
+        "title": "During your stay",
+        "text": "Door code, Wi-Fi, cleaning, repairs, rubbish"
+      },
+      "account": {
+        "title": "Account and safety",
+        "text": "ID checks, logging in, privacy, reporting"
+      },
+      "hosting": {
+        "title": "Partners",
+        "text": "Operating fees, payouts, running a branch"
+      }
+    },
+    "faqTitle": "Common questions",
+    "discountQ": "How do long-stay discounts work?",
+    "discountA": "Every place can be booked from one night. The longer you stay, the lower the nightly price, and the discount applies to your whole stay, not just the extra nights. Each branch sets its own discounts.",
+    "discountExample": "Example: a studio at {price} a night",
+    "discountMove": "If you extend into a longer band, the new price applies to the whole stay. We show you the difference before you pay.",
+    "faq": {
+      "oneNight": {
+        "q": "Can I book just one night?",
+        "a": "Yes. Unless the host has set a longer minimum, every place can be booked from one night. You'll see the minimum stay on the listing."
+      },
+      "extend": {
+        "q": "How do I extend my stay?",
+        "a": "Select “Extend your stay” in your booking. Before we ask the host, we show you the new total with your discount."
+      },
+      "leaveEarly": {
+        "q": "What if I need to leave early?",
+        "a": "It depends on the cancellation terms you booked with. For 28 nights or more, you can leave early with notice, and the nights you stayed are priced for that length of stay. [policy to be confirmed]"
+      },
+      "monthly": {
+        "q": "How do monthly payments work?",
+        "a": "For 28 nights or more, you pay part now and the rest on set days. Each part is charged to the payment method you chose."
+      },
+      "translate": {
+        "q": "How does translation work?",
+        "a": "The site shows in your language. Listings, reviews and messages written in another language are translated and marked “Translated”. The original is one tap away."
+      },
+      "refunds": {
+        "q": "How do refunds work?",
+        "a": "Each place has the cancellation policy shown when you booked. Cancel before the free-cancellation deadline for a full refund; after that, you get back what the policy allows. Refunds go back to the way you paid. [refund policy to be confirmed]"
+      },
+      "safety": {
+        "q": "How do I know guests and hosts can be trusted?",
+        "a": "Every guest and host verifies their ID. The exact address is shared only after a booking is confirmed, and payment always happens on MONTHLIV. If something goes wrong, use “Report this conversation” in your messages."
+      },
+      "hosting": {
+        "q": "I'd like to open a MONTHLIV branch",
+        "a": "See how it works and what the operating fee is on the partner page. MONTHLIV takes care of the build, the front desk, cleaning and upkeep."
+      }
+    },
+    "contactLabel": "Contact",
+    "emergencyTitle": "In an emergency",
+    "emergencyText": "Contact the local services first, then let us know.",
+    "police": "Police",
+    "fire": "Fire and ambulance",
+    "tourist": "Tourist information (24 hours, several languages)",
+    "stillTitle": "Still need help?",
+    "stillText": "Write in any language. We'll translate and reply.",
+    "message": "Send us a message",
+    "call": "Call [support number]",
+    "hours": "Average reply time: [hours and reply time]",
+    "results": "{count, plural, =0 {No results} one {# result} other {# results}} for “{query}”",
+    "noResults": "We couldn't find an answer. Send us a message and we'll help.",
+    "off": "Discount"
+  },
+  "photos": {
+    "back": "Back to the place",
+    "title": "Photo tour",
+    "spaces": "Photos by space"
+  },
+  "coupon": {
+    "title": "Coupons",
+    "lead": "Coupons work on top of long-stay discounts. One coupon per booking.",
+    "none": "No coupon",
+    "until": "Until {date}",
+    "codeLabel": "Coupon code",
+    "codePlaceholder": "Enter a coupon code",
+    "apply": "Apply",
+    "applied": "{title}: you save {amount}.",
+    "line": "Coupon ({title})",
+    "errors": {
+      "notFound": "We can't find that code. Check it and try again.",
+      "expired": "This coupon has expired.",
+      "used": "You've already used this coupon.",
+      "minNights": "Only for stays of {nights} nights or more.",
+      "minTotal": "Only for bookings of {amount} or more.",
+      "otherHost": "This coupon doesn't work for this place.",
+      "notYours": "This coupon was sent to another member.",
+      "soldOut": "All of these coupons have been used."
+    },
+    "off": "off",
+    "cond": {
+      "max": "up to {amount}",
+      "minNights": "{nights}+ nights",
+      "minTotal": "bookings of {amount}+",
+      "allPlaces": "any place",
+      "hostOnly": "{host}'s places only"
+    },
+    "issuer": {
+      "admin": "MONTHLIV coupon",
+      "host": "Branch coupon"
+    },
+    "status": {
+      "available": "Available",
+      "used": "Used",
+      "expired": "Expired"
+    },
+    "daysLeft": "{days, plural, one {# day left} other {# days left}}",
+    "lastDay": "Last day today"
+  },
+  "stay": {
+    "title": "Where you live now",
+    "crumbs": "You are here",
+    "meta": "{area} · day {day} of {nights} · check out {date}, {time}",
+    "door": "Door code",
+    "doorNote": "Opens the building and your front door until {time} on {date}.",
+    "copyCode": "Copy code",
+    "copied": "Copied",
+    "wifi": "Wi-Fi · {mbps} Mbps",
+    "network": "Network name",
+    "password": "Password",
+    "copyPassword": "Copy password",
+    "checkout": "Check-out",
+    "checkoutWhen": "{date}, by {time}",
+    "checkoutNote": "{left, plural, one {# night} other {# nights}} to go. On the day, just close the door behind you. The code stops working at {time}.",
+    "guideTitle": "House guide",
+    "guide": {
+      "trash": {
+        "title": "Rubbish and recycling",
+        "text": "Seoul sorts rubbish three ways. General waste goes in the district's official bags (there's a roll in the drawer under the sink), food waste in the yellow bin by the entrance, and recycling separated into paper, plastic, cans and glass. Put it out after 6 pm on the days listed on the noticeboard by the entrance."
+      },
+      "laundry": {
+        "title": "Laundry",
+        "text": "The washing machine is next to the sink, and the manual is in the drawer underneath. The standard cycle takes about 50 minutes. For a dryer, use the launderette on the ground floor."
+      },
+      "heating": {
+        "title": "Underfloor heating and hot water",
+        "text": "The boiler control is on the wall by the front door. When you're away for a while, set it to 'Away' so the pipes don't freeze. Hot water comes through after about 30 seconds."
+      },
+      "building": {
+        "title": "Getting in and the building",
+        "text": "The building and your front door open with the same code. Parcels go to the lockers on the ground floor. You're on the third floor, with no lift."
+      },
+      "quiet": {
+        "title": "Quiet hours 10 pm–7 am",
+        "text": "Please keep it down from 10 pm to 7 am for the neighbours. The washing machine and vacuum rest then too."
+      },
+      "emergency": {
+        "title": "Emergency numbers",
+        "text": "Police 112 · Fire and ambulance 119 · Tourist information 1330 (24 hours, many languages)"
+      }
+    },
+    "guideBy": "Written by {name}, your host.",
+    "nearTitle": "Near home",
+    "nearNote": {
+      "market": "",
+      "laundry": "has dryers",
+      "clinic": "next to a pharmacy",
+      "forest": "",
+      "station": "Line 2"
+    },
+    "minutes": "{minutes} min",
+    "nearGuide": "Read the full {area} guide",
+    "mapLabel": "Map of places near your home",
+    "extendTitle": "Stay a little longer?",
+    "extendText": "This room is free after {date}. Your long-stay discount carries on, and past 90 nights the whole stay moves to the season price.",
+    "options": {
+      "week": "+1 week",
+      "month": "+1 month",
+      "season": "Make it a season"
+    },
+    "until": "Until {date} · {nights} nights",
+    "extra": "{amount} more",
+    "sameRate": "Still {percent}% off",
+    "newRate": "{percent}% off all {nights} nights · save {amount}",
+    "request": "Ask to extend",
+    "requestNote": "{name} has 24 hours to accept. Nothing is charged until then.",
+    "requested": "Request sent. If {name} accepts, you can stay until {date} and {amount} more is charged.",
+    "troubleTitle": "Something wrong?",
+    "troubleText": "Send {name} a message. MONTHLIV runs the branch itself, so someone can come round straight away if needed.",
+    "contactHelp": "Contact support"
+  },
+  "account": {
+    "nav": "Account menu",
+    "since": "Member since {year}",
+    "items": {
+      "home": "My page",
+      "coupons": "Coupons",
+      "reviews": "Reviews",
+      "profile": "Personal info",
+      "security": "Login and security",
+      "payments": "Payments and receipts",
+      "language": "Language and currency",
+      "notifications": "Notifications",
+      "hosting": "Partner centre"
+    },
+    "logout": "Log out",
+    "home": {
+      "title": "My page",
+      "hello": "Hi {name}, hope you're settling in well.",
+      "profile": "My profile",
+      "facts": "ID verified · {stays, plural, one {# stay} other {# stays}} · member since {year}",
+      "memberId": "Member ID",
+      "copy": "Copy",
+      "copied": "Copied",
+      "editProfile": "Edit personal info",
+      "idNote": "MONTHLIV and its branches send coupons to this ID.",
+      "glance": "At a glance",
+      "glanceLabels": {
+        "now": "Where you live now",
+        "coupons": "Coupons",
+        "trips": "Bookings",
+        "reviews": "Reviews",
+        "saved": "Saved"
+      },
+      "couponsAvailable": "{count, plural, one {# to use} other {# to use}}",
+      "couponsSoon": "{count, plural, =0 {None ending soon} one {# ending soon} other {# ending soon}}",
+      "tripsUpcoming": "{count, plural, one {# upcoming booking} other {# upcoming bookings}}",
+      "tripsPast": "{count, plural, one {# past stay} other {# past stays}}",
+      "reviewsToWrite": "{count, plural, =0 {No reviews to write} one {# review to write} other {# reviews to write}}",
+      "reviewsWritten": "{count, plural, one {# review written} other {# reviews written}}",
+      "savedLists": "{count, plural, one {# list} other {# lists}}",
+      "savedDrops": "{count, plural, =0 {No price drops} one {# price drop} other {# price drops}}",
+      "soonTitle": "Ending soon",
+      "allCoupons": "See all coupons",
+      "hostTitle": "Partner with us",
+      "hostText": "Got a space? Open a MONTHLIV branch with us — we run it."
+    },
+    "coupons": {
+      "title": "Coupons",
+      "lead": "Coupons you've received are ready to pick at checkout. Got a coupon code? Check it below first.",
+      "codeTitle": "Check a coupon code",
+      "check": "Check",
+      "inWallet": "This coupon is already in your wallet. You can pick it at checkout.",
+      "codeOk": "“{code}” is valid. Enter it at checkout to get “{title}”.",
+      "tabsLabel": "Coupon status",
+      "tabs": {
+        "available": "Available",
+        "used": "Used",
+        "expired": "Expired"
+      },
+      "empty": {
+        "available": "No coupons to use right now.",
+        "used": "You haven't used any coupons yet.",
+        "expired": "No expired coupons."
+      },
+      "find": "Find places for this coupon",
+      "usedOn": "Used on booking {code}.",
+      "note": "Coupons come off the total after the stay-length discount. You can use one coupon per booking."
+    },
+    "reviews": {
+      "title": "Reviews",
+      "lead": "A review of where you stayed helps the next guest a lot.",
+      "tabsLabel": "Review lists",
+      "toWrite": "To write",
+      "written": "Written",
+      "stayMeta": "{area} · {nights, plural, one {# night} other {# nights}} · {date} · hosted by {host}",
+      "overall": "How was it overall?",
+      "stars": "{count, plural, one {# star} other {# stars}}",
+      "words": {
+        "1": "Poor",
+        "2": "Could be better",
+        "3": "Fine",
+        "4": "Good",
+        "5": "Excellent"
+      },
+      "details": "A little more detail",
+      "categories": {
+        "clean": "Cleanliness",
+        "checkin": "Check-in",
+        "quiet": "Quiet at night",
+        "value": "Value"
+      },
+      "points": "{count} out of 5",
+      "textLabel": "What was it like living there?",
+      "textPlaceholder": "The bed, the kitchen, the street at night…",
+      "textNote": "Write in any language. Other guests will read it in theirs.",
+      "privateLabel": "A note only {host} can see",
+      "privateNote": "Optional. Only {host} will see it.",
+      "submit": "Post review",
+      "submitted": "Review posted",
+      "publicNote": "Reviews are public and show only your first name.",
+      "writtenOn": "Written {date}",
+      "replyFrom": "{host}'s reply"
+    },
+    "profile": {
+      "title": "Personal info",
+      "lead": "What hosts see and what only MONTHLIV keeps, shown separately.",
+      "shownTitle": "What hosts see",
+      "shownLead": "Only hosts of places you book can see this.",
+      "displayName": "Display name",
+      "displayNameNote": "This is the name shown on bookings and messages.",
+      "languages": "Languages you speak",
+      "bio": "About you",
+      "bioPlaceholder": "A line about why you're staying and your daily rhythm goes a long way with hosts.",
+      "privateTitle": "What only MONTHLIV keeps",
+      "privateLead": "Hosts don't see this. Once a booking is confirmed, we share only the contact details needed.",
+      "legalName": "Legal name",
+      "legalNameNote": "Confirmed by your ID check, so changing it means checking again.",
+      "memberId": "Member ID",
+      "memberIdNote": "Coupons are sent to this ID. It can't be changed.",
+      "email": "Email",
+      "phone": "Phone number",
+      "change": "Change",
+      "newEmail": "New email address",
+      "newPhone": "New phone number",
+      "sendCheck": "Send confirmation email",
+      "sendCode": "Send code",
+      "sent": "Sent",
+      "verify": "ID check",
+      "verifiedOn": "Verified by phone on {date}",
+      "verifyNote": "We only receive the result from the verification provider, never a resident registration number. Guests from abroad verify with a passport, and we don't store the passport number."
+    },
+    "security": {
+      "title": "Login and security",
+      "lead": "Manage how you sign in, your signed-in devices and your data.",
+      "loginsTitle": "Ways to sign in",
+      "lastOne": "You can't remove your last way to sign in.",
+      "providers": {
+        "kakao": "Kakao",
+        "naver": "Naver",
+        "apple": "Apple",
+        "google": "Google",
+        "email": "Email"
+      },
+      "connected": "Connected",
+      "notConnected": "Not connected",
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "requested": "Requested",
+      "passwordTitle": "Password and two-step sign-in",
+      "password": "Password",
+      "passwordChanged": "Last changed {date}",
+      "changePassword": "Change password",
+      "linkSent": "Email sent",
+      "twoStep": "Two-step sign-in",
+      "twoStepText": "When you sign in on a new device, you also enter a code sent to your phone.",
+      "devicesTitle": "Signed-in devices",
+      "thisDevice": "This device",
+      "lastSeen": "Last active {date}",
+      "logoutDevice": "Sign out",
+      "loggedOut": "Signed out",
+      "dataTitle": "Privacy and data",
+      "download": "Download your data",
+      "downloadText": "Get your bookings, messages and reviews as a file. We'll email you when it's ready.",
+      "requestDownload": "Request download",
+      "deleteTitle": "Delete account",
+      "deleteText": "If you have a booking under way or a payment still to make, you can delete your account once they're finished. Transaction records the law requires us to keep are stored separately for the required period.",
+      "deleteAction": "Request account deletion"
+    },
+    "payments": {
+      "title": "Payments and receipts",
+      "lead": "You always pay in Korean won. MONTHLIV never stores your card number.",
+      "methodsTitle": "Payment methods",
+      "defaultCard": "Default · also used for monthly payments",
+      "remove": "Remove",
+      "removed": "Removal requested",
+      "easyPay": "Mobile payments",
+      "easyPayText": "At checkout you can choose {names}.",
+      "tokenNote": "Your card details stay with the payment gateway. MONTHLIV keeps only the payment token and the card's last four digits.",
+      "addCard": "Add a card",
+      "addCardDone": "The payment gateway opens",
+      "dueTitle": "Coming up",
+      "historyTitle": "Payment history",
+      "receiptNote": "Card and cash receipts are emailed once a payment goes through. Refunds go back to the way you paid."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "lead": "Choose which notices you get and where.",
+      "kindsTitle": "Kinds of notice",
+      "kind": "Notice",
+      "channels": {
+        "app": "App",
+        "email": "Email",
+        "sms": "Text"
+      },
+      "kinds": {
+        "booking": {
+          "title": "Bookings and stays",
+          "text": "Confirmations, check-in details, upcoming payments"
+        },
+        "messages": {
+          "title": "Messages",
+          "text": "Replies from hosts and from support"
+        },
+        "prices": {
+          "title": "Price alerts",
+          "text": "When a saved place gets cheaper"
+        },
+        "reviews": {
+          "title": "Review requests",
+          "text": "After you check out"
+        }
+      },
+      "required": "These are essential, so app and email stay on.",
+      "adsTitle": "Offers and coupons",
+      "adsLead": "Coupons, events and news about new neighbourhoods count as advertising. We only send them if you agree.",
+      "adsConsent": "Receive advertising (optional)",
+      "adsConsentText": "Get offers by app, email and text.",
+      "adsNight": "Also between 9 pm and 8 am (optional)",
+      "adsNightText": "Ads at night need a separate yes.",
+      "adsNote": "When you agree or withdraw, we confirm the date and what changed.",
+      "save": "Save",
+      "saved": "Saved"
+    }
+  },
+  "about": {
+    "metaTitle": "About MONTHLIV",
+    "label": "About MONTHLIV",
+    "lead": "MONTHLIV is a home you stay in by the month. Stay a night or live a month: we open rooms of your own, comfortable and good to live in, one neighbourhood at a time. Every branch is run by GosuPlus Co., Ltd.",
+    "companyTitle": "Company",
+    "termsText": "The full terms of service will be published here before the service opens. This is a preview, so no bookings or payments actually take place. [terms to be confirmed]",
+    "privacyLead": "Before the full privacy policy is published, here are the principles MONTHLIV follows with personal information.",
+    "privacy": {
+      "ids": "We don't store resident registration or passport numbers. For ID checks we only receive the result from the verification provider.",
+      "cards": "We don't store card numbers. Payments use tokens issued by the payment gateway.",
+      "address": "A place's exact address is shared only with the guest, after the booking is confirmed. Until then we show an approximate location.",
+      "security": "Member information is locked down in the database itself, so only you and the staff who need it can see it.",
+      "rights": "You can see your information on My page at any time, and ask us to correct or delete it."
+    },
+    "privacyFull": "The full policy, covering what we collect, why, how long we keep it, who processes it for us and our privacy officer, will be published before the service opens. [privacy policy to be confirmed]",
+    "questions": "Have a question?",
+    "company": {
+      "name": {
+        "label": "Company",
+        "value": "주식회사 고수플러스"
+      },
+      "ceo": {
+        "label": "CEO",
+        "value": "박영은"
+      },
+      "bizNo": {
+        "label": "Business registration no.",
+        "value": "270-81-01999"
+      },
+      "mailOrder": {
+        "label": "Mail-order business no.",
+        "value": "[mail-order business number]"
+      },
+      "address": {
+        "label": "Address",
+        "value": "경기도 하남시 미사강변중앙로7번안길 25, D동 609호"
+      },
+      "phone": {
+        "label": "Customer service",
+        "value": "[customer service number]"
+      },
+      "email": {
+        "label": "Email",
+        "value": "[company email]"
+      }
+    }
+  },
+  "pms": {
+    "home": "Partner centre home",
+    "name": "Partner centre",
+    "toGuest": "Guest view",
+    "signedInAs": "Signed in as {name}",
+    "menu": "Partner centre menu",
+    "nav": {
+      "today": "Today",
+      "reservations": "Bookings",
+      "calendar": "Calendar",
+      "listings": "Rooms",
+      "payouts": "Payouts",
+      "coupons": "Coupons"
+    },
+    "sampleDay": "sample date",
+    "accept": "Accept",
+    "accepted": "Accepted",
+    "decline": "Decline",
+    "declined": "Declined",
+    "details": "Details",
+    "paidOut": "Paid out",
+    "scheduled": "Scheduled",
+    "crumbs": "You are here",
+    "feeNote": "Payouts are the price for the nights less the branch's operating fee, plus cleaning.",
+    "status": {
+      "all": "All",
+      "request": "Requests",
+      "upcoming": "Upcoming",
+      "staying": "Staying",
+      "past": "Past",
+      "cancelled": "Cancelled"
+    },
+    "cols": {
+      "code": "Booking",
+      "guest": "Guest",
+      "place": "Place",
+      "dates": "Dates",
+      "payout": "Payout",
+      "status": "Status",
+      "date": "Date",
+      "amount": "Amount"
+    },
+    "today": {
+      "title": "Today",
+      "hello": "Here's your day, {name}",
+      "blockDates": "Block dates",
+      "sendCoupon": "Send a coupon",
+      "monthLabel": "{month} at a glance",
+      "stats": {
+        "payouts": "Payouts this month",
+        "occupancy": "Booked this month",
+        "requests": "Requests waiting",
+        "rating": "Average rating"
+      },
+      "nextPayout": "Next payout {date} · {amount}",
+      "occupancyNote": "{booked} of {capacity} nights",
+      "requestsNote": "Please answer requests within 24 hours.",
+      "ratingNote": "Across {count} listed places",
+      "requestsTitle": "Requests to answer",
+      "noRequests": "No requests waiting right now.",
+      "translated": "Translated automatically",
+      "replyBy": "Answer by {time}, {date}",
+      "dayTitle": "Arriving and leaving today",
+      "checkIn": "Check-in",
+      "checkInNote": "The door code went out automatically at 9 am.",
+      "checkOut": "Check-out",
+      "checkOutNote": "Leaving by 11 am.",
+      "bookCleaning": "Book cleaning",
+      "cleaningBooked": "Cleaning booked",
+      "stayingTitle": "Staying now",
+      "noRatings": "No reviews yet"
+    },
+    "reservations": {
+      "title": "Bookings",
+      "lead": "From requests to past stays, all in one place.",
+      "tabsLabel": "Booking status",
+      "empty": "No bookings with this status."
+    },
+    "detail": {
+      "title": "{name}'s booking",
+      "answerTitle": "Answer this request",
+      "guestTitle": "Guest",
+      "verified": "ID verified",
+      "languages": "Speaks {languages}",
+      "privacy": "Guest contact details show only after the booking is confirmed, and only what check-in needs.",
+      "message": "Send a message",
+      "coupon": "Send a coupon",
+      "stayTitle": "Stay",
+      "checkIn": "Check-in {date} from {time}",
+      "checkOut": "Check-out {date} by {time}",
+      "tier": "{length} price · {nights} nights",
+      "doorTitle": "Door code",
+      "doorText": "Sent to the guest automatically at {time} on arrival day.",
+      "doorResend": "Send again now",
+      "doorSent": "Sent",
+      "moneyTitle": "Payout",
+      "cancelledFree": "Cancelled before the free-cancellation deadline, so there's no payout.",
+      "cancelledPaid": "Part of the booking is paid out under the cancellation policy.",
+      "stay": "Stay · {nights} nights",
+      "cleaning": "Cleaning",
+      "fee": "Operating fee ({percent, number}%)",
+      "payout": "Your payout",
+      "guestPays": "The guest paid {amount}.",
+      "payoutPart": "Part {part} of {parts}"
+    },
+    "calendar": {
+      "title": "Calendar",
+      "lead": "Booked days, blocked days and nightly prices for each place.",
+      "places": "Choose a place",
+      "prev": "Previous month",
+      "next": "Next month",
+      "legendBooked": "Booked",
+      "legendRequest": "Request",
+      "legendBlocked": "Blocked",
+      "legendOpen": "Open · nightly price",
+      "blockTitle": "Block dates",
+      "from": "From",
+      "to": "To",
+      "reason": "Note (only you see it)",
+      "reasonPlaceholder": "e.g. family visit, repairs",
+      "block": "Block",
+      "blocked": "Blocked",
+      "priceTitle": "Price for specific dates",
+      "priceLead": "Your 1-night price is ₩{price}. Pick days, like holidays, where you'd like to charge differently.",
+      "applyPrice": "Apply",
+      "priceApplied": "Applied",
+      "discounts": "Change stay-length discounts",
+      "thisMonth": "Bookings this month",
+      "noBookings": "No bookings this month.",
+      "open": "Open"
+    },
+    "listings": {
+      "title": "Rooms",
+      "lead": "You manage {count, plural, one {# room} other {# rooms}}.",
+      "add": "Add a room",
+      "status": {
+        "listed": "Listed",
+        "snoozed": "Snoozed",
+        "draft": "Draft"
+      },
+      "registration": {
+        "checked": "Registration checked",
+        "checking": "Checking registration",
+        "missing": "Registration needed"
+      },
+      "nightly": "{price} a night",
+      "discounts": "Discounts {week}·{month}·{season}%",
+      "draftNote": "Add photos and prices, then upload the registration to go into review.",
+      "booked": "{booked}/{days} nights booked",
+      "editPrices": "Prices and discounts",
+      "editInfo": "Place info",
+      "continue": "Continue"
+    },
+    "listing": {
+      "title": "Place info",
+      "lead": "Edit the photos, description, amenities and house rules guests see.",
+      "draftTitle": "Add a place",
+      "draftLead": "Fill in photos, description, amenities and rules, then upload your registration to go into review.",
+      "photosLead": "The first photo shows in search results. Show the room, desk, bathroom, shared spaces and entrance.",
+      "cover": "Cover",
+      "addPhoto": "Add photos",
+      "realPhotos": "Upload only photos you took of this place. Photos of other places or generated images are rejected in review.",
+      "name": "Name",
+      "namePlaceholder": "e.g. Studio with a desk by the window",
+      "guests": "Guests",
+      "description": "Description",
+      "descriptionPlaceholder": "The neighbourhood, the room's size and layout, and what makes it good for a longer stay.",
+      "translateNote": "Write in Korean and it's translated into each guest's language.",
+      "wifiSpeed": "Wi-Fi {mbps} Mbps",
+      "wifiMeasured": "Measured with the MONTHLIV app on {date}",
+      "wifiNone": "Wi-Fi speed not measured yet",
+      "wifiHow": "Measure it in the place with the MONTHLIV app and it shows on your listing.",
+      "measure": "Measure again",
+      "measuring": "Measure in the app",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "after": "From {time}",
+      "before": "By {time}",
+      "selfCheckIn": "Self check-in",
+      "selfCheckInText": "The door code goes out automatically on the morning of arrival.",
+      "pets": "Pets allowed",
+      "petsText": "Shows in the search filters when allowed.",
+      "quiet": "Quiet from 10 pm to 7 am",
+      "quietText": "Shown with the house rules and the house guide.",
+      "guideLead": "What guests read during their stay. Write in Korean and it's translated.",
+      "registrationTitle": "Registration",
+      "registrationLead": "Depending on the type of place, you may need to register as lodging or as an urban homestay for foreign tourists. Upload your registration and we'll check it before the place goes live.",
+      "registrationChecked": "Your registration has been checked.",
+      "registrationNeeded": "Upload your registration. Once it's checked, the place can go live.",
+      "upload": "Upload registration",
+      "saveDraft": "Save draft",
+      "newPlace": "New place"
+    },
+    "payouts": {
+      "title": "Payouts",
+      "lead": "Paid out the day after check-in, then every 28 nights for stays of 28 nights or more.",
+      "download": "{year} payouts (CSV)",
+      "next": "Next payout",
+      "none": "No payouts scheduled",
+      "scheduled": "Scheduled in total",
+      "scheduledNote": "{count, plural, one {# payout} other {# payouts}} to come",
+      "paidYear": "Paid out in {year}",
+      "paidNote": "As of {date}",
+      "accountTitle": "Payout account",
+      "account": "Account ···· {last4}",
+      "accountNote": "The full account number stays with the payout provider; MONTHLIV shows only the last four digits.",
+      "change": "Change account",
+      "changeStarted": "You'll verify your identity first",
+      "listTitle": "Payout history",
+      "taxNote": "Partners file their own taxes on income from stays. Use the downloaded history when you do."
+    },
+    "coupons": {
+      "title": "Coupons",
+      "lead": "Send a coupon by member ID to guests who have booked your places, so they come back. The discount comes out of your payout.",
+      "mine": "Coupons you've sent",
+      "stats": "Sent to {sent} · used {used} times",
+      "sentToList": "Sent to: {names}",
+      "sendMore": "Send more",
+      "stop": "Stop sending",
+      "stopped": "Stopped",
+      "rules": "Branch coupons work only at your branches. A booking can use one coupon.",
+      "notified": "{count, plural, =0 {None of them agreed to advertising, so no notification goes out. It's in their wallets.} one {Only the # guest who agreed to advertising gets a notification. It's in every wallet.} other {Only the # guests who agreed to advertising get a notification. It's in every wallet.}}"
+    },
+    "onHold": "On hold"
+  },
+  "couponForm": {
+    "title": "Create a coupon",
+    "name": "Coupon name",
+    "namePlaceholder": {
+      "host": "e.g. Thanks for staying again",
+      "admin": "e.g. Winter month-stay coupon"
+    },
+    "kind": "Discount type",
+    "kindAmount": "Amount",
+    "kindPercent": "Percent",
+    "value": "Amount or percent off",
+    "valuePlaceholder": "10000 or 10",
+    "valueHint": "Amounts from ₩1,000 to ₩100,000; percentages from 1 to 50.",
+    "max": "Most it takes off",
+    "maxHint": "Required for percent coupons.",
+    "minNights": "Minimum stay",
+    "anyLength": "Any length",
+    "nightsOrMore": "{nights}+ nights",
+    "minTotal": "Minimum booking total",
+    "expires": "Use by",
+    "audience": "How guests get it",
+    "audienceUsers": "Send to member IDs",
+    "audienceUsersText": "It goes straight into their coupon wallet.",
+    "audienceCode": "Open with a code",
+    "audienceCodeText": "Anyone who knows the code can enter it at checkout.",
+    "code": "Coupon code",
+    "codeHint": "4–20 capital letters, digits and hyphens",
+    "limit": "Times it can be used",
+    "to": {
+      "host": "Send to guests",
+      "admin": "Send to members"
+    },
+    "ids": "Type member IDs",
+    "idsPlaceholder": "Member IDs separated by commas (e.g. seojin.yun, minho.kim)",
+    "toHint": {
+      "host": "You can send only to guests who have booked your places.",
+      "admin": "Everyone gets it in their wallet; only members who agreed to advertising get a notification."
+    },
+    "submit": {
+      "host": "Create and send",
+      "admin": "Create coupon"
+    },
+    "errors": {
+      "title": "Give the coupon a name.",
+      "amount": "Choose an amount between ₩1,000 and ₩100,000.",
+      "percent": "Choose a percentage between 1 and 50.",
+      "expires": "Choose a last day within a year from today.",
+      "code": "A code is 4–20 capital letters, digits and hyphens.",
+      "codeTaken": "“{code}” is already in use.",
+      "noRecipients": "Choose at least one person to send it to.",
+      "unknownIds": {
+        "host": "You can't send to: {ids}. Only guests who have booked your places can get your coupons.",
+        "admin": "Can't send to: {ids} (no such member, or suspended)"
+      },
+      "max": "A percent coupon needs a ceiling between ₩1,000 and ₩100,000.",
+      "number": "Minimum stay, minimum total and times it can be used take whole numbers only."
+    },
+    "made": "{count, plural, =0 {Coupon created} one {Coupon created and sent to # person} other {Coupon created and sent to # people}}",
+    "sentTo": "Sent to: {names}",
+    "previewNote": "This is a preview, so nothing is actually saved or sent.",
+    "another": "Create another coupon"
+  },
+  "admin": {
+    "home": "Admin home",
+    "name": "Admin",
+    "toSite": "View site",
+    "signedInAs": "Signed in as staff",
+    "staffShort": "Ops",
+    "menu": "Admin menu",
+    "nav": {
+      "dashboard": "Overview",
+      "reservations": "Bookings",
+      "listings": "Places",
+      "members": "Members",
+      "coupons": "Coupons",
+      "payouts": "Payouts",
+      "support": "Support",
+      "settings": "Settings"
+    },
+    "open": "Open",
+    "all": "See all",
+    "done": "Done",
+    "noResults": "Nothing found.",
+    "sampleNote": "The numbers and members here are sample data. The real back office opens once sign-in and staff roles are connected.",
+    "cols": {
+      "guestId": "Guest ID",
+      "hostId": "Partner ID",
+      "paid": "Paid",
+      "actions": "Actions",
+      "rating": "Rating",
+      "registration": "Registration",
+      "memberId": "Member ID",
+      "name": "Name",
+      "role": "Type",
+      "joined": "Joined",
+      "verified": "ID check",
+      "bookings": "Bookings",
+      "marketing": "Ads",
+      "coupon": "Coupon",
+      "issuer": "Issued by",
+      "how": "How",
+      "benefit": "Off",
+      "until": "Use by",
+      "used": "Used",
+      "hostNightly": "Nightly price"
+    },
+    "dashboard": {
+      "title": "Overview",
+      "stats": {
+        "gmv": "Booked this month",
+        "bookings": "Check-ins this month",
+        "reviews": "Places to review",
+        "tickets": "Open tickets",
+        "payouts": "Payouts in 7 days",
+        "revenue": "Operating fees this month"
+      },
+      "gmvNote": "{count} check-ins this month, by what guests pay",
+      "bookingsNote": "{count} bookings under way or done",
+      "reviewsNote": "Registration and photos are checked by a person",
+      "ticketsNote": "{count} urgent",
+      "payoutsNote": "{count} scheduled",
+      "nowTitle": "Needs a person now",
+      "review": "Review",
+      "reviewWaiting": "{count, plural, one {# place} other {# places}} waiting for review",
+      "recentTitle": "Recent bookings",
+      "couponsTitle": "Running coupons",
+      "revenueNote": "Taken from partner payouts, before coupons"
+    },
+    "reservations": {
+      "title": "Bookings",
+      "lead": "Every booking on MONTHLIV by status; search by booking code or member ID.",
+      "search": "Booking code, guest or partner ID",
+      "refund": "Refund",
+      "contact": "Contact"
+    },
+    "listings": {
+      "title": "Places",
+      "lead": "{count} places listed, plus the ones waiting for review.",
+      "queueTitle": "Waiting for review ({count})",
+      "submitted": "Sent for review {date}",
+      "photos": "{count} photos",
+      "registration": {
+        "uploaded": "Registration to check",
+        "missing": "No registration"
+      },
+      "reason": "Reason",
+      "reasons": {
+        "photos": "Too few photos, or not real photos",
+        "registration": "Registration missing or doesn't match",
+        "address": "Address can't be confirmed",
+        "other": "Other (explained by message)"
+      },
+      "reject": "Reject",
+      "rejected": "Rejected",
+      "approve": "Approve",
+      "approved": "Approved",
+      "reviewRule": "A place goes live with at least 5 real photos of the space and a registration that fits its type.",
+      "allTitle": "Listed places",
+      "notChecked": "Not checked yet",
+      "pause": "Hide",
+      "paused": "Hidden",
+      "sampleRegistration": "Registration checks aren't connected yet. Update each room once its registration has been received and checked.",
+      "fee": "Operating fee {percent, number}%"
+    },
+    "members": {
+      "title": "Members",
+      "lead": "{count} members. Names are masked and contact details stay out of the list.",
+      "search": "Find by member ID",
+      "roles": "Member type",
+      "role": {
+        "all": "All",
+        "guest": "Guests",
+        "host": "Partners",
+        "both": "Guest and partner"
+      },
+      "done": "Done",
+      "notYet": "Not yet",
+      "agreed": "Yes",
+      "no": "No",
+      "status": {
+        "active": "Active",
+        "suspended": "Suspended"
+      },
+      "sendCoupon": "Send coupon",
+      "suspend": "Suspend",
+      "restore": "Restore",
+      "privacy": "A member's full name and contact details are opened only when a case needs them, and every look is logged."
+    },
+    "coupons": {
+      "title": "Coupons",
+      "lead": "Make a code anyone can use, or send a coupon straight to members' wallets by ID.",
+      "usage": "{used} / {limit}",
+      "usedCount": "{used, plural, =0 {Not used yet} one {Used once} other {Used # times}}",
+      "codeReady": "Share the code {code} and anyone can use it at checkout.",
+      "sentSummary": "Added to {count, plural, one {# wallet} other {# wallets}}. Only the {notified} who agreed to advertising get a notification.",
+      "segmentsTitle": "Pick by segment",
+      "segmentsLead": "Fill in the recipients from a segment, then set the coupon and send it.",
+      "segments": {
+        "consented": "Guests who agreed to advertising",
+        "noBooking": "Guests with no booking yet",
+        "longStay": "Guests who stayed 28+ nights"
+      },
+      "segmentCount": "{count, plural, one {# member} other {# members}}",
+      "pick": "Use as recipients",
+      "listTitle": "All coupons",
+      "issuerAdmin": "MONTHLIV",
+      "issuerHost": "Partner {host}",
+      "byCode": "Code",
+      "byId": "{count, plural, one {# member ID} other {# member IDs}}",
+      "running": "Running",
+      "rules": "One coupon per booking. Coupons come off after the stay-length discount, and a branch coupon's discount comes out of that partner's payout."
+    },
+    "payouts": {
+      "title": "Payouts",
+      "lead": "Partner payouts by date, and the ones on hold. A payout is the price for the nights less the branch's operating fee ({direct, number}% at branches we built, from {other, number}% elsewhere), plus cleaning.",
+      "nextRun": "Next run",
+      "runNote": "{date} · {count, plural, one {# payout} other {# payouts}}",
+      "run": "Run payouts",
+      "ran": "Sent to the payout provider",
+      "holdsTitle": "On hold",
+      "hold": "On hold",
+      "release": "Release",
+      "allTitle": "All payouts"
+    },
+    "support": {
+      "title": "Support",
+      "lead": "Urgent first. Replies reach the member translated into their language.",
+      "priority": {
+        "urgent": "Urgent",
+        "normal": "Normal"
+      },
+      "status": {
+        "open": "Waiting for reply",
+        "waiting": "In progress",
+        "done": "Done"
+      },
+      "topics": {
+        "access": "Can't get in",
+        "refund": "Refund question",
+        "receipt": "Receipt again",
+        "review": "Reported review",
+        "registration": "Registration check"
+      },
+      "reply": "Reply",
+      "replyPlaceholder": "Write your reply to the member.",
+      "translateNote": "Write in Korean and it reaches them in their language.",
+      "send": "Send reply",
+      "sent": "Sent",
+      "close": "Mark done",
+      "callHost": "Call the branch",
+      "called": "Call requested"
+    },
+    "settings": {
+      "title": "Settings",
+      "lead": "Values that apply across the service. Every change and who made it is logged.",
+      "feesTitle": "Fees",
+      "serviceFee": "Guest fee",
+      "serviceFeeNote": "MONTHLIV charges guests no fee. At 0%, guests see the branch's price as it is.",
+      "hostFee": "Operating fee · branches we built",
+      "hostFeeNote": "The default for branches MONTHLIV built. Taken from the price for the nights at payout; cleaning has none.",
+      "stayTitle": "Stay and payment",
+      "defaultDiscount": "{length} default discount",
+      "splitFrom": "Split payment from",
+      "nightsUnit": "nights",
+      "freeCancel": "Free cancellation until",
+      "daysBefore": "days before",
+      "stayNote": "Default discounts fill in for new rooms; each branch can change them.",
+      "sectionsTitle": "Header sections",
+      "sectionsLead": "The kinds of place shown along the top of the site.",
+      "rolesTitle": "Staff roles",
+      "rolesLead": "Choose what each role can open. The owner role can't be changed.",
+      "role": "Role",
+      "roles": {
+        "owner": "Owner",
+        "operations": "Operations",
+        "support": "Support",
+        "finance": "Finance"
+      },
+      "securityNote": "Staff accounts must use two-step sign-in, and every look at member details is kept for a year.",
+      "otherFee": "Operating fee · other branches",
+      "otherFeeNote": "Where to start for branches another firm built; agreed branch by branch."
+    }
+  }
+}

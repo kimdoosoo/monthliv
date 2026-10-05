@@ -1,0 +1,1277 @@
+{
+  "meta": {
+    "brand": "MONTHLIV",
+    "title": "MONTHLIV · ひと月暮らしても、ひと晩泊まっても、自分の部屋のように",
+    "description": "MONTHLIVの店舗を地図で探して、ひと晩からひと季節まで必要なだけ滞在できます。保証金の心配なく、長く泊まるほど1泊の料金が下がります。"
+  },
+  "nav": {
+    "home": "MONTHLIV ホーム",
+    "main": "メインメニュー",
+    "sections": {
+      "together": "ふたり以上",
+      "month": "1か月滞在",
+      "hostel": "ホステル",
+      "stay": "ステイ",
+      "residence": "レジデンス"
+    },
+    "host": "オーナー募集",
+    "login": "ログイン",
+    "saved": "保存済み",
+    "trips": "予約",
+    "messages": "メッセージ",
+    "account": "アカウント",
+    "backToResults": "検索結果に戻る",
+    "changeSearch": "検索条件を変更",
+    "languageLabel": "言語と通貨：{language}、ウォン",
+    "currency": "₩ KRW"
+  },
+  "search": {
+    "label": "宿を検索",
+    "change": "検索条件を変更",
+    "where": "エリア",
+    "wherePlaceholder": "エリア、駅、学校名",
+    "dates": "日程",
+    "checkIn": "チェックイン",
+    "checkOut": "チェックアウト",
+    "pickDate": "日付を選択",
+    "pickDates": "日付を選ぶと1泊の料金が決まります。",
+    "guestsLabel": "人数",
+    "guests": "{count}名",
+    "submit": "検索",
+    "done": "完了",
+    "howLong": "滞在期間",
+    "howLongQuestion": "どのくらい滞在しますか？",
+    "minus": "−{percent}%",
+    "staySummary": "{nights}泊 · {length}",
+    "nightOff": "1泊の料金が{percent}%オフ",
+    "barSummary": "{nights}泊 · {length} · {percent}%オフ",
+    "tierHint": "割引率は宿によって異なります。表示中の料金には割引がすでに反映されています。"
+  },
+  "length": {
+    "night": "ひと晩",
+    "week": "1週間",
+    "month": "1か月",
+    "season": "ひと季節",
+    "nightRange": "1～6泊",
+    "weekRange": "7～27泊",
+    "monthRange": "28～89泊",
+    "seasonRange": "90泊以上"
+  },
+  "lengthName": {
+    "night": "ひと晩",
+    "week": "1週間",
+    "month": "1か月",
+    "season": "ひと季節"
+  },
+  "price": {
+    "nights": "{nights, plural, other {#泊}}",
+    "perNight": "1泊あたり{price}",
+    "discountBadge": "{nights}泊で{percent}%オフ",
+    "nightsLine": "{price} × {nights, plural, other {#泊}}",
+    "discountLine": "{length}（{percent}%）",
+    "lengthDiscount": {
+      "night": "割引",
+      "week": "1週間割引",
+      "month": "1か月割引",
+      "season": "ひと季節割引"
+    },
+    "cleaning": "清掃料",
+    "total": "合計",
+    "totalRich": "合計 <b>{amount}</b>",
+    "perNightOff": "1泊 {price} · {percent}%オフ",
+    "nightWas": "1泊 <s>{was}</s> <b>{price}</b> · {nights}泊 {stay}",
+    "night": "1泊 <b>{price}</b> · {nights}泊 {stay}",
+    "nightOnlyWas": "1泊 <s>{was}</s> <b>{price}</b>",
+    "nightOnly": "1泊 <b>{price}</b>",
+    "stay": "{nights}泊 {amount}",
+    "was": "割引前の料金",
+    "serviceIncluded": "うちサービス料"
+  },
+  "tiers": {
+    "length": "期間",
+    "nights": "泊数",
+    "perNight": "1泊の料金",
+    "base": "基本料金",
+    "off": "{percent}%オフ",
+    "example": "例",
+    "exampleStay": "{nights}泊 · {amount}",
+    "picked": "選んだ日程 · {nights}泊 · {amount}"
+  },
+  "types": {
+    "label": "宿の種類",
+    "quick": "クイックフィルター",
+    "all": "すべて",
+    "studio": "ワンルーム",
+    "share": "シェアハウス",
+    "coliving": "コリビング",
+    "stay": "ステイ",
+    "hostel": "ホステル",
+    "residence": "レジデンス",
+    "guesthouse": "ゲストハウス",
+    "freeCancel": "無料キャンセル",
+    "selfCheckIn": "セルフチェックイン",
+    "women": "女性専用",
+    "filter": "フィルター"
+  },
+  "home": {
+    "heroLabel": "MONTHLY [ <b>わが家</b> ] BY MONTHLIV",
+    "heroTitle": "ひと月暮らしても、ひと晩泊まっても、自分の部屋のように。",
+    "heroLead": "保証金の心配なく、必要なだけ。ひと晩からひと季節まで泊まれて、長く泊まるほど1泊の料金が下がります。",
+    "searchWhere": "ソウル 聖水洞",
+    "tiersLabel": "1泊単位の料金",
+    "tiersTitle": "長く泊まるほど、1泊の料金が下がります",
+    "tiersLead": "ひと晩から予約できます。割引は7泊、28泊、90泊からクーポンなしで自動的に適用されます。1か月滞在向けの宿を別に探す必要もありません。",
+    "tierPrice": "1泊 <b>{price}</b>",
+    "tiersNote": "例：{title}（{area}）。割引率は店舗ごとに決まっていて、表示中の料金にはすべて割引が反映されています。",
+    "monthTitle": "1か月暮らすのにぴったりの家",
+    "monthSub": "{dates}（{nights}泊）の場合の、1か月割引を適用した料金です。",
+    "shortTitle": "数日だけ泊まるなら",
+    "shortSub": "{dates}（{nights}泊）の場合の料金です。出張や短い旅行に合う宿を集めました。",
+    "seeAll": "すべての宿を見る",
+    "hoodsTitle": "暮らしてみたいエリア",
+    "hoodsSub": "部屋だけでなく、エリアも一緒に選びましょう。",
+    "hoodsGuide": "聖水洞エリアガイド",
+    "hoods": {
+      "seongsu": "古い工場や工房がカフェになり、通りの先にはソウルの森があります。",
+      "sinchon": "3つの大学と夜遅くまで開いている食堂があり、目の前に2号線が通っています。",
+      "konkuk": "2号線と7号線が交わる駅のすぐそば。大学街の食堂が多く、漢江のトゥクソム遊園地もすぐです。",
+      "cheonho": "5号線と8号線が交わる千戸駅の近く。大きな市場やデパートがそばにあり、漢江のクァンナル公園も遠くありません。"
+    },
+    "livingTitle": "寝るだけの場所ではなく、暮らしに必要なものがそろっています",
+    "living": {
+      "furnished": {
+        "title": "身ひとつで入れる部屋",
+        "text": "ベッド、寝具、机、冷暖房まで揃っています。引っ越しトラックではなく、スーツケースひとつで大丈夫です。"
+      },
+      "price": {
+        "title": "隠れた費用のない料金",
+        "text": "表示された1泊料金がそのまま支払額です。ゲスト手数料はなく、合計には清掃料まで含まれています。"
+      },
+      "managed": {
+        "title": "MONTHLIVが直接運営",
+        "text": "受付、清掃、設備の管理までMONTHLIVが担当します。何かあればスタッフが直接うかがいます。"
+      },
+      "station": {
+        "title": "駅から近い",
+        "text": "ソウルの店舗はすべて地下鉄の駅から徒歩10分以内。通勤時間を節約できます。"
+      },
+      "deposit": {
+        "title": "保証金の心配なし",
+        "text": "まとまった保証金なしで、泊まる分だけ支払います。28泊以上は2回に分けて支払うこともできます。"
+      },
+      "translate": {
+        "title": "おたがいの言葉で",
+        "text": "メッセージはおたがいの言語に翻訳されます。韓国語がわからなくても、MONTHLIVに気軽に聞いてください。"
+      }
+    },
+    "howTitle": "ご利用の流れ",
+    "how": {
+      "dates": {
+        "title": "日付を選ぶ",
+        "text": "何泊でも大丈夫。7泊、28泊、90泊になると1泊の料金が下がります。"
+      },
+      "pay": {
+        "title": "予約して支払う",
+        "text": "短い滞在は一括払い。28泊以上は分割で支払うこともできます。"
+      },
+      "move": {
+        "title": "スマホひとつで入居",
+        "text": "入居案内、Wi-Fi、生活案内は予約画面ですぐに確認できます。"
+      }
+    },
+    "hostTitle": "空きスペースはありませんか？MONTHLIVの店舗を一緒に開きましょう",
+    "hostText": "工事から受付、清掃、設備管理までMONTHLIVが担当します。オーナーには毎日の工事写真と、予約ごとの通知が届きます。",
+    "hostStart": "オーナー募集を見る",
+    "hostPricing": "オーナーセンターを見る",
+    "appIcon": "MONTHLIVアプリのアイコン",
+    "appTitle": "予約と入居案内はアプリで",
+    "appText": "予約、決済、延長、入居案内をひとつのアプリで確認できます。他の言語で書かれたレビューやメッセージは日本語に翻訳して表示します。",
+    "appStores": "アプリストア",
+    "appSoon": "近日公開"
+  },
+  "card": {
+    "save": "{title}を保存",
+    "walk": "{station}から徒歩{minutes}分",
+    "drive": "{station}から車で{minutes}分",
+    "new": "新着",
+    "newLabel": "まだレビューのない新しい宿",
+    "ratingLabel": "5点満点中{rating}点",
+    "opens": "{month}オープン予定",
+    "soon": "オープン予定"
+  },
+  "results": {
+    "title": "{area}の宿 {count}件",
+    "categoryTitle": "{category} {count}件",
+    "sections": {
+      "together": "ふたり以上で泊まれる部屋を集めました。",
+      "month": "ステイとレジデンスを集めました。28泊から1か月割引が付きます。",
+      "hostel": "ホステルだけを集めました。",
+      "stay": "ステイだけを集めました。28泊から1か月割引が付きます。",
+      "residence": "レジデンスだけを集めました。"
+    },
+    "note": "{nights}泊の合計は、{length}割引と清掃料を反映した金額です。",
+    "sort": "並べ替え",
+    "filters": "クイックフィルター",
+    "noteNight": "{nights}泊の合計は、清掃料を反映した金額です。",
+    "unknownArea": "「{where}」の宿はまだ準備中です。代わりに{area}の宿をお見せします。",
+    "sorts": {
+      "recommended": "おすすめ順",
+      "price": "合計の安い順",
+      "station": "駅から近い順"
+    },
+    "filter": {
+      "free": "無料キャンセル",
+      "self": "セルフチェックイン",
+      "near": "駅の近く"
+    },
+    "filterOn": "適用中",
+    "showTotal": "{nights}泊の合計で表示",
+    "emptyTitle": "条件に合う宿がありません",
+    "emptyText": "フィルターをひとつずつ外してみてください。",
+    "clearFilters": "フィルターをすべて解除"
+  },
+  "map": {
+    "label": "地図",
+    "show": "地図",
+    "searchAsMove": "地図を動かしたら再検索",
+    "zoomIn": "拡大",
+    "zoomOut": "縮小",
+    "twoFingers": "2本の指で地図を動かしてください",
+    "ctrlScroll": "Ctrlキーを押しながらスクロールすると、地図を拡大・縮小できます",
+    "cmdScroll": "⌘キーを押しながらスクロールすると、地図を拡大・縮小できます",
+    "unavailable": "地図を読み込めませんでした。しばらくしてからもう一度開いてください。",
+    "attribution": "地図の出典",
+    "results": "検索結果"
+  },
+  "listing": {
+    "share": "共有",
+    "shareCopied": "リンクをコピーしました",
+    "save": "保存",
+    "reviews": "レビュー{count}件",
+    "noReviews": "まだレビューはありません",
+    "reviewsSub": "実際に泊まったゲストだけがレビューを書けます。",
+    "place": "{city} {area}",
+    "allPhotos": "写真{count}枚をすべて表示",
+    "photosTitle": "{title}の写真{count}枚",
+    "photoRoom": "部屋全体",
+    "photoDesk": "デスク",
+    "photoBath": "バスルーム",
+    "photoLounge": "ラウンジ",
+    "photoEntrance": "建物の入口",
+    "hostedBy": "ホスト{name}さんの{type}",
+    "facts": "最大{guests}名 · ベッド1 · バスルーム1 · {size}",
+    "factsReal": "最大{guests}名",
+    "pointLong": "長期滞在向けの住まい",
+    "pointLongText": "28泊以上滞在すると1泊の料金が{percent}%下がり、1か月ずつ分けて支払えます。",
+    "pointSelf": "セルフチェックイン",
+    "pointSelfText": "デジタルドアロックです。入口の暗証番号は到着日の{time}にアプリに表示されます。",
+    "pointWifi": "実測{speed}MbpsのWi-Fi",
+    "pointWifiText": "{date}にホストが投稿した速度の測定結果です。",
+    "pointTranslate": "言葉が違っても大丈夫",
+    "pointTranslateText": "ホストとのメッセージは、お互いの言語に翻訳されます。",
+    "tiersTitle": "長く泊まるほど、1泊の料金が下がります",
+    "tiersSub": "ひと晩から予約できます。滞在期間に合った割引が、すべての泊に適用されます。",
+    "tiersNote": "1泊料金に手数料は加算されません。清掃料（1回の滞在につき{cleaning}）はお支払い時に1回だけ加算されます。この宿は保証金がありません。",
+    "amenitiesTitle": "設備・アメニティ",
+    "amenity": {
+      "bath": "専用バスルーム",
+      "window": "外に面した窓",
+      "aircon": "エアコン・暖房",
+      "desk": "デスクと椅子",
+      "fridge": "冷蔵庫",
+      "bedding": "寝具あり",
+      "wifi": "Wi-Fi",
+      "laundry": "洗濯機・乾燥機（共用）",
+      "kitchen": "共用キッチン",
+      "parcel": "宅配ボックス",
+      "parking": "駐車場",
+      "garden": "芝生の庭",
+      "balcony": "バルコニー",
+      "dogPlayground": "ドッグラン",
+      "petCafe": "ペット同伴カフェ（週末）"
+    },
+    "calendarTitle": "{area}で{nights}泊",
+    "calendarLabel": "宿泊日",
+    "reviewsTitle": "{rating} · レビュー{count}件",
+    "ratings": {
+      "clean": "清潔さ",
+      "accuracy": "正確さ",
+      "checkin": "チェックイン",
+      "value": "価格に対する満足度"
+    },
+    "stayedNights": "{nights}泊 · {date}",
+    "translatedFrom": "{language}から翻訳",
+    "showOriginal": "原文を表示",
+    "showTranslation": "翻訳を表示",
+    "locationTitle": "宿の場所",
+    "approx": "正確な住所は予約後にお知らせします",
+    "walkMinutes": "徒歩{minutes}分",
+    "driveMinutes": "車で{minutes}分",
+    "hoodGuide": "{area}のエリアガイドを見る",
+    "hostTitle": "ホストの紹介",
+    "hostYears": "ホスト歴{years}年",
+    "hostLangs": "韓国語・英語に対応",
+    "hostReplies": "通常1時間以内に返信",
+    "messageHost": "{name}さんにメッセージを送る",
+    "hostTranslate": "ほかの言語を使うゲストとのメッセージは自動で翻訳されます。",
+    "rulesTitle": "知っておきたいこと",
+    "rulesHouse": "ハウスルール",
+    "checkInAfter": "{time}以降チェックイン",
+    "checkOutBy": "{time}までにチェックアウト",
+    "maxGuests": "最大{count}名",
+    "selfCheckIn": "セルフチェックイン",
+    "noParty": "喫煙・パーティー禁止",
+    "rulesSafety": "安全と建物",
+    "safetyAlarm": "火災報知器と消火器",
+    "quietHours": "静粛時間 {from}～{to}",
+    "rulesCancel": "キャンセルと支払い",
+    "freeBefore": "{date}の午後3時までのキャンセルは全額返金",
+    "noFree": "この宿は無料キャンセルができません",
+    "splitPay": "28泊以上は分割で支払えます",
+    "refundLink": "返金の基準を見る",
+    "bookLabel": "この宿を予約",
+    "perNightUnit": "/泊",
+    "staySummaryOff": "{nights}泊 · {length} · 1泊の料金が{percent}%オフ",
+    "book": "予約する",
+    "notCharged": "まだ料金は請求されません",
+    "nextTier": "{nights}泊以上滞在すると、1泊の料金が<b>{price}</b>に下がります。",
+    "siblingsTitle": "{branch}のほかの部屋",
+    "opensNote": "{month}にオープン予定です。オープン日が決まりしだい、ここでお知らせします。",
+    "factsSize": "最大{guests}名 · {size}"
+  },
+  "stays": {
+    "title": "予約一覧",
+    "now": "いま暮らしている家",
+    "dayOf": "{nights}日のうち{day}日目",
+    "nowMeta": "{area} · ホスト {host} · {date} {time}チェックアウト",
+    "progress": "これまでの滞在期間",
+    "open": "暗証番号・Wi-Fi・生活案内",
+    "extend": "期間を延長",
+    "messageHost": "{name}さんにメッセージ",
+    "upcoming": "これからの予約",
+    "requestMeta": "{area} · {from}～{to} · {nights}泊",
+    "lengthOff": "{length} · {percent}%オフ",
+    "pending": "ホストの承認待ち · 最大24時間",
+    "viewRequest": "リクエストを見る",
+    "past": "過去の滞在",
+    "pastMeta": "{area} · {nights}泊 · {date}",
+    "writeReview": "レビューを書く",
+    "rebook": "もう一度予約",
+    "payments": "お支払い履歴",
+    "firstPayment": "1回目のお支払い（1/2）",
+    "secondPayment": "2回目のお支払い（2/2）",
+    "sameCard": "同じカードで自動決済",
+    "paid": "支払い済み",
+    "scheduled": "予定"
+  },
+  "language": {
+    "title": "言語と通貨",
+    "lead": "すべてのページ、宿、メッセージを好きな言語で表示できます。お支払いはいつもウォンで、ほかの通貨は目安の金額として表示します。",
+    "languageTitle": "言語",
+    "languageNote": "選ぶとすぐにその言語に切り替わります。",
+    "languagePick": "言語を選ぶ",
+    "current": "現在の言語",
+    "translateTitle": "翻訳",
+    "translateLead": "ほかの言語で書かれたレビューやメッセージは、日本語に翻訳して表示します。原文もすぐに見られます。",
+    "translateListings": "宿の説明とレビューを翻訳",
+    "translateListingsText": "宿の説明、ハウスルール、レビューを日本語で表示し、「翻訳済み」と表示します。",
+    "translateMessages": "メッセージを翻訳",
+    "translateMessagesText": "あなたのメッセージはホストの言語に、ホストのメッセージは日本語に翻訳されます。",
+    "showOriginal": "翻訳の下に原文も表示",
+    "showOriginalText": "外国語を勉強中なら役に立ちます。",
+    "previewLabel": "プレビュー · {name}さんのレビュー",
+    "currencyTitle": "通貨",
+    "currencyLead": "目安の金額は今日の為替レートで計算します。カード会社が両替手数料を請求する場合があります。",
+    "currencyPick": "通貨を選ぶ",
+    "formatTitle": "タイムゾーンと表記",
+    "timezone": "タイムゾーン",
+    "zones": {
+      "seoul": "ソウル（GMT+9）",
+      "london": "ロンドン（GMT+0）",
+      "newYork": "ニューヨーク（GMT−5）"
+    },
+    "dateFormat": "日付の表記",
+    "weekStart": "週の始まり",
+    "area": "面積の単位",
+    "areas": {
+      "sqm": "平方メートル（㎡）",
+      "pyeong": "坪",
+      "sqft": "平方フィート（ft²）"
+    },
+    "cancel": "キャンセル",
+    "save": "保存",
+    "saved": "保存しました"
+  },
+  "tabs": {
+    "label": "アプリメニュー",
+    "explore": "探す",
+    "saved": "保存済み",
+    "trips": "予約",
+    "messages": "メッセージ",
+    "profile": "プロフィール",
+    "unread": "未読のメッセージがあります"
+  },
+  "footer": {
+    "line": "泊まるすべての場所が、よい住まいになるように。",
+    "stay": "滞在する",
+    "find": "宿を探す",
+    "guide": "エリアガイド",
+    "discounts": "長期割引について",
+    "help": "ヘルプセンター",
+    "hosting": "オーナー",
+    "becomeHost": "オーナー募集",
+    "pricing": "料金と長期割引",
+    "hostHelp": "オーナー向けヘルプ",
+    "company": "MONTHLIV",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "safety": "安全への取り組み",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "refunds": "返金ポリシー",
+    "business": "事業者情報",
+    "legal1": "株式会社GosuPlus · 代表 パク・ヨンウン · 事業者登録番号 270-81-01999 · 通信販売業申告番号 [番号]",
+    "legal2": "大韓民国 京畿道 河南市 Misagangbyeonjungang-ro 7beon-an-gil 25 D棟609号 · カスタマーセンター [電話番号]",
+    "intermediary": "MONTHLIVは株式会社GosuPlusの宿泊ブランドです。店舗ごとの事業者と取引の当事者は、正式オープン前にここに掲載します。［表示内容確定待ち］",
+    "copyright": "© 2026 株式会社GosuPlus",
+    "currency": "₩ KRW"
+  },
+  "preview": {
+    "notice": "プレビュー画面です。店舗名と場所は実際のものですが、料金・客室情報・予約内容はサンプルです。"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "text": "アドレスが変わったか、ページが存在しない可能性があります。",
+    "back": "ホームへ",
+    "help": "ヘルプセンター"
+  },
+  "book": {
+    "title": "確認とお支払い",
+    "back": "宿に戻る",
+    "trip": "旅行の内容",
+    "dates": "日程",
+    "datesValue": "{from}～{to} · {nights}泊",
+    "change": "変更",
+    "whenPay": "いつ支払いますか？",
+    "payNow": "今すぐ{amount}を支払う",
+    "payNowText": "宿泊料金の全額を今日お支払いします。",
+    "paySplit": "2回に分けて支払う",
+    "paySplitText": "今日{first}、{date}に{second}をお支払いします。追加手数料はかかりません。",
+    "method": "お支払い方法",
+    "methods": {
+      "card": "クレジット・デビットカード",
+      "kakaopay": "KakaoPay",
+      "naverpay": "Naver Pay",
+      "tosspay": "Toss Pay"
+    },
+    "savedCard": "カード •••• {last4}",
+    "issuer": "カード会社",
+    "issuers": {
+      "shinhan": "新韓カード",
+      "hyundai": "現代カード",
+      "samsung": "サムスンカード",
+      "kb": "KB国民カード",
+      "lotte": "ロッテカード",
+      "hana": "ハナカード",
+      "bc": "BCカード",
+      "woori": "ウリカード"
+    },
+    "installments": "お支払い回数",
+    "plans": {
+      "full": "一括払い",
+      "two": "2回払い",
+      "three": "3回払い",
+      "six": "6回払い"
+    },
+    "hello": "{name}さんにあいさつ",
+    "helloHint": "滞在の目的と、だいたいの到着時間をホストに伝えましょう。",
+    "helloPlaceholder": "{name}さん、こんにちは。1か月リモートで働きながら滞在するソジンです。午後4時ごろ到着する予定です。",
+    "phone": "携帯電話番号",
+    "phonePlaceholder": "+82 10 0000 0000",
+    "phoneHint": "チェックインの案内とドアの暗証番号は、SMSでもお送りします。",
+    "phoneHintGuide": "チェックインの案内は、SMSでもお送りします。",
+    "cancelTitle": "キャンセルポリシー",
+    "cancelText": "その後もチェックイン前にキャンセルすれば、最初の7泊分を除いた金額が返金されます。",
+    "cancelTextNone": "この宿は無料キャンセルができません。チェックイン前にキャンセルすれば、最初の7泊分を除いた金額が返金されます。",
+    "agree": "下のボタンを押すと、ハウスルール、キャンセルポリシー、MONTHLIV利用規約に同意したことになります。",
+    "confirm": "確定して支払う · {amount}",
+    "confirmSplit": "確定して支払う · 本日{amount}",
+    "priceDetails": "料金の内訳",
+    "saving": "{length} · {amount}お得",
+    "krw": "お支払いは韓国ウォン（KRW）です。",
+    "splitFrom": "28泊以上の予約は2回に分けて支払えます。",
+    "freeUntil": "{date}の午後3時までは無料でキャンセルできます。"
+  },
+  "confirmed": {
+    "metaTitle": "予約確定",
+    "label": "予約確定",
+    "title": "予約が確定しました、{name}さん",
+    "lead": "{area}での{length}は{date}に始まります。必要な情報はすべて予約ページとアプリにあります。",
+    "code": "予約コード",
+    "view": "予約ページを開く",
+    "message": "{name}さんにメッセージ",
+    "hostArea": "ホスト {name} · {area}",
+    "length": "宿泊期間",
+    "from": "{date} {time}以降",
+    "until": "{date} {time}まで",
+    "address": "住所",
+    "addressValue": "{city} {area} [詳細な住所]",
+    "calendar": "カレンダーに追加",
+    "receipt": "領収書",
+    "nextTitle": "これからの予定",
+    "today": "今日",
+    "at": "{date} {time}",
+    "stepHello": "<b>{when}</b> {name}さんに予約をお知らせしました。",
+    "stepFree": "<b>{when}</b>までにキャンセルすれば全額返金されます。",
+    "stepCode": "<b>{when}</b>に入口の暗証番号とWi-Fiの情報がアプリに表示されます。",
+    "stepInfo": "<b>{when}</b>にチェックインの案内がアプリに表示されます。",
+    "stepCheckIn": "<b>{when}</b>からチェックインできます。わが家のようにくつろいでください。",
+    "extend": "もっと滞在したいときは、予約ページから期間を延長できます。長期割引はそのまま続き、90泊以上になると滞在全体がひと季節の料金に変わります。",
+    "paidTitle": "お支払い",
+    "paidToday": "本日のお支払い",
+    "nextPayment": "{date}のお支払い予定",
+    "saved": "{length}の料金で節約できた金額",
+    "couponSaved": "クーポン割引（{title}）",
+    "noDeposit": "保証金なし",
+    "addressAfter": "{city} {area} · 実際の予約が確定すると、正確な住所がここに表示されます",
+    "stepInfoReal": "チェックインの方法と時間は、{name}さんからメッセージでお知らせします。",
+    "stepCheckInReal": "<b>{when}</b>から滞在できます。チェックインの時間は{name}さんと決めてください。"
+  },
+  "login": {
+    "metaTitle": "ログイン",
+    "title": "ログインまたは新規登録",
+    "lead": "予約、ドアの暗証番号、ホストとのメッセージを、ひとつのアカウントでまとめて管理できます。",
+    "email": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "continue": "続ける",
+    "or": "または",
+    "kakao": "Kakaoで続ける",
+    "naver": "Naverで続ける",
+    "apple": "Appleで続ける",
+    "google": "Googleで続ける",
+    "phone": "電話番号で続ける",
+    "terms": "続けると、MONTHLIVの<terms>利用規約</terms>に同意し、<privacy>プライバシーポリシー</privacy>を確認したものとみなされます。メールはアカウントと予約に関するものだけをお送りします。",
+    "whyTitle": "アカウントがあると便利なこと",
+    "why": {
+      "save": {
+        "title": "宿をリストに保存",
+        "text": "選んだ日程の料金が下がったらお知らせします。"
+      },
+      "translate": {
+        "title": "どの言語でもホストと話せる",
+        "text": "メッセージはお互いの言語に翻訳されます。"
+      },
+      "stay": {
+        "title": "滞在に必要なものをひとまとめに",
+        "text": "ドアの暗証番号、Wi-Fi、生活ガイド、領収書まで。"
+      }
+    },
+    "hostQ": "貸し出せる部屋をお持ちですか？",
+    "hostLink": "オーナーセンターにログイン"
+  },
+  "inbox": {
+    "title": "メッセージ",
+    "hostReplies": "ホスト · 通常1時間以内に返信",
+    "autoTranslate": "自動翻訳",
+    "today": "今日",
+    "stayDay": "{dates} · {nights}日のうち{day}日目",
+    "translated": "{language}から翻訳",
+    "read": "既読",
+    "write": "メッセージを入力",
+    "send": "送信",
+    "translateNote": "ほかの言語で届いたメッセージは日本語に翻訳して表示します",
+    "booking": "予約の詳細",
+    "viewBooking": "予約ページを開く",
+    "report": "この会話を報告する",
+    "search": "メッセージを検索"
+  },
+  "saved": {
+    "title": "保存済み",
+    "lists": "保存リスト",
+    "count": "{count, plural, other {#件}}",
+    "newList": "新しいリスト",
+    "priceFor": "{dates}の料金 · {guests}",
+    "share": "リストを共有",
+    "map": "地図で見る",
+    "note": "メモ：{note}",
+    "drop": "保存してから{amount}値下がり",
+    "tip": "料金は選んだ日程の合計です。保存した宿が値下がりしたらお知らせします。",
+    "itemMeta": "{area} · 合計{amount}"
+  },
+  "guide": {
+    "metaTitle": "聖水洞の街ガイド",
+    "crumbs": "パンくずリスト",
+    "city": "ソウル",
+    "district": "城東区",
+    "intro": "ソウルの東にある、古い靴工房がカフェやスタジオに生まれ変わった街です。平日はものづくりをする人たちでにぎわい、夜になると路地は静かになります。通りの先にはソウルの森があります。",
+    "tags": {
+      "remote": "リモートワーク向き",
+      "park": "公園が近い",
+      "line2": "2号線"
+    },
+    "seeStays": "聖水洞の宿{count}件を見る",
+    "commuteTitle": "交通",
+    "commuteNote": "聖水駅発、平日の所要時間です。",
+    "about": "約{minutes}分",
+    "commute": {
+      "gangnam": {
+        "place": "江南",
+        "how": "2号線、乗り換えなし"
+      },
+      "cityHall": {
+        "place": "市庁",
+        "how": "2号線、乗り換えなし"
+      },
+      "hongdae": {
+        "place": "弘大入口",
+        "how": "2号線、乗り換えなし"
+      },
+      "airport": {
+        "place": "仁川空港",
+        "how": "地下鉄と空港鉄道"
+      }
+    },
+    "livingTitle": "暮らしに必要な場所",
+    "livingSub": "ちょっと立ち寄るためではなく、ここで暮らすときに必要な場所です。",
+    "categories": {
+      "all": "すべて",
+      "groceries": "買い物",
+      "laundry": "ランドリー",
+      "health": "薬局・クリニック",
+      "work": "作業カフェ",
+      "outdoors": "公園・運動"
+    },
+    "mapLabel": "聖水洞の暮らしに必要な場所の地図",
+    "places": {
+      "market": {
+        "name": "聖水伝統市場",
+        "short": "市場",
+        "text": "果物、おかず、魚のお店が並んでいます。18時を過ぎると安くなります。"
+      },
+      "laundry": {
+        "name": "24時間営業のコインランドリー",
+        "short": "ランドリー",
+        "text": "洗濯機と乾燥機があり、いつでも開いています。カードで支払えます。"
+      },
+      "clinic": {
+        "name": "近所のクリニックと薬局",
+        "short": "クリニック",
+        "text": "大通りに予約なしで行けるクリニックがあり、すぐ隣に薬局があります。"
+      },
+      "cafe": {
+        "name": "作業しやすいカフェ",
+        "short": "カフェ",
+        "text": "大きなテーブルとコンセントがたくさんあります。お昼までは静かです。"
+      },
+      "forest": {
+        "name": "ソウルの森",
+        "short": "公園",
+        "text": "ランニングコースと広い芝生があります。ひと息つくのにぴったりです。"
+      }
+    },
+    "staysTitle": "{area}の宿",
+    "allOnMap": "地図ですべて見る",
+    "kinds": "場所の種類",
+    "fromSeason": "ひと季節なら1泊{price}から"
+  },
+  "host": {
+    "metaTitle": "オーナー募集",
+    "label": "MONTHLIV オーナー募集",
+    "title": "スペースはオーナーが、運営はMONTHLIVが",
+    "lead": "工事からゲスト対応、清掃、設備管理、トラブル時の駆けつけまで、MONTHLIVが担当します。オーナーは店舗の様子を通知とオーナーセンターで確認するだけです。",
+    "start": "オーナーセンターを見る",
+    "how": "流れを見る",
+    "whyTitle": "オーナーがMONTHLIVに運営を任せる理由",
+    "reasons": {
+      "cleaning": {
+        "title": "運営は最初から最後まで",
+        "text": "ゲスト対応、清掃、設備管理、駆けつけまでMONTHLIVが担当します。MONTHLIVの看板は、このように運営すべてを担う店舗にだけ掲げます。"
+      },
+      "income": {
+        "title": "工事の様子は毎日写真で",
+        "text": "工事が始まると店舗ごとのグループチャットを作り、その日の工程と現場写真を毎日お送りします。現場で見張る必要はありません。"
+      },
+      "guests": {
+        "title": "すべての処理は通知で",
+        "text": "運営が始まると、ルームツアーの予約、決済、延長まで、処理内容がカカオトークの通知で自動的に届きます。"
+      }
+    },
+    "rateTitle": "1泊の料金ひとつで、すべての期間の料金が決まります",
+    "rateText": "ゲストは1泊から予約できます。1週間、1か月、ひと季節の割引率ですべての期間の料金が決まるので、1か月滞在用の部屋を別に管理する必要はありません。店舗の料金と割引率はオーナーセンターで確認できます。",
+    "rateLink": "料金画面を見る",
+    "stepsTitle": "店舗オープンまでの流れ",
+    "steps": {
+      "list": {
+        "title": "相談と現地調査",
+        "text": "スペースを実際に見て、客室構成と事業性を一緒に検討します。"
+      },
+      "price": {
+        "title": "工事",
+        "text": "直営工事で施工し、毎日グループチャットで工程と現場写真をお送りします。"
+      },
+      "welcome": {
+        "title": "オープンと運営",
+        "text": "MONTHLIVの看板を掲げてオープンします。対応、清掃、設備管理はMONTHLIVが担当します。"
+      },
+      "paid": {
+        "title": "精算",
+        "text": "宿泊料金から運営手数料を差し引いた金額を精算します。28泊以上の滞在は、その後毎月精算されます。"
+      }
+    },
+    "faqTitle": "オーナーからよくある質問",
+    "faq": {
+      "oneRoom": {
+        "q": "他社が工事した物件もMONTHLIVになれますか？",
+        "a": "工事の段階でMONTHLIVが調査・協議した現場であれば、MONTHLIVの看板を掲げられます。すでに営業中の物件の運営だけを引き受ける場合は、原則として看板を掲げません。"
+      },
+      "leaveEarly": {
+        "q": "ゲストが早めに退出したいと言ったらどうなりますか？",
+        "a": "28泊以上の滞在なら、ゲストは事前に知らせれば早めに退出できます。実際に泊まった日数は、その期間に合った料金で計算されます。[ポリシー確定待ち]"
+      },
+      "english": {
+        "q": "外国人のゲストも受け入れますか？",
+        "a": "はい。メッセージはおたがいの言語に翻訳され、ゲスト対応はMONTHLIVが担当します。オーナーが外国語を話す必要はありません。"
+      },
+      "allowed": {
+        "q": "自分で運営しながら、MONTHLIVの名前だけ使うこともできますか？",
+        "a": "オーナーが自ら運営して看板を使うパートナーモデルは、まだ準備中です。今はMONTHLIVが運営すべてを担う店舗にだけ看板を掲げています。"
+      },
+      "fees": {
+        "q": "運営手数料はいくらですか？",
+        "a": "MONTHLIVが直営工事した店舗は宿泊料金の{direct, number}%、それ以外の店舗は{other, number}%からご相談します。ゲストには手数料なしで店舗の料金がそのまま表示されます。1泊{price}なら、精算は1泊{payout}です（直営工事の店舗の場合）。"
+      }
+    },
+    "ctaTitle": "スペースがあれば、まずはご相談ください",
+    "noticeLabel": "通知の例",
+    "noticeNew": "新しい予約",
+    "noticeMeta": "月払い · 本人確認済み",
+    "rateHead": "1泊の料金",
+    "rateRow": "{length} · {from}泊以上",
+    "rateOff": "<b>{percent}%割引</b> · {price}",
+    "contact": "オーナー相談のお問い合わせ"
+  },
+  "pricing": {
+    "title": "料金と長期滞在割引",
+    "lead": "ゲストは1泊から予約できます。1泊の料金と長く泊まるときの割引率を決めるだけで、すべての期間の料金が自動で計算されます。",
+    "sections": "宿の編集メニュー",
+    "section": {
+      "photos": "写真",
+      "about": "宿の紹介",
+      "amenities": "設備とWi-Fi",
+      "pricing": "料金と割引",
+      "calendar": "予約可能日",
+      "rules": "ハウスルールと生活ガイド",
+      "payouts": "入金"
+    },
+    "nightly": "1泊の料金",
+    "won": "ウォン",
+    "nightlyHint": "近くの似たワンルームの相場：1泊[地域の相場データ]",
+    "discountTitle": "滞在期間ごとの割引",
+    "discountSub": "割引は滞在のすべての泊数に適用され、重ねては使えません。",
+    "orderWarning": "長い期間の割引率が、短い期間より低くなっています。長く滞在するほど1泊料金が下がるように設定してください。",
+    "base": "基本料金",
+    "discountFor": "{length}の割引率",
+    "guestSees": "ゲストの支払額とあなたの受取額",
+    "guestSeesNote": "ゲストにはこの料金が手数料なしでそのまま表示されます。精算は宿泊料金から運営手数料{hostFee, number}%を差し引いた金額で、清掃料は手数料なしでそのまま精算されます。",
+    "termsTitle": "滞在の条件と長期滞在のオプション",
+    "minNights": "最短滞在",
+    "minOne": "1泊（初期設定）",
+    "maxNights": "最長滞在",
+    "noLimit": "制限なし",
+    "cleaning": "清掃料（滞在1回ごと）",
+    "midClean": "滞在中の清掃（28泊以上）",
+    "midIncluded": "2週間ごと、料金に含む",
+    "midRequest": "リクエスト時{amount}",
+    "midNone": "なし",
+    "monthly": "28泊以上は月払い",
+    "monthlyText": "ゲストは毎月同じ日に支払い、オーナーにも毎月精算されます。",
+    "instant": "即時予約",
+    "instantText": "本人確認を済ませ、レビューの良いゲストは、承認を待たずにすぐ予約できます。",
+    "save": "料金を保存",
+    "preview": "掲載ページをプレビュー",
+    "off": "割引",
+    "saved": "保存しました",
+    "guestNightly": "ゲストにも1泊{price}と表示されます。",
+    "payoutLine": "受取 {amount}"
+  },
+  "help": {
+    "metaTitle": "ヘルプ",
+    "hello": "{name}さん、こんにちは",
+    "title": "どんなことでお困りですか？",
+    "searchLabel": "ヘルプを検索",
+    "searchHint": "「滞在の延長」「月払い」などで検索してみてください",
+    "search": "検索",
+    "currentLabel": "滞在中の宿",
+    "currentStay": "{title} · {nights}泊のうち{day}日目",
+    "currentHint": "ドアの暗証番号、Wi-Fi、清掃、修理のことなら、ホストに聞くのがいちばん早いです。",
+    "askHost": "ホストに聞く",
+    "topicsTitle": "トピックから探す",
+    "topics": {
+      "booking": {
+        "title": "予約とお支払い",
+        "text": "日程、合計金額、分割払い、領収書"
+      },
+      "discounts": {
+        "title": "長期滞在割引",
+        "text": "ひと晩、1週間、1か月、ひと季節"
+      },
+      "changes": {
+        "title": "変更とキャンセル",
+        "text": "延長、早めの退出、返金"
+      },
+      "staying": {
+        "title": "滞在中のこと",
+        "text": "ドアの暗証番号、Wi-Fi、清掃、修理、ごみ出し"
+      },
+      "account": {
+        "title": "アカウントと安全",
+        "text": "本人確認、ログイン、プライバシー、報告"
+      },
+      "hosting": {
+        "title": "オーナー",
+        "text": "運営手数料、精算、店舗運営"
+      }
+    },
+    "faqTitle": "よくある質問",
+    "discountQ": "長期滞在割引はどのように適用されますか？",
+    "discountA": "どの宿も1泊から予約できます。長く泊まるほど1泊あたりの料金が下がり、割引は延びた分だけでなく滞在全体に適用されます。割引率は店舗ごとに決まっています。",
+    "discountExample": "例：1泊{price}のワンルーム",
+    "discountMove": "延長してより長い期間の区分に入ると、新しい料金が滞在全体に適用されます。差額はお支払いの前にお知らせします。",
+    "faq": {
+      "oneNight": {
+        "q": "1泊だけでも予約できますか？",
+        "a": "はい。ホストが最短滞在を長めに設定していなければ、どの宿も1泊から予約できます。最短滞在は宿のページで確認できます。"
+      },
+      "extend": {
+        "q": "滞在を延長するにはどうすればいいですか？",
+        "a": "予約画面で「滞在を延長する」を選んでください。ホストにリクエストする前に、割引を反映した新しい合計金額をお見せします。"
+      },
+      "leaveEarly": {
+        "q": "予定より早く退出することになったら、どうなりますか？",
+        "a": "予約時のキャンセルポリシーによって異なります。28泊以上の滞在なら、事前に知らせれば早めに退出でき、実際に泊まった日数はその期間に合った料金で計算されます。[ポリシー確定待ち]"
+      },
+      "monthly": {
+        "q": "月払いはどのような仕組みですか？",
+        "a": "28泊以上の滞在では、一部を先に支払い、残りは決まった日に支払います。それぞれ、選んだお支払い方法で決済されます。"
+      },
+      "translate": {
+        "q": "翻訳はどのように行われますか？",
+        "a": "サイトは選んだ言語で表示されます。ほかの言語で書かれた宿の説明、レビュー、メッセージは翻訳され、「翻訳」と表示されます。原文もワンタップで見られます。"
+      },
+      "refunds": {
+        "q": "返金はどうなりますか？",
+        "a": "宿ごとに、予約時に表示したキャンセルポリシーがあります。無料キャンセル期限までにキャンセルすれば全額返金され、それ以降はポリシーに沿って一部が返金されます。返金はお支払いに使った方法に戻ります。[返金ポリシー確定待ち]"
+      },
+      "safety": {
+        "q": "ゲストとホストは信頼できますか？",
+        "a": "すべてのゲストとホストが本人確認を済ませています。正確な住所は予約が確定してからお知らせし、支払いは必ずMONTHLIVの中で行います。問題があれば、メッセージ画面の「この会話を報告する」からお知らせください。"
+      },
+      "hosting": {
+        "q": "MONTHLIVの店舗を開きたいです",
+        "a": "オーナー募集ページで進め方と運営手数料をご確認ください。工事から受付、清掃、設備管理までMONTHLIVが担当します。"
+      }
+    },
+    "contactLabel": "お問い合わせ",
+    "emergencyTitle": "緊急のときは",
+    "emergencyText": "まず現地の機関に連絡してから、お知らせください。",
+    "police": "警察",
+    "fire": "消防・救急",
+    "tourist": "観光案内（24時間・外国語対応）",
+    "stillTitle": "まだ解決しませんか？",
+    "stillText": "どの言語で書いても大丈夫です。翻訳して返信します。",
+    "message": "メッセージで問い合わせる",
+    "call": "[サポート窓口の電話番号]に電話",
+    "hours": "平均返信時間：[受付時間・返信時間]",
+    "results": "「{query}」の検索結果 {count}件",
+    "noResults": "答えが見つかりませんでした。メッセージでお問い合わせいただければお手伝いします。",
+    "off": "割引"
+  },
+  "photos": {
+    "back": "宿に戻る",
+    "title": "写真を見る",
+    "spaces": "スペースごとの写真"
+  },
+  "coupon": {
+    "title": "クーポン",
+    "lead": "長期割引と一緒に使えます。クーポンは1件の予約につき1枚です。",
+    "none": "クーポンを使わない",
+    "until": "{date}まで",
+    "codeLabel": "クーポンコード",
+    "codePlaceholder": "クーポンコードを入力",
+    "apply": "適用",
+    "applied": "{title}で{amount}お得になりました。",
+    "line": "クーポン（{title}）",
+    "errors": {
+      "notFound": "クーポンコードが見つかりません。もう一度確認してください。",
+      "expired": "有効期限が切れたクーポンです。",
+      "used": "すでに使用したクーポンです。",
+      "minNights": "{nights}泊以上の予約にのみ使えます。",
+      "minTotal": "{amount}以上の予約にのみ使えます。",
+      "otherHost": "この宿では使えないクーポンです。",
+      "notYours": "ほかの会員に送られたクーポンです。",
+      "soldOut": "用意した枚数がすべてなくなりました。"
+    },
+    "off": "割引",
+    "cond": {
+      "max": "最大{amount}",
+      "minNights": "{nights}泊以上",
+      "minTotal": "{amount}以上の予約",
+      "allPlaces": "すべての宿",
+      "hostOnly": "{host}さんの宿のみ"
+    },
+    "issuer": {
+      "admin": "MONTHLIVクーポン",
+      "host": "店舗クーポン"
+    },
+    "status": {
+      "available": "使用可能",
+      "used": "使用済み",
+      "expired": "期限切れ"
+    },
+    "daysLeft": "あと{days}日",
+    "lastDay": "今日まで"
+  },
+  "stay": {
+    "title": "いま暮らしている家",
+    "crumbs": "現在の場所",
+    "meta": "{area} · {nights}日のうち{day}日目 · {date} {time}チェックアウト",
+    "door": "入口の暗証番号",
+    "doorNote": "{date} {time}まで、建物の入口も玄関もこの番号で開きます。",
+    "copyCode": "番号をコピー",
+    "copied": "コピーしました",
+    "wifi": "Wi-Fi · {mbps} Mbps",
+    "network": "ネットワーク名",
+    "password": "パスワード",
+    "copyPassword": "パスワードをコピー",
+    "checkout": "チェックアウト",
+    "checkoutWhen": "{date} {time}まで",
+    "checkoutNote": "あと{left}泊です。当日はドアを閉めて出るだけで大丈夫。暗証番号は{time}から使えなくなります。",
+    "guideTitle": "生活案内",
+    "guide": {
+      "trash": {
+        "title": "ごみの分別",
+        "text": "ソウルではごみを3種類に分けて出します。一般ごみは区の指定袋に（シンク下の引き出しに1ロールあります）、生ごみは玄関横の黄色い容器に、資源ごみは紙・プラスチック・缶・びんに分けて出してください。出す日は玄関の掲示板に書かれた曜日の18時以降です。"
+      },
+      "laundry": {
+        "title": "洗濯",
+        "text": "洗濯機はシンクの隣にあり、説明書はシンク下の引き出しにあります。標準コースで約50分です。乾燥機が必要なら1階のコインランドリーを使ってください。"
+      },
+      "heating": {
+        "title": "床暖房とお湯",
+        "text": "ボイラーの操作パネルは玄関横の壁にあります。長く出かけるときは「外出」にしておくと配管が凍りません。お湯は出して30秒ほどで温かくなります。"
+      },
+      "building": {
+        "title": "出入りと建物",
+        "text": "建物の入口と玄関は同じ暗証番号で開きます。宅配便は1階の宅配ボックスに届きます。エレベーターのない3階です。"
+      },
+      "quiet": {
+        "title": "静粛時間 22:00～7:00",
+        "text": "夜10時から朝7時までは、近所の方のために静かに過ごしてください。洗濯機や掃除機もこの時間はお休みです。"
+      },
+      "emergency": {
+        "title": "緊急連絡先",
+        "text": "警察 112 · 火事・救急 119 · 観光案内 1330（24時間、外国語対応）"
+      }
+    },
+    "guideBy": "{name}さんが書いた案内です。",
+    "nearTitle": "家の近く",
+    "nearNote": {
+      "market": "",
+      "laundry": "乾燥機あり",
+      "clinic": "薬局の隣",
+      "forest": "",
+      "station": "2号線"
+    },
+    "minutes": "{minutes}分",
+    "nearGuide": "{area}のエリア案内をすべて見る",
+    "mapLabel": "宿の近くの地図",
+    "extendTitle": "もう少し滞在しますか？",
+    "extendText": "この部屋は{date}以降も空いています。長期割引はそのまま続き、90泊を超えると滞在全体がひと季節の料金に変わります。",
+    "options": {
+      "week": "+1週間",
+      "month": "+1か月",
+      "season": "ひと季節に"
+    },
+    "until": "{date}まで · {nights}泊",
+    "extra": "{amount}追加",
+    "sameRate": "引き続き{percent}%オフ",
+    "newRate": "{nights}泊すべて{percent}%オフ · {amount}お得",
+    "request": "延長をリクエスト",
+    "requestNote": "{name}さんが24時間以内に承認すると確定します。それまでは請求されません。",
+    "requested": "延長リクエストを送りました。{name}さんが承認すれば{date}まで滞在でき、{amount}が追加で請求されます。",
+    "troubleTitle": "困ったことはありますか？",
+    "troubleText": "{name}にメッセージでお知らせください。MONTHLIVが直接運営している店舗なので、必要ならすぐにうかがいます。",
+    "contactHelp": "カスタマーセンターに問い合わせ"
+  },
+  "account": {
+    "nav": "アカウントメニュー",
+    "since": "{year}年から利用",
+    "items": {
+      "home": "マイページ",
+      "coupons": "クーポン",
+      "reviews": "レビュー",
+      "profile": "個人情報",
+      "security": "ログインとセキュリティ",
+      "payments": "支払いと領収書",
+      "language": "言語と通貨",
+      "notifications": "通知",
+      "hosting": "オーナーセンター"
+    },
+    "logout": "ログアウト",
+    "home": {
+      "title": "マイページ",
+      "hello": "{name}さん、快適に過ごせていますか？",
+      "profile": "プロフィール",
+      "facts": "本人確認済み · 宿泊{stays}回 · {year}年から利用",
+      "memberId": "ID",
+      "copy": "コピー",
+      "copied": "コピーしました",
+      "editProfile": "個人情報を編集",
+      "idNote": "MONTHLIV本部や店舗からクーポンが届くときは、このIDに送られます。",
+      "glance": "ひと目で確認",
+      "glanceLabels": {
+        "now": "いま住んでいる宿",
+        "coupons": "クーポン",
+        "trips": "予約",
+        "reviews": "レビュー",
+        "saved": "保存"
+      },
+      "couponsAvailable": "使用可能{count}枚",
+      "couponsSoon": "{count, plural, =0 {まもなく期限のクーポンなし} other {まもなく期限 #枚}}",
+      "tripsUpcoming": "これからの予約{count}件",
+      "tripsPast": "過去の滞在{count}回",
+      "reviewsToWrite": "書けるレビュー{count}件",
+      "reviewsWritten": "書いたレビュー{count}件",
+      "savedLists": "リスト{count}件",
+      "savedDrops": "{count, plural, =0 {値下がりした宿なし} other {値下がりした宿 #件}}",
+      "soonTitle": "まもなく期限のクーポン",
+      "allCoupons": "クーポンをすべて見る",
+      "hostTitle": "オーナー募集",
+      "hostText": "スペースがあれば、MONTHLIVの店舗を一緒に開きましょう。運営はMONTHLIVが担当します。"
+    },
+    "coupons": {
+      "title": "クーポン",
+      "lead": "受け取ったクーポンは、支払いのときに選ぶだけで使えます。クーポン番号をお持ちなら、まず下で確認してください。",
+      "codeTitle": "クーポン番号を確認",
+      "check": "確認",
+      "inWallet": "このクーポンはすでにクーポン一覧にあります。支払いのときにすぐ選べます。",
+      "codeOk": "「{code}」を確認しました。支払いのときにこの番号を入力すると「{title}」が適用されます。",
+      "tabsLabel": "クーポンの状態",
+      "tabs": {
+        "available": "使用可能",
+        "used": "使用済み",
+        "expired": "期限切れ"
+      },
+      "empty": {
+        "available": "今使えるクーポンはありません。",
+        "used": "使用したクーポンはありません。",
+        "expired": "期限切れのクーポンはありません。"
+      },
+      "find": "このクーポンで宿を探す",
+      "usedOn": "予約{code}で使用しました。",
+      "note": "クーポンは長期割引が適用されたあとの合計から引かれます。1件の予約に使えるクーポンは1枚です。"
+    },
+    "reviews": {
+      "title": "レビュー",
+      "lead": "泊まった宿のレビューは、次のゲストの大きな助けになります。",
+      "tabsLabel": "レビューの種類",
+      "toWrite": "書けるレビュー",
+      "written": "書いたレビュー",
+      "stayMeta": "{area} · {nights}泊 · {date} · ホスト {host}",
+      "overall": "全体的にいかがでしたか？",
+      "stars": "星{count}つ",
+      "words": {
+        "1": "よくなかった",
+        "2": "いまひとつ",
+        "3": "まあまあ",
+        "4": "よかった",
+        "5": "最高だった"
+      },
+      "details": "もう少し詳しく",
+      "categories": {
+        "clean": "清潔さ",
+        "checkin": "チェックイン",
+        "quiet": "夜の静かさ",
+        "value": "価格に対する満足度"
+      },
+      "points": "{count}点",
+      "textLabel": "実際に暮らしてみてどうでしたか？",
+      "textPlaceholder": "ベッド、キッチン、夜の路地の雰囲気…",
+      "textNote": "どの言語で書いても大丈夫です。ほかのゲストは自分の言語で読みます。",
+      "privateLabel": "{host}さんにだけ見えるメモ",
+      "privateNote": "任意です。{host}さんだけが見られます。",
+      "submit": "レビューを投稿",
+      "submitted": "投稿しました",
+      "publicNote": "レビューは公開され、名前だけが表示されます。",
+      "writtenOn": "{date}に投稿",
+      "replyFrom": "{host}さんの返信"
+    },
+    "profile": {
+      "title": "個人情報",
+      "lead": "ホストに見える情報と、MONTHLIVだけが持つ情報を分けて表示します。",
+      "shownTitle": "ホストに見える情報",
+      "shownLead": "予約した宿のホストだけが見られます。",
+      "displayName": "表示名",
+      "displayNameNote": "予約とメッセージではこの名前で表示されます。",
+      "languages": "話せる言語",
+      "bio": "自己紹介",
+      "bioPlaceholder": "どんな目的で滞在するのか、生活のリズムを一言書いておくとホストが喜びます。",
+      "privateTitle": "MONTHLIVだけが持つ情報",
+      "privateLead": "ホストには表示されません。連絡先は予約が確定したときに必要な分だけ伝えます。",
+      "legalName": "本名",
+      "legalNameNote": "本人確認で確認した名前のため、変更するには再度確認が必要です。",
+      "memberId": "ID",
+      "memberIdNote": "クーポンを受け取るときに使うIDです。変更できません。",
+      "email": "メールアドレス",
+      "phone": "携帯電話番号",
+      "change": "変更",
+      "newEmail": "新しいメールアドレス",
+      "newPhone": "新しい携帯電話番号",
+      "sendCheck": "確認メールを送る",
+      "sendCode": "認証番号を受け取る",
+      "sent": "送信しました",
+      "verify": "本人確認",
+      "verifiedOn": "{date} 携帯電話で確認済み",
+      "verifyNote": "認証機関で確認した結果だけを受け取り、住民登録番号は受け取りません。海外のゲストはパスポートで確認しますが、パスポート番号は保存しません。"
+    },
+    "security": {
+      "title": "ログインとセキュリティ",
+      "lead": "ログイン方法、ログイン中の端末、自分のデータを管理します。",
+      "loginsTitle": "ログイン方法",
+      "lastOne": "ログイン方法が1つだけになると、解除できません。",
+      "providers": {
+        "kakao": "Kakao",
+        "naver": "Naver",
+        "apple": "Apple",
+        "google": "Google",
+        "email": "メールアドレス"
+      },
+      "connected": "連携済み",
+      "notConnected": "未連携",
+      "connect": "連携する",
+      "disconnect": "連携を解除",
+      "requested": "受け付けました",
+      "passwordTitle": "パスワードと2段階認証",
+      "password": "パスワード",
+      "passwordChanged": "最終変更：{date}",
+      "changePassword": "パスワードを変更",
+      "linkSent": "メールを送りました",
+      "twoStep": "2段階認証",
+      "twoStepText": "新しい端末でログインするとき、携帯電話に届いた番号をもう一度入力します。",
+      "devicesTitle": "ログイン中の端末",
+      "thisDevice": "この端末",
+      "lastSeen": "最終アクセス：{date}",
+      "logoutDevice": "ログアウト",
+      "loggedOut": "ログアウトしました",
+      "dataTitle": "個人情報とデータ",
+      "download": "自分の情報をダウンロード",
+      "downloadText": "予約、メッセージ、レビューをファイルで受け取れます。準備ができたらメールでお知らせします。",
+      "requestDownload": "ダウンロードを申請",
+      "deleteTitle": "アカウントの削除",
+      "deleteText": "進行中の予約や残りの支払いがある場合は、すべて終わってから削除できます。法律で保管が必要な取引記録は、決められた期間、別に保管します。",
+      "deleteAction": "アカウント削除を申請"
+    },
+    "payments": {
+      "title": "支払いと領収書",
+      "lead": "お支払いはいつもウォンです。カード番号はMONTHLIVに保存されません。",
+      "methodsTitle": "支払い方法",
+      "defaultCard": "既定の支払い方法 · 月払いにもこのカードを使います",
+      "remove": "削除",
+      "removed": "削除を申請しました",
+      "easyPay": "かんたん決済",
+      "easyPayText": "支払いのときに{names}から選べます。",
+      "tokenNote": "カード情報は決済代行会社（PG）が保管し、MONTHLIVは支払いに使うトークンとカード番号の下4桁だけを持っています。",
+      "addCard": "カードを追加",
+      "addCardDone": "決済代行会社の画面が開きます",
+      "dueTitle": "支払い予定",
+      "historyTitle": "支払い履歴",
+      "receiptNote": "カードの領収書と現金領収証は、支払いが済むとメールでお送りします。返金はお支払いに使った方法に戻ります。"
+    },
+    "notifications": {
+      "title": "通知",
+      "lead": "受け取りたい通知と受け取り方を選びます。",
+      "kindsTitle": "通知の種類",
+      "kind": "通知",
+      "channels": {
+        "app": "アプリ",
+        "email": "メール",
+        "sms": "SMS"
+      },
+      "kinds": {
+        "booking": {
+          "title": "予約と滞在",
+          "text": "予約確定、チェックイン案内、支払い予定"
+        },
+        "messages": {
+          "title": "メッセージ",
+          "text": "ホストの返信とカスタマーセンターの回答"
+        },
+        "prices": {
+          "title": "価格のお知らせ",
+          "text": "保存した宿の料金が下がったとき"
+        },
+        "reviews": {
+          "title": "レビューのお願い",
+          "text": "チェックアウトのあと"
+        }
+      },
+      "required": "必要な通知のため、アプリとメールはオフにできません。",
+      "adsTitle": "特典とクーポンのお知らせ",
+      "adsLead": "クーポン、イベント、新しい街の情報などの広告です。同意した場合にだけお送りします。",
+      "adsConsent": "広告の受信に同意（任意）",
+      "adsConsentText": "アプリ、メール、SMSで特典のお知らせを受け取ります。",
+      "adsNight": "夜9時から朝8時の間も受け取る（任意）",
+      "adsNightText": "夜間の広告は別に同意が必要です。",
+      "adsNote": "同意や撤回をすると、その日付と内容をお知らせします。",
+      "save": "保存",
+      "saved": "保存しました"
+    }
+  },
+  "about": {
+    "metaTitle": "MONTHLIVについて",
+    "label": "MONTHLIVについて",
+    "lead": "MONTHLIVは、ひと月単位で暮らす家です。ひと晩泊まっても、ひと月暮らしても、楽しく快適な「自分の部屋」を街ごとに開いています。すべての店舗は株式会社GosuPlusが運営しています。",
+    "companyTitle": "会社情報",
+    "termsText": "利用規約の全文は、サービスを正式に開始する前にここに掲載します。現在はプレビュー画面のため、予約と支払いは実際には行われません。[利用規約確定待ち]",
+    "privacyLead": "プライバシーポリシーの全文を掲載する前に、MONTHLIVが個人情報を扱う原則をお知らせします。",
+    "privacy": {
+      "ids": "住民登録番号とパスポート番号は保存しません。本人確認は、認証機関で確認した結果だけを受け取ります。",
+      "cards": "カード番号は保存しません。支払いは決済代行会社（PG）が発行する決済トークンで処理します。",
+      "address": "宿の正確な住所は、予約が確定したあとでそのゲストにだけお知らせします。それまではおおよその位置だけを表示します。",
+      "security": "会員情報は、本人と業務上必要な担当者だけが見られるよう、データベースの段階からアクセスを制限しています。",
+      "rights": "自分の情報はマイページでいつでも確認でき、訂正や削除を依頼できます。"
+    },
+    "privacyFull": "収集する項目、利用目的、保管期間、委託先、個人情報保護責任者を含むポリシーの全文は、サービスを正式に開始する前に掲載します。[プライバシーポリシー確定待ち]",
+    "questions": "ご不明な点はありますか？",
+    "company": {
+      "name": {
+        "label": "商号",
+        "value": "주식회사 고수플러스"
+      },
+      "ceo": {
+        "label": "代表",
+        "value": "박영은"
+      },
+      "bizNo": {
+        "label": "事業者登録番号",
+        "value": "270-81-01999"
+      },
+      "mailOrder": {
+        "label": "通信販売業届出番号",
+        "value": "[通信販売業届出番号]"
+      },
+      "address": {
+        "label": "所在地",
+        "value": "경기도 하남시 미사강변중앙로7번안길 25, D동 609호"
+      },
+      "phone": {
+        "label": "カスタマーセンター",
+        "value": "[カスタマーセンター番号]"
+      },
+      "email": {
+        "label": "メール",
+        "value": "[代表メール]"
+      }
+    }
+  }
+}

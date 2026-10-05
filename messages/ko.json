@@ -1,0 +1,1785 @@
+{
+  "meta": {
+    "brand": "먼슬리브",
+    "title": "먼슬리브 · 한 달을 살아도, 하루를 묵어도 내 방처럼",
+    "description": "먼슬리브 지점을 지도에서 찾고, 하룻밤부터 한 계절까지 필요한 만큼 머무세요. 보증금 부담 없이, 오래 머물수록 1박 요금이 내려가요."
+  },
+  "nav": {
+    "home": "먼슬리브 홈",
+    "main": "주요 메뉴",
+    "sections": {
+      "together": "함께살기",
+      "month": "한달살기",
+      "hostel": "호스텔",
+      "stay": "스테이",
+      "residence": "레지던스"
+    },
+    "host": "점주 모집",
+    "login": "로그인",
+    "saved": "저장",
+    "trips": "예약",
+    "messages": "메시지",
+    "account": "내 계정",
+    "backToResults": "검색 결과로 돌아가기",
+    "changeSearch": "검색 조건 바꾸기",
+    "languageLabel": "언어와 통화: {language}, 원",
+    "currency": "₩ KRW"
+  },
+  "search": {
+    "label": "숙소 검색",
+    "change": "검색 조건 변경",
+    "where": "지역",
+    "wherePlaceholder": "동네, 역, 학교 이름",
+    "dates": "기간",
+    "checkIn": "체크인",
+    "checkOut": "체크아웃",
+    "pickDate": "날짜 선택",
+    "pickDates": "날짜를 고르면 1박 요금이 정해져요.",
+    "guestsLabel": "인원",
+    "guests": "{count}명",
+    "submit": "검색",
+    "done": "완료",
+    "howLong": "숙박 기간",
+    "howLongQuestion": "얼마나 머무세요?",
+    "minus": "−{percent}%",
+    "staySummary": "{nights}박 · {length}",
+    "nightOff": "1박 요금 {percent}% 할인",
+    "barSummary": "{nights}박 · {length} · {percent}% 할인",
+    "tierHint": "할인율은 숙소마다 달라요. 보이는 가격에는 할인이 이미 반영돼 있어요."
+  },
+  "length": {
+    "night": "하룻밤",
+    "week": "일주일",
+    "month": "한 달",
+    "season": "한 계절",
+    "nightRange": "1–6박",
+    "weekRange": "7–27박",
+    "monthRange": "28–89박",
+    "seasonRange": "90박 이상"
+  },
+  "lengthName": {
+    "night": "하룻밤",
+    "week": "일주일",
+    "month": "한 달",
+    "season": "한 계절"
+  },
+  "price": {
+    "nights": "{nights}박",
+    "perNight": "1박 {price}",
+    "discountBadge": "{length} {percent}% 할인",
+    "nightsLine": "{price} × {nights}박",
+    "discountLine": "{length}({percent}%)",
+    "lengthDiscount": {
+      "night": "할인",
+      "week": "일주일 할인",
+      "month": "한 달 할인",
+      "season": "한 계절 할인"
+    },
+    "cleaning": "청소비",
+    "total": "총액",
+    "totalRich": "총 <b>{amount}</b>",
+    "perNightOff": "1박 {price} · {percent}% 할인",
+    "nightWas": "1박 <s>{was}</s> <b>{price}</b> · {nights}박 {stay}",
+    "night": "1박 <b>{price}</b> · {nights}박 {stay}",
+    "nightOnlyWas": "1박 <s>{was}</s> <b>{price}</b>",
+    "nightOnly": "1박 <b>{price}</b>",
+    "stay": "{nights}박 {amount}",
+    "was": "할인 전 가격",
+    "serviceIncluded": "이 중 서비스 수수료"
+  },
+  "tiers": {
+    "length": "기간",
+    "nights": "숙박 일수",
+    "perNight": "1박 요금",
+    "base": "기본 요금",
+    "off": "{percent}% 할인",
+    "example": "예시",
+    "exampleStay": "{nights}박 · {amount}",
+    "picked": "선택한 일정 · {nights}박 · {amount}"
+  },
+  "types": {
+    "label": "숙소 유형",
+    "quick": "빠른 필터",
+    "all": "전체",
+    "studio": "원룸텔",
+    "share": "셰어하우스",
+    "coliving": "코리빙",
+    "stay": "스테이",
+    "hostel": "호스텔",
+    "residence": "레지던스",
+    "guesthouse": "게스트하우스",
+    "freeCancel": "무료 취소",
+    "selfCheckIn": "셀프 체크인",
+    "women": "여성 전용",
+    "filter": "필터"
+  },
+  "home": {
+    "heroLabel": "MONTHLY [ <b>내 방</b> ] BY MONTHLIV",
+    "heroTitle": "한 달을 살아도, 하루를 묵어도 내 방처럼.",
+    "heroLead": "보증금 부담 없이, 필요한 만큼만. 하룻밤부터 한 계절까지 머물 수 있고, 오래 머물수록 1박 요금이 내려가요.",
+    "searchWhere": "서울 성수동",
+    "tiersLabel": "1박 단위 요금",
+    "tiersTitle": "오래 머물수록 1박 요금이 내려가요",
+    "tiersLead": "하룻밤부터 예약할 수 있어요. 할인은 7박, 28박, 90박부터 쿠폰 없이 자동으로 적용돼요. 한 달 살기 숙소를 따로 찾을 필요도 없어요.",
+    "tierPrice": "1박 <b>{price}</b>",
+    "tiersNote": "예시: {title}({area}). 할인율은 지점마다 정해져 있고, 보이는 모든 가격에는 할인이 이미 반영돼 있어요.",
+    "monthTitle": "한 달 머물기 좋은 집",
+    "monthSub": "{dates}({nights}박) 기준, 한 달 할인이 적용된 가격이에요.",
+    "shortTitle": "며칠만 머물 곳",
+    "shortSub": "{dates}({nights}박) 기준 가격이에요. 출장이나 짧은 여행에 맞는 곳을 모았어요.",
+    "seeAll": "숙소 모두 보기",
+    "hoodsTitle": "살아 보기 좋은 동네",
+    "hoodsSub": "방만 보지 말고, 동네도 함께 골라 보세요.",
+    "hoodsGuide": "성수동 동네 가이드",
+    "hoods": {
+      "seongsu": "오래된 공장과 공방이 카페가 됐고, 길 끝에는 서울숲이 있어요.",
+      "sinchon": "대학교 세 곳과 늦게까지 여는 식당이 있고, 2호선이 바로 앞이에요.",
+      "konkuk": "2호선과 7호선이 만나는 역 앞이에요. 대학가 식당이 많고, 한강 뚝섬유원지까지 금방이에요.",
+      "cheonho": "5호선과 8호선이 만나는 천호역 근처예요. 큰 시장과 백화점이 가깝고, 한강 광나루공원도 멀지 않아요."
+    },
+    "livingTitle": "잠만 자는 곳이 아니라, 생활에 필요한 건 다 있어요",
+    "living": {
+      "furnished": {
+        "title": "몸만 오면 되는 방",
+        "text": "침대와 침구, 책상, 냉난방기까지 갖춰져 있어요. 이삿짐 트럭 대신 캐리어 하나면 돼요."
+      },
+      "price": {
+        "title": "숨은 비용 없는 가격",
+        "text": "보이는 1박 요금이 그대로 결제돼요. 게스트 수수료가 없고, 총액에는 청소비까지 들어 있어요."
+      },
+      "managed": {
+        "title": "먼슬리브가 직접 운영해요",
+        "text": "응대와 청소, 시설 관리까지 먼슬리브가 맡아요. 문제가 생기면 직접 찾아가요."
+      },
+      "station": {
+        "title": "역에서 가까운 곳",
+        "text": "서울 지점은 모두 지하철역에서 걸어서 10분 안쪽이에요. 출퇴근 시간을 벌어요."
+      },
+      "deposit": {
+        "title": "보증금 부담 없이",
+        "text": "목돈이 드는 보증금 없이 머무는 만큼만 내요. 28박 이상은 두 번에 나눠 낼 수도 있어요."
+      },
+      "translate": {
+        "title": "서로의 언어로",
+        "text": "메시지는 서로의 언어로 번역돼요. 한국어를 몰라도 먼슬리브에 편하게 물어보세요."
+      }
+    },
+    "howTitle": "이용 방법",
+    "how": {
+      "dates": {
+        "title": "날짜 고르기",
+        "text": "몇 박이든 괜찮아요. 7박, 28박, 90박이 되면 1박 요금이 내려가요."
+      },
+      "pay": {
+        "title": "예약하고 결제하기",
+        "text": "짧은 숙박은 한 번에 결제해요. 28박 이상은 나눠서 낼 수도 있어요."
+      },
+      "move": {
+        "title": "휴대폰 하나로 입주하기",
+        "text": "입실 안내, 와이파이, 생활 안내를 예약 화면에서 바로 볼 수 있어요."
+      }
+    },
+    "hostTitle": "공간이 있으신가요? 먼슬리브 지점을 함께 열어요",
+    "hostText": "공사부터 응대, 청소, 시설 관리까지 먼슬리브가 맡아요. 점주는 매일 오는 공정 사진과 알림톡으로 지점 소식을 받아요.",
+    "hostStart": "점주 모집 알아보기",
+    "hostPricing": "점주 센터 미리 보기",
+    "appIcon": "먼슬리브 앱 아이콘",
+    "appTitle": "예약과 입실 안내는 앱에서",
+    "appText": "예약, 결제, 연장과 입실 안내를 앱 하나로 확인해요. 다른 언어로 쓴 후기와 메시지는 한국어로 번역해 보여드려요.",
+    "appStores": "앱 스토어",
+    "appSoon": "출시 예정"
+  },
+  "card": {
+    "save": "{title} 저장",
+    "walk": "{station} 도보 {minutes}분",
+    "drive": "{station} 차로 {minutes}분",
+    "new": "신규",
+    "newLabel": "아직 후기가 없는 새 숙소",
+    "ratingLabel": "평점 5점 만점에 {rating}점",
+    "opens": "{month} 오픈 예정",
+    "soon": "오픈 예정"
+  },
+  "results": {
+    "title": "{area} 숙소 {count}곳",
+    "categoryTitle": "{category} {count}곳",
+    "sections": {
+      "together": "둘 이상 함께 지낼 수 있는 방만 모았어요.",
+      "month": "스테이와 레지던스를 모았어요. 28박부터 한 달 할인이 붙어요.",
+      "hostel": "호스텔만 모았어요.",
+      "stay": "스테이만 모았어요. 28박부터 한 달 할인이 붙어요.",
+      "residence": "레지던스만 모았어요."
+    },
+    "note": "{nights}박 총액은 {length} 할인과 청소비를 반영한 금액이에요.",
+    "sort": "정렬",
+    "filters": "빠른 필터",
+    "noteNight": "{nights}박 총액은 청소비를 반영한 금액이에요.",
+    "unknownArea": "‘{where}’ 숙소는 아직 준비 중이에요. 대신 {area} 숙소를 보여드려요.",
+    "sorts": {
+      "recommended": "추천순",
+      "price": "총액 낮은 순",
+      "station": "역에서 가까운 순"
+    },
+    "filter": {
+      "free": "무료 취소",
+      "self": "셀프 체크인",
+      "near": "역 근처"
+    },
+    "filterOn": "적용됨",
+    "showTotal": "{nights}박 총액으로 보기",
+    "emptyTitle": "조건에 맞는 숙소가 없어요",
+    "emptyText": "필터를 하나씩 풀어 보세요.",
+    "clearFilters": "필터 모두 해제"
+  },
+  "map": {
+    "label": "지도",
+    "show": "지도",
+    "searchAsMove": "지도를 움직이면 다시 검색",
+    "zoomIn": "확대",
+    "zoomOut": "축소",
+    "twoFingers": "두 손가락으로 지도를 움직이세요",
+    "ctrlScroll": "Ctrl 키를 누른 채 스크롤하면 지도가 확대·축소돼요",
+    "cmdScroll": "⌘ 키를 누른 채 스크롤하면 지도가 확대·축소돼요",
+    "unavailable": "지도를 불러오지 못했어요. 잠시 뒤 다시 열어 주세요.",
+    "attribution": "지도 출처",
+    "results": "검색 결과"
+  },
+  "listing": {
+    "share": "공유",
+    "shareCopied": "링크를 복사했어요",
+    "save": "저장",
+    "reviews": "후기 {count}개",
+    "noReviews": "아직 후기가 없어요",
+    "reviewsSub": "실제로 머문 게스트만 후기를 남길 수 있어요.",
+    "place": "{city} {area}",
+    "allPhotos": "사진 {count}장 모두 보기",
+    "photosTitle": "{title} 사진 {count}장",
+    "photoRoom": "방 전체",
+    "photoDesk": "책상",
+    "photoBath": "욕실",
+    "photoLounge": "라운지",
+    "photoEntrance": "건물 입구",
+    "hostedBy": "호스트 {name}의 {type}",
+    "facts": "최대 {guests}명 · 침대 1 · 욕실 1 · {size}",
+    "factsReal": "최대 {guests}명",
+    "pointLong": "장기 체류에 맞춘 집",
+    "pointLongText": "28박 이상 머물면 1박 요금이 {percent}% 내려가고, 한 달씩 나눠 낼 수 있어요.",
+    "pointSelf": "셀프 체크인",
+    "pointSelfText": "디지털 도어락이에요. 출입 비밀번호는 도착일 {time}에 앱에 나타나요.",
+    "pointWifi": "실측 {speed}Mbps 와이파이",
+    "pointWifiText": "{date} 호스트가 올린 속도 측정 결과예요.",
+    "pointTranslate": "말이 달라도 괜찮아요",
+    "pointTranslateText": "호스트와 주고받는 메시지는 서로의 언어로 번역돼요.",
+    "tiersTitle": "오래 머물수록 1박 요금이 내려가요",
+    "tiersSub": "하룻밤부터 예약할 수 있어요. 머무는 기간에 맞는 할인이 전체 숙박에 적용돼요.",
+    "tiersNote": "1박 요금에 수수료가 따로 붙지 않아요. 청소비(숙박 1회당 {cleaning})는 결제할 때 한 번 더해져요. 이 숙소는 보증금이 없어요.",
+    "amenitiesTitle": "편의시설",
+    "amenity": {
+      "bath": "개별 욕실",
+      "window": "바깥으로 난 창문",
+      "aircon": "에어컨과 난방",
+      "desk": "책상과 의자",
+      "fridge": "냉장고",
+      "bedding": "침구 제공",
+      "wifi": "와이파이",
+      "laundry": "세탁기와 건조기 (공용)",
+      "kitchen": "공용 주방",
+      "parcel": "무인 택배함",
+      "parking": "주차장",
+      "garden": "잔디 마당",
+      "balcony": "발코니",
+      "dogPlayground": "반려견 놀이터",
+      "petCafe": "반려동물 동반 카페 (주말)"
+    },
+    "calendarTitle": "{area}에서 {nights}박",
+    "calendarLabel": "숙박 날짜",
+    "reviewsTitle": "{rating} · 후기 {count}개",
+    "ratings": {
+      "clean": "청결도",
+      "accuracy": "정확도",
+      "checkin": "체크인",
+      "value": "가격 대비 만족도"
+    },
+    "stayedNights": "{nights}박 숙박 · {date}",
+    "translatedFrom": "{language}에서 번역됨",
+    "showOriginal": "원문 보기",
+    "showTranslation": "번역 보기",
+    "locationTitle": "숙소 위치",
+    "approx": "정확한 주소는 예약 후 알려드려요",
+    "walkMinutes": "도보 {minutes}분",
+    "driveMinutes": "차로 {minutes}분",
+    "hoodGuide": "{area} 동네 가이드 보기",
+    "hostTitle": "호스트 소개",
+    "hostYears": "호스팅 {years}년",
+    "hostLangs": "한국어, 영어 가능",
+    "hostReplies": "보통 1시간 안에 답장",
+    "messageHost": "{name}님에게 메시지 보내기",
+    "hostTranslate": "다른 언어를 쓰는 게스트와는 메시지가 자동으로 번역돼요.",
+    "rulesTitle": "알아두실 사항",
+    "rulesHouse": "이용 규칙",
+    "checkInAfter": "{time} 이후 체크인",
+    "checkOutBy": "{time}까지 체크아웃",
+    "maxGuests": "최대 {count}명",
+    "selfCheckIn": "셀프 체크인",
+    "noParty": "흡연·파티 금지",
+    "rulesSafety": "안전과 건물",
+    "safetyAlarm": "화재감지기와 소화기",
+    "quietHours": "정숙 시간 {from}–{to}",
+    "rulesCancel": "취소 정책과 결제",
+    "freeBefore": "{date} 오후 3시 전에 취소하면 전액 환불",
+    "noFree": "이 숙소는 무료 취소가 없어요",
+    "splitPay": "28박 이상은 나눠 결제할 수 있어요",
+    "refundLink": "환불 기준 자세히 보기",
+    "bookLabel": "이 숙소 예약",
+    "perNightUnit": "/박",
+    "staySummaryOff": "{nights}박 · {length} · 1박 요금 {percent}% 할인",
+    "book": "예약하기",
+    "notCharged": "아직 결제되지 않아요",
+    "nextTier": "{nights}박 이상 머물면 1박 요금이 <b>{price}</b>으로 내려가요.",
+    "siblingsTitle": "{branch}의 다른 방",
+    "opensNote": "{month}에 문을 열 예정이에요. 오픈일이 정해지면 이 자리에서 알려 드려요.",
+    "factsSize": "최대 {guests}명 · {size}"
+  },
+  "stays": {
+    "title": "예약 내역",
+    "now": "지금 사는 곳",
+    "dayOf": "{nights}일 중 {day}일째",
+    "nowMeta": "{area} · 호스트 {host} · {date} {time} 체크아웃",
+    "progress": "지금까지 머문 기간",
+    "open": "출입 비밀번호·와이파이·생활 안내",
+    "extend": "기간 연장",
+    "messageHost": "{name}님에게 메시지",
+    "upcoming": "다가오는 예약",
+    "requestMeta": "{area} · {from} – {to} · {nights}박",
+    "lengthOff": "{length} · {percent}% 할인",
+    "pending": "호스트 수락 대기 중 · 최대 24시간",
+    "viewRequest": "요청 보기",
+    "past": "지난 숙박",
+    "pastMeta": "{area} · {nights}박 · {date}",
+    "writeReview": "후기 쓰기",
+    "rebook": "다시 예약하기",
+    "payments": "결제 내역",
+    "firstPayment": "첫 결제 (1/2)",
+    "secondPayment": "두 번째 결제 (2/2)",
+    "sameCard": "같은 카드로 자동 결제",
+    "paid": "결제 완료",
+    "scheduled": "예정"
+  },
+  "language": {
+    "title": "언어와 통화",
+    "lead": "모든 페이지, 숙소, 메시지를 원하는 언어로 볼 수 있어요. 결제는 언제나 원화로 하고, 다른 통화는 예상 금액으로만 보여드려요.",
+    "languageTitle": "언어",
+    "languageNote": "누르면 바로 그 언어로 바뀌어요.",
+    "languagePick": "언어 선택",
+    "current": "현재 언어",
+    "translateTitle": "번역",
+    "translateLead": "다른 언어로 쓴 후기와 메시지는 한국어로 번역해 보여드려요. 원문도 바로 볼 수 있어요.",
+    "translateListings": "숙소 설명과 후기 번역",
+    "translateListingsText": "숙소 설명, 이용 규칙, 후기를 한국어로 보여 주고 ‘번역됨’으로 표시해요.",
+    "translateMessages": "메시지 번역",
+    "translateMessagesText": "내 메시지는 호스트의 언어로, 호스트의 메시지는 한국어로 번역돼요.",
+    "showOriginal": "번역문 아래 원문도 함께 보기",
+    "showOriginalText": "외국어를 배우고 있다면 도움이 돼요.",
+    "previewLabel": "미리 보기 · {name}님의 후기",
+    "currencyTitle": "통화",
+    "currencyLead": "예상 금액은 오늘 환율 기준이에요. 카드사에서 환전 수수료를 받을 수 있어요.",
+    "currencyPick": "통화 선택",
+    "formatTitle": "시간대와 표기 방식",
+    "timezone": "시간대",
+    "zones": {
+      "seoul": "서울(GMT+9)",
+      "london": "런던(GMT+0)",
+      "newYork": "뉴욕(GMT−5)"
+    },
+    "dateFormat": "날짜 표기",
+    "weekStart": "한 주의 시작",
+    "area": "면적 단위",
+    "areas": {
+      "sqm": "제곱미터(㎡)",
+      "pyeong": "평",
+      "sqft": "제곱피트(ft²)"
+    },
+    "cancel": "취소",
+    "save": "저장",
+    "saved": "저장했어요"
+  },
+  "tabs": {
+    "label": "앱 메뉴",
+    "explore": "둘러보기",
+    "saved": "저장",
+    "trips": "예약",
+    "messages": "메시지",
+    "profile": "프로필",
+    "unread": "읽지 않은 메시지가 있어요"
+  },
+  "footer": {
+    "line": "머무는 모든 곳이, 좋은 집이 되도록.",
+    "stay": "머물기",
+    "find": "숙소 찾기",
+    "guide": "동네 가이드",
+    "discounts": "장기 할인 알아보기",
+    "help": "고객센터",
+    "hosting": "점주",
+    "becomeHost": "점주 모집",
+    "pricing": "요금과 장기 할인",
+    "hostHelp": "점주 도움말",
+    "company": "먼슬리브",
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "safety": "안전 정책",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "refunds": "환불 정책",
+    "business": "사업자 정보 확인",
+    "legal1": "주식회사 고수플러스 · 대표 박영은 · 사업자등록번호 270-81-01999 · 통신판매업 신고 [통신판매업 신고번호]",
+    "legal2": "경기도 하남시 미사강변중앙로7번안길 25, D동 609호 · 고객센터 [고객센터 번호]",
+    "intermediary": "먼슬리브는 주식회사 고수플러스의 숙박 브랜드예요. 지점별 사업자와 거래 당사자 정보는 정식 오픈 전에 이 자리에 게시해요. [고지 문구 확정 필요]",
+    "copyright": "© 2026 주식회사 고수플러스",
+    "currency": "₩ KRW"
+  },
+  "preview": {
+    "notice": "미리보기 화면이에요. 지점 이름과 위치는 실제이고, 가격과 객실 정보, 예약 내역은 예시예요."
+  },
+  "notFound": {
+    "title": "찾는 페이지가 없어요",
+    "text": "주소가 바뀌었거나 없는 페이지예요.",
+    "back": "홈으로",
+    "help": "고객센터"
+  },
+  "book": {
+    "title": "확인 및 결제",
+    "back": "숙소로 돌아가기",
+    "trip": "여행 정보",
+    "dates": "날짜",
+    "datesValue": "{from} – {to} · {nights}박",
+    "change": "변경",
+    "whenPay": "언제 결제할까요?",
+    "payNow": "지금 {amount} 결제",
+    "payNowText": "숙박 요금 전액을 오늘 결제해요.",
+    "paySplit": "두 번에 나눠 내기",
+    "paySplitText": "오늘 {first}, {date}에 {second}이 결제돼요. 추가 수수료는 없어요.",
+    "method": "결제 수단",
+    "methods": {
+      "card": "신용·체크카드",
+      "kakaopay": "카카오페이",
+      "naverpay": "네이버페이",
+      "tosspay": "토스페이"
+    },
+    "savedCard": "신용카드 •••• {last4}",
+    "issuer": "카드사",
+    "issuers": {
+      "shinhan": "신한카드",
+      "hyundai": "현대카드",
+      "samsung": "삼성카드",
+      "kb": "KB국민카드",
+      "lotte": "롯데카드",
+      "hana": "하나카드",
+      "bc": "BC카드",
+      "woori": "우리카드"
+    },
+    "installments": "할부",
+    "plans": {
+      "full": "일시불",
+      "two": "2개월",
+      "three": "3개월",
+      "six": "6개월"
+    },
+    "hello": "{name}님에게 인사 남기기",
+    "helloHint": "어떤 일로 머무는지, 몇 시쯤 도착하는지 짧게 소개해 주세요.",
+    "helloPlaceholder": "안녕하세요 {name}님, 한 달 동안 원격으로 일하며 지낼 서진이에요. 오후 4시쯤 도착할 것 같아요.",
+    "phone": "휴대폰 번호",
+    "phonePlaceholder": "010-0000-0000",
+    "phoneHint": "체크인 안내와 출입 비밀번호를 문자로도 보내 드려요.",
+    "phoneHintGuide": "체크인 안내를 문자로도 보내 드려요.",
+    "cancelTitle": "취소 정책",
+    "cancelText": "그 뒤에는 체크인 전에 취소하면 처음 7박 요금을 뺀 금액을 환불해 드려요.",
+    "cancelTextNone": "이 숙소는 무료 취소가 없어요. 체크인 전에 취소하면 처음 7박 요금을 뺀 금액을 환불해 드려요.",
+    "agree": "아래 버튼을 누르면 이용 규칙, 취소 정책, 먼슬리브 이용약관에 동의하게 돼요.",
+    "confirm": "확인 및 결제 · {amount}",
+    "confirmSplit": "확인 및 결제 · 오늘 {amount}",
+    "priceDetails": "요금 세부 정보",
+    "saving": "{length} · {amount} 절약",
+    "krw": "원화(KRW)로 결제돼요.",
+    "splitFrom": "28박 이상 예약은 두 번에 나눠 낼 수 있어요.",
+    "freeUntil": "{date} 오후 3시 전까지는 무료로 취소할 수 있어요."
+  },
+  "confirmed": {
+    "metaTitle": "예약 확정",
+    "label": "예약 확정",
+    "title": "예약이 확정됐어요, {name}님",
+    "lead": "{area}에서의 {length}은 {date}에 시작돼요. 필요한 정보는 모두 예약 페이지와 앱에 있어요.",
+    "code": "예약 코드",
+    "view": "예약 페이지 열기",
+    "message": "{name}님에게 메시지",
+    "hostArea": "호스트 {name} · {area}",
+    "length": "숙박 기간",
+    "from": "{date} {time} 이후",
+    "until": "{date} {time}까지",
+    "address": "주소",
+    "addressValue": "{city} {area} [상세 주소]",
+    "calendar": "캘린더에 추가",
+    "receipt": "영수증",
+    "nextTitle": "다음 일정",
+    "today": "오늘",
+    "at": "{date} {time}",
+    "stepHello": "<b>{when}</b> {name}님에게 예약 소식을 전했어요.",
+    "stepFree": "<b>{when}</b> 전까지 취소하면 전액 환불돼요.",
+    "stepCode": "<b>{when}</b>에 출입 비밀번호와 와이파이 정보가 앱에 나타나요.",
+    "stepInfo": "<b>{when}</b>에 체크인 안내가 앱에 나타나요.",
+    "stepCheckIn": "<b>{when}</b>부터 체크인할 수 있어요. 내 집처럼 편하게 지내세요.",
+    "extend": "더 머물고 싶다면 예약 페이지에서 기간을 연장할 수 있어요. 장기 할인은 계속 적용되고, 90박 이상이 되면 전체 숙박이 한 계절 요금으로 바뀌어요.",
+    "paidTitle": "결제",
+    "paidToday": "오늘 결제",
+    "nextPayment": "{date} 결제 예정",
+    "saved": "{length} 할인으로 아낀 금액",
+    "couponSaved": "쿠폰 할인({title})",
+    "noDeposit": "보증금 없음",
+    "addressAfter": "{city} {area} · 실제 예약이 확정되면 정확한 주소가 여기에 보여요",
+    "stepInfoReal": "체크인 방법과 시간은 {name}님이 메시지로 알려 드려요.",
+    "stepCheckInReal": "<b>{when}</b>부터 머물 수 있어요. 체크인 시간은 {name}님과 맞춰 주세요."
+  },
+  "login": {
+    "metaTitle": "로그인",
+    "title": "로그인 또는 회원가입",
+    "lead": "예약, 출입 비밀번호, 호스트와의 메시지를 계정 하나로 관리해요.",
+    "email": "이메일",
+    "emailPlaceholder": "이메일 주소를 입력해 주세요",
+    "continue": "계속",
+    "or": "또는",
+    "kakao": "카카오로 계속하기",
+    "naver": "네이버로 계속하기",
+    "apple": "Apple로 계속하기",
+    "google": "Google로 계속하기",
+    "phone": "휴대폰 번호로 계속하기",
+    "terms": "계속하면 먼슬리브 <terms>이용약관</terms>에 동의하고 <privacy>개인정보 처리방침</privacy>을 확인한 것으로 봐요. 계정과 예약에 관한 메일만 보내드려요.",
+    "whyTitle": "계정이 있으면 이런 게 편해져요",
+    "why": {
+      "save": {
+        "title": "목록에 저장",
+        "text": "날짜에 맞는 가격이 내리면 알려드려요."
+      },
+      "translate": {
+        "title": "다른 언어를 쓰는 호스트와도 대화",
+        "text": "메시지가 양쪽으로 번역돼요."
+      },
+      "stay": {
+        "title": "머무는 동안 필요한 걸 한곳에",
+        "text": "출입 비밀번호, 와이파이, 생활 안내, 영수증"
+      }
+    },
+    "hostQ": "숙소를 운영하시나요?",
+    "hostLink": "점주 센터로 로그인"
+  },
+  "inbox": {
+    "title": "메시지",
+    "hostReplies": "호스트 · 보통 1시간 안에 답장",
+    "autoTranslate": "자동 번역",
+    "today": "오늘",
+    "stayDay": "{dates} · {nights}일 중 {day}일째",
+    "translated": "{language}에서 번역됨",
+    "read": "읽음",
+    "write": "메시지를 입력하세요",
+    "send": "보내기",
+    "translateNote": "다른 언어로 온 메시지는 한국어로 번역해 보여드려요",
+    "booking": "예약 정보",
+    "viewBooking": "예약 페이지 열기",
+    "report": "이 대화 신고하기",
+    "search": "메시지 검색"
+  },
+  "saved": {
+    "title": "저장",
+    "lists": "저장 목록",
+    "count": "{count}곳",
+    "newList": "새 목록",
+    "priceFor": "{dates} 기준 가격 · {guests}",
+    "share": "목록 공유",
+    "map": "지도에서 보기",
+    "note": "메모: {note}",
+    "drop": "저장한 뒤 {amount} 내렸어요",
+    "tip": "가격은 고른 날짜의 총액이에요. 저장한 숙소의 가격이 내리면 알림으로 알려드려요.",
+    "itemMeta": "{area} · 총 {amount}"
+  },
+  "guide": {
+    "metaTitle": "성수동 동네 가이드",
+    "crumbs": "이동 경로",
+    "city": "서울",
+    "district": "성동구",
+    "intro": "서울 동쪽, 오래된 구두 공방들이 카페와 스튜디오가 된 동네예요. 평일에는 무언가를 만드는 사람들로 붐비고, 저녁이면 골목이 조용해져요. 길 끝에는 서울숲이 있어요.",
+    "tags": {
+      "remote": "원격 근무하기 좋아요",
+      "park": "공원이 가까워요",
+      "line2": "2호선"
+    },
+    "seeStays": "성수동 숙소 {count}곳 보기",
+    "commuteTitle": "교통",
+    "commuteNote": "성수역 출발, 평일 기준 소요 시간이에요.",
+    "about": "약 {minutes}분",
+    "commute": {
+      "gangnam": {
+        "place": "강남",
+        "how": "2호선, 갈아타지 않아요"
+      },
+      "cityHall": {
+        "place": "시청",
+        "how": "2호선, 갈아타지 않아요"
+      },
+      "hongdae": {
+        "place": "홍대입구",
+        "how": "2호선, 갈아타지 않아요"
+      },
+      "airport": {
+        "place": "인천공항",
+        "how": "지하철과 공항철도"
+      }
+    },
+    "livingTitle": "생활 편의시설",
+    "livingSub": "잠깐 들를 때가 아니라, 살 때 필요한 곳들이에요.",
+    "categories": {
+      "all": "전체",
+      "groceries": "장보기",
+      "laundry": "세탁",
+      "health": "약국·병원",
+      "work": "작업 카페",
+      "outdoors": "운동·공원"
+    },
+    "mapLabel": "성수동 생활 편의시설 지도",
+    "places": {
+      "market": {
+        "name": "성수 전통시장",
+        "short": "시장",
+        "text": "과일, 반찬, 생선 가게가 모여 있어요. 저녁 6시 이후에는 더 싸요."
+      },
+      "laundry": {
+        "name": "24시간 셀프 빨래방",
+        "short": "빨래방",
+        "text": "세탁기와 건조기가 있고 늘 열려 있어요. 카드로 결제할 수 있어요."
+      },
+      "clinic": {
+        "name": "동네 의원과 약국",
+        "short": "병원",
+        "text": "큰길에 예약 없이 갈 수 있는 의원이 있고, 바로 옆에 약국이 있어요."
+      },
+      "cafe": {
+        "name": "작업하기 좋은 카페",
+        "short": "카페",
+        "text": "큰 테이블과 콘센트가 있어요. 점심 전까지는 조용해요."
+      },
+      "forest": {
+        "name": "서울숲",
+        "short": "서울숲",
+        "text": "러닝 코스와 넓은 잔디밭이 있어요. 숨 돌리기 좋아요."
+      }
+    },
+    "staysTitle": "{area} 숙소",
+    "allOnMap": "지도에서 모두 보기",
+    "kinds": "장소 종류",
+    "fromSeason": "한 계절이면 1박 {price}부터"
+  },
+  "host": {
+    "metaTitle": "점주 모집",
+    "label": "먼슬리브 점주 모집",
+    "title": "공간은 점주가, 운영은 먼슬리브가",
+    "lead": "공사부터 게스트 응대, 청소, 시설 관리, 문제가 생겼을 때 직접 찾아가는 일까지 먼슬리브가 맡아요. 점주는 지점이 어떻게 돌아가는지 알림톡과 점주 센터로 확인하면 돼요.",
+    "start": "점주 센터 둘러보기",
+    "how": "진행 방식 보기",
+    "whyTitle": "점주가 먼슬리브에 운영을 맡기는 이유",
+    "reasons": {
+      "cleaning": {
+        "title": "운영은 처음부터 끝까지",
+        "text": "게스트 응대, 청소, 시설 관리, 직접 출동까지 먼슬리브가 맡아요. 먼슬리브 상호는 이렇게 운영 전체를 맡는 지점에만 달아요."
+      },
+      "income": {
+        "title": "공사 현장은 매일 사진으로",
+        "text": "공사가 시작되면 지점별 단톡방을 열어 그날의 공정과 현장 사진을 매일 보내 드려요. 현장에 나와 지켜보지 않아도 돼요."
+      },
+      "guests": {
+        "title": "모든 처리는 알림톡으로",
+        "text": "운영을 시작하면 룸투어 예약, 결제, 연장까지 처리한 내용이 점주님께 알림톡으로 자동으로 가요."
+      }
+    },
+    "rateTitle": "1박 요금 하나로 모든 기간의 요금이 정해져요",
+    "rateText": "게스트는 1박부터 예약할 수 있어요. 일주일, 한 달, 한 계절 할인율에 따라 모든 기간의 요금이 정해지니, 한 달 살기용 방을 따로 관리하지 않아도 돼요. 지점 요금과 할인율은 점주 센터에서 볼 수 있어요.",
+    "rateLink": "요금 화면 보기",
+    "stepsTitle": "지점은 이렇게 열어요",
+    "steps": {
+      "list": {
+        "title": "상담과 현장 실사",
+        "text": "공간을 직접 보고 객실 구성과 사업성을 함께 살펴요."
+      },
+      "price": {
+        "title": "공사",
+        "text": "직영공사로 짓고, 매일 단톡방으로 공정과 현장 사진을 보내 드려요."
+      },
+      "welcome": {
+        "title": "오픈과 운영",
+        "text": "먼슬리브 상호를 달고 문을 열어요. 응대, 청소, 시설 관리는 먼슬리브가 맡아요."
+      },
+      "paid": {
+        "title": "정산 받기",
+        "text": "숙박 요금에서 운영수수료를 뺀 금액을 정산해 드려요. 28박 이상 숙박은 그 뒤로 매달 정산돼요."
+      }
+    },
+    "faqTitle": "점주가 자주 묻는 질문",
+    "faq": {
+      "oneRoom": {
+        "q": "다른 업체에서 공사한 곳도 먼슬리브가 될 수 있나요?",
+        "a": "공사 단계에서 먼슬리브가 실사하고 협의한 현장이라면 먼슬리브 상호를 달 수 있어요. 이미 운영 중인 곳의 운영만 맡는 경우에는 원칙적으로 상호를 달지 않아요."
+      },
+      "leaveEarly": {
+        "q": "게스트가 일찍 퇴실하려고 하면 어떻게 되나요?",
+        "a": "28박 이상 숙박은 미리 알리면 일찍 나갈 수 있어요. 실제로 머문 날은 그 기간에 맞는 요금으로 다시 계산돼요. [정책 확정 필요]"
+      },
+      "english": {
+        "q": "외국인 게스트도 받나요?",
+        "a": "네. 메시지는 서로의 언어로 번역되고, 게스트 응대는 먼슬리브가 맡아요. 점주가 외국어를 할 필요는 없어요."
+      },
+      "allowed": {
+        "q": "제가 직접 운영하면서 먼슬리브 상호만 쓸 수도 있나요?",
+        "a": "점주가 직접 운영하며 상호를 쓰는 파트너 모델은 아직 준비 중이에요. 지금은 먼슬리브가 운영 전체를 맡는 지점에만 상호를 달아요."
+      },
+      "fees": {
+        "q": "운영수수료는 얼마인가요?",
+        "a": "먼슬리브가 직영공사한 지점은 숙박 요금의 {direct, number}%, 그 밖의 지점은 {other, number}%부터 협의해요. 게스트에게는 수수료 없이 지점 요금이 그대로 보여요. 1박 {price}이면 정산은 1박 {payout}이에요(직영공사 지점 기준)."
+      }
+    },
+    "ctaTitle": "공간이 있다면, 먼저 이야기 나눠요",
+    "noticeLabel": "알림톡 예시",
+    "noticeNew": "새 예약",
+    "noticeMeta": "월별 결제 · 본인 인증 완료",
+    "rateHead": "하룻밤 요금",
+    "rateRow": "{length} · {from}박 이상",
+    "rateOff": "<b>{percent}% 할인</b> · {price}",
+    "contact": "점주 상담 문의"
+  },
+  "pricing": {
+    "title": "요금과 장기 할인",
+    "lead": "게스트는 1박부터 예약할 수 있어요. 1박 요금 하나와 오래 머물 때의 할인율만 정하면 모든 기간의 요금이 자동으로 계산돼요.",
+    "sections": "숙소 편집 메뉴",
+    "section": {
+      "photos": "사진",
+      "about": "소개",
+      "amenities": "편의시설과 와이파이",
+      "pricing": "요금과 할인",
+      "calendar": "예약 가능 날짜",
+      "rules": "이용 규칙과 생활 안내",
+      "payouts": "정산"
+    },
+    "nightly": "1박 요금",
+    "won": "원",
+    "nightlyHint": "근처 비슷한 원룸 시세: 1박 [지역 시세 데이터]",
+    "discountTitle": "숙박 기간별 할인",
+    "discountSub": "할인은 숙박 전체 박수에 적용되고 겹쳐 받지 않아요.",
+    "orderWarning": "긴 기간의 할인율이 더 짧은 기간보다 낮아요. 오래 머물수록 1박 요금이 내려가도록 맞춰 주세요.",
+    "base": "기본 요금",
+    "discountFor": "{length} 할인율",
+    "guestSees": "게스트 요금과 정산 금액",
+    "guestSeesNote": "게스트에게는 이 요금이 수수료 없이 그대로 보여요. 정산은 숙박 요금에서 운영수수료 {hostFee, number}%를 뺀 금액이고, 청소비는 수수료 없이 그대로 정산돼요.",
+    "termsTitle": "숙박 조건과 장기 숙박 옵션",
+    "minNights": "최소 숙박",
+    "minOne": "1박(기본)",
+    "maxNights": "최대 숙박",
+    "noLimit": "제한 없음",
+    "cleaning": "청소비(숙박 1회당)",
+    "midClean": "중간 청소(28박 이상)",
+    "midIncluded": "2주마다, 요금에 포함",
+    "midRequest": "요청 시 {amount}",
+    "midNone": "없음",
+    "monthly": "28박 이상 월별 결제",
+    "monthlyText": "게스트는 매달 같은 날짜에 결제하고, 점주도 매달 정산받아요.",
+    "instant": "즉시 예약",
+    "instantText": "본인 인증을 마치고 후기가 좋은 게스트는 승인을 기다리지 않고 바로 예약할 수 있어요.",
+    "save": "요금 저장",
+    "preview": "숙소 미리 보기",
+    "off": "할인",
+    "saved": "저장했어요",
+    "guestNightly": "게스트에게도 1박 {price}으로 보여요.",
+    "payoutLine": "정산 {amount}"
+  },
+  "help": {
+    "metaTitle": "고객센터",
+    "hello": "{name}님, 안녕하세요",
+    "title": "무엇을 도와드릴까요?",
+    "searchLabel": "도움말 검색",
+    "searchHint": "‘기간 연장’, ‘월별 결제’처럼 검색해 보세요",
+    "search": "검색",
+    "currentLabel": "지금 머무는 숙소",
+    "currentStay": "{title} · {nights}박 중 {day}일째",
+    "currentHint": "출입 비밀번호, 와이파이, 청소, 고장처럼 숙소 일이라면 호스트가 가장 빨라요.",
+    "askHost": "호스트에게 문의하기",
+    "topicsTitle": "주제별로 찾아보기",
+    "topics": {
+      "booking": {
+        "title": "예약과 결제",
+        "text": "날짜, 총액, 나눠 내기, 영수증"
+      },
+      "discounts": {
+        "title": "장기 할인",
+        "text": "하룻밤, 일주일, 한 달, 한 계절"
+      },
+      "changes": {
+        "title": "변경과 취소",
+        "text": "기간 연장, 일찍 나가기, 환불"
+      },
+      "staying": {
+        "title": "머무는 동안",
+        "text": "출입 비밀번호, 와이파이, 청소, 수리, 쓰레기 배출"
+      },
+      "account": {
+        "title": "계정과 안전",
+        "text": "본인 인증, 로그인, 개인정보, 신고"
+      },
+      "hosting": {
+        "title": "점주",
+        "text": "운영수수료, 정산, 지점 운영"
+      }
+    },
+    "faqTitle": "자주 묻는 질문",
+    "discountQ": "장기 할인은 어떻게 적용되나요?",
+    "discountA": "모든 숙소는 1박부터 예약할 수 있어요. 오래 머물수록 1박 요금이 내려가요. 할인율은 지점마다 정해져 있어요. 할인은 기준을 넘긴 날만이 아니라 숙박하는 모든 날에 적용돼요.",
+    "discountExample": "예: 1박 {price}인 원룸",
+    "discountMove": "기간을 연장해서 더 긴 구간으로 넘어가면 숙박 전체에 새 요금이 적용되고, 결제 전에 차액을 먼저 보여드려요.",
+    "faq": {
+      "oneNight": {
+        "q": "1박만 예약할 수도 있나요?",
+        "a": "네. 호스트가 최소 숙박을 더 길게 정하지 않았다면 모든 숙소를 1박부터 예약할 수 있어요. 최소 숙박은 숙소 페이지에서 확인할 수 있어요."
+      },
+      "extend": {
+        "q": "기간은 어떻게 연장하나요?",
+        "a": "예약 화면에서 ‘기간 연장’을 눌러 주세요. 호스트에게 요청을 보내기 전에, 더 커진 할인까지 반영한 새 총액을 먼저 확인할 수 있어요."
+      },
+      "leaveEarly": {
+        "q": "일찍 나가야 하면 어떻게 되나요?",
+        "a": "예약할 때의 취소 정책에 따라 달라요. 28박 이상 숙박은 미리 알리고 일찍 나갈 수 있고, 실제로 머문 날은 그 기간에 맞는 요금으로 다시 계산돼요. [정책 확정 필요]"
+      },
+      "monthly": {
+        "q": "월별 결제는 어떻게 되나요?",
+        "a": "28박 이상 숙박은 일부를 먼저 내고, 나머지는 정해진 날에 나눠 낼 수 있어요. 회차마다 예약할 때 고른 결제 수단으로 자동 결제돼요."
+      },
+      "translate": {
+        "q": "번역은 어떻게 되나요?",
+        "a": "화면은 고른 언어로 보여드려요. 다른 언어로 쓴 숙소 설명, 후기, 메시지는 자동으로 번역하고 ‘번역됨’으로 표시해요. 원문도 바로 볼 수 있어요."
+      },
+      "refunds": {
+        "q": "환불은 어떻게 되나요?",
+        "a": "숙소마다 예약할 때 보여 드린 취소 정책이 있어요. 무료 취소 기한 전에 취소하면 전액 환불되고, 그 뒤에는 정책에 따라 일부만 환불돼요. 환불은 결제한 수단으로 돌아가요. [환불 정책 확정 필요]"
+      },
+      "safety": {
+        "q": "게스트와 호스트는 어떻게 믿을 수 있나요?",
+        "a": "모든 게스트와 호스트는 본인 인증을 거쳐요. 정확한 주소는 예약이 확정된 뒤에만 알려 드리고, 결제는 먼슬리브 안에서만 이뤄져요. 문제가 생기면 메시지 화면의 ‘이 대화 신고하기’로 알려 주세요."
+      },
+      "hosting": {
+        "q": "먼슬리브 지점을 열고 싶어요",
+        "a": "점주 모집 페이지에서 진행 방식과 운영수수료를 확인해 보세요. 공사부터 응대, 청소, 시설 관리까지 먼슬리브가 맡아요."
+      }
+    },
+    "contactLabel": "연락처",
+    "emergencyTitle": "긴급 상황이라면",
+    "emergencyText": "먼저 현지 기관에 연락한 뒤 알려 주세요.",
+    "police": "경찰",
+    "fire": "화재·구급",
+    "tourist": "관광 안내(24시간, 외국어 가능)",
+    "stillTitle": "아직 해결되지 않았나요?",
+    "stillText": "어떤 언어로 써도 괜찮아요. 번역해서 답해 드려요.",
+    "message": "메시지로 문의",
+    "call": "[고객센터 번호]로 전화",
+    "hours": "평균 응답 시간: [운영 시간·응답 시간]",
+    "results": "‘{query}’ 검색 결과 {count}개",
+    "noResults": "찾는 답이 없어요. 메시지로 문의해 주시면 도와드릴게요.",
+    "off": "할인"
+  },
+  "photos": {
+    "back": "숙소로 돌아가기",
+    "title": "사진 둘러보기",
+    "spaces": "공간별 사진"
+  },
+  "coupon": {
+    "title": "쿠폰",
+    "lead": "장기 할인과 함께 쓸 수 있어요. 예약 한 건에 쿠폰은 하나만 쓸 수 있어요.",
+    "none": "쿠폰 사용 안 함",
+    "until": "{date}까지",
+    "codeLabel": "쿠폰 번호",
+    "codePlaceholder": "쿠폰 번호를 입력하세요",
+    "apply": "적용",
+    "applied": "{title}으로 {amount}을 아꼈어요.",
+    "line": "쿠폰({title})",
+    "errors": {
+      "notFound": "쿠폰 번호를 찾을 수 없어요. 다시 확인해 주세요.",
+      "expired": "기간이 지난 쿠폰이에요.",
+      "used": "이미 사용한 쿠폰이에요.",
+      "minNights": "{nights}박 이상 예약에만 쓸 수 있어요.",
+      "minTotal": "{amount} 이상 예약에만 쓸 수 있어요.",
+      "otherHost": "이 숙소에는 쓸 수 없는 쿠폰이에요.",
+      "notYours": "다른 회원에게 보낸 쿠폰이에요.",
+      "soldOut": "준비한 수량이 모두 소진됐어요."
+    },
+    "off": "할인",
+    "cond": {
+      "max": "최대 {amount}",
+      "minNights": "{nights}박 이상",
+      "minTotal": "{amount} 이상 예약",
+      "allPlaces": "모든 숙소",
+      "hostOnly": "{host}님 숙소에서만"
+    },
+    "issuer": {
+      "admin": "먼슬리브 쿠폰",
+      "host": "지점 쿠폰"
+    },
+    "status": {
+      "available": "사용 가능",
+      "used": "사용함",
+      "expired": "기간 만료"
+    },
+    "daysLeft": "D-{days}",
+    "lastDay": "오늘까지"
+  },
+  "stay": {
+    "title": "지금 사는 곳",
+    "crumbs": "현재 위치",
+    "meta": "{area} · {nights}일 중 {day}일째 · {date} {time} 체크아웃",
+    "door": "출입 비밀번호",
+    "doorNote": "{date} {time}까지 공동현관과 현관문 모두 이 번호로 열려요.",
+    "copyCode": "비밀번호 복사",
+    "copied": "복사했어요",
+    "wifi": "와이파이 · {mbps} Mbps",
+    "network": "네트워크 이름",
+    "password": "비밀번호",
+    "copyPassword": "비밀번호 복사",
+    "checkout": "체크아웃",
+    "checkoutWhen": "{date} {time}까지",
+    "checkoutNote": "{left}박 남았어요. 당일에는 문만 닫고 나가면 돼요. 비밀번호는 {time}부터 쓸 수 없어요.",
+    "guideTitle": "생활 안내",
+    "guide": {
+      "trash": {
+        "title": "쓰레기 분리배출",
+        "text": "서울은 쓰레기를 세 가지로 나눠 버려요. 일반 쓰레기는 구청 종량제 봉투에(싱크대 아래 서랍에 한 롤 있어요), 음식물 쓰레기는 현관 옆 노란 통에, 재활용은 종이·플라스틱·캔·유리로 나눠서 버려 주세요. 배출은 현관 게시판에 적힌 요일 저녁 6시 이후에 해 주세요."
+      },
+      "laundry": {
+        "title": "세탁",
+        "text": "세탁기는 싱크대 옆에 있고, 설명서는 싱크대 아래 서랍에 있어요. 표준 코스는 50분쯤 걸려요. 건조기가 필요하면 1층 빨래방을 쓰면 돼요."
+      },
+      "heating": {
+        "title": "바닥 난방과 온수",
+        "text": "보일러 조절기는 현관 옆 벽에 있어요. 오래 나갈 때는 '외출'로 두면 배관이 얼지 않아요. 온수는 틀고 30초쯤 지나면 나와요."
+      },
+      "building": {
+        "title": "출입과 건물",
+        "text": "공동현관과 현관문은 같은 비밀번호로 열려요. 택배는 1층 무인 택배함으로 와요. 엘리베이터가 없는 3층이에요."
+      },
+      "quiet": {
+        "title": "조용히 해 주세요 22:00–07:00",
+        "text": "밤 10시부터 아침 7시까지는 이웃을 위해 조용히 지내 주세요. 세탁기와 청소기도 이 시간에는 쉬어요."
+      },
+      "emergency": {
+        "title": "응급 연락처",
+        "text": "경찰 112 · 화재·구급 119 · 관광 안내 1330(24시간, 외국어 가능)"
+      }
+    },
+    "guideBy": "{name}님이 직접 쓴 안내예요.",
+    "nearTitle": "집 근처",
+    "nearNote": {
+      "market": "",
+      "laundry": "건조기 있음",
+      "clinic": "약국 옆",
+      "forest": "",
+      "station": "2호선"
+    },
+    "minutes": "{minutes}분",
+    "nearGuide": "{area} 동네 안내 전체 보기",
+    "mapLabel": "숙소 근처 장소 지도",
+    "extendTitle": "조금 더 머물까요?",
+    "extendText": "이 방은 {date} 이후에도 비어 있어요. 장기 할인은 그대로 이어지고, 90박을 넘기면 전체 숙박이 한 계절 요금으로 바뀌어요.",
+    "options": {
+      "week": "+1주",
+      "month": "+1달",
+      "season": "한 계절로"
+    },
+    "until": "{date}까지 · {nights}박",
+    "extra": "{amount} 추가",
+    "sameRate": "계속 {percent}% 할인",
+    "newRate": "{nights}박 전체 {percent}% 할인 · {amount} 절약",
+    "request": "연장 요청하기",
+    "requestNote": "{name}님이 24시간 안에 수락해야 확정되고, 그 전에는 결제되지 않아요.",
+    "requested": "연장 요청을 보냈어요. {name}님이 수락하면 {date}까지 머물 수 있고, {amount}이 추가로 결제돼요.",
+    "troubleTitle": "문제가 있나요?",
+    "troubleText": "{name}에게 메시지로 알려 주세요. 먼슬리브가 직접 운영하는 지점이라, 필요하면 바로 찾아가요.",
+    "contactHelp": "고객센터 문의"
+  },
+  "account": {
+    "nav": "계정 메뉴",
+    "since": "{year}년부터 이용",
+    "items": {
+      "home": "마이페이지",
+      "coupons": "쿠폰함",
+      "reviews": "후기",
+      "profile": "개인 정보",
+      "security": "로그인과 보안",
+      "payments": "결제와 영수증",
+      "language": "언어와 통화",
+      "notifications": "알림",
+      "hosting": "점주 센터"
+    },
+    "logout": "로그아웃",
+    "home": {
+      "title": "마이페이지",
+      "hello": "{name}님, 오늘도 편히 지내고 계신가요?",
+      "profile": "내 프로필",
+      "facts": "본인 인증 완료 · 숙박 {stays}회 · {year}년부터 이용",
+      "memberId": "아이디",
+      "copy": "복사",
+      "copied": "복사했어요",
+      "editProfile": "개인 정보 수정",
+      "idNote": "먼슬리브 본사나 지점에서 쿠폰을 보낼 때 이 아이디로 보내요.",
+      "glance": "한눈에 보기",
+      "glanceLabels": {
+        "now": "지금 사는 곳",
+        "coupons": "쿠폰",
+        "trips": "예약",
+        "reviews": "후기",
+        "saved": "저장"
+      },
+      "couponsAvailable": "사용 가능 {count}장",
+      "couponsSoon": "{count, plural, =0 {곧 끝나는 쿠폰 없음} other {곧 끝나는 쿠폰 #장}}",
+      "tripsUpcoming": "다가오는 예약 {count}건",
+      "tripsPast": "지난 숙박 {count}번",
+      "reviewsToWrite": "쓸 수 있는 후기 {count}개",
+      "reviewsWritten": "내가 쓴 후기 {count}개",
+      "savedLists": "목록 {count}개",
+      "savedDrops": "{count, plural, =0 {가격이 내린 숙소 없음} other {가격이 내린 숙소 #곳}}",
+      "soonTitle": "곧 끝나는 쿠폰",
+      "allCoupons": "쿠폰함 전체 보기",
+      "hostTitle": "점주 모집",
+      "hostText": "공간이 있다면 먼슬리브 지점을 함께 열어요. 운영은 먼슬리브가 맡아요."
+    },
+    "coupons": {
+      "title": "쿠폰함",
+      "lead": "받은 쿠폰은 결제할 때 고르기만 하면 돼요. 쿠폰 번호가 있다면 아래에서 먼저 확인해 보세요.",
+      "codeTitle": "쿠폰 번호 확인",
+      "check": "확인",
+      "inWallet": "이미 쿠폰함에 있는 쿠폰이에요. 결제할 때 바로 고를 수 있어요.",
+      "codeOk": "‘{code}’ 쿠폰을 확인했어요. 결제할 때 이 번호를 입력하면 ‘{title}’ 혜택을 받을 수 있어요.",
+      "tabsLabel": "쿠폰 구분",
+      "tabs": {
+        "available": "사용 가능",
+        "used": "사용함",
+        "expired": "만료"
+      },
+      "empty": {
+        "available": "지금 쓸 수 있는 쿠폰이 없어요.",
+        "used": "사용한 쿠폰이 없어요.",
+        "expired": "기간이 지난 쿠폰이 없어요."
+      },
+      "find": "이 쿠폰으로 숙소 찾기",
+      "usedOn": "{code} 예약에 사용했어요.",
+      "note": "쿠폰은 장기 할인이 적용된 뒤의 총액에서 빠져요. 예약 한 건에 쿠폰은 하나만 쓸 수 있어요."
+    },
+    "reviews": {
+      "title": "후기",
+      "lead": "머문 곳의 후기는 다음 게스트에게 큰 도움이 돼요.",
+      "tabsLabel": "후기 구분",
+      "toWrite": "쓸 수 있는 후기",
+      "written": "내가 쓴 후기",
+      "stayMeta": "{area} · {nights}박 · {date} · 호스트 {host}",
+      "overall": "전체적으로 어떠셨나요?",
+      "stars": "별 {count}개",
+      "words": {
+        "1": "별로였어요",
+        "2": "아쉬웠어요",
+        "3": "괜찮았어요",
+        "4": "좋았어요",
+        "5": "최고였어요"
+      },
+      "details": "조금 더 자세히",
+      "categories": {
+        "clean": "청결도",
+        "checkin": "체크인",
+        "quiet": "밤에 조용한 정도",
+        "value": "가격 대비 만족도"
+      },
+      "points": "{count}점",
+      "textLabel": "그곳에서 지내 보니 어땠나요?",
+      "textPlaceholder": "침대, 주방, 밤의 골목 분위기…",
+      "textNote": "어떤 언어로 써도 괜찮아요. 다른 게스트는 자기 언어로 읽게 돼요.",
+      "privateLabel": "{host}님에게만 보이는 메모",
+      "privateNote": "선택 사항이에요. {host}님만 볼 수 있어요.",
+      "submit": "후기 올리기",
+      "submitted": "후기를 올렸어요",
+      "publicNote": "후기는 공개되며 이름만 표시돼요.",
+      "writtenOn": "{date}에 씀",
+      "replyFrom": "{host}님의 답글"
+    },
+    "profile": {
+      "title": "개인 정보",
+      "lead": "호스트에게 보이는 정보와 먼슬리브만 아는 정보를 나눠서 보여 드려요.",
+      "shownTitle": "호스트에게 보이는 정보",
+      "shownLead": "예약한 숙소의 호스트만 볼 수 있어요.",
+      "displayName": "표시 이름",
+      "displayNameNote": "예약과 메시지에서 이 이름으로 보여요.",
+      "languages": "사용하는 언어",
+      "bio": "소개",
+      "bioPlaceholder": "어떤 일로 머무는지, 생활 패턴을 짧게 알려 주면 호스트가 반가워해요.",
+      "privateTitle": "먼슬리브만 아는 정보",
+      "privateLead": "호스트에게는 보이지 않아요. 연락처는 예약이 확정되면 필요한 만큼만 전해요.",
+      "legalName": "실명",
+      "legalNameNote": "본인 인증으로 확인한 이름이라 바꾸려면 다시 인증해야 해요.",
+      "memberId": "아이디",
+      "memberIdNote": "쿠폰을 받을 때 쓰는 아이디예요. 바꿀 수 없어요.",
+      "email": "이메일",
+      "phone": "휴대폰 번호",
+      "change": "변경",
+      "newEmail": "새 이메일 주소",
+      "newPhone": "새 휴대폰 번호",
+      "sendCheck": "확인 메일 보내기",
+      "sendCode": "인증번호 받기",
+      "sent": "보냈어요",
+      "verify": "본인 인증",
+      "verifiedOn": "{date} 휴대폰으로 인증 완료",
+      "verifyNote": "인증 기관에서 확인한 결과만 받고 주민등록번호는 받지 않아요. 외국인 게스트는 여권으로 인증하되 여권 번호는 저장하지 않아요."
+    },
+    "security": {
+      "title": "로그인과 보안",
+      "lead": "로그인 방법과 로그인된 기기, 내 데이터를 관리해요.",
+      "loginsTitle": "로그인 방법",
+      "lastOne": "로그인 방법이 하나만 남으면 해제할 수 없어요.",
+      "providers": {
+        "kakao": "카카오",
+        "naver": "네이버",
+        "apple": "Apple",
+        "google": "Google",
+        "email": "이메일"
+      },
+      "connected": "연결됨",
+      "notConnected": "연결 안 됨",
+      "connect": "연결하기",
+      "disconnect": "연결 해제",
+      "requested": "요청했어요",
+      "passwordTitle": "비밀번호와 2단계 인증",
+      "password": "비밀번호",
+      "passwordChanged": "{date}에 마지막으로 바꿨어요",
+      "changePassword": "비밀번호 바꾸기",
+      "linkSent": "메일을 보냈어요",
+      "twoStep": "2단계 인증",
+      "twoStepText": "새 기기에서 로그인할 때 휴대폰으로 받은 번호를 한 번 더 입력해요.",
+      "devicesTitle": "로그인된 기기",
+      "thisDevice": "지금 이 기기",
+      "lastSeen": "{date} 마지막 접속",
+      "logoutDevice": "로그아웃",
+      "loggedOut": "로그아웃했어요",
+      "dataTitle": "개인정보와 데이터",
+      "download": "내 정보 내려받기",
+      "downloadText": "예약, 메시지, 후기를 파일로 받아요. 준비되면 이메일로 알려 드려요.",
+      "requestDownload": "내려받기 요청",
+      "deleteTitle": "계정 삭제",
+      "deleteText": "진행 중인 예약이나 남은 결제가 있으면 모두 끝난 뒤에 삭제할 수 있어요. 법에 따라 보관해야 하는 거래 기록은 정해진 기간 동안 따로 보관해요.",
+      "deleteAction": "계정 삭제 요청"
+    },
+    "payments": {
+      "title": "결제와 영수증",
+      "lead": "결제는 언제나 원화로 해요. 카드 번호는 먼슬리브에 저장되지 않아요.",
+      "methodsTitle": "결제 수단",
+      "defaultCard": "기본 결제 수단 · 월별 결제에도 이 카드를 써요",
+      "remove": "삭제",
+      "removed": "삭제를 요청했어요",
+      "easyPay": "간편결제",
+      "easyPayText": "결제할 때 {names} 중에서 고를 수 있어요.",
+      "tokenNote": "카드 정보는 결제대행사(PG)가 보관하고, 먼슬리브는 결제할 때 쓰는 토큰과 카드 끝 네 자리만 가지고 있어요.",
+      "addCard": "카드 추가",
+      "addCardDone": "결제대행사 창이 열려요",
+      "dueTitle": "결제 예정",
+      "historyTitle": "결제 내역",
+      "receiptNote": "카드 영수증과 현금영수증은 결제가 끝나면 이메일로 보내 드려요. 환불은 결제한 수단으로 돌아가요."
+    },
+    "notifications": {
+      "title": "알림",
+      "lead": "받고 싶은 알림과 받을 곳을 골라요.",
+      "kindsTitle": "알림 종류",
+      "kind": "알림",
+      "channels": {
+        "app": "앱",
+        "email": "이메일",
+        "sms": "문자"
+      },
+      "kinds": {
+        "booking": {
+          "title": "예약과 숙박",
+          "text": "예약 확정, 체크인 안내, 결제 예정"
+        },
+        "messages": {
+          "title": "메시지",
+          "text": "호스트의 답장과 고객센터 답변"
+        },
+        "prices": {
+          "title": "가격 알림",
+          "text": "저장한 숙소의 가격이 내리면"
+        },
+        "reviews": {
+          "title": "후기 요청",
+          "text": "체크아웃한 뒤 후기를 남길 때"
+        }
+      },
+      "required": "꼭 필요한 알림이라 앱과 이메일은 끌 수 없어요.",
+      "adsTitle": "혜택과 쿠폰 소식",
+      "adsLead": "쿠폰, 이벤트, 새 동네 소식 같은 광고성 정보예요. 동의한 경우에만 보내 드려요.",
+      "adsConsent": "광고성 정보 수신 동의(선택)",
+      "adsConsentText": "앱, 이메일, 문자로 혜택 소식을 받아요.",
+      "adsNight": "밤 9시부터 아침 8시 사이에도 받기(선택)",
+      "adsNightText": "야간 광고성 알림은 따로 동의해야 보내 드려요.",
+      "adsNote": "동의하거나 철회하면 그 날짜와 내용을 알려 드려요.",
+      "save": "저장",
+      "saved": "저장했어요"
+    }
+  },
+  "about": {
+    "metaTitle": "먼슬리브 소개",
+    "label": "먼슬리브 소개",
+    "lead": "먼슬리브는 한 달을 단위로 머무는 집이에요. 하루를 묵어도, 한 달을 살아도 즐겁고 편안한 ‘내 방’을 동네마다 열어요. 모든 지점은 주식회사 고수플러스가 운영해요.",
+    "companyTitle": "회사 정보",
+    "termsText": "이용약관 전문은 서비스를 정식으로 열기 전에 이 자리에 게시해요. 지금은 미리보기 화면이라 예약과 결제가 실제로 이뤄지지 않아요. [이용약관 확정 필요]",
+    "privacyLead": "개인정보 처리방침 전문을 게시하기 전에, 먼슬리브가 개인정보를 다루는 원칙을 먼저 알려 드려요.",
+    "privacy": {
+      "ids": "주민등록번호와 여권 번호는 저장하지 않아요. 본인 인증은 인증 기관을 거쳐 확인한 결과만 받아요.",
+      "cards": "카드 번호는 저장하지 않아요. 결제는 결제대행사(PG)가 발급한 결제 토큰으로 처리해요.",
+      "address": "숙소의 정확한 주소는 예약이 확정된 뒤 그 게스트에게만 알려 드려요. 그 전에는 대략적인 위치만 보여 드려요.",
+      "security": "회원 정보는 본인과 업무상 필요한 담당자만 볼 수 있도록 데이터베이스에서부터 접근을 막아요.",
+      "rights": "내 정보는 마이페이지에서 언제든 확인하고, 고치거나 삭제를 요청할 수 있어요."
+    },
+    "privacyFull": "수집 항목, 이용 목적, 보관 기간, 처리 위탁, 개인정보 보호책임자를 담은 처리방침 전문은 서비스를 정식으로 열기 전에 게시해요. [개인정보 처리방침 확정 필요]",
+    "questions": "궁금한 점이 있으신가요?",
+    "company": {
+      "name": {
+        "label": "상호",
+        "value": "주식회사 고수플러스"
+      },
+      "ceo": {
+        "label": "대표",
+        "value": "박영은"
+      },
+      "bizNo": {
+        "label": "사업자등록번호",
+        "value": "270-81-01999"
+      },
+      "mailOrder": {
+        "label": "통신판매업 신고",
+        "value": "[통신판매업 신고번호]"
+      },
+      "address": {
+        "label": "주소",
+        "value": "경기도 하남시 미사강변중앙로7번안길 25, D동 609호"
+      },
+      "phone": {
+        "label": "고객센터",
+        "value": "[고객센터 번호]"
+      },
+      "email": {
+        "label": "이메일",
+        "value": "[대표 이메일]"
+      }
+    }
+  },
+  "pms": {
+    "home": "점주 센터 홈",
+    "name": "점주 센터",
+    "toGuest": "게스트 화면으로",
+    "signedInAs": "{name}님으로 로그인함",
+    "menu": "점주 센터 메뉴",
+    "nav": {
+      "today": "오늘",
+      "reservations": "예약",
+      "calendar": "캘린더",
+      "listings": "객실",
+      "payouts": "정산",
+      "coupons": "쿠폰"
+    },
+    "sampleDay": "예시 날짜",
+    "accept": "수락",
+    "accepted": "수락했어요",
+    "decline": "거절",
+    "declined": "거절했어요",
+    "details": "자세히",
+    "paidOut": "정산 완료",
+    "scheduled": "예정",
+    "crumbs": "현재 위치",
+    "feeNote": "정산 금액은 숙박 요금에서 지점 운영수수료를 빼고 청소비를 더한 금액이에요.",
+    "status": {
+      "all": "전체",
+      "request": "요청",
+      "upcoming": "예정",
+      "staying": "숙박 중",
+      "past": "지난 예약",
+      "cancelled": "취소"
+    },
+    "cols": {
+      "code": "예약 번호",
+      "guest": "게스트",
+      "place": "숙소",
+      "dates": "날짜",
+      "payout": "정산 예정",
+      "status": "상태",
+      "date": "정산일",
+      "amount": "금액"
+    },
+    "today": {
+      "title": "오늘",
+      "hello": "{name}님, 오늘 할 일이에요",
+      "blockDates": "날짜 막기",
+      "sendCoupon": "쿠폰 보내기",
+      "monthLabel": "{month} 한눈에 보기",
+      "stats": {
+        "payouts": "이번 달 정산",
+        "occupancy": "이번 달 예약률",
+        "requests": "답을 기다리는 요청",
+        "rating": "평균 평점"
+      },
+      "nextPayout": "다음 정산 {date} · {amount}",
+      "occupancyNote": "{booked}박 / {capacity}박",
+      "requestsNote": "요청은 24시간 안에 답해 주세요.",
+      "ratingNote": "공개 중인 숙소 {count}곳 평균",
+      "requestsTitle": "확인이 필요한 요청",
+      "noRequests": "지금은 답을 기다리는 요청이 없어요.",
+      "translated": "자동 번역됨",
+      "replyBy": "{date} {time}까지 답해 주세요",
+      "dayTitle": "오늘 들어오고 나가는 게스트",
+      "checkIn": "체크인",
+      "checkInNote": "출입 비밀번호는 오전 9시에 자동으로 보냈어요.",
+      "checkOut": "체크아웃",
+      "checkOutNote": "오전 11시까지 퇴실해요.",
+      "bookCleaning": "청소 예약",
+      "cleaningBooked": "청소를 예약했어요",
+      "stayingTitle": "지금 머무는 게스트",
+      "noRatings": "아직 후기가 없어요"
+    },
+    "reservations": {
+      "title": "예약",
+      "lead": "요청부터 지난 예약까지 한곳에서 관리해요.",
+      "tabsLabel": "예약 상태",
+      "empty": "이 상태의 예약이 없어요."
+    },
+    "detail": {
+      "title": "{name}님의 예약",
+      "answerTitle": "예약 요청에 답해 주세요",
+      "guestTitle": "게스트",
+      "verified": "본인 인증 완료",
+      "languages": "사용하는 언어: {languages}",
+      "privacy": "게스트의 연락처는 예약이 확정된 뒤 체크인에 필요한 만큼만 보여요.",
+      "message": "메시지 보내기",
+      "coupon": "쿠폰 보내기",
+      "stayTitle": "숙박",
+      "checkIn": "체크인 {date} {time} 이후",
+      "checkOut": "체크아웃 {date} {time}까지",
+      "tier": "{length} 요금 · {nights}박",
+      "doorTitle": "출입 비밀번호",
+      "doorText": "체크인 날 {time}에 게스트에게 자동으로 보내요.",
+      "doorResend": "지금 다시 보내기",
+      "doorSent": "보냈어요",
+      "moneyTitle": "정산",
+      "cancelledFree": "무료 취소 기한 전에 취소돼 정산 금액이 없어요.",
+      "cancelledPaid": "취소 정책에 따라 일부 금액이 정산돼요.",
+      "stay": "숙박 요금 · {nights}박",
+      "cleaning": "청소비",
+      "fee": "운영수수료 ({percent, number}%)",
+      "payout": "정산 금액",
+      "guestPays": "게스트는 {amount}을 냈어요.",
+      "payoutPart": "{parts}회 중 {part}회차"
+    },
+    "calendar": {
+      "title": "캘린더",
+      "lead": "숙소마다 예약된 날, 막은 날, 1박 요금을 한눈에 봐요.",
+      "places": "숙소 고르기",
+      "prev": "이전 달",
+      "next": "다음 달",
+      "legendBooked": "예약됨",
+      "legendRequest": "요청",
+      "legendBlocked": "막아 둔 날",
+      "legendOpen": "예약 가능 · 1박 요금",
+      "blockTitle": "날짜 막기",
+      "from": "시작",
+      "to": "끝",
+      "reason": "메모 (나만 봐요)",
+      "reasonPlaceholder": "예: 가족 방문, 수리",
+      "block": "막기",
+      "blocked": "막았어요",
+      "priceTitle": "특정 날짜 요금",
+      "priceLead": "기본 1박 요금은 {price}원이에요. 연휴처럼 다르게 받고 싶은 날만 골라요.",
+      "applyPrice": "적용",
+      "priceApplied": "적용했어요",
+      "discounts": "기간별 할인 바꾸기",
+      "thisMonth": "이달의 예약",
+      "noBookings": "이달에는 예약이 없어요.",
+      "open": "예약 가능"
+    },
+    "listings": {
+      "title": "객실",
+      "lead": "객실 {count}곳을 관리하고 있어요.",
+      "add": "새 객실 등록",
+      "status": {
+        "listed": "공개 중",
+        "snoozed": "잠시 쉬는 중",
+        "draft": "작성 중"
+      },
+      "registration": {
+        "checked": "등록 확인 완료",
+        "checking": "등록 확인 중",
+        "missing": "등록 정보 필요"
+      },
+      "nightly": "1박 {price}",
+      "discounts": "할인 {week}·{month}·{season}%",
+      "draftNote": "사진과 요금을 채우고 등록 정보를 올리면 심사를 받아요.",
+      "booked": "{booked}/{days}박 예약됨",
+      "editPrices": "요금과 할인",
+      "editInfo": "숙소 정보",
+      "continue": "이어서 작성"
+    },
+    "listing": {
+      "title": "숙소 정보",
+      "lead": "게스트가 보는 사진, 소개, 편의시설, 이용 규칙을 고쳐요.",
+      "draftTitle": "새 숙소 등록",
+      "draftLead": "사진, 소개, 편의시설과 규칙을 채운 뒤 등록 정보를 올리면 심사를 받아요.",
+      "photosLead": "첫 번째 사진이 검색 결과에 나와요. 방, 책상, 욕실, 공용 공간, 입구를 모두 보여 주세요.",
+      "cover": "대표",
+      "addPhoto": "사진 추가",
+      "realPhotos": "직접 찍은 이 숙소의 사진만 올려 주세요. 다른 곳의 사진이나 만들어 낸 이미지는 심사에서 반려돼요.",
+      "name": "숙소 이름",
+      "namePlaceholder": "예: 창가 책상이 있는 원룸텔",
+      "guests": "최대 인원",
+      "description": "소개",
+      "descriptionPlaceholder": "동네, 방의 크기와 구조, 오래 머물 때 좋은 점을 적어 주세요.",
+      "translateNote": "한국어로 쓰면 게스트의 언어로 자동 번역돼요.",
+      "wifiSpeed": "와이파이 {mbps} Mbps",
+      "wifiMeasured": "{date} 먼슬리브 앱으로 측정",
+      "wifiNone": "와이파이 속도를 아직 재지 않았어요",
+      "wifiHow": "숙소 안에서 먼슬리브 앱으로 재면 숙소 페이지에 표시돼요.",
+      "measure": "다시 측정",
+      "measuring": "앱에서 측정해 주세요",
+      "checkIn": "체크인",
+      "checkOut": "체크아웃",
+      "after": "{time} 이후",
+      "before": "{time}까지",
+      "selfCheckIn": "셀프 체크인",
+      "selfCheckInText": "출입 비밀번호를 체크인 날 아침에 자동으로 보내요.",
+      "pets": "반려동물 허용",
+      "petsText": "허용하면 검색 필터에 표시돼요.",
+      "quiet": "밤 10시부터 아침 7시까지 조용히",
+      "quietText": "이용 규칙과 생활 안내에 함께 표시돼요.",
+      "guideLead": "게스트가 머무는 동안 보는 안내예요. 한국어로 쓰면 번역돼요.",
+      "registrationTitle": "등록 정보",
+      "registrationLead": "숙소 유형에 따라 숙박업, 외국인관광 도시민박업 등 등록이 필요할 수 있어요. 등록증을 올리면 먼슬리브가 확인한 뒤 공개해요.",
+      "registrationChecked": "등록증을 확인했어요.",
+      "registrationNeeded": "등록증을 올려 주세요. 확인되면 숙소를 공개할 수 있어요.",
+      "upload": "등록증 올리기",
+      "saveDraft": "임시 저장",
+      "newPlace": "새 숙소"
+    },
+    "payouts": {
+      "title": "정산",
+      "lead": "체크인 다음 날 정산되고, 28박 이상 숙박은 그 뒤로 28박마다 정산돼요.",
+      "download": "{year}년 정산 내역 (CSV)",
+      "next": "다음 정산",
+      "none": "예정된 정산이 없어요",
+      "scheduled": "정산 예정 합계",
+      "scheduledNote": "{count}건 예정",
+      "paidYear": "{year}년 정산 완료",
+      "paidNote": "{date} 기준",
+      "accountTitle": "정산 계좌",
+      "account": "정산 계좌 ···· {last4}",
+      "accountNote": "계좌 번호 전체는 정산 대행사가 보관하고, 먼슬리브는 끝 네 자리만 보여 드려요.",
+      "change": "계좌 변경",
+      "changeStarted": "본인 확인 후 바꿀 수 있어요",
+      "listTitle": "정산 내역",
+      "taxNote": "숙박으로 번 소득의 세금 신고는 점주님이 해요. 내려받은 내역을 신고할 때 써 주세요."
+    },
+    "coupons": {
+      "title": "쿠폰",
+      "lead": "내 숙소를 예약했던 게스트에게 아이디로 쿠폰을 보내 다시 찾게 해 보세요. 할인 금액은 정산 금액에서 빠져요.",
+      "mine": "보낸 쿠폰",
+      "stats": "{sent}명에게 보냄 · {used}번 사용",
+      "sentToList": "받은 게스트: {names}",
+      "sendMore": "더 보내기",
+      "stop": "발송 중지",
+      "stopped": "중지했어요",
+      "rules": "지점 쿠폰은 내 지점에서만 쓸 수 있어요. 예약 한 건에 쿠폰은 하나만 쓸 수 있어요.",
+      "notified": "{count, plural, =0 {광고성 정보 수신에 동의한 게스트가 없어서 알림은 보내지 않아요. 쿠폰함에는 들어가요.} other {알림은 광고성 정보 수신에 동의한 #명에게만 보내요. 쿠폰함에는 모두 들어가요.}}"
+    },
+    "onHold": "보류"
+  },
+  "couponForm": {
+    "title": "새 쿠폰 만들기",
+    "name": "쿠폰 이름",
+    "namePlaceholder": {
+      "host": "예: 다시 머물기 감사 쿠폰",
+      "admin": "예: 겨울 한 달 살기 쿠폰"
+    },
+    "kind": "할인 방식",
+    "kindAmount": "금액",
+    "kindPercent": "비율",
+    "value": "할인 금액 또는 비율",
+    "valuePlaceholder": "10000 또는 10",
+    "valueHint": "금액은 1,000원~100,000원, 비율은 1~50%",
+    "max": "최대 할인 금액",
+    "maxHint": "비율 할인일 때 꼭 정해요.",
+    "minNights": "최소 숙박",
+    "anyLength": "제한 없음",
+    "nightsOrMore": "{nights}박 이상",
+    "minTotal": "최소 예약 금액",
+    "expires": "사용 기한",
+    "audience": "받는 방법",
+    "audienceUsers": "아이디로 보내기",
+    "audienceUsersText": "받은 회원의 쿠폰함에 바로 들어가요.",
+    "audienceCode": "쿠폰 번호로 열기",
+    "audienceCodeText": "번호를 아는 사람은 누구나 결제할 때 입력해 써요.",
+    "code": "쿠폰 번호",
+    "codeHint": "영문 대문자, 숫자, 하이픈으로 4~20자",
+    "limit": "최대 사용 횟수",
+    "to": {
+      "host": "받을 게스트",
+      "admin": "받을 회원"
+    },
+    "ids": "아이디 직접 입력",
+    "idsPlaceholder": "아이디를 쉼표로 나눠 입력 (예: seojin.yun, minho.kim)",
+    "toHint": {
+      "host": "내 숙소를 예약했던 게스트에게만 보낼 수 있어요.",
+      "admin": "쿠폰함에는 모두 들어가고, 알림은 광고성 정보 수신에 동의한 회원에게만 보내요."
+    },
+    "submit": {
+      "host": "쿠폰 만들고 보내기",
+      "admin": "쿠폰 만들기"
+    },
+    "errors": {
+      "title": "쿠폰 이름을 적어 주세요.",
+      "amount": "할인 금액은 1,000원에서 100,000원 사이로 정해 주세요.",
+      "percent": "할인 비율은 1%에서 50% 사이로 정해 주세요.",
+      "expires": "사용 기한은 오늘부터 1년 안의 날짜로 골라 주세요.",
+      "code": "쿠폰 번호는 영문 대문자, 숫자, 하이픈으로 4~20자예요.",
+      "codeTaken": "‘{code}’는 이미 쓰고 있는 번호예요.",
+      "noRecipients": "받을 사람을 한 명 이상 골라 주세요.",
+      "unknownIds": {
+        "host": "이 아이디에는 보낼 수 없어요: {ids}. 내 숙소를 예약했던 게스트에게만 보낼 수 있어요.",
+        "admin": "보낼 수 없는 아이디예요(없거나 이용이 정지된 회원): {ids}"
+      },
+      "max": "비율 할인은 최대 할인 금액을 1,000원에서 100,000원 사이로 꼭 정해 주세요.",
+      "number": "최소 숙박, 최소 예약 금액, 최대 사용 횟수는 숫자로만 적어 주세요."
+    },
+    "made": "{count, plural, =0 {쿠폰을 만들었어요} other {쿠폰을 만들어 #명에게 보냈어요}}",
+    "sentTo": "받는 사람: {names}",
+    "previewNote": "미리보기 화면이라 실제로 저장하거나 보내지는 않아요.",
+    "another": "쿠폰 하나 더 만들기"
+  },
+  "admin": {
+    "home": "운영 관리 홈",
+    "name": "운영 관리",
+    "toSite": "사이트 보기",
+    "signedInAs": "운영자 계정으로 로그인함",
+    "staffShort": "운영",
+    "menu": "운영 관리 메뉴",
+    "nav": {
+      "dashboard": "현황",
+      "reservations": "예약",
+      "listings": "숙소",
+      "members": "회원",
+      "coupons": "쿠폰",
+      "payouts": "정산",
+      "support": "문의·신고",
+      "settings": "운영 설정"
+    },
+    "open": "열기",
+    "all": "전체 보기",
+    "done": "처리했어요",
+    "noResults": "찾는 결과가 없어요.",
+    "sampleNote": "이 화면의 숫자와 회원은 예시 데이터예요. 실제 운영 화면은 로그인과 직원 권한을 연결한 뒤 열려요.",
+    "cols": {
+      "guestId": "게스트 아이디",
+      "hostId": "점주 아이디",
+      "paid": "결제 금액",
+      "actions": "관리",
+      "rating": "평점",
+      "registration": "등록 확인",
+      "memberId": "아이디",
+      "name": "이름",
+      "role": "구분",
+      "joined": "가입일",
+      "verified": "본인 인증",
+      "bookings": "예약",
+      "marketing": "광고 수신",
+      "coupon": "쿠폰",
+      "issuer": "발행",
+      "how": "받는 방법",
+      "benefit": "혜택",
+      "until": "사용 기한",
+      "used": "사용",
+      "hostNightly": "1박 요금"
+    },
+    "dashboard": {
+      "title": "운영 현황",
+      "stats": {
+        "gmv": "이번 달 거래액",
+        "bookings": "이번 달 체크인 예약",
+        "reviews": "심사 대기 숙소",
+        "tickets": "열린 문의",
+        "payouts": "7일 안에 나갈 정산",
+        "revenue": "이번 달 운영수수료"
+      },
+      "gmvNote": "이번 달 체크인 {count}건, 게스트 결제 기준",
+      "bookingsNote": "진행 중이거나 끝난 예약 {count}건",
+      "reviewsNote": "등록증과 사진을 사람이 확인해요",
+      "ticketsNote": "그중 긴급 {count}건",
+      "payoutsNote": "{count}건 예정",
+      "nowTitle": "지금 사람이 봐야 하는 일",
+      "review": "숙소 심사",
+      "reviewWaiting": "심사를 기다리는 숙소 {count}곳",
+      "recentTitle": "최근 예약",
+      "couponsTitle": "진행 중인 쿠폰",
+      "revenueNote": "점주 정산에서 뺀 금액, 쿠폰 차감 전"
+    },
+    "reservations": {
+      "title": "예약",
+      "lead": "먼슬리브의 모든 예약을 상태별로 보고, 예약 번호나 아이디로 찾아요.",
+      "search": "예약 번호, 게스트·점주 아이디",
+      "refund": "환불 처리",
+      "contact": "연락하기"
+    },
+    "listings": {
+      "title": "숙소",
+      "lead": "공개 중인 숙소 {count}곳과 심사를 기다리는 숙소를 관리해요.",
+      "queueTitle": "심사 대기 {count}곳",
+      "submitted": "{date} 심사 요청",
+      "photos": "사진 {count}장",
+      "registration": {
+        "uploaded": "등록증 확인 필요",
+        "missing": "등록증 없음"
+      },
+      "reason": "반려 사유",
+      "reasons": {
+        "photos": "사진이 부족하거나 실제 사진이 아님",
+        "registration": "등록증 미제출·불일치",
+        "address": "주소 확인 불가",
+        "other": "기타 (메시지로 안내)"
+      },
+      "reject": "반려",
+      "rejected": "반려했어요",
+      "approve": "승인",
+      "approved": "승인했어요",
+      "reviewRule": "사진 5장 이상, 실제 공간 사진, 숙소 유형에 맞는 등록증이 있어야 공개할 수 있어요.",
+      "allTitle": "공개 중인 숙소",
+      "notChecked": "확인 전",
+      "pause": "노출 중지",
+      "paused": "중지했어요",
+      "sampleRegistration": "지점의 등록 확인은 아직 시스템에 연결되지 않았어요. 등록 정보를 받아 확인한 뒤 바꿔 주세요.",
+      "fee": "운영수수료 {percent, number}%"
+    },
+    "members": {
+      "title": "회원",
+      "lead": "회원 {count}명. 이름은 가려서 보여 주고 연락처는 목록에 나오지 않아요.",
+      "search": "회원 아이디로 찾기",
+      "roles": "회원 구분",
+      "role": {
+        "all": "전체",
+        "guest": "게스트",
+        "host": "점주",
+        "both": "게스트·점주"
+      },
+      "done": "완료",
+      "notYet": "미완료",
+      "agreed": "동의",
+      "no": "미동의",
+      "status": {
+        "active": "정상",
+        "suspended": "이용 정지"
+      },
+      "sendCoupon": "쿠폰 보내기",
+      "suspend": "이용 정지",
+      "restore": "정지 해제",
+      "privacy": "회원의 실명과 연락처는 문의나 분쟁처럼 필요할 때만 열어 보고, 열어 본 기록이 남아요."
+    },
+    "coupons": {
+      "title": "쿠폰",
+      "lead": "쿠폰 번호로 누구나 쓰는 쿠폰을 만들거나, 회원 아이디로 쿠폰함에 바로 보내요.",
+      "usage": "{used} / {limit}",
+      "usedCount": "{used}회 사용",
+      "codeReady": "쿠폰 번호 {code}를 알리면 누구나 결제할 때 쓸 수 있어요.",
+      "sentSummary": "{count}명의 쿠폰함에 넣었어요. 광고성 알림은 수신에 동의한 {notified}명에게만 보내요.",
+      "segmentsTitle": "조건으로 고르기",
+      "segmentsLead": "조건에 맞는 회원을 받는 사람으로 채워요. 고른 뒤 쿠폰 내용을 정해 보내요.",
+      "segments": {
+        "consented": "광고 수신에 동의한 게스트",
+        "noBooking": "아직 예약이 없는 게스트",
+        "longStay": "28박 이상 머문 적 있는 게스트"
+      },
+      "segmentCount": "{count}명",
+      "pick": "받는 사람으로 고르기",
+      "listTitle": "모든 쿠폰",
+      "issuerAdmin": "먼슬리브",
+      "issuerHost": "점주 {host}",
+      "byCode": "쿠폰 번호",
+      "byId": "아이디로 {count}명",
+      "running": "진행 중",
+      "rules": "예약 한 건에 쿠폰은 하나만 쓸 수 있어요. 쿠폰은 장기 할인이 적용된 뒤의 총액에서 빠지고, 지점 쿠폰의 할인은 그 지점 점주의 정산에서 빠져요."
+    },
+    "payouts": {
+      "title": "정산",
+      "lead": "점주 정산을 날짜순으로 보고, 보류된 정산을 확인해요. 정산은 숙박 요금에서 지점 운영수수료(직영공사 지점 {direct, number}%, 그 밖의 지점 {other, number}%부터)를 빼고 청소비를 더한 금액이에요.",
+      "nextRun": "다음 정산",
+      "runNote": "{date} · {count}건",
+      "run": "정산 실행",
+      "ran": "정산 대행사로 보냈어요",
+      "holdsTitle": "보류",
+      "hold": "보류",
+      "release": "보류 해제",
+      "allTitle": "전체 정산"
+    },
+    "support": {
+      "title": "문의·신고",
+      "lead": "긴급한 일부터 보여요. 답변은 회원의 언어로 번역돼 전달돼요.",
+      "priority": {
+        "urgent": "긴급",
+        "normal": "일반"
+      },
+      "status": {
+        "open": "답변 대기",
+        "waiting": "처리 중",
+        "done": "완료"
+      },
+      "topics": {
+        "access": "출입 문제",
+        "refund": "환불 문의",
+        "receipt": "영수증 재발급",
+        "review": "후기 신고",
+        "registration": "숙소 등록 확인"
+      },
+      "reply": "답변",
+      "replyPlaceholder": "회원에게 보낼 답변을 적어 주세요.",
+      "translateNote": "한국어로 쓰면 회원의 언어로 번역돼 전달돼요.",
+      "send": "답변 보내기",
+      "sent": "보냈어요",
+      "close": "완료로 바꾸기",
+      "callHost": "지점에 전화 연결",
+      "called": "연결을 요청했어요"
+    },
+    "settings": {
+      "title": "운영 설정",
+      "lead": "서비스 전체에 적용되는 값이에요. 바꾼 내용과 바꾼 사람은 기록에 남아요.",
+      "feesTitle": "수수료",
+      "serviceFee": "게스트 수수료",
+      "serviceFeeNote": "먼슬리브는 게스트 수수료를 받지 않아요. 0%면 게스트에게 지점 요금이 그대로 보여요.",
+      "hostFee": "운영수수료 · 직영공사 지점",
+      "hostFeeNote": "먼슬리브가 직영공사한 지점의 기본값이에요. 정산할 때 숙박 요금에서 빼고, 청소비에는 붙지 않아요.",
+      "stayTitle": "기간과 결제",
+      "defaultDiscount": "{length} 기본 할인",
+      "splitFrom": "나눠 내기 시작",
+      "nightsUnit": "박부터",
+      "freeCancel": "무료 취소 기한",
+      "daysBefore": "일 전까지",
+      "stayNote": "기본 할인은 새로 등록하는 객실에 처음 채워지는 값이고, 지점마다 바꿀 수 있어요.",
+      "sectionsTitle": "헤더 메뉴",
+      "sectionsLead": "사이트 위쪽에 보이는 숙소 구분이에요.",
+      "rolesTitle": "직원 권한",
+      "rolesLead": "역할마다 열 수 있는 메뉴를 정해요. 최고 관리자는 바꿀 수 없어요.",
+      "role": "역할",
+      "roles": {
+        "owner": "최고 관리자",
+        "operations": "운영",
+        "support": "고객 지원",
+        "finance": "정산"
+      },
+      "securityNote": "직원 계정은 2단계 인증이 꼭 필요하고, 회원 정보를 연 기록은 1년 동안 보관해요.",
+      "otherFee": "운영수수료 · 그 밖의 지점",
+      "otherFeeNote": "다른 업체가 공사한 지점의 시작값이에요. 지점마다 협의해서 정해요."
+    }
+  }
+}

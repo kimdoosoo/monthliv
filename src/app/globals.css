@@ -1,0 +1,2499 @@
+/*
+ * MONTHLIV styles: tokens, base, type, components and page chrome. Page layouts live in pages.css.
+ *
+ * Tokens come from the MONTHLIV design system v2 (claude.ai/artifact/1RSNBf9hKp49JoTyNEK85C):
+ * the official palette — 먼슬리브 브라운 #4b362c (main), 레드 #881c21, 코랄핑크 #b99a9d,
+ * 베이지 #f3e5db — plus supporting colours made from them.
+ *
+ * Token and class names follow the Livawhile codebase this site shares, so fixes can move
+ * between the two. What they mean here:
+ * - --moon is the accent: MONTHLIV brown, a fill for the one primary button per screen
+ *   (.lv-btn--moon), badges, dots and steps. Text on it is white.
+ * - --moon-deep is the highlight: MONTHLIV red, for emphasis text and links. Never a big red area.
+ * - --moon-soft is blush, the soft highlight behind selected things.
+ * - --surface-night is deep brown (footer, dark panels); text on it is beige.
+ * - --surface-hanji is beige, the warm second surface; the page itself is ivory.
+ * - The stay-length scale (MoonIcon) is drawn as a building whose windows light up with
+ *   --lamp as the stay grows. Ratings are ★ out of 5.
+ * - Headings are serif (Noto Serif KR 600, Libre Caslon Text for Latin); text is Pretendard;
+ *   labels and the slogan are Jost. Work screens (partner centre, admin) keep headings in Pretendard.
+ * - Radius: 6 small, 12 controls and buttons, 20 cards and photos, pills for chips and badges.
+ * - Icons are lucide at stroke 1.75.
+ */
+
+:root {
+  /* MONTHLIV palette */
+  --brown: #4b362c;
+  --red: #881c21;
+  --coral-pink: #b99a9d;
+  --beige: #f3e5db;
+  --brown-deep: #33241d;
+  --ivory: #fbf6f1;
+  --blush: #f6e9e9;
+  --plum: #5e4447;
+  --red-light: #eea3a6;
+  --lamp: #f2c46b;
+
+  --surface: var(--ivory);
+  --surface-hanji: var(--beige);
+  --surface-sand: #efe0d4;
+  --surface-raised: #ffffff;
+  --surface-night: var(--brown-deep);
+  --line: #eaddd3;
+  --line-night: #54423a;
+  --line-control: #9a857b;
+  --ink: var(--brown);
+  --ink-muted: #75615a;
+  --on-night: var(--beige);
+  --on-night-muted: #c4b1a7;
+  --on-night-faint: #a8948a;
+  --moon: var(--brown);
+  --moon-hover: var(--brown-deep);
+  --moon-soft: var(--blush);
+  --moon-deep: var(--red);
+  --on-moon: #ffffff;
+  --celadon: #2f6b4a;
+  --celadon-deep: #24533a;
+  --celadon-soft: #e6efe9;
+  --oak: var(--coral-pink);
+  --danger: #b03a0b;
+  --danger-soft: #fbeae2;
+  --focus: var(--red);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+
+  --shadow-card: 0 1px 2px rgba(75, 54, 44, 0.06), 0 8px 24px rgba(75, 54, 44, 0.08);
+  --shadow-float: 0 1px 2px rgba(75, 54, 44, 0.06), 0 8px 24px rgba(75, 54, 44, 0.12);
+  --shadow-pop: 0 1px 2px rgba(75, 54, 44, 0.06), 0 12px 32px rgba(75, 54, 44, 0.18);
+  --shadow-sheet: 0 -8px 32px rgba(75, 54, 44, 0.14);
+
+  /* Pretendard for text (Korean and Latin), serif for headings, Jost for labels. */
+  --font-sans: "Pretendard Variable", Pretendard, system-ui, -apple-system, "Apple SD Gothic Neo",
+    "Segoe UI", sans-serif;
+  --font-kr: var(--font-sans);
+  --font-serif: "Libre Caslon Text", "Noto Serif KR", "AppleMyungjo", Georgia, serif;
+  --font-label: Jost, "Pretendard Variable", Pretendard, system-ui, sans-serif;
+
+  --tabbar-height: 64px;
+  --wrap: 1280px;
+  --gutter: 32px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--ink);
+  background: var(--surface);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Languages: Pretendard covers Korean and Latin; other scripts pair it with a system face.
+   Korean headings set Noto Serif KR first so Latin letters inside them match the Hangul. */
+html:lang(ko) {
+  --font-serif: "Noto Serif KR", "Libre Caslon Text", "AppleMyungjo", Georgia, serif;
+}
+:lang(ko) {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+:lang(de) {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+html:lang(ja) {
+  --font-sans: "Pretendard Variable", Pretendard, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+    "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+  --font-serif: "Libre Caslon Text", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+}
+html:lang(zh-CN) {
+  --font-sans: "Pretendard Variable", Pretendard, "PingFang SC", "Microsoft YaHei", "Noto Sans SC",
+    sans-serif;
+  --font-serif: "Libre Caslon Text", "Songti SC", "STSong", "Noto Serif SC", serif;
+}
+html:lang(zh-TW) {
+  --font-sans: "Pretendard Variable", Pretendard, "PingFang TC", "Microsoft JhengHei", "Noto Sans TC",
+    sans-serif;
+  --font-serif: "Libre Caslon Text", "Songti TC", "Noto Serif TC", serif;
+}
+html:lang(th) {
+  --font-sans: "Pretendard Variable", Pretendard, "Noto Sans Thai", "Leelawadee UI", Thonburi,
+    sans-serif;
+}
+/* Japanese and Chinese headings wrap at punctuation and spaces, never inside a word. */
+:is(.lv-display, .lv-h1, .lv-h2):is(:lang(ja), :lang(zh)) {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote {
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+legend {
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.lv-on-night :where(a, button, input, select, textarea):focus-visible,
+.lv-footer :where(a, button):focus-visible {
+  outline-color: var(--on-night);
+}
+::selection {
+  background: var(--moon-soft);
+}
+
+.lv-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- type ---------- */
+
+/* Eyebrow labels and the slogan: Jost, capitals, wide tracking (Korean falls back to Pretendard). */
+.lv-label {
+  font-family: var(--font-label);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.lv-label b,
+.lv-slogan-fill {
+  font-weight: 500;
+  color: var(--moon-deep);
+}
+/* Headings are serif, weight 600: the classic face of the logo, kept readable. */
+.lv-display {
+  font-family: var(--font-serif);
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.lv-h1 {
+  font-family: var(--font-serif);
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+.lv-h1--sm {
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+}
+.lv-h2 {
+  font-family: var(--font-serif);
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.lv-h2--lg {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+}
+.lv-h3 {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.lv-h4 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.lv-lead {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--ink-muted);
+}
+.lv-sub {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--ink-muted);
+}
+.lv-small {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--ink-muted);
+}
+.lv-muted {
+  color: var(--ink-muted);
+}
+.lv-deep {
+  color: var(--moon-deep);
+}
+.lv-num {
+  font-variant-numeric: tabular-nums;
+}
+.lv-link {
+  font-weight: 700;
+  color: var(--moon-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+.lv-link:hover {
+  color: var(--ink-muted);
+}
+.lv-textbtn {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  cursor: pointer;
+}
+.lv-textbtn:hover {
+  color: var(--ink-muted);
+}
+
+/* ---------- stay scale (lit windows), star, dot ---------- */
+
+.lv-moon {
+  flex: none;
+}
+.lv-moon .lit {
+  fill: var(--lamp);
+}
+.lv-moon .ring,
+.lv-moon .pane,
+.lv-moon .halo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+}
+.lv-moon .ring {
+  stroke-width: 1.6;
+}
+.lv-moon .pane {
+  stroke-width: 1.1;
+}
+.lv-moon .halo {
+  stroke-width: 1.1;
+}
+.lv-moon--lg .ring {
+  stroke-width: 1.4;
+}
+.lv-moon--lg .pane {
+  stroke-width: 1;
+}
+.lv-moon--lg .halo {
+  stroke-width: 1;
+}
+.lv-moon .pane.lit {
+  fill: var(--lamp);
+}
+.lv-moondot {
+  flex: none;
+  fill: var(--moon);
+}
+.lv-star {
+  flex: none;
+  fill: currentColor;
+}
+.lv-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ---------- buttons ---------- */
+
+.lv-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 52px;
+  padding: 0 24px;
+  border: 1.5px solid var(--line-control);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none;
+}
+.lv-btn:hover {
+  border-color: var(--ink);
+}
+.lv-btn--moon {
+  border-color: var(--moon);
+  background: var(--moon);
+  color: var(--on-moon);
+}
+.lv-btn--moon:hover {
+  border-color: var(--moon-hover);
+  background: var(--moon-hover);
+}
+/* MONTHLIV's secondary button: transparent with an ink line (only one brown button per screen). */
+.lv-btn--night {
+  border-color: var(--ink);
+  background: transparent;
+  color: var(--ink);
+}
+.lv-btn--night:hover {
+  border-color: var(--ink);
+  background: var(--surface-hanji);
+}
+.lv-btn--onnight {
+  border-color: var(--on-night-faint);
+  background: transparent;
+  color: var(--on-night);
+}
+.lv-btn--onnight:hover {
+  border-color: var(--on-night);
+}
+.lv-btn--hanji {
+  border-color: var(--surface-hanji);
+  background: var(--surface-hanji);
+}
+.lv-btn--hanji:hover {
+  border-color: var(--line);
+  background: var(--line);
+}
+.lv-btn--sm {
+  height: 44px;
+  padding: 0 20px;
+  font-size: 15px;
+}
+.lv-btn--xs {
+  height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+.lv-btn--block {
+  width: 100%;
+}
+.lv-btn--lg {
+  height: 54px;
+  padding: 0 26px;
+}
+/* outline in ink, for the second button beside a moon one */
+.lv-btn--line {
+  border-color: var(--ink);
+}
+.lv-btn--line:hover {
+  background: var(--surface-hanji);
+}
+.lv-btn:disabled,
+.lv-btn[aria-disabled="true"] {
+  cursor: not-allowed;
+  border-color: var(--line);
+  background: var(--surface-hanji);
+  color: var(--ink-muted);
+}
+.lv-iconbtn {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+.lv-iconbtn:hover {
+  background: var(--surface-hanji);
+}
+.lv-btnrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* ---------- form controls ---------- */
+
+.lv-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.lv-field__label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.lv-field__label--plain {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+}
+.lv-input,
+.lv-select,
+.lv-textarea {
+  width: 100%;
+  min-width: 0;
+  height: 52px;
+  padding: 0 14px;
+  border: 1.5px solid var(--line-control);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 600;
+}
+.lv-input::placeholder,
+.lv-textarea::placeholder {
+  color: var(--ink-muted);
+  font-weight: 500;
+}
+.lv-input:hover,
+.lv-select:hover,
+.lv-textarea:hover {
+  border-color: var(--ink);
+}
+.lv-select {
+  appearance: none;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%231c1a17' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  cursor: pointer;
+}
+.lv-select--sm {
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.lv-textarea {
+  height: auto;
+  min-height: 112px;
+  padding: 12px 14px;
+  line-height: 24px;
+  font-weight: 500;
+  resize: vertical;
+}
+.lv-hint {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--ink-muted);
+}
+.lv-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lv-check input {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--ink);
+}
+
+/* selectable rows: radio and checkbox cards */
+.lv-choice {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px 20px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface-raised);
+  cursor: pointer;
+}
+.lv-choice:hover {
+  border-color: var(--line-control);
+}
+.lv-choice:has(input:checked) {
+  border: 2px solid var(--ink);
+  padding: 17.5px 19.5px;
+}
+.lv-choice > input {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 2px 0 0;
+  accent-color: var(--ink);
+}
+.lv-choice__t {
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.lv-choice__d {
+  display: block;
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--ink-muted);
+}
+
+/* switch */
+.lv-switch {
+  position: relative;
+  flex: none;
+  width: 48px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--line-control);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.lv-switch::after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-full);
+  background: var(--surface);
+  transition: transform 0.15s;
+}
+.lv-switch[aria-checked="true"] {
+  background: var(--ink);
+}
+.lv-switch[aria-checked="true"]::after {
+  transform: translateX(20px);
+}
+
+/* ---------- chips and badges ---------- */
+
+.lv-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.lv-chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 16px;
+  border: 1.5px solid var(--line-control);
+  border-radius: var(--radius-full);
+  background: var(--surface-raised);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.lv-chip:hover {
+  border-color: var(--ink);
+}
+.lv-chip[aria-pressed="true"],
+.lv-chip[aria-current="page"],
+.lv-chip[aria-current="true"],
+.lv-chip:has(input:checked) {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--on-night);
+}
+.lv-chip input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+label.lv-chip {
+  max-width: 100%;
+  height: auto;
+  min-height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  white-space: normal;
+}
+.lv-btn:has(input:focus-visible),
+.lv-chip:has(input:focus-visible) {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+/* Moon Scale chips: how long */
+.lv-chip--stay {
+  height: 44px;
+  padding: 0 16px 0 12px;
+  font-size: 15px;
+}
+.lv-chip--stay small {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+.lv-chip--stay[aria-pressed="true"] small,
+.lv-chip--stay:has(input:checked) small {
+  color: #dccbbf;
+}
+
+.lv-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: var(--radius-full);
+  background: var(--surface-hanji);
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.lv-badge--sm {
+  height: 26px;
+  padding: 0 10px;
+}
+.lv-badge--moon {
+  background: var(--moon-soft);
+  color: var(--moon-deep);
+}
+.lv-badge--celadon {
+  background: var(--celadon-soft);
+  color: var(--celadon-deep);
+}
+.lv-badge--night {
+  background: var(--ink);
+  color: var(--on-night);
+}
+.lv-badge--line {
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+}
+.lv-badge--photo {
+  height: 30px;
+  background: var(--surface);
+  box-shadow: var(--shadow-card);
+}
+.lv-badge--danger {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+/* ---------- surfaces ---------- */
+
+.lv-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface-raised);
+}
+.lv-card--pad {
+  padding: 24px;
+}
+.lv-card--hanji {
+  border-color: transparent;
+  background: var(--surface-hanji);
+}
+.lv-card--night {
+  border-color: transparent;
+  background: var(--surface-night);
+  color: var(--on-night);
+}
+.lv-card--float {
+  box-shadow: var(--shadow-card);
+}
+
+/* key / value rows */
+.lv-rows {
+  display: grid;
+}
+.lv-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 15px;
+  line-height: 22px;
+}
+.lv-row:last-child {
+  border-bottom: 0;
+}
+.lv-row__k {
+  font-weight: 700;
+}
+.lv-row__v {
+  color: var(--ink-muted);
+  text-align: right;
+}
+
+/* price breakdown */
+.lv-price {
+  display: grid;
+  gap: 10px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.lv-price__line {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.lv-price__line > :last-child {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.lv-price__line--save {
+  color: var(--celadon-deep);
+  font-weight: 700;
+}
+.lv-price__total {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 17px;
+  font-weight: 800;
+}
+/* the service fee inside the total: told, never added */
+.lv-price__incl {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: -4px;
+  color: var(--ink-muted);
+  font-size: 14px;
+  line-height: 20px;
+}
+.lv-price__incl > :last-child {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* notes: always words, never colour alone */
+.lv-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: var(--surface-hanji);
+  font-size: 14px;
+  line-height: 20px;
+}
+.lv-note--moon {
+  background: var(--moon-soft);
+  color: var(--moon-deep);
+  font-weight: 700;
+}
+.lv-note--celadon {
+  background: var(--celadon-soft);
+  color: var(--celadon-deep);
+}
+.lv-note--danger {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+.lv-note svg {
+  flex: none;
+  margin-top: 1px;
+}
+
+/* the summary of a stay: moon + "28박 · 한 달" + discount badge */
+.lv-staysum {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+/* avatars: an initial on celadon */
+.lv-avatar {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  background: var(--celadon-soft);
+  color: var(--celadon-deep);
+  font-size: 15px;
+  font-weight: 800;
+  overflow: hidden;
+}
+.lv-avatar--sm {
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+}
+.lv-avatar--md {
+  width: 56px;
+  height: 56px;
+  font-size: 16px;
+}
+.lv-avatar--lg {
+  width: 64px;
+  height: 64px;
+  font-size: 18px;
+}
+.lv-avatar--hanji {
+  background: var(--surface-hanji);
+  color: var(--ink);
+}
+.lv-avatar--night {
+  background: var(--ink);
+  color: var(--on-night);
+}
+.lv-avatar img {
+  width: 62%;
+  height: 62%;
+}
+
+/* ---------- photos ---------- */
+
+/* a place's photo, or the warm slot where it will go; the slot shows while the photo loads */
+.lv-photo {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--surface-hanji);
+}
+.lv-photo__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.lv-photo__label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  color: var(--ink-muted);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.lv-photo__mark {
+  width: 46px;
+  height: auto;
+  opacity: 0.18;
+}
+.lv-photo--t1 {
+  background: #f3e5db;
+}
+.lv-photo--t2 {
+  background: #efe2d8;
+}
+.lv-photo--t3 {
+  background: #f4e6e5;
+}
+.lv-photo--t4 {
+  background: #f1e7df;
+}
+.lv-photo--t5 {
+  background: #ecdfdc;
+}
+.lv-photo--t6 {
+  background: #efe5da;
+}
+
+/* ---------- listing card ---------- */
+
+.lv-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px 24px;
+}
+.lv-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px 20px;
+}
+.lv-lcard {
+  position: relative;
+  min-width: 0;
+}
+.lv-lcard__link {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--ink);
+}
+.lv-lcard__photo {
+  aspect-ratio: 4 / 5;
+}
+.lv-lcard__photo .lv-photo__img {
+  transition: transform 0.3s ease;
+}
+.lv-lcard__link:hover .lv-lcard__photo .lv-photo__img {
+  transform: scale(1.02);
+}
+.lv-lcard[data-on="true"] .lv-lcard__photo {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+.lv-lcard__badge {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+.lv-lcard__body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.lv-lcard__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.lv-lcard__title {
+  min-width: 0;
+}
+.lv-lcard__top .lv-rating,
+.lv-lcard__top .lv-new {
+  margin-top: 2px;
+}
+.lv-lcard__meta {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--ink-muted);
+}
+.lv-lcard__price {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.lv-lcard__price b {
+  font-weight: 800;
+}
+.lv-lcard__price s {
+  color: var(--ink-muted);
+}
+.lv-lcard__per {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--moon-deep);
+}
+.lv-lcard--compact .lv-lcard__link {
+  gap: 10px;
+}
+.lv-lcard--compact .lv-lcard__top {
+  font-size: 16px;
+  line-height: 22px;
+}
+.lv-lcard--compact .lv-lcard__body {
+  gap: 2px;
+}
+.lv-new {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  height: 22px;
+  padding: 0 8px;
+  border-radius: var(--radius-full);
+  background: var(--celadon-soft);
+  color: var(--celadon-deep);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+/* the heart over a photo */
+.lv-save {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--ink);
+  cursor: pointer;
+}
+.lv-save:hover {
+  background: var(--surface);
+}
+.lv-save[aria-pressed="true"] svg {
+  fill: var(--moon);
+}
+
+/* ---------- page chrome ---------- */
+
+/* The page fills the window under the preview line, so the footer sits at the bottom of short pages. */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+.lv-page {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  background: var(--surface);
+}
+.lv-page > main {
+  flex: 1 0 auto;
+}
+.lv-wrap {
+  width: 100%;
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+.lv-wrap--narrow {
+  max-width: 1180px;
+}
+.lv-wrap--text {
+  max-width: 880px;
+}
+
+/* one quiet line at the top while the site shows sample places */
+.lv-preview {
+  margin: 0;
+  padding: 7px 16px;
+  background: var(--surface-hanji);
+  color: var(--ink-muted);
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.lv-header {
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+.lv-header__in {
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  gap: 12px 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.lv-logolink {
+  display: inline-flex;
+  flex: none;
+}
+.lv-logo {
+  display: block;
+  height: 22px;
+  width: auto;
+}
+.lv-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px 28px;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.lv-nav a,
+.lv-tools__link {
+  white-space: nowrap;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+.lv-nav a:hover,
+.lv-tools__link:hover {
+  color: var(--ink-muted);
+}
+.lv-nav a[aria-current="page"],
+.lv-tools__link[aria-current="page"] {
+  text-decoration-line: underline;
+}
+.lv-tools {
+  display: flex;
+  align-items: center;
+  gap: 8px 22px;
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: 600;
+}
+.lv-langpill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 14px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+.lv-langpill:hover {
+  border-color: var(--line-control);
+}
+.lv-me {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--celadon-soft);
+  color: var(--celadon-deep);
+  font-size: 12px;
+  font-weight: 800;
+}
+.lv-me:hover {
+  outline: 1.5px solid var(--celadon);
+  outline-offset: 2px;
+}
+
+/* the search in a pill at the top of listing pages */
+.lv-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  height: 48px;
+  margin: 0 auto;
+  padding: 0 4px 0 20px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-full);
+  background: var(--surface-raised);
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(51, 36, 29, 0.06);
+}
+.lv-pill:hover {
+  border-color: var(--line-control);
+}
+.lv-pill__sep {
+  width: 1px;
+  height: 20px;
+  background: var(--line);
+}
+.lv-pill__go {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  background: var(--moon);
+  color: var(--on-moon);
+}
+
+.lv-footer {
+  background: var(--surface-night);
+  color: var(--on-night);
+}
+.lv-footer__in {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+.lv-footer__top {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 40px;
+}
+.lv-footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.lv-footer__logo {
+  display: block;
+  width: 156px;
+  height: auto;
+}
+.lv-footer__line {
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--on-night-muted);
+}
+.lv-footer nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.lv-footer h2 {
+  margin: 0 0 4px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--on-night-muted);
+}
+.lv-footer nav a:hover {
+  color: var(--moon);
+}
+.lv-footer__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line-night);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--on-night-muted);
+}
+.lv-footer__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 32px;
+}
+.lv-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+.lv-footer__links a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.lv-footer__links a:first-child {
+  color: var(--on-night);
+  font-weight: 700;
+}
+.lv-footer__links a:hover {
+  color: var(--moon);
+}
+.lv-footer__set {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--on-night);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.lv-footer__legal {
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--on-night-faint);
+}
+
+/* bottom tab bar, map button and booking bar: phones and the app only */
+.lv-tabbar,
+.lv-fab,
+.lv-bookbar {
+  display: none;
+}
+
+/* ---------- shared layout bits ---------- */
+
+.lv-section {
+  padding: 48px 0;
+}
+.lv-section__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin-bottom: 32px;
+}
+.lv-section__head > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.lv-band {
+  background: var(--surface-hanji);
+}
+.lv-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 96px 0;
+}
+.lv-empty__mark {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 8px;
+}
+.lv-back {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  color: var(--ink);
+}
+.lv-back:hover {
+  background: var(--surface-hanji);
+}
+.lv-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* ---------- narrower screens ---------- */
+
+@media (max-width: 1200px) {
+  .lv-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* The header menu needs room: CJK labels fit from 1025px; longer ones from 1281px. */
+@media (max-width: 1280px) {
+  .lv-header__in {
+    gap: 12px 28px;
+  }
+  .lv-nav {
+    gap: 4px 20px;
+  }
+  .lv-tools {
+    gap: 8px 16px;
+  }
+  html:not(:lang(ko)):not(:lang(zh-CN)):not(:lang(zh-TW)):not(:lang(ja)) .lv-nav {
+    display: none;
+  }
+}
+@media (max-width: 1120px) {
+  .lv-tools__link--wide {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .lv-nav {
+    display: none;
+  }
+  .lv-footer__top {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .lv-footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --gutter: 24px;
+  }
+  .lv-hide-md {
+    display: none !important;
+  }
+  .lv-grid,
+  .lv-grid--3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .lv-display {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .lv-h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .lv-h2,
+  .lv-h2--lg {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lv-hide-mobile {
+    display: none !important;
+  }
+  .lv-header__in {
+    min-height: 64px;
+    gap: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .lv-logo {
+    height: 18px;
+  }
+  .lv-tools {
+    gap: 8px 12px;
+  }
+  .lv-tabbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--line);
+    background: var(--surface);
+  }
+  .lv-tab {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    min-width: 0;
+    min-height: 52px;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 600;
+    color: var(--ink-muted);
+    text-align: center;
+  }
+  .lv-tab[aria-current="page"] {
+    color: var(--ink);
+    font-weight: 800;
+  }
+  .lv-tab__dot {
+    position: absolute;
+    top: 6px;
+    left: calc(50% + 8px);
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--surface);
+    border-radius: var(--radius-full);
+    background: var(--moon);
+  }
+  .lv-has-tabbar {
+    padding-bottom: calc(var(--tabbar-height) + env(safe-area-inset-bottom));
+  }
+  .lv-fab {
+    position: fixed;
+    left: 50%;
+    bottom: calc(var(--tabbar-height) + 20px + env(safe-area-inset-bottom));
+    z-index: 21;
+    transform: translateX(-50%);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 48px;
+    padding: 0 20px;
+    border-radius: var(--radius-full);
+    background: var(--ink);
+    color: var(--on-night);
+    font-size: 15px;
+    font-weight: 700;
+    white-space: nowrap;
+    box-shadow: var(--shadow-float);
+  }
+  .lv-footer__in {
+    padding-top: 48px;
+    gap: 32px;
+  }
+  .lv-footer__top {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 24px;
+  }
+  .lv-section {
+    padding: 40px 0;
+  }
+  .lv-display {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .lv-h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .lv-h1--sm {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .lv-h2,
+  .lv-h2--lg {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --gutter: 16px;
+  }
+  .lv-grid,
+  .lv-grid--3 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .lv-footer__top {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .lv-card--pad {
+    padding: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- small shared pieces ---------- */
+
+.lv-btn--plain {
+  border-color: transparent;
+  background: transparent;
+}
+.lv-btn--plain:hover {
+  border-color: transparent;
+  background: var(--surface-hanji);
+}
+.lv-avatar--xs {
+  width: 24px;
+  height: 24px;
+  font-size: 10px;
+}
+.lv-crumbs {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--ink-muted);
+}
+.lv-crumbs a {
+  color: var(--ink-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.lv-crumbs a:hover {
+  color: var(--ink);
+}
+.lv-progress {
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--surface-hanji);
+  overflow: hidden;
+}
+.lv-progress > span {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius-full);
+  background: var(--moon);
+}
+.lv-self-start {
+  align-self: flex-start;
+}
+.lv-accordion {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.lv-accordion details {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--line);
+}
+.lv-accordion details:last-child {
+  border-bottom: 0;
+}
+.lv-accordion summary {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.lv-accordion summary::marker {
+  color: var(--ink-muted);
+}
+.lv-accordion__body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #5a463c;
+}
+
+/* questions and answers that open in place, lines between them */
+.lv-faq {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--line);
+}
+.lv-faq details {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.lv-faq summary {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.lv-faq summary::marker {
+  color: var(--ink-muted);
+}
+.lv-faq details > :not(summary) {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #5a463c;
+}
+
+/* a bordered card holding a form section (host centre, admin, account) */
+.lv-editcard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+.lv-editcard__title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 800;
+}
+.lv-editcard__sub {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--ink-muted);
+}
+.lv-editcard--night {
+  gap: 14px;
+  border-color: var(--surface-night);
+  background: var(--surface-night);
+  color: var(--on-night);
+}
+.lv-editcard__note {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--on-night-muted);
+}
+.lv-editcard__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: 16px;
+}
+
+/* an amount with its unit inside the box: [ 40,000 원 ] */
+.lv-amount {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  height: 52px;
+  padding: 0 14px;
+  border: 1.5px solid var(--line-control);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  font-size: 16px;
+  font-weight: 700;
+}
+.lv-amount:hover {
+  border-color: var(--ink);
+}
+.lv-amount:focus-within {
+  border-color: var(--ink);
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.lv-amount input {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: inherit;
+  font-weight: inherit;
+  outline: none;
+}
+.lv-amount--big {
+  height: 60px;
+  padding: 0 16px;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+/* an on/off option: what it does on the left, the checkbox on the right */
+.lv-optrow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  cursor: pointer;
+}
+.lv-optrow--first {
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+.lv-optrow > span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.lv-optrow b {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.lv-optrow input {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  accent-color: var(--ink);
+}
+
+/* choices shown as cards: a radio (or the current link) and two lines of text */
+.lv-optcards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  gap: 10px;
+}
+.lv-optcard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  cursor: pointer;
+}
+.lv-optcard:hover {
+  border-color: var(--line-control);
+}
+.lv-optcard[aria-current="true"],
+.lv-optcard:has(input:checked) {
+  padding: 7px 13px;
+  border: 2px solid var(--ink);
+}
+.lv-optcard input {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--ink);
+}
+.lv-optcard__dot {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--line-control);
+  border-radius: var(--radius-full);
+}
+.lv-optcard[aria-current="true"] .lv-optcard__dot {
+  border: 6px solid var(--ink);
+}
+.lv-optcard__text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.lv-optcard__text b {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 800;
+}
+.lv-optcard__text span {
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--ink-muted);
+}
+.lv-btnrow--end {
+  justify-content: flex-end;
+}
+
+/* tabs that are links: [사용 가능 3] [사용함 1] */
+.lv-tabs {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--line);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.lv-tabs__tab {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  min-height: 48px;
+  padding: 0 14px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+.lv-tabs__tab:hover {
+  color: var(--ink);
+}
+.lv-tabs__tab[aria-current="page"] {
+  border-bottom-color: var(--ink);
+  color: var(--ink);
+  font-weight: 800;
+}
+.lv-tabs__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: var(--radius-full);
+  background: var(--surface-hanji);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+}
+
+/* a list of rows: what it is on the left, an action or amount on the right */
+.lv-rows {
+  display: flex;
+  flex-direction: column;
+}
+.lv-rows > .lv-rows__row + .lv-rows__row {
+  border-top: 1px solid var(--line);
+}
+.lv-rows__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  padding: 14px 0;
+}
+.lv-editcard > .lv-rows__row {
+  padding: 0;
+}
+.lv-rows__icon {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: var(--surface-hanji);
+}
+.lv-rows__main {
+  display: flex;
+  flex: 1 1 220px;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.lv-rows__main b {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.lv-rows__end {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.lv-rows__amount {
+  font-size: 16px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+/* a field and its button on one line, wrapping on phones */
+.lv-inlineform {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.lv-inlineform__field {
+  flex: 1 1 240px;
+}
+.lv-input--code {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.lv-input--code::placeholder {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* a coupon: the stub with what it takes off, then the details */
+.lv-tickets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(420px, 100%), 1fr));
+  gap: 14px;
+}
+.lv-ticket {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  overflow: hidden;
+}
+.lv-ticket__stub {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 116px;
+  padding: 16px 8px;
+  border-right: 1.5px dashed var(--line-control);
+  background: var(--moon-soft);
+  color: var(--moon-deep);
+  text-align: center;
+}
+.lv-ticket__stub b {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 800;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.lv-ticket__stub span {
+  font-size: 13px;
+  font-weight: 700;
+}
+.lv-ticket__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding: 16px 18px;
+}
+.lv-ticket__top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.lv-ticket__title {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 800;
+}
+.lv-ticket.is-off .lv-ticket__stub {
+  background: var(--surface-hanji);
+  color: var(--ink-muted);
+}
+.lv-ticket.is-off .lv-ticket__stub b,
+.lv-ticket.is-off .lv-ticket__title {
+  color: var(--ink-muted);
+}
+
+/* a table of checkboxes: what on the left, where across the top */
+/* scroll containers are positioned so visually hidden text inside them can't widen the page */
+.lv-tablewrap {
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+}
+.lv-checktable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.lv-checktable thead th {
+  padding: 0 8px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-muted);
+  text-align: center;
+}
+.lv-checktable tbody tr {
+  border-top: 1px solid var(--line);
+}
+.lv-checktable tbody th {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 12px 14px 0;
+  text-align: left;
+}
+.lv-checktable tbody th b {
+  font-size: 16px;
+  font-weight: 700;
+}
+.lv-checktable td {
+  width: 72px;
+  text-align: center;
+  vertical-align: middle;
+}
+@media (max-width: 640px) {
+  .lv-checktable td {
+    width: 52px;
+  }
+}
+.lv-checktable input {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  accent-color: var(--ink);
+}
+.lv-checktable input:disabled {
+  opacity: 0.55;
+}
+
+/* a small "change" that opens a field in place */
+.lv-inlineedit {
+  margin-top: 6px;
+}
+.lv-inlineedit summary {
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  list-style: none;
+}
+.lv-inlineedit summary::-webkit-details-marker {
+  display: none;
+}
+.lv-inlineedit[open] summary {
+  margin-bottom: 10px;
+}
+
+/* something that can't be undone sits folded, in red words */
+.lv-danger {
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+.lv-danger summary {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--danger);
+  cursor: pointer;
+}
+.lv-danger[open] summary {
+  margin-bottom: 8px;
+}
+.lv-danger .lv-btn {
+  margin-top: 10px;
+}
+.lv-btn--danger {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+.lv-btn--danger:hover {
+  background: var(--danger-soft);
+  border-color: var(--danger);
+}
+
+/* ---------- work screens: host centre and admin ---------- */
+
+.lv-page--work {
+  background: var(--surface);
+}
+.lv-header--work .lv-header__in {
+  min-height: 64px;
+  gap: 12px 20px;
+}
+.lv-workmode {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: var(--radius-full);
+  background: var(--surface-hanji);
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.lv-me--host {
+  background: var(--moon-soft);
+  color: var(--moon-deep);
+}
+.lv-subnav {
+  border-top: 1px solid var(--line);
+}
+.lv-subnav__in {
+  position: relative;
+  display: flex;
+  gap: 4px 24px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.lv-subnav a {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  min-height: 48px;
+  border-bottom: 2px solid transparent;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+.lv-subnav a:hover {
+  color: var(--ink);
+}
+.lv-subnav a[aria-current="page"] {
+  border-bottom-color: var(--ink);
+  color: var(--ink);
+  font-weight: 800;
+}
+.lv-work {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding-top: 32px;
+  padding-bottom: 96px;
+}
+.lv-workhead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 24px;
+}
+.lv-workhead > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.lv-workhead__date {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+.lv-workhead__h1 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.lv-worksplit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr));
+  align-items: start;
+  gap: 20px;
+}
+
+/* numbers at the top of a work page */
+.lv-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr));
+  gap: 12px;
+}
+/* six numbers sit as two rows of three on wide screens */
+@media (min-width: 1100px) {
+  .lv-stats--three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.lv-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+.lv-stat__label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+.lv-stat__value {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+/* tables of records */
+.lv-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 21px;
+}
+.lv-table thead th {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-muted);
+  text-align: left;
+  white-space: nowrap;
+}
+.lv-table tbody :is(th, td) {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  font-weight: 500;
+}
+.lv-table :is(th, td):first-child {
+  padding-left: 0;
+}
+.lv-table :is(th, td):last-child {
+  padding-right: 0;
+}
+.lv-table tbody tr:hover {
+  background: #fcf8f4;
+}
+.lv-table td b {
+  font-weight: 700;
+}
+.lv-table__num {
+  text-align: right !important;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.lv-table__link {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+.lv-table__sub {
+  display: block;
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+.lv-table__nowrap {
+  white-space: nowrap;
+}
+.lv-table__tier {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.lv-chips--scroll {
+  position: relative;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 2px;
+}
+.lv-chip__id {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.lv-progress--thin {
+  display: block;
+  height: 6px;
+  margin-top: 6px;
+}
+.lv-editcard--moon {
+  border-color: var(--moon-soft);
+  background: #fdf7f0;
+}
+.lv-editcard--done {
+  border: 2px solid var(--celadon);
+}
+.lv-editcard__grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.lv-optcards--2 {
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+}
+.lv-tickets--one {
+  grid-template-columns: minmax(0, 1fr);
+}
+.lv-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+}
+.lv-breakdown > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.lv-breakdown dd {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.lv-breakdown__total {
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 17px;
+  font-weight: 800;
+}
+.lv-factlist {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.lv-factlist li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.lv-guestcard {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.lv-guestcard__photo {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-md);
+}
+a.lv-guestcard:hover b {
+  text-decoration: underline;
+}
+@media (max-width: 640px) {
+  .lv-work {
+    padding-top: 20px;
+    padding-bottom: 56px;
+  }
+  .lv-workhead__h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .lv-workmode {
+    display: none;
+  }
+  .lv-stat__value {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+/* MONTHLIV's header sections (month, stays, hostels, residences, together) and the wider logo
+   need more room than the Livawhile menu: Latin-script menus show from 1441px, German from 1601px. */
+@media (max-width: 1440px) {
+  html:not(:lang(ko)):not(:lang(zh-CN)):not(:lang(zh-TW)):not(:lang(ja)) .lv-nav {
+    display: none;
+  }
+}
+@media (max-width: 1600px) {
+  html:lang(de) .lv-nav {
+    display: none;
+  }
+}

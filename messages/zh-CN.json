@@ -1,0 +1,1277 @@
+{
+  "meta": {
+    "brand": "MONTHLIV",
+    "title": "MONTHLIV · 住一个月也好，住一晚也好，都像自己的房间",
+    "description": "在地图上查找MONTHLIV门店，从一晚到一整季，想住多久就住多久。无需为押金发愁，住得越久，每晚越便宜。"
+  },
+  "nav": {
+    "home": "MONTHLIV 首页",
+    "main": "主菜单",
+    "sections": {
+      "together": "结伴入住",
+      "month": "住一个月",
+      "hostel": "青年旅舍",
+      "stay": "月租房",
+      "residence": "服务式公寓"
+    },
+    "host": "招募店主",
+    "login": "登录",
+    "saved": "收藏",
+    "trips": "预订",
+    "messages": "消息",
+    "account": "我的账号",
+    "backToResults": "返回搜索结果",
+    "changeSearch": "修改搜索条件",
+    "languageLabel": "语言和货币：{language}，韩元",
+    "currency": "₩ KRW"
+  },
+  "search": {
+    "label": "搜索住处",
+    "change": "修改搜索条件",
+    "where": "地区",
+    "wherePlaceholder": "街区、地铁站或学校",
+    "dates": "日期",
+    "checkIn": "入住",
+    "checkOut": "退房",
+    "pickDate": "选择日期",
+    "pickDates": "选好日期，每晚价格就确定了。",
+    "guestsLabel": "人数",
+    "guests": "{count}位",
+    "submit": "搜索",
+    "done": "完成",
+    "howLong": "住多久",
+    "howLongQuestion": "打算住多久？",
+    "minus": "−{percent}%",
+    "staySummary": "{nights}晚 · {length}",
+    "nightOff": "每晚优惠{percent}%",
+    "barSummary": "{nights}晚 · {length} · 优惠{percent}%",
+    "tierHint": "各住处的优惠比例不同。显示的价格都已包含优惠。"
+  },
+  "length": {
+    "night": "一晚",
+    "week": "一周",
+    "month": "一个月",
+    "season": "一季",
+    "nightRange": "1–6晚",
+    "weekRange": "7–27晚",
+    "monthRange": "28–89晚",
+    "seasonRange": "90晚以上"
+  },
+  "lengthName": {
+    "night": "单晚",
+    "week": "周租",
+    "month": "月租",
+    "season": "季租"
+  },
+  "price": {
+    "nights": "{nights, plural, other {#晚}}",
+    "perNight": "每晚{price}",
+    "discountBadge": "连住{nights}晚减{percent}%",
+    "nightsLine": "{price} × {nights, plural, other {#晚}}",
+    "discountLine": "{length}（{percent}%）",
+    "lengthDiscount": {
+      "night": "优惠",
+      "week": "周租优惠",
+      "month": "月租优惠",
+      "season": "季租优惠"
+    },
+    "cleaning": "清洁费",
+    "total": "总价",
+    "totalRich": "共 <b>{amount}</b>",
+    "perNightOff": "每晚 {price} · 优惠{percent}%",
+    "nightWas": "每晚 <s>{was}</s> <b>{price}</b> · {nights}晚 {stay}",
+    "night": "每晚 <b>{price}</b> · {nights}晚 {stay}",
+    "nightOnlyWas": "每晚 <s>{was}</s> <b>{price}</b>",
+    "nightOnly": "每晚 <b>{price}</b>",
+    "stay": "{nights}晚 {amount}",
+    "was": "优惠前价格",
+    "serviceIncluded": "其中服务费"
+  },
+  "tiers": {
+    "length": "住宿时长",
+    "nights": "晚数",
+    "perNight": "每晚价格",
+    "base": "基础价格",
+    "off": "减{percent}%",
+    "example": "示例",
+    "exampleStay": "{nights}晚 · {amount}",
+    "picked": "所选日期 · {nights}晚 · {amount}"
+  },
+  "types": {
+    "label": "住宿类型",
+    "quick": "快速筛选",
+    "all": "全部",
+    "studio": "单间公寓",
+    "share": "合租房",
+    "coliving": "共居公寓",
+    "stay": "精品住宿",
+    "hostel": "青年旅舍",
+    "residence": "服务式公寓",
+    "guesthouse": "民宿",
+    "freeCancel": "免费取消",
+    "selfCheckIn": "自助入住",
+    "women": "仅限女性",
+    "filter": "筛选"
+  },
+  "home": {
+    "heroLabel": "MONTHLY [ <b>我的房间</b> ] BY MONTHLIV",
+    "heroTitle": "住一个月也好，住一晚也好，都像自己的房间。",
+    "heroLead": "无需为押金发愁，想住多久就住多久。从一晚到一整季都可以，住得越久，每晚越便宜。",
+    "searchWhere": "首尔 圣水洞",
+    "tiersLabel": "按晚计价",
+    "tiersTitle": "住得越久，每晚越便宜",
+    "tiersLead": "一晚起即可预订。住满7晚、28晚、90晚，优惠无需优惠券自动生效，也不用另外寻找月租房源。",
+    "tierPrice": "每晚 <b>{price}</b>",
+    "tiersNote": "示例：{title}（{area}）。优惠比例因门店而异，显示的价格都已包含优惠。",
+    "monthTitle": "适合住一个月的家",
+    "monthSub": "按{dates}（{nights}晚）计算，已含月租优惠。",
+    "shortTitle": "只住几晚",
+    "shortSub": "按{dates}（{nights}晚）计算的价格。适合出差和短途旅行。",
+    "seeAll": "查看全部住处",
+    "hoodsTitle": "适合生活的街区",
+    "hoodsSub": "不只看房间，也一起挑选街区吧。",
+    "hoodsGuide": "圣水洞街区指南",
+    "hoods": {
+      "seongsu": "老工厂和工坊变成了咖啡馆，街道尽头就是首尔林。",
+      "sinchon": "三所大学和营业到很晚的餐馆，门口就是2号线。",
+      "konkuk": "就在2号线和7号线交汇的车站旁，周边大学街餐馆林立，去汉江纛岛游园地也很快。",
+      "cheonho": "靠近5号线和8号线交汇的千户站，大型市场和百货商店近在咫尺，离汉江广渡口公园也不远。"
+    },
+    "livingTitle": "不只是睡觉的地方，生活所需应有尽有",
+    "living": {
+      "furnished": {
+        "title": "拎包入住",
+        "text": "床、床品、书桌和冷暖空调一应俱全。不用搬家车，一个行李箱就够了。"
+      },
+      "price": {
+        "title": "没有隐藏费用",
+        "text": "看到的每晚价格就是实付价格。不收房客手续费，总价已包含清洁费。"
+      },
+      "managed": {
+        "title": "MONTHLIV直营",
+        "text": "接待、清洁和设施维护都由MONTHLIV负责，遇到问题会有人直接上门处理。"
+      },
+      "station": {
+        "title": "离地铁站很近",
+        "text": "首尔的门店距地铁站步行都在10分钟以内，通勤更省时。"
+      },
+      "deposit": {
+        "title": "无需为押金发愁",
+        "text": "不用先交一大笔押金，住多少付多少。住28晚及以上还可以分两次付款。"
+      },
+      "translate": {
+        "title": "用各自的语言交流",
+        "text": "消息会翻译成双方的语言。不会韩语也可以放心向MONTHLIV咨询。"
+      }
+    },
+    "howTitle": "使用方法",
+    "how": {
+      "dates": {
+        "title": "选择日期",
+        "text": "住几晚都可以。住满7晚、28晚、90晚，每晚价格就会下降。"
+      },
+      "pay": {
+        "title": "预订并付款",
+        "text": "短住一次付清。28晚以上也可以分期付款。"
+      },
+      "move": {
+        "title": "一部手机就能入住",
+        "text": "入住指南、Wi-Fi和生活指南都可以在预订页面直接查看。"
+      }
+    },
+    "hostTitle": "有闲置空间吗？和我们一起开一家MONTHLIV门店",
+    "hostText": "从施工到接待、清洁和设施维护，全部由MONTHLIV负责。店主每天都会收到施工照片，每笔预订也会收到通知。",
+    "hostStart": "了解店主招募",
+    "hostPricing": "预览店主中心",
+    "appIcon": "MONTHLIV 应用图标",
+    "appTitle": "预订和入住指南都在应用里",
+    "appText": "预订、付款、续住和入住指南，一个应用全搞定。其他语言写的评价和消息会翻译成中文显示。",
+    "appStores": "应用商店",
+    "appSoon": "即将上线"
+  },
+  "card": {
+    "save": "收藏{title}",
+    "walk": "距{station}步行{minutes}分钟",
+    "drive": "距{station}车程{minutes}分钟",
+    "new": "新上线",
+    "newLabel": "新上线，暂无评价",
+    "ratingLabel": "评分{rating}分（满分5分）",
+    "opens": "{month}开业",
+    "soon": "即将开业"
+  },
+  "results": {
+    "title": "{area}的{count}处住宿",
+    "categoryTitle": "{category}：{count}处住宿",
+    "sections": {
+      "together": "可供两人及以上入住的房间。",
+      "month": "月租房和服务式公寓。住满28晚即享月住折扣。",
+      "hostel": "只看青年旅舍。",
+      "stay": "只看月租房。住满28晚即享月住折扣。",
+      "residence": "只看服务式公寓。"
+    },
+    "note": "{nights}晚总价已包含{length}优惠和清洁费。",
+    "sort": "排序",
+    "filters": "快速筛选",
+    "noteNight": "{nights}晚总价已包含清洁费。",
+    "unknownArea": "“{where}”的住处还在准备中。先为您显示{area}的住处。",
+    "sorts": {
+      "recommended": "推荐",
+      "price": "总价从低到高",
+      "station": "离地铁站最近"
+    },
+    "filter": {
+      "free": "免费取消",
+      "self": "自助入住",
+      "near": "靠近地铁站"
+    },
+    "filterOn": "已选",
+    "showTotal": "按{nights}晚总价显示",
+    "emptyTitle": "没有符合条件的住处",
+    "emptyText": "试着逐个取消筛选条件。",
+    "clearFilters": "清除所有筛选"
+  },
+  "map": {
+    "label": "地图",
+    "show": "地图",
+    "searchAsMove": "移动地图时重新搜索",
+    "zoomIn": "放大",
+    "zoomOut": "缩小",
+    "twoFingers": "请用双指移动地图",
+    "ctrlScroll": "按住 Ctrl 键并滚动即可缩放地图",
+    "cmdScroll": "按住 ⌘ 键并滚动即可缩放地图",
+    "unavailable": "地图加载失败，请稍后再试。",
+    "attribution": "地图来源",
+    "results": "搜索结果"
+  },
+  "listing": {
+    "share": "分享",
+    "shareCopied": "链接已复制",
+    "save": "收藏",
+    "reviews": "{count}条评价",
+    "noReviews": "暂无评价",
+    "reviewsSub": "只有入住过的房客才能写评价。",
+    "place": "{city} {area}",
+    "allPhotos": "查看全部{count}张照片",
+    "photosTitle": "{title}的{count}张照片",
+    "photoRoom": "房间全景",
+    "photoDesk": "书桌",
+    "photoBath": "浴室",
+    "photoLounge": "休息区",
+    "photoEntrance": "大楼入口",
+    "hostedBy": "房东{name}的{type}",
+    "facts": "最多{guests}人 · 床1张 · 卫浴1间 · {size}",
+    "factsReal": "最多{guests}人",
+    "pointLong": "适合长住的家",
+    "pointLongText": "住满28晚，每晚价格降低{percent}%，还可以按月分期付款。",
+    "pointSelf": "自助入住",
+    "pointSelfText": "电子门锁。门禁密码会在到达当天{time}出现在应用里。",
+    "pointWifi": "实测{speed}Mbps Wi-Fi",
+    "pointWifiText": "房东于{date}上传的网速测试结果。",
+    "pointTranslate": "语言不通也没关系",
+    "pointTranslateText": "与房东的消息会双向翻译。",
+    "tiersTitle": "住得越久，每晚越便宜",
+    "tiersSub": "一晚起即可预订。与入住时长相符的优惠适用于全部住宿。",
+    "tiersNote": "每晚价格不另收手续费。清洁费（每次住宿{cleaning}）在付款时加收一次。此住宿无需押金。",
+    "amenitiesTitle": "设施",
+    "amenity": {
+      "bath": "独立卫浴",
+      "window": "朝外的窗户",
+      "aircon": "空调与暖气",
+      "desk": "书桌和椅子",
+      "fridge": "冰箱",
+      "bedding": "提供床品",
+      "wifi": "Wi-Fi",
+      "laundry": "洗衣机和烘干机（共用）",
+      "kitchen": "共用厨房",
+      "parcel": "快递柜",
+      "parking": "停车场",
+      "garden": "草坪庭院",
+      "balcony": "阳台",
+      "dogPlayground": "狗狗游乐场",
+      "petCafe": "宠物友好咖啡馆（周末）"
+    },
+    "calendarTitle": "在{area}住{nights}晚",
+    "calendarLabel": "住宿日期",
+    "reviewsTitle": "{rating} · {count}条评价",
+    "ratings": {
+      "clean": "干净程度",
+      "accuracy": "描述准确度",
+      "checkin": "入住",
+      "value": "性价比"
+    },
+    "stayedNights": "住了{nights}晚 · {date}",
+    "translatedFrom": "译自{language}",
+    "showOriginal": "查看原文",
+    "showTranslation": "查看译文",
+    "locationTitle": "住处位置",
+    "approx": "预订后会告知详细地址",
+    "walkMinutes": "步行{minutes}分钟",
+    "driveMinutes": "车程{minutes}分钟",
+    "hoodGuide": "查看{area}街区指南",
+    "hostTitle": "房东介绍",
+    "hostYears": "当房东{years}年",
+    "hostLangs": "会说韩语和英语",
+    "hostReplies": "通常1小时内回复",
+    "messageHost": "给{name}发消息",
+    "hostTranslate": "与使用其他语言的房客的消息会自动翻译。",
+    "rulesTitle": "须知",
+    "rulesHouse": "入住规则",
+    "checkInAfter": "{time}后入住",
+    "checkOutBy": "{time}前退房",
+    "maxGuests": "最多{count}人",
+    "selfCheckIn": "自助入住",
+    "noParty": "禁止吸烟和聚会",
+    "rulesSafety": "安全与建筑",
+    "safetyAlarm": "烟雾报警器和灭火器",
+    "quietHours": "安静时间 {from}–{to}",
+    "rulesCancel": "取消与付款",
+    "freeBefore": "{date}下午3点前取消可全额退款",
+    "noFree": "此住宿不支持免费取消",
+    "splitPay": "28晚以上可分期付款",
+    "refundLink": "查看退款规则",
+    "bookLabel": "预订此住宿",
+    "perNightUnit": "/晚",
+    "staySummaryOff": "{nights}晚 · {length} · 每晚优惠{percent}%",
+    "book": "预订",
+    "notCharged": "现在还不会扣款",
+    "nextTier": "住满{nights}晚，每晚价格降至<b>{price}</b>。",
+    "siblingsTitle": "{branch}的其他房型",
+    "opensNote": "预计{month}开业。确定开业日期后会在这里通知。",
+    "factsSize": "最多{guests}人 · {size}"
+  },
+  "stays": {
+    "title": "我的预订",
+    "now": "现在住的地方",
+    "dayOf": "第{day}天（共{nights}天）",
+    "nowMeta": "{area} · 房东{host} · {date} {time}退房",
+    "progress": "已入住的时间",
+    "open": "门禁密码·Wi-Fi·生活指南",
+    "extend": "延长住宿",
+    "messageHost": "给{name}发消息",
+    "upcoming": "即将入住",
+    "requestMeta": "{area} · {from} – {to} · {nights}晚",
+    "lengthOff": "{length} · 优惠{percent}%",
+    "pending": "等待房东接受 · 最多24小时",
+    "viewRequest": "查看请求",
+    "past": "过往住宿",
+    "pastMeta": "{area} · {nights}晚 · {date}",
+    "writeReview": "写评价",
+    "rebook": "再次预订",
+    "payments": "付款记录",
+    "firstPayment": "首次付款（1/2）",
+    "secondPayment": "第二次付款（2/2）",
+    "sameCard": "用同一张卡自动扣款",
+    "paid": "已支付",
+    "scheduled": "待扣款"
+  },
+  "language": {
+    "title": "语言与货币",
+    "lead": "所有页面、房源和消息都可以用你选择的语言查看。付款始终以韩元结算，其他货币只显示预估金额。",
+    "languageTitle": "语言",
+    "languageNote": "点选后页面会立即切换为该语言。",
+    "languagePick": "选择语言",
+    "current": "当前语言",
+    "translateTitle": "翻译",
+    "translateLead": "用其他语言写的评价和消息，会翻译成中文显示。也可以随时查看原文。",
+    "translateListings": "翻译房源介绍和评价",
+    "translateListingsText": "用中文显示房源介绍、入住规则和评价，并标注“已翻译”。",
+    "translateMessages": "翻译消息",
+    "translateMessagesText": "你的消息会翻译成房东的语言，房东的消息会翻译成中文。",
+    "showOriginal": "在译文下方同时显示原文",
+    "showOriginalText": "如果你正在学外语，会很有帮助。",
+    "previewLabel": "预览 · {name}的评价",
+    "currencyTitle": "货币",
+    "currencyLead": "预估金额按今天的汇率计算。发卡机构可能会收取货币转换费。",
+    "currencyPick": "选择货币",
+    "formatTitle": "时区与格式",
+    "timezone": "时区",
+    "zones": {
+      "seoul": "首尔（GMT+9）",
+      "london": "伦敦（GMT+0）",
+      "newYork": "纽约（GMT−5）"
+    },
+    "dateFormat": "日期格式",
+    "weekStart": "每周开始于",
+    "area": "面积单位",
+    "areas": {
+      "sqm": "平方米（㎡）",
+      "pyeong": "坪",
+      "sqft": "平方英尺（ft²）"
+    },
+    "cancel": "取消",
+    "save": "保存",
+    "saved": "已保存"
+  },
+  "tabs": {
+    "label": "应用菜单",
+    "explore": "探索",
+    "saved": "收藏",
+    "trips": "预订",
+    "messages": "消息",
+    "profile": "我的",
+    "unread": "有未读消息"
+  },
+  "footer": {
+    "line": "让每一个落脚之处，都成为好的家。",
+    "stay": "住宿",
+    "find": "找住处",
+    "guide": "街区指南",
+    "discounts": "了解长住优惠",
+    "help": "帮助中心",
+    "hosting": "店主",
+    "becomeHost": "招募店主",
+    "pricing": "价格与长住优惠",
+    "hostHelp": "店主帮助中心",
+    "company": "MONTHLIV",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "safety": "安全政策",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "refunds": "退款政策",
+    "business": "经营者信息",
+    "legal1": "GosuPlus Co., Ltd. · 代表人：Park Young-eun · 营业执照号：270-81-01999 · 通信销售业申报号：[编号]",
+    "legal2": "韩国京畿道河南市 Misagangbyeonjungang-ro 7beon-an-gil 25，D栋609室 · 客服电话 [电话号码]",
+    "intermediary": "MONTHLIV是GosuPlus Co., Ltd.旗下的住宿品牌。各门店的经营者及交易当事人信息，将在正式上线前公布于此。［告知文字待确定］",
+    "copyright": "© 2026 GosuPlus Co., Ltd.",
+    "currency": "₩ KRW"
+  },
+  "preview": {
+    "notice": "这是预览页面。门店名称和位置真实，价格、房间信息和预订记录均为示例。"
+  },
+  "notFound": {
+    "title": "找不到这个页面",
+    "text": "网址可能已更改，或者该页面不存在。",
+    "back": "返回首页",
+    "help": "帮助中心"
+  },
+  "book": {
+    "title": "确认并付款",
+    "back": "返回房源",
+    "trip": "您的行程",
+    "dates": "日期",
+    "datesValue": "{from}至{to} · {nights}晚",
+    "change": "修改",
+    "whenPay": "您想什么时候付款？",
+    "payNow": "现在支付{amount}",
+    "payNowText": "今天一次付清全部房费。",
+    "paySplit": "分两次付款",
+    "paySplitText": "今天支付{first}，{date}支付{second}。不收额外手续费。",
+    "method": "付款方式",
+    "methods": {
+      "card": "信用卡或借记卡",
+      "kakaopay": "KakaoPay",
+      "naverpay": "Naver Pay",
+      "tosspay": "Toss Pay"
+    },
+    "savedCard": "银行卡 •••• {last4}",
+    "issuer": "发卡机构",
+    "issuers": {
+      "shinhan": "新韩卡",
+      "hyundai": "现代卡",
+      "samsung": "三星卡",
+      "kb": "KB国民卡",
+      "lotte": "乐天卡",
+      "hana": "韩亚卡",
+      "bc": "BC卡",
+      "woori": "友利卡"
+    },
+    "installments": "分期付款",
+    "plans": {
+      "full": "一次付清",
+      "two": "2期",
+      "three": "3期",
+      "six": "6期"
+    },
+    "hello": "跟{name}打个招呼",
+    "helloHint": "简单告诉房东您来做什么、大概几点到。",
+    "helloPlaceholder": "{name}您好，我是瑞珍，接下来一个月会在这里远程办公。大约下午4点到。",
+    "phone": "手机号码",
+    "phonePlaceholder": "+82 10 0000 0000",
+    "phoneHint": "我们也会通过短信发送入住指南和门锁密码。",
+    "phoneHintGuide": "我们也会通过短信发送入住指南。",
+    "cancelTitle": "取消政策",
+    "cancelText": "此后在入住前取消，将退还除前7晚房费以外的全部金额。",
+    "cancelTextNone": "此住宿不支持免费取消。如在入住前取消，将退还除前7晚房费以外的全部金额。",
+    "agree": "点击下方按钮，即表示您同意入住规则、取消政策和MONTHLIV使用条款。",
+    "confirm": "确认并付款 · {amount}",
+    "confirmSplit": "确认并付款 · 今日{amount}",
+    "priceDetails": "价格明细",
+    "saving": "{length} · 节省{amount}",
+    "krw": "以韩元（KRW）付款。",
+    "splitFrom": "28晚以上的预订可以分两次付款。",
+    "freeUntil": "{date}下午3点前可以免费取消。"
+  },
+  "confirmed": {
+    "metaTitle": "预订已确认",
+    "label": "预订已确认",
+    "title": "预订已确认，{name}",
+    "lead": "您在{area}的{length}将于{date}开始。所需信息都在预订页面和应用里。",
+    "code": "预订代码",
+    "view": "打开预订页面",
+    "message": "给{name}发消息",
+    "hostArea": "房东 {name} · {area}",
+    "length": "住宿时长",
+    "from": "{date} {time}之后",
+    "until": "{date} {time}之前",
+    "address": "地址",
+    "addressValue": "{city}{area} [详细地址]",
+    "calendar": "添加到日历",
+    "receipt": "收据",
+    "nextTitle": "接下来",
+    "today": "今天",
+    "at": "{date} {time}",
+    "stepHello": "<b>{when}</b> 已将您的预订告知{name}。",
+    "stepFree": "<b>{when}</b>前取消可全额退款。",
+    "stepCode": "<b>{when}</b>，门禁密码和Wi-Fi信息会出现在应用里。",
+    "stepInfo": "<b>{when}</b>，入住指南会出现在应用里。",
+    "stepCheckIn": "<b>{when}</b>起可以入住。就当在自己家一样。",
+    "extend": "想多住一阵子？可以在预订页面延长。长住优惠会继续适用，满90晚后全部住宿改按一季价格计算。",
+    "paidTitle": "付款",
+    "paidToday": "今日支付",
+    "nextPayment": "{date}待付",
+    "saved": "{length}价为您节省",
+    "couponSaved": "优惠券（{title}）",
+    "noDeposit": "无押金",
+    "addressAfter": "{city}{area} · 真正的预订确认后，这里会显示确切地址",
+    "stepInfoReal": "{name}会通过消息告诉你入住方式和时间。",
+    "stepCheckInReal": "<b>{when}</b>起即可入住。入住时间请和{name}确认。"
+  },
+  "login": {
+    "metaTitle": "登录",
+    "title": "登录或注册",
+    "lead": "预订、门锁密码以及与房东的消息，都在一个账号里。",
+    "email": "电子邮箱",
+    "emailPlaceholder": "请输入电子邮箱地址",
+    "continue": "继续",
+    "or": "或",
+    "kakao": "通过 Kakao 继续",
+    "naver": "通过 Naver 继续",
+    "apple": "通过 Apple 继续",
+    "google": "通过 Google 继续",
+    "phone": "通过手机号继续",
+    "terms": "继续即表示您同意 MONTHLIV <terms>使用条款</terms>，并已阅读<privacy>隐私政策</privacy>。我们只会发送与您的账号和预订有关的邮件。",
+    "whyTitle": "有账号更方便",
+    "why": {
+      "save": {
+        "title": "把住宿收藏到列表",
+        "text": "所选日期降价时，我们会通知您。"
+      },
+      "translate": {
+        "title": "用任何语言和房东沟通",
+        "text": "消息会双向翻译。"
+      },
+      "stay": {
+        "title": "入住所需，都在一处",
+        "text": "门锁密码、Wi-Fi、生活指南和收据。"
+      }
+    },
+    "hostQ": "有房子想当房东？",
+    "hostLink": "登录店主中心"
+  },
+  "inbox": {
+    "title": "消息",
+    "hostReplies": "房东 · 通常1小时内回复",
+    "autoTranslate": "自动翻译",
+    "today": "今天",
+    "stayDay": "{dates} · 第{day}天（共{nights}天）",
+    "translated": "译自{language}",
+    "read": "已读",
+    "write": "输入消息",
+    "send": "发送",
+    "translateNote": "其他语言的消息会翻译成中文显示",
+    "booking": "预订详情",
+    "viewBooking": "打开预订页面",
+    "report": "举报此对话",
+    "search": "搜索消息"
+  },
+  "saved": {
+    "title": "收藏",
+    "lists": "收藏列表",
+    "count": "{count, plural, other {#处住宿}}",
+    "newList": "新建列表",
+    "priceFor": "{dates}的价格 · {guests}",
+    "share": "分享列表",
+    "map": "在地图上查看",
+    "note": "备注：{note}",
+    "drop": "比收藏时便宜{amount}",
+    "tip": "价格均为所选日期的总价。收藏的住宿降价时，我们会通知您。",
+    "itemMeta": "{area} · 总价{amount}"
+  },
+  "guide": {
+    "metaTitle": "圣水洞街区指南",
+    "crumbs": "导航路径",
+    "city": "首尔",
+    "district": "城东区",
+    "intro": "在首尔东部，老旧的制鞋作坊变成了咖啡馆和工作室。工作日街上满是忙着做东西的人，到了晚上，小巷就安静下来。路的尽头就是首尔林。",
+    "tags": {
+      "remote": "适合远程办公",
+      "park": "公园就在附近",
+      "line2": "2号线"
+    },
+    "seeStays": "查看圣水的{count}处住宿",
+    "commuteTitle": "交通",
+    "commuteNote": "从圣水站出发，按工作日计算。",
+    "about": "约{minutes}分钟",
+    "commute": {
+      "gangnam": {
+        "place": "江南",
+        "how": "2号线，无需换乘"
+      },
+      "cityHall": {
+        "place": "市厅",
+        "how": "2号线，无需换乘"
+      },
+      "hongdae": {
+        "place": "弘大入口",
+        "how": "2号线，无需换乘"
+      },
+      "airport": {
+        "place": "仁川机场",
+        "how": "地铁和机场快线"
+      }
+    },
+    "livingTitle": "生活好去处",
+    "livingSub": "不只是来逛逛，住在这里时也用得上。",
+    "categories": {
+      "all": "全部",
+      "groceries": "买菜",
+      "laundry": "洗衣",
+      "health": "药店与诊所",
+      "work": "办公咖啡馆",
+      "outdoors": "公园与运动"
+    },
+    "mapLabel": "圣水洞生活设施地图",
+    "places": {
+      "market": {
+        "name": "圣水传统市场",
+        "short": "市场",
+        "text": "水果、小菜和鲜鱼摊都在这里。傍晚6点以后更便宜。"
+      },
+      "laundry": {
+        "name": "24小时自助洗衣店",
+        "short": "洗衣店",
+        "text": "有洗衣机和烘干机，全天开放，可以刷卡。"
+      },
+      "clinic": {
+        "name": "社区诊所和药店",
+        "short": "诊所",
+        "text": "大路边有一家不用预约的诊所，隔壁就是药店。"
+      },
+      "cafe": {
+        "name": "适合办公的咖啡馆",
+        "short": "咖啡馆",
+        "text": "大桌子，插座多。午饭前都很安静。"
+      },
+      "forest": {
+        "name": "首尔林",
+        "short": "公园",
+        "text": "有跑步道和大草坪，是透透气的好地方。"
+      }
+    },
+    "staysTitle": "{area}的住宿",
+    "allOnMap": "在地图上查看全部",
+    "kinds": "地点类型",
+    "fromSeason": "住一季每晚{price}起"
+  },
+  "host": {
+    "metaTitle": "招募店主",
+    "label": "MONTHLIV 店主招募",
+    "title": "空间由店主提供，运营交给MONTHLIV",
+    "lead": "从施工到房客接待、清洁、设施维护，再到出问题时上门处理，全部由MONTHLIV负责。店主只需通过通知和店主中心了解门店运营情况。",
+    "start": "看看店主中心",
+    "how": "了解流程",
+    "whyTitle": "店主把运营交给MONTHLIV的理由",
+    "reasons": {
+      "cleaning": {
+        "title": "从头到尾负责运营",
+        "text": "房客接待、清洁、设施维护和上门处理都由MONTHLIV负责。只有这样全权运营的门店，才会挂上MONTHLIV的招牌。"
+      },
+      "income": {
+        "title": "施工现场每天发照片",
+        "text": "开工后会为每家门店建群，每天发送当天的工程进度和现场照片，不必亲自到现场盯着。"
+      },
+      "guests": {
+        "title": "每项处理都有通知",
+        "text": "开业后，看房预约、付款、续住等处理结果都会通过KakaoTalk通知自动发送给店主。"
+      }
+    },
+    "rateTitle": "一个每晚价格，决定所有时长的价格",
+    "rateText": "房客一晚起订。按周、按月、按季的优惠比例决定所有时长的价格，不必单独管理月租房间。门店的价格和优惠比例可以在店主中心查看。",
+    "rateLink": "查看价格页面",
+    "stepsTitle": "门店开业流程",
+    "steps": {
+      "list": {
+        "title": "咨询与实地考察",
+        "text": "我们亲自查看空间，与您一起研究房间布局和经营收益。"
+      },
+      "price": {
+        "title": "施工",
+        "text": "由我们直营施工，每天在群里发送工程进度和现场照片。"
+      },
+      "welcome": {
+        "title": "开业与运营",
+        "text": "挂上MONTHLIV招牌开业，接待、清洁和设施维护由MONTHLIV负责。"
+      },
+      "paid": {
+        "title": "结算",
+        "text": "按住宿费扣除运营费后的金额结算，住28晚及以上的此后按月结算。"
+      }
+    },
+    "faqTitle": "店主常见问题",
+    "faq": {
+      "oneRoom": {
+        "q": "其他公司施工的物业也能成为MONTHLIV吗？",
+        "a": "如果在施工阶段经过MONTHLIV实地考察并协商一致，就可以挂MONTHLIV招牌。只接手已在营业物业的运营时，原则上不挂招牌。"
+      },
+      "leaveEarly": {
+        "q": "房客想提前退房怎么办？",
+        "a": "住28晚及以上的房客，提前告知即可提前退房。已住的晚数会按相应时长的价格重新计算。[政策待确认]"
+      },
+      "english": {
+        "q": "也接待外国房客吗？",
+        "a": "是的。消息会翻译成双方的语言，房客接待由MONTHLIV负责，店主不需要会外语。"
+      },
+      "allowed": {
+        "q": "我可以自己运营，只用MONTHLIV的招牌吗？",
+        "a": "店主自己运营并使用招牌的合作模式还在筹备中。目前只有由MONTHLIV全权运营的门店才挂MONTHLIV招牌。"
+      },
+      "fees": {
+        "q": "运营费是多少？",
+        "a": "由MONTHLIV直营施工的门店为住宿费的{direct, number}%，其他门店从{other, number}%起协商。房客看到的就是门店价格，不另加费用。每晚{price}时，结算为每晚{payout}（按直营施工门店计算）。"
+      }
+    },
+    "ctaTitle": "有空间的话，先来聊聊吧",
+    "noticeLabel": "通知示例",
+    "noticeNew": "新预订",
+    "noticeMeta": "按月付款 · 身份已验证",
+    "rateHead": "每晚价格",
+    "rateRow": "{length} · {from}晚以上",
+    "rateOff": "<b>优惠{percent}%</b> · {price}",
+    "contact": "咨询开店合作"
+  },
+  "pricing": {
+    "title": "价格与长住优惠",
+    "lead": "房客一晚起即可预订。只需设好一个每晚价格和长住优惠比例，各种时长的价格都会自动算好。",
+    "sections": "房源编辑",
+    "section": {
+      "photos": "照片",
+      "about": "房源介绍",
+      "amenities": "设施与 Wi-Fi",
+      "pricing": "价格与优惠",
+      "calendar": "可订日期",
+      "rules": "入住规则与生活指南",
+      "payouts": "结算"
+    },
+    "nightly": "每晚价格",
+    "won": "韩元",
+    "nightlyHint": "附近类似单间的行情：每晚[本地价格数据]",
+    "discountTitle": "住宿时长优惠",
+    "discountSub": "优惠适用于整段住宿的每一晚，不可叠加。",
+    "orderWarning": "较长住期的折扣低于较短住期。请设置为住得越久，每晚价格越低。",
+    "base": "基础价格",
+    "discountFor": "{length}优惠比例",
+    "guestSees": "房客支付与您的收入",
+    "guestSeesNote": "房客看到的就是这些价格，不另加费用。结算金额为住宿费扣除{hostFee, number}%运营费，清洁费不收费用、全额结算。",
+    "termsTitle": "入住条件和长住选项",
+    "minNights": "最短入住",
+    "minOne": "1晚（默认）",
+    "maxNights": "最长入住",
+    "noLimit": "不限",
+    "cleaning": "清洁费（每次住宿）",
+    "midClean": "入住期间清洁（28晚以上）",
+    "midIncluded": "每2周一次，已含在价格中",
+    "midRequest": "按需提供 {amount}",
+    "midNone": "不提供",
+    "monthly": "28晚以上按月付款",
+    "monthlyText": "房客每月同一天付款，店主也按月结算。",
+    "instant": "即时预订",
+    "instantText": "已完成身份验证且评价良好的房客，无需等待确认即可直接预订。",
+    "save": "保存价格",
+    "preview": "预览房源",
+    "off": "优惠",
+    "saved": "已保存",
+    "guestNightly": "房客看到的也是每晚{price}。",
+    "payoutLine": "您收到 {amount}"
+  },
+  "help": {
+    "metaTitle": "帮助中心",
+    "hello": "{name}，您好",
+    "title": "有什么可以帮您？",
+    "searchLabel": "搜索帮助内容",
+    "searchHint": "试试搜索“延长住宿”或“按月付款”",
+    "search": "搜索",
+    "currentLabel": "当前入住",
+    "currentStay": "{title} · 第{day}天（共{nights}晚）",
+    "currentHint": "门锁密码、Wi-Fi、打扫或维修的问题，直接问房东最快。",
+    "askHost": "问问房东",
+    "topicsTitle": "按主题查找",
+    "topics": {
+      "booking": {
+        "title": "预订与付款",
+        "text": "日期、总价、分次付款、收据"
+      },
+      "discounts": {
+        "title": "长住优惠",
+        "text": "一晚、一周、一个月、一季"
+      },
+      "changes": {
+        "title": "修改与取消",
+        "text": "延长住宿、提前退房、退款"
+      },
+      "staying": {
+        "title": "入住期间",
+        "text": "门锁密码、Wi-Fi、打扫、维修、垃圾处理"
+      },
+      "account": {
+        "title": "账号与安全",
+        "text": "身份验证、登录、隐私、举报"
+      },
+      "hosting": {
+        "title": "店主",
+        "text": "运营费、结算、门店运营"
+      }
+    },
+    "faqTitle": "常见问题",
+    "discountQ": "长住优惠是怎么算的？",
+    "discountA": "所有住宿都能一晚起订。住得越久，每晚价格越低，而且优惠适用于整段住宿，不只是多住的那几晚。优惠幅度因门店而异。",
+    "discountExample": "示例：每晚{price}的单间公寓",
+    "discountMove": "延长后如果进入更长的时长档，新价格会适用于整段住宿。付款前，我们会先告诉您差额。",
+    "faq": {
+      "oneNight": {
+        "q": "可以只订一晚吗？",
+        "a": "可以。除非房东设置了更长的最短入住时间，所有住宿都能一晚起订。最短入住时间会显示在房源页面上。"
+      },
+      "extend": {
+        "q": "怎么延长住宿？",
+        "a": "在预订中选择“延长住宿”。向房东发出请求前，我们会先给您看含优惠的新总价。"
+      },
+      "leaveEarly": {
+        "q": "需要提前退房怎么办？",
+        "a": "这取决于您预订时的取消政策。28晚及以上的住宿，提前告知即可提前退房，已住的晚数会按相应时长的价格计算。[政策待确认]"
+      },
+      "monthly": {
+        "q": "按月付款是怎么安排的？",
+        "a": "28晚及以上的住宿，可以先付一部分，其余在固定日期支付。每期都会从您选择的付款方式中扣款。"
+      },
+      "translate": {
+        "q": "翻译是怎么处理的？",
+        "a": "网站会用您的语言显示。用其他语言写的房源介绍、评价和消息会自动翻译，并标注为译文。点一下就能看原文。"
+      },
+      "refunds": {
+        "q": "怎么退款？",
+        "a": "每个房源都有预订时显示的取消政策。在免费取消截止前取消可全额退款，之后按政策退还部分款项。退款会原路退回。[退款政策待确认]"
+      },
+      "safety": {
+        "q": "房客和房东可靠吗？",
+        "a": "所有房客和房东都经过身份验证。确切地址只在预订确认后告知，付款也只在 MONTHLIV 内进行。如果遇到问题，请在消息页面点击“举报此对话”告诉我们。"
+      },
+      "hosting": {
+        "q": "我想开一家MONTHLIV门店",
+        "a": "请在店主招募页面了解合作流程和运营费。从施工到接待、清洁和设施维护，都由MONTHLIV负责。"
+      }
+    },
+    "contactLabel": "联系方式",
+    "emergencyTitle": "紧急情况",
+    "emergencyText": "请先联系当地机构，再告诉我们。",
+    "police": "警察",
+    "fire": "火警与急救",
+    "tourist": "旅游咨询（24小时，提供外语服务）",
+    "stillTitle": "还需要帮助？",
+    "stillText": "用任何语言写都可以，我们会翻译后回复。",
+    "message": "给我们发消息",
+    "call": "拨打[客服电话]",
+    "hours": "平均回复时间：[服务时间与回复时间]",
+    "results": "“{query}”的搜索结果：{count}条",
+    "noResults": "没有找到答案。给我们发消息，我们会帮你解决。",
+    "off": "优惠"
+  },
+  "photos": {
+    "back": "返回住处",
+    "title": "浏览照片",
+    "spaces": "按空间查看照片"
+  },
+  "coupon": {
+    "title": "优惠券",
+    "lead": "可与长住优惠同时使用。每笔预订只能用一张优惠券。",
+    "none": "不使用优惠券",
+    "until": "{date}前有效",
+    "codeLabel": "优惠券码",
+    "codePlaceholder": "输入优惠券码",
+    "apply": "使用",
+    "applied": "使用{title}，节省{amount}。",
+    "line": "优惠券（{title}）",
+    "errors": {
+      "notFound": "找不到这个优惠券码，请再确认一下。",
+      "expired": "这张优惠券已过期。",
+      "used": "这张优惠券已经用过了。",
+      "minNights": "仅限{nights}晚以上的预订使用。",
+      "minTotal": "仅限{amount}以上的预订使用。",
+      "otherHost": "这张优惠券不适用于此住处。",
+      "notYours": "这张优惠券是发给其他会员的。",
+      "soldOut": "这批优惠券已经发完了。"
+    },
+    "off": "优惠",
+    "cond": {
+      "max": "最多{amount}",
+      "minNights": "{nights}晚及以上",
+      "minTotal": "预订满{amount}",
+      "allPlaces": "所有房源",
+      "hostOnly": "仅限{host}的房源"
+    },
+    "issuer": {
+      "admin": "MONTHLIV 优惠券",
+      "host": "门店优惠券"
+    },
+    "status": {
+      "available": "可用",
+      "used": "已使用",
+      "expired": "已过期"
+    },
+    "daysLeft": "还剩{days}天",
+    "lastDay": "今天到期"
+  },
+  "stay": {
+    "title": "现在住的地方",
+    "crumbs": "当前位置",
+    "meta": "{area} · 第{day}天（共{nights}天） · {date} {time}退房",
+    "door": "门禁密码",
+    "doorNote": "在{date} {time}前，大楼门和房门都用这个密码打开。",
+    "copyCode": "复制密码",
+    "copied": "已复制",
+    "wifi": "Wi-Fi · {mbps} Mbps",
+    "network": "网络名称",
+    "password": "密码",
+    "copyPassword": "复制密码",
+    "checkout": "退房",
+    "checkoutWhen": "{date} {time}前",
+    "checkoutNote": "还剩{left}晚。退房当天关好门离开就行。密码从{time}起失效。",
+    "guideTitle": "生活指南",
+    "guide": {
+      "trash": {
+        "title": "垃圾分类",
+        "text": "首尔的垃圾分三类。一般垃圾装进区政府指定垃圾袋（水槽下的抽屉里有一卷），厨余垃圾倒进门口旁的黄色桶，可回收物按纸、塑料、罐头、玻璃分开。请在门口公告栏上写的日子晚上6点后扔。"
+      },
+      "laundry": {
+        "title": "洗衣",
+        "text": "洗衣机在水槽旁边，说明书在水槽下的抽屉里。标准程序大约50分钟。需要烘干机的话，可以用一楼的自助洗衣店。"
+      },
+      "heating": {
+        "title": "地暖和热水",
+        "text": "锅炉控制面板在门口旁的墙上。长时间外出时调到“外出”，管道就不会冻住。热水打开约30秒后出来。"
+      },
+      "building": {
+        "title": "出入和大楼",
+        "text": "大楼门和房门用同一个密码。快递会送到一楼的快递柜。房间在三楼，没有电梯。"
+      },
+      "quiet": {
+        "title": "安静时间 22:00–07:00",
+        "text": "晚上10点到早上7点，请为邻居保持安静。这段时间洗衣机和吸尘器也请休息。"
+      },
+      "emergency": {
+        "title": "紧急电话",
+        "text": "警察 112 · 火警·急救 119 · 旅游咨询 1330（24小时，可用外语）"
+      }
+    },
+    "guideBy": "由{name}亲自撰写。",
+    "nearTitle": "家附近",
+    "nearNote": {
+      "market": "",
+      "laundry": "有烘干机",
+      "clinic": "药店旁边",
+      "forest": "",
+      "station": "2号线"
+    },
+    "minutes": "{minutes}分钟",
+    "nearGuide": "查看完整的{area}街区指南",
+    "mapLabel": "住处附近的地图",
+    "extendTitle": "再多住一阵子？",
+    "extendText": "这个房间在{date}之后也空着。长住优惠会继续适用，超过90晚后整段住宿改按一季价格计算。",
+    "options": {
+      "week": "+1周",
+      "month": "+1个月",
+      "season": "住满一季"
+    },
+    "until": "至{date} · {nights}晚",
+    "extra": "加付{amount}",
+    "sameRate": "继续优惠{percent}%",
+    "newRate": "全部{nights}晚优惠{percent}% · 节省{amount}",
+    "request": "申请延长",
+    "requestNote": "{name}需在24小时内接受才会确认，确认前不会扣款。",
+    "requested": "已发送延长申请。{name}接受后，您可以住到{date}，并加付{amount}。",
+    "troubleTitle": "遇到问题了吗？",
+    "troubleText": "请发消息告诉{name}。门店由MONTHLIV直营，需要时会马上上门处理。",
+    "contactHelp": "联系客服"
+  },
+  "account": {
+    "nav": "账号菜单",
+    "since": "{year}年起使用",
+    "items": {
+      "home": "我的页面",
+      "coupons": "优惠券",
+      "reviews": "评价",
+      "profile": "个人信息",
+      "security": "登录与安全",
+      "payments": "付款与收据",
+      "language": "语言与货币",
+      "notifications": "通知",
+      "hosting": "店主中心"
+    },
+    "logout": "退出登录",
+    "home": {
+      "title": "我的页面",
+      "hello": "{name}，住得还舒服吗？",
+      "profile": "我的资料",
+      "facts": "已完成身份验证 · 住宿{stays}次 · {year}年起使用",
+      "memberId": "账号ID",
+      "copy": "复制",
+      "copied": "已复制",
+      "editProfile": "编辑个人信息",
+      "idNote": "MONTHLIV总部或门店发送优惠券时，会发到这个账号。",
+      "glance": "一览",
+      "glanceLabels": {
+        "now": "现在住的地方",
+        "coupons": "优惠券",
+        "trips": "预订",
+        "reviews": "评价",
+        "saved": "收藏"
+      },
+      "couponsAvailable": "可用{count}张",
+      "couponsSoon": "{count, plural, =0 {没有即将到期的优惠券} other {即将到期 #张}}",
+      "tripsUpcoming": "即将入住的预订{count}个",
+      "tripsPast": "过去的住宿{count}次",
+      "reviewsToWrite": "可写评价{count}条",
+      "reviewsWritten": "已写评价{count}条",
+      "savedLists": "列表{count}个",
+      "savedDrops": "{count, plural, =0 {没有降价的房源} other {降价房源 #个}}",
+      "soonTitle": "即将到期的优惠券",
+      "allCoupons": "查看全部优惠券",
+      "hostTitle": "招募店主",
+      "hostText": "有空间的话，和我们一起开一家MONTHLIV门店吧，运营交给MONTHLIV。"
+    },
+    "coupons": {
+      "title": "优惠券",
+      "lead": "收到的优惠券在付款时选择即可使用。如果有优惠码，可以先在下面查询。",
+      "codeTitle": "查询优惠码",
+      "check": "查询",
+      "inWallet": "这张优惠券已经在你的优惠券里了，付款时可以直接选择。",
+      "codeOk": "已确认“{code}”。付款时输入这个优惠码即可享受“{title}”。",
+      "tabsLabel": "优惠券状态",
+      "tabs": {
+        "available": "可用",
+        "used": "已使用",
+        "expired": "已过期"
+      },
+      "empty": {
+        "available": "目前没有可用的优惠券。",
+        "used": "还没有使用过优惠券。",
+        "expired": "没有过期的优惠券。"
+      },
+      "find": "用这张优惠券找房源",
+      "usedOn": "已用于预订 {code}。",
+      "note": "优惠券在长住优惠之后的总价中扣除。每个预订只能使用一张优惠券。"
+    },
+    "reviews": {
+      "title": "评价",
+      "lead": "你住过的地方的评价，对下一位房客很有帮助。",
+      "tabsLabel": "评价分类",
+      "toWrite": "可写的评价",
+      "written": "我写的评价",
+      "stayMeta": "{area} · {nights}晚 · {date} · 房东 {host}",
+      "overall": "总体感觉怎么样？",
+      "stars": "{count}颗星",
+      "words": {
+        "1": "不太好",
+        "2": "有点遗憾",
+        "3": "还可以",
+        "4": "不错",
+        "5": "非常棒"
+      },
+      "details": "再具体一点",
+      "categories": {
+        "clean": "清洁度",
+        "checkin": "入住",
+        "quiet": "夜间安静程度",
+        "value": "性价比"
+      },
+      "points": "{count}分",
+      "textLabel": "住下来感觉怎么样？",
+      "textPlaceholder": "床、厨房、夜晚的街巷氛围……",
+      "textNote": "用什么语言写都可以。其他房客会用自己的语言阅读。",
+      "privateLabel": "只给{host}看的留言",
+      "privateNote": "选填。只有{host}能看到。",
+      "submit": "发布评价",
+      "submitted": "已发布评价",
+      "publicNote": "评价会公开，只显示你的名字。",
+      "writtenOn": "写于{date}",
+      "replyFrom": "{host}的回复"
+    },
+    "profile": {
+      "title": "个人信息",
+      "lead": "房东能看到的信息和只有 MONTHLIV 保存的信息，分开显示。",
+      "shownTitle": "房东能看到的信息",
+      "shownLead": "只有你预订的房源的房东能看到。",
+      "displayName": "显示名称",
+      "displayNameNote": "预订和消息中会显示这个名字。",
+      "languages": "会说的语言",
+      "bio": "自我介绍",
+      "bioPlaceholder": "简单写写住宿的原因和作息，房东会很欢迎。",
+      "privateTitle": "只有 MONTHLIV 保存的信息",
+      "privateLead": "房东看不到这些信息。预订确认后，只提供必要的联系方式。",
+      "legalName": "真实姓名",
+      "legalNameNote": "这是身份验证确认的姓名，修改需要重新验证。",
+      "memberId": "账号ID",
+      "memberIdNote": "领取优惠券时使用的ID，无法修改。",
+      "email": "电子邮箱",
+      "phone": "手机号码",
+      "change": "修改",
+      "newEmail": "新的电子邮箱",
+      "newPhone": "新的手机号码",
+      "sendCheck": "发送确认邮件",
+      "sendCode": "获取验证码",
+      "sent": "已发送",
+      "verify": "身份验证",
+      "verifiedOn": "{date} 已通过手机验证",
+      "verifyNote": "我们只接收认证机构确认后的结果，不收集韩国居民登记号。外国房客用护照验证，但我们不保存护照号码。"
+    },
+    "security": {
+      "title": "登录与安全",
+      "lead": "管理登录方式、已登录的设备和你的数据。",
+      "loginsTitle": "登录方式",
+      "lastOne": "只剩一种登录方式时无法解除。",
+      "providers": {
+        "kakao": "Kakao",
+        "naver": "Naver",
+        "apple": "Apple",
+        "google": "Google",
+        "email": "电子邮箱"
+      },
+      "connected": "已关联",
+      "notConnected": "未关联",
+      "connect": "关联",
+      "disconnect": "解除关联",
+      "requested": "已提交",
+      "passwordTitle": "密码与两步验证",
+      "password": "密码",
+      "passwordChanged": "上次修改：{date}",
+      "changePassword": "修改密码",
+      "linkSent": "邮件已发送",
+      "twoStep": "两步验证",
+      "twoStepText": "在新设备登录时，需要再输入一次手机收到的验证码。",
+      "devicesTitle": "已登录的设备",
+      "thisDevice": "当前设备",
+      "lastSeen": "最后访问：{date}",
+      "logoutDevice": "退出登录",
+      "loggedOut": "已退出",
+      "dataTitle": "个人信息与数据",
+      "download": "下载我的信息",
+      "downloadText": "把预订、消息和评价导出为文件。准备好后会发邮件通知你。",
+      "requestDownload": "申请下载",
+      "deleteTitle": "注销账号",
+      "deleteText": "如果有进行中的预订或未完成的付款，需要全部结束后才能注销。法律规定必须保存的交易记录，会在规定期限内另行保存。",
+      "deleteAction": "申请注销账号"
+    },
+    "payments": {
+      "title": "付款与收据",
+      "lead": "付款始终以韩元结算。MONTHLIV 不保存你的卡号。",
+      "methodsTitle": "付款方式",
+      "defaultCard": "默认付款方式 · 按月付款也使用这张卡",
+      "remove": "删除",
+      "removed": "已申请删除",
+      "easyPay": "快捷支付",
+      "easyPayText": "付款时可以选择{names}。",
+      "tokenNote": "银行卡信息由支付服务商（PG）保管，MONTHLIV 只保留付款用的令牌和卡号后四位。",
+      "addCard": "添加银行卡",
+      "addCardDone": "将打开支付服务商页面",
+      "dueTitle": "待付款",
+      "historyTitle": "付款记录",
+      "receiptNote": "付款完成后，会通过邮件发送刷卡凭证和现金收据。退款会原路退回。"
+    },
+    "notifications": {
+      "title": "通知",
+      "lead": "选择想收到的通知和接收方式。",
+      "kindsTitle": "通知类型",
+      "kind": "通知",
+      "channels": {
+        "app": "应用",
+        "email": "邮件",
+        "sms": "短信"
+      },
+      "kinds": {
+        "booking": {
+          "title": "预订与住宿",
+          "text": "预订确认、入住指南、待付款"
+        },
+        "messages": {
+          "title": "消息",
+          "text": "房东的回复和客服的答复"
+        },
+        "prices": {
+          "title": "价格提醒",
+          "text": "收藏的房源降价时"
+        },
+        "reviews": {
+          "title": "评价邀请",
+          "text": "退房之后"
+        }
+      },
+      "required": "这是必要通知，应用和邮件无法关闭。",
+      "adsTitle": "优惠与优惠券消息",
+      "adsLead": "优惠券、活动和新街区资讯属于广告信息，只在你同意后发送。",
+      "adsConsent": "同意接收广告信息（选填）",
+      "adsConsentText": "通过应用、邮件和短信接收优惠消息。",
+      "adsNight": "晚上9点到早上8点也接收（选填）",
+      "adsNightText": "夜间广告需要另外同意才会发送。",
+      "adsNote": "同意或撤回后，我们会告诉你日期和内容。",
+      "save": "保存",
+      "saved": "已保存"
+    }
+  },
+  "about": {
+    "metaTitle": "关于 MONTHLIV",
+    "label": "关于 MONTHLIV",
+    "lead": "MONTHLIV是以月为单位入住的家。住一晚也好，住一个月也好，我们在一个又一个街区开设舒适愉快的“自己的房间”。所有门店均由GosuPlus Co., Ltd.运营。",
+    "companyTitle": "公司信息",
+    "termsText": "使用条款全文将在服务正式上线前在此发布。目前是预览页面，不会真正产生预订和付款。[使用条款待确认]",
+    "privacyLead": "在发布隐私政策全文之前，先向你说明 MONTHLIV 处理个人信息的原则。",
+    "privacy": {
+      "ids": "我们不保存韩国居民登记号和护照号码。身份验证只接收认证机构确认后的结果。",
+      "cards": "我们不保存银行卡号。付款通过支付服务商（PG）发放的支付令牌处理。",
+      "address": "房源的确切地址只在预订确认后告知该房客。在此之前只显示大致位置。",
+      "security": "会员信息从数据库层面就限制访问，只有本人和工作上需要的负责人才能查看。",
+      "rights": "你可以随时在“我的页面”查看自己的信息，并申请更正或删除。"
+    },
+    "privacyFull": "包含收集项目、使用目的、保存期限、委托处理和个人信息保护负责人的政策全文，将在服务正式上线前发布。[隐私政策待确认]",
+    "questions": "有疑问吗？",
+    "company": {
+      "name": {
+        "label": "公司名称",
+        "value": "주식회사 고수플러스"
+      },
+      "ceo": {
+        "label": "代表",
+        "value": "박영은"
+      },
+      "bizNo": {
+        "label": "营业执照号",
+        "value": "270-81-01999"
+      },
+      "mailOrder": {
+        "label": "通信销售业申报号",
+        "value": "[通信销售业申报号]"
+      },
+      "address": {
+        "label": "地址",
+        "value": "경기도 하남시 미사강변중앙로7번안길 25, D동 609호"
+      },
+      "phone": {
+        "label": "客服电话",
+        "value": "[客服电话]"
+      },
+      "email": {
+        "label": "邮箱",
+        "value": "[公司邮箱]"
+      }
+    }
+  }
+}

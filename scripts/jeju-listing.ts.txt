@@ -1,0 +1,73 @@
+  // MONTHLIV in Jeju. Photos, name, area and host are real; the price is still an example.
+  // Travel times are by car and approximate; the map shows the village, not the door.
+  {
+    id: "monthliv-in-jeju", branch: "jeju", tone: 3, nightly: 60000, discounts: defaultDiscounts, cleaning: 50000,
+    feeBps: 1000,
+    rating: 0, reviews: 0, freeCancellation: true, lat: 33.2604, lng: 126.4103,
+    title: { ko: "먼슬리브 인 제주", en: "MONTHLIV in Jeju", ja: "MONTHLIV in Jeju", "zh-CN": "MONTHLIV in Jeju", de: "MONTHLIV in Jeju" },
+    place: { ko: "제주", en: "Jeju", ja: "済州", "zh-CN": "济州", de: "Jeju" },
+    area: saekdal, city: cities.jeju, station: S.jungmunBeach, minutes: 10, by: "car", type: T.hotelStay, guests: 2,
+    description: {
+      ko: "중문관광단지 위쪽 색달마을에 있는 호텔스테이예요. 발코니가 있는 3층 건물 앞으로 야자수와 귤나무가 자라는 넓은 잔디 마당이 있어요. 같은 단지에 반려동물과 함께 들를 수 있는 카페 '이이공공'(주말 운영)과 반려견 놀이터가 있고, 중문색달해변까지는 차로 10분이에요.",
+      en: "A hotel stay in Saekdal village, just above the Jungmun resort area. In front of the three-storey building with balconies is a wide lawn with palm and tangerine trees. On the same grounds there's EE00, a café you can visit with pets (open at weekends), and a dog playground. Jungmun Saekdal Beach is ten minutes away by car.",
+      ja: "中文観光団地の少し上、セクタル村にあるホテルステイです。バルコニー付きの3階建ての建物の前には、ヤシの木とみかんの木が育つ広い芝生の庭があります。同じ敷地には、ペットと一緒に立ち寄れるカフェ「EE00」（週末営業）とドッグランがあり、中文セクタル海水浴場までは車で10分です。",
+      "zh-CN": "位于中文旅游区上方的穑达村，是一家酒店式住宿。带阳台的三层建筑前有一片宽阔的草坪，种着棕榈树和橘子树。同一园区内有可以带宠物光顾的咖啡馆“EE00”（周末营业）和狗狗游乐场，开车10分钟可到中文穑达海水浴场。",
+      de: "Eine Hotelunterkunft im Dorf Saekdal, oberhalb des Ferienviertels Jungmun. Vor dem dreistöckigen Haus mit Balkonen liegt ein großer Rasen mit Palmen und Mandarinenbäumen. Auf demselben Gelände gibt es das Café EE00, in das du Haustiere mitbringen kannst (am Wochenende geöffnet), und einen Hundespielplatz. Zum Strand Jungmun Saekdal sind es mit dem Auto zehn Minuten.",
+    },
+    nearby: [
+      { name: { ko: "천제연폭포", en: "Cheonjeyeon Falls", ja: "天帝淵の滝", "zh-CN": "天帝渊瀑布", de: "Cheonjeyeon-Wasserfälle" }, minutes: 5, by: "car" },
+      { name: { ko: "제주국제공항", en: "Jeju International Airport", ja: "済州国際空港", "zh-CN": "济州国际机场", de: "Flughafen Jeju" }, minutes: 50, by: "car" },
+    ],
+    real: {
+      photos: [
+        { file: "01", ...landscape, alt: { ko: "잔디 마당과 3층 건물, 1층 카페", en: "The three-storey building and its ground-floor café across the lawn", ja: "芝生の庭と3階建ての建物、1階のカフェ", "zh-CN": "草坪对面的三层建筑和一楼咖啡馆", de: "Das dreistöckige Haus mit Café im Erdgeschoss, über den Rasen gesehen" } },
+        { file: "02", ...landscape, alt: { ko: "야자수에 둘러싸인 잔디 마당", en: "The lawn, ringed by palm trees", ja: "ヤシの木に囲まれた芝生の庭", "zh-CN": "棕榈树环绕的草坪", de: "Der Rasen, umgeben von Palmen" } },
+        { file: "03", ...landscape, alt: { ko: "마당에서 노는 강아지와 반려견 놀이터", en: "A dog on the lawn by the dog playground", ja: "庭で遊ぶ犬とドッグラン", "zh-CN": "在草坪上玩耍的小狗和狗狗游乐场", de: "Ein Hund auf dem Rasen neben dem Hundespielplatz" } },
+        { file: "04", ...landscape, alt: { ko: "나무 그늘 아래 주황색 의자와 테이블", en: "Orange chairs and a table in the shade of the trees", ja: "木陰のオレンジ色の椅子とテーブル", "zh-CN": "树荫下的橙色椅子和桌子", de: "Orange Stühle und ein Tisch im Schatten der Bäume" } },
+        { file: "05", ...landscape, alt: { ko: "마당의 귤나무", en: "A tangerine tree in the garden", ja: "庭のみかんの木", "zh-CN": "院子里的橘子树", de: "Ein Mandarinenbaum im Garten" } },
+        { file: "06", ...landscape, alt: { ko: "나무 그늘에서 본 건물과 빨간 벤치", en: "The building and red benches, seen from under the trees", ja: "木陰から見た建物と赤いベンチ", "zh-CN": "从树荫下看建筑和红色长椅", de: "Das Haus und rote Bänke, vom Schatten der Bäume aus gesehen" } },
+        { file: "07", ...landscape, alt: { ko: "반려견 놀이터와 건물 전경", en: "The dog playground in front of the building", ja: "ドッグランと建物の全景", "zh-CN": "狗狗游乐场和建筑全景", de: "Der Hundespielplatz vor dem Haus" } },
+        { file: "08", ...landscape, alt: { ko: "억새 너머로 보이는 발코니", en: "Balconies seen through silver grass", ja: "ススキ越しに見えるバルコニー", "zh-CN": "芒草后面的阳台", de: "Balkone hinter hohem Gras" } },
+        { file: "09", ...landscape, alt: { ko: "나뭇가지 사이로 보이는 건물", en: "The building framed by branches", ja: "枝の間から見える建物", "zh-CN": "树枝间露出的建筑", de: "Das Haus zwischen den Ästen" } },
+        { file: "10", ...landscape, alt: { ko: "카페 입구가 있는 건물 정면", en: "The front of the building with the café entrance", ja: "カフェの入口がある建物の正面", "zh-CN": "带咖啡馆入口的建筑正面", de: "Die Vorderseite des Hauses mit dem Café-Eingang" } },
+      ],
+      spaces: [
+        {
+          key: "outside",
+          title: { ko: "건물과 마당", en: "The building and lawn", ja: "建物と庭", "zh-CN": "建筑和草坪", de: "Haus und Rasen" },
+          note: { ko: "발코니가 있는 3층 건물 · 넓은 잔디 마당", en: "Three storeys with balconies · a wide lawn", ja: "バルコニー付きの3階建て · 広い芝生の庭", "zh-CN": "带阳台的三层建筑 · 宽阔的草坪", de: "Drei Stockwerke mit Balkonen · ein großer Rasen" },
+          files: ["01", "02", "08", "09"],
+        },
+        {
+          key: "garden",
+          title: { ko: "마당의 쉼터", en: "Seats in the garden", ja: "庭のくつろぎスペース", "zh-CN": "庭院里的休息处", de: "Sitzplätze im Garten" },
+          note: { ko: "야자수와 귤나무 · 나무 그늘 아래 의자", en: "Palm and tangerine trees · chairs in the shade", ja: "ヤシの木とみかんの木 · 木陰の椅子", "zh-CN": "棕榈树和橘子树 · 树荫下的椅子", de: "Palmen und Mandarinenbäume · Stühle im Schatten" },
+          files: ["04", "05", "06"],
+        },
+        {
+          key: "pets",
+          title: { ko: "반려견 놀이터와 카페", en: "Dog playground and café", ja: "ドッグランとカフェ", "zh-CN": "狗狗游乐场和咖啡馆", de: "Hundespielplatz und Café" },
+          note: { ko: "반려견 놀이터 · 반려동물 동반 카페 이이공공(주말)", en: "Dog playground · EE00, a pet-friendly café (weekends)", ja: "ドッグラン · ペット同伴カフェEE00（週末）", "zh-CN": "狗狗游乐场 · 宠物友好咖啡馆EE00（周末）", de: "Hundespielplatz · EE00, ein haustierfreundliches Café (am Wochenende)" },
+          files: ["03", "07", "10"],
+        },
+      ],
+      host: {
+        name: { ko: "먼슬리브 매니저", en: "MONTHLIV", ja: "MONTHLIVスタッフ", "zh-CN": "MONTHLIV管家", de: "MONTHLIV" },
+        initial: { ko: "먼", en: "M" },
+        note: { ko: "먼슬리브가 직접 운영하는 숙소예요", en: "Run by MONTHLIV itself", ja: "MONTHLIVが直接運営しています", "zh-CN": "由MONTHLIV直营", de: "Wird von MONTHLIV selbst betrieben" },
+      },
+      highlight: {
+        title: { ko: "넓은 잔디 마당", en: "A wide lawn", ja: "広い芝生の庭", "zh-CN": "宽阔的草坪", de: "Ein großer Rasen" },
+        text: {
+          ko: "야자수와 귤나무 사이에 쉴 자리가 있고, 같은 단지에 반려견 놀이터와 반려동물 동반 카페가 있어요.",
+          en: "Seats among palm and tangerine trees, with a dog playground and a pet-friendly café on the same grounds.",
+          ja: "ヤシの木とみかんの木の間でくつろげて、同じ敷地にドッグランとペット同伴カフェがあります。",
+          "zh-CN": "可以在棕榈树和橘子树之间休息，同一园区还有狗狗游乐场和可携带宠物的咖啡馆。",
+          de: "Sitzplätze zwischen Palmen und Mandarinenbäumen, dazu ein Hundespielplatz und ein haustierfreundliches Café auf demselben Gelände.",
+        },
+      },
+      selfCheckIn: false,
+      amenities: ["garden", "balcony", "parking", "dogPlayground", "petCafe"],
+      address: { ko: "제주 서귀포시 색달동 2200", en: "2200 Saekdal-dong, Seogwipo, Jeju", ja: "済州 西帰浦市 セクタル洞 2200", "zh-CN": "济州 西归浦市 穑达洞 2200", de: "Saekdal-dong 2200, Seogwipo, Jeju" },
+    },
+  },
